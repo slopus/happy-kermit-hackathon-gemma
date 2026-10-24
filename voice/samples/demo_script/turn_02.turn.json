@@ -1,0 +1,23 @@
+{
+ "text": "Honestly? A little tired. Every week there's a new model, a new agent, a new robot. Some days it feels like a sci-fi movie, and not the fun kind.",
+ "emotion": "thinking",
+ "gestures": [
+  {
+   "word": 0,
+   "type": "sigh",
+   "intensity": 0.6
+  },
+  {
+   "word": 4,
+   "type": "look_at",
+   "intensity": 0.5,
+   "target": "audience"
+  },
+  {
+   "word": 16,
+   "type": "nod",
+   "intensity": 0.6
+  }
+ ],
+ "gaze": "speaker"
+}

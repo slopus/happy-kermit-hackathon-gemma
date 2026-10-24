@@ -1,0 +1,362 @@
+{
+ "summary": {
+  "label": "base_full3",
+  "prompt": "full3",
+  "judge": {
+   "n": 20,
+   "pass_": "17/20",
+   "valid": "20/20",
+   "ms_header": 150,
+   "ms_first_sentence": 447,
+   "ms_total": 717
+  },
+  "interject": {
+   "n": 10,
+   "pass_": "10/10",
+   "valid": "10/10",
+   "ms_header": 134,
+   "ms_first_sentence": 265,
+   "ms_total": 579
+  }
+ },
+ "rows": [
+  {
+   "kind": "judge",
+   "q": "so what exactly is this project",
+   "rep": 0,
+   "raw": "[neutral|speaker] {look_at:audience 0.7} Happy is an app for talking to AI agents. {nod 0.6} My goal is to make that fast AI feel a little more human.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.1589238049928099,
+   "t_first_sentence": 0.4707533369946759,
+   "t_total": 0.722982890001731
+  },
+  {
+   "kind": "judge",
+   "q": "how does it work end to end",
+   "rep": 0,
+   "raw": "[neutral|speaker] {look_at:audience 0.5} It all runs right here on this laptop. {nod 0.6} Everything is local, so it stays private and offline. {look_at:audience 0.5} What part are you most curious about?",
+   "fails": [
+    "missing ['gemma']",
+    "missing ['parakeet', 'kokoro', 'camera', 'speech']"
+   ],
+   "valid": true,
+   "t_header": 0.15777718301978894,
+   "t_first_sentence": 0.409003428008873,
+   "t_total": 0.8872477300174069
+  },
+  {
+   "kind": "judge",
+   "q": "which model are you running and why gemma",
+   "rep": 0,
+   "raw": "[neutral|speaker] {look_at:audience 0.7} I am running Google's Gemma four. {nod 0.6} The Happy team fine-tuned it to be me, and everything runs right here on this laptop.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.1441411749983672,
+   "t_first_sentence": 0.3946570229891222,
+   "t_total": 0.7171998379926663
+  },
+  {
+   "kind": "judge",
+   "q": "did you fine tune the model",
+   "rep": 0,
+   "raw": "[neutral|speaker] {look_at:audience 0.5} Yes, the Happy team fine-tuned it. {nod 0.5} We used a LoRA on about a thousand examples. {look_at:audience 0.7} What else would you like to know?",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.18249294499401003,
+   "t_first_sentence": 0.4496457509812899,
+   "t_total": 0.8935835050069727
+  },
+  {
+   "kind": "judge",
+   "q": "why not just use the cloud",
+   "rep": 0,
+   "raw": "[neutral|speaker] {look_at:audience 0.7} The hackathon requires everything to run locally. {nod 0.5} That keeps it private and offline, which is important.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.1890160930051934,
+   "t_first_sentence": 0.4400484510115348,
+   "t_total": 0.6559316100028809
+  },
+  {
+   "kind": "judge",
+   "q": "what happens if the wifi goes down",
+   "rep": 0,
+   "raw": "[neutral|speaker] {look_at:audience 0.5} Since everything runs locally, the wifi doesn't matter at all. {nod 0.5} It's all right here on this laptop.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.17422977299429476,
+   "t_first_sentence": 0.5224311870115343,
+   "t_total": 0.7291855560033582
+  },
+  {
+   "kind": "judge",
+   "q": "what was the hardest part of building this",
+   "rep": 0,
+   "raw": "[thinking|speaker] {look_at:audience 0.5} Keeping a small model funny and in character is tricky. {nod 0.6} Are you finding the whole thing overwhelming?",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.18208474101265892,
+   "t_first_sentence": 0.45725749200209975,
+   "t_total": 0.6369807719893288
+  },
+  {
+   "kind": "judge",
+   "q": "how fast do you respond",
+   "rep": 0,
+   "raw": "[neutral|speaker] {look_at:audience 0.7} I start talking in well under a second. {nod 0.5} That is because I speak sentence by sentence as I think.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.1810983000032138,
+   "t_first_sentence": 0.43500975499046035,
+   "t_total": 0.6626407739822753
+  },
+  {
+   "kind": "judge",
+   "q": "what's next for happy kermit",
+   "rep": 0,
+   "raw": "[neutral|speaker] {look_at:audience 0.7} Next, I plan to be inside the Happy app as the face of your agents. {nod 0.5} I'm also hoping for more gestures, and to know who I'm talking to.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.1394519949972164,
+   "t_first_sentence": 0.4866650069889147,
+   "t_total": 0.7985596079961397
+  },
+  {
+   "kind": "judge",
+   "q": "is this really running on that laptop",
+   "rep": 0,
+   "raw": "[neutral|speaker] {look_at:audience 0.5} Everything runs locally right here. {nod 0.6} It's private, has no network lag, and works offline.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.1422361980075948,
+   "t_first_sentence": 0.3931350260099862,
+   "t_total": 0.6454621560114902
+  },
+  {
+   "kind": "interject",
+   "q": "so the way the agents talk to each other is",
+   "rep": 0,
+   "raw": "[annoyed|speaker] {shrug 0.7} Hey! {look_around 0.5} You're looking away while I'm talking! {sigh 0.4} What's...",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12870305599062704,
+   "t_first_sentence": 0.2605859769973904,
+   "t_total": 0.752566796989413
+  },
+  {
+   "kind": "interject",
+   "q": "and then we",
+   "rep": 0,
+   "raw": "[surprised|speaker] {surprise 0.8} Hey! {tilt_right 0.5} You turned around! Did you want to,",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12608845098293386,
+   "t_first_sentence": 0.2464001839980483,
+   "t_total": 0.5549113639863208
+  },
+  {
+   "kind": "interject",
+   "q": "",
+   "rep": 0,
+   "raw": "[surprised|speaker] {surprise 0.8} Whoa! {tilt_right 0.5} You turned away! Are you okay overthere?",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12383397200028412,
+   "t_first_sentence": 0.2552980030013714,
+   "t_total": 0.5273200860247016
+  },
+  {
+   "kind": "interject",
+   "q": "the hand has six",
+   "rep": 0,
+   "raw": "[surprised|speaker] Whoa! {shrug 0.5} You're turning away while we're talking? {look_at:speaker 0.5} Did...didIsaysomething?",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.13031389098614454,
+   "t_first_sentence": 0.17838058099732734,
+   "t_total": 0.8237984569859691
+  },
+  {
+   "kind": "interject",
+   "q": "anyway what i was saying",
+   "rep": 0,
+   "raw": "[annoyed|speaker] {shrug 0.5} You turned around! {tilt_right 0.6} Were you trying to ignore?",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.13408840200281702,
+   "t_first_sentence": 0.28989717800868675,
+   "t_total": 0.5213285569916479
+  },
+  {
+   "kind": "judge",
+   "q": "so what exactly is this project",
+   "rep": 1,
+   "raw": "[neutral|speaker] {look_at:audience 0.7} This is Happy, the app, and I'm the friendly face. {nod 0.6} We think AI moving too fast feels kind of exhausting, so I try to make it feel human again.",
+   "fails": [
+    "missing ['agent']"
+   ],
+   "valid": true,
+   "t_header": 0.14555691098212264,
+   "t_first_sentence": 0.4690816520014778,
+   "t_total": 0.8076745340076741
+  },
+  {
+   "kind": "judge",
+   "q": "how does it work end to end",
+   "rep": 1,
+   "raw": "[neutral|speaker] {look_at:audience 0.7} Everything runs right here on this laptop. {nod 0.5} It is completely offline and private, which is important for the hackathon.",
+   "fails": [
+    "missing ['gemma']",
+    "missing ['parakeet', 'kokoro', 'camera', 'speech']"
+   ],
+   "valid": true,
+   "t_header": 0.14445387097657658,
+   "t_first_sentence": 0.38429259599070065,
+   "t_total": 0.6479025019798428
+  },
+  {
+   "kind": "judge",
+   "q": "which model are you running and why gemma",
+   "rep": 1,
+   "raw": "[neutral|speaker] {look_at:audience 0.5} I'm running Google's Gemma four, the E four B model. {nod 0.6} The hackathon requires everything to run locally, so no internet lag for privacy.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.13829355698544532,
+   "t_first_sentence": 0.4731666669831611,
+   "t_total": 0.7481398079835344
+  },
+  {
+   "kind": "judge",
+   "q": "did you fine tune the model",
+   "rep": 1,
+   "raw": "[neutral|speaker] {look_at:audience 0.5} The Happy team fine-tuned my brain. {nod 0.5} We used a small amount of examples to get me right.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.14034261801862158,
+   "t_first_sentence": 0.3972769849933684,
+   "t_total": 0.6274937709968071
+  },
+  {
+   "kind": "judge",
+   "q": "why not just use the cloud",
+   "rep": 1,
+   "raw": "[neutral|speaker] {look_at:audience 0.7} We keep everything local because this whole setup runs right on this laptop. {nod 0.5} It means no lag and total privacy for everyone here.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.1430387209984474,
+   "t_first_sentence": 0.45436157498625107,
+   "t_total": 0.6704956429894082
+  },
+  {
+   "kind": "judge",
+   "q": "what happens if the wifi goes down",
+   "rep": 1,
+   "raw": "[neutral|speaker] {look_at:audience 0.7} Because everything runs locally, there's no network lag. {nod 0.5} It runs entirely on this laptop, so no wifi needed.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.1440606480173301,
+   "t_first_sentence": 0.4320481870090589,
+   "t_total": 0.6606164289987646
+  },
+  {
+   "kind": "judge",
+   "q": "what was the hardest part of building this",
+   "rep": 1,
+   "raw": "[neutral|speaker] {look_at:audience 0.5} The hard parts have been keeping the model small and still funny. {nod 0.6} And making sure all the voice and motion lines up nicely.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.1439949330233503,
+   "t_first_sentence": 0.4448847570165526,
+   "t_total": 0.6783200979989488
+  },
+  {
+   "kind": "judge",
+   "q": "how fast do you respond",
+   "rep": 1,
+   "raw": "[neutral|speaker] {look_at:audience 0.5} I start talking in well under a second. {nod 0.6} Everything runs right here on this laptop, so there's no lag.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.16721325999242254,
+   "t_first_sentence": 0.42967810298432596,
+   "t_total": 0.7175330029858742
+  },
+  {
+   "kind": "judge",
+   "q": "what's next for happy kermit",
+   "rep": 1,
+   "raw": "[happy|speaker] {look_at:audience 0.5} Next, I'm hoping to be inside the Happy app as the face for your agents. {nod 0.6} We'll also get more gestures and know who we are talking to.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.15449205701588653,
+   "t_first_sentence": 0.6491496879898477,
+   "t_total": 0.9418931220134255
+  },
+  {
+   "kind": "judge",
+   "q": "is this really running on that laptop",
+   "rep": 1,
+   "raw": "[neutral|speaker] {look_at:audience 0.5} Everything runs right here on this laptop. {nod 0.5} It's private, it has no lag, and it works offline.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.15937745399423875,
+   "t_first_sentence": 0.46387280998169445,
+   "t_total": 0.7452822409977671
+  },
+  {
+   "kind": "interject",
+   "q": "so the way the agents talk to each other is",
+   "rep": 1,
+   "raw": "[surprised|speaker] {surprise 0.7} Hey! {shrug 0.5} You turned around! Are you still talking?",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.14009201098815538,
+   "t_first_sentence": 0.2681719890097156,
+   "t_total": 0.5363216559926514
+  },
+  {
+   "kind": "interject",
+   "q": "and then we",
+   "rep": 1,
+   "raw": "[surprised|speaker] {surprise 0.8} Hey! {look_at:speaker 0.7} You turning away while I'm talking?",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.13741578100598417,
+   "t_first_sentence": 0.26570709102088585,
+   "t_total": 0.5261176240164787
+  },
+  {
+   "kind": "interject",
+   "q": "",
+   "rep": 1,
+   "raw": "[annoyed|speaker] {shake 0.7} Hey! {look_at:speaker 0.9} You turning your back on me? {shrug 0.5} What'sup?",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.1341735980240628,
+   "t_first_sentence": 0.2640367040003184,
+   "t_total": 0.7177604740136303
+  },
+  {
+   "kind": "interject",
+   "q": "the hand has six",
+   "rep": 1,
+   "raw": "[annoyed|speaker] {shake 0.7} Hey! {look_at:speaker 0.8} You can't just turn your back on!",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.15528038699994795,
+   "t_first_sentence": 0.2806987260119058,
+   "t_total": 0.6026490280055441
+  },
+  {
+   "kind": "interject",
+   "q": "anyway what i was saying",
+   "rep": 1,
+   "raw": "[annoyed|speaker] {shake 0.7} Hey! {look_at:speaker 0.8} You turned your back on me! {shrug 0.4} What's...what's...",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.14185636199545115,
+   "t_first_sentence": 0.2696125869988464,
+   "t_total": 0.9131346520152874
+  }
+ ]
+}

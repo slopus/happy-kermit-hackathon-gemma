@@ -1,0 +1,80 @@
+[
+ {
+  "w_asd": 1.5,
+  "bias": 1.0,
+  "asd_prior": -1.0,
+  "w_cont": 1.0,
+  "w_alone": 2.5,
+  "switch_margin": 0.25,
+  "switch_hold": 0.3,
+  "p_tau": 0.25,
+  "F1": 78.6,
+  "spk_acc": 91.5,
+  "switch_med": 1.1
+ },
+ {
+  "w_asd": 1.5,
+  "bias": 1.0,
+  "asd_prior": -1.0,
+  "w_cont": 1.0,
+  "w_alone": 2.5,
+  "switch_margin": 0.5,
+  "switch_hold": 0.3,
+  "p_tau": 0.25,
+  "F1": 78.8,
+  "spk_acc": 91.3,
+  "switch_med": 2.67
+ },
+ {
+  "w_asd": 1.5,
+  "bias": 1.0,
+  "asd_prior": -1.0,
+  "w_cont": 0.5,
+  "w_alone": 2.5,
+  "switch_margin": 0.5,
+  "switch_hold": 0.3,
+  "p_tau": 0.25,
+  "F1": 76.0,
+  "spk_acc": 91.8,
+  "switch_med": 1.07
+ },
+ {
+  "w_asd": 1.5,
+  "bias": 1.0,
+  "asd_prior": -1.0,
+  "w_cont": 0.5,
+  "w_alone": 2.5,
+  "switch_margin": 1.0,
+  "switch_hold": 0.3,
+  "p_tau": 0.25,
+  "F1": 75.8,
+  "spk_acc": 91.3,
+  "switch_med": 2.67
+ },
+ {
+  "w_asd": 1.5,
+  "bias": 1.0,
+  "asd_prior": -1.0,
+  "w_cont": 0.5,
+  "w_alone": 2.5,
+  "switch_margin": 0.25,
+  "switch_hold": 0.3,
+  "p_tau": 0.25,
+  "F1": 75.7,
+  "spk_acc": 90.4,
+  "switch_med": 1.07
+ },
+ {
+  "w_asd": 1.5,
+  "bias": 1.0,
+  "asd_prior": -1.0,
+  "w_cont": 1.0,
+  "w_alone": 2.5,
+  "switch_margin": 1.0,
+  "switch_hold": 0.3,
+  "p_tau": 0.25,
+  "F1": 74.9,
+  "spk_acc": 87.0,
+  "switch_med": 2.035
+ }
+]

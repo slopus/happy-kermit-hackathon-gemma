@@ -1,0 +1,19 @@
+{
+  "settings_version": "0.0.8",
+  "datasets_dir": "/var/lib/happy-agent/happy/Bots/bot_2/kermit/perception/models/datasets",
+  "weights_dir": "weights",
+  "runs_dir": "runs",
+  "uuid": "282b10e9278811394bfd869b3e5e997343351e567b38d37eff5110b69f277a28",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "mlflow": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

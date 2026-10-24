@@ -1,0 +1,2482 @@
+{
+ "summary": {
+  "label": "f3_base",
+  "mode": "kml",
+  "prompt": "full",
+  "n": 60,
+  "valid": "60/60",
+  "lint_clean": "60/60",
+  "expect_pass": "52/60",
+  "placement_ok": "141/141",
+  "emotion_gesture_clash": "0/60",
+  "unspeakable_chars": "0/60",
+  "gestures_per_turn": 2.35,
+  "first_sentence_words_med": 4.0,
+  "ms_first_token_med": 63,
+  "ms_header_med": 128,
+  "ms_first_sentence_med": 334,
+  "ms_first_sentence_p90": 427,
+  "ms_total_med": 619,
+  "gen_tokens_med": 45.0,
+  "prompt_tokens_last": 24
+ },
+ "rows": [
+  {
+   "id": "demo01_wake",
+   "rep": 0,
+   "raw": "[happy|speaker] {head_bob 0.7} Oh, hello there! {look_at:audience 0.5} Glad to see you! {nod 0.5} What can Happy do for you?",
+   "valid": true,
+   "turn": {
+    "text": "Oh, hello there! Glad to see you! What can Happy do for you?",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "head_bob",
+      "intensity": 0.7
+     },
+     {
+      "word": 3,
+      "type": "look_at",
+      "intensity": 0.5,
+      "target": "audience"
+     },
+     {
+      "word": 7,
+      "type": "nod",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.09614434198010713,
+   "t_header": 0.14778857099008746,
+   "t_first_sentence": 0.3255218709819019,
+   "t_total": 0.6816418369999155,
+   "n_gen": 50,
+   "n_prompt": 30,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 3
+  },
+  {
+   "id": "demo02_judges",
+   "rep": 0,
+   "raw": "[happy|target:judges] {look_at:judges 0.8} Hi to the judges! {head_bob 0.7} Hope you're having a good time at the hackathon.",
+   "valid": true,
+   "turn": {
+    "text": "Hi to the judges! Hope you're having a good time at the hackathon.",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "look_at",
+      "intensity": 0.8,
+      "target": "judges"
+     },
+     {
+      "word": 4,
+      "type": "head_bob",
+      "intensity": 0.7
+     }
+    ],
+    "gaze": "target:judges"
+   },
+   "t_first_token": 0.08443123698816635,
+   "t_header": 0.1716657409851905,
+   "t_first_sentence": 0.3849697989935521,
+   "t_total": 0.64655497300555,
+   "n_gen": 48,
+   "n_prompt": 26,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 4
+  },
+  {
+   "id": "demo03_what",
+   "rep": 0,
+   "raw": "[neutral|speaker] {tilt_right 0.5} I'm Happy Kermit, the friendly face of Happy. {shrug 0.4} What about you?",
+   "valid": true,
+   "turn": {
+    "text": "I'm Happy Kermit, the friendly face of Happy. What about you?",
+    "emotion": "neutral",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "tilt_right",
+      "intensity": 0.5
+     },
+     {
+      "word": 8,
+      "type": "shrug",
+      "intensity": 0.4
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.07186215699766763,
+   "t_header": 0.12381373898824677,
+   "t_first_sentence": 0.39650511398212984,
+   "t_total": 0.5388827289862093,
+   "n_gen": 40,
+   "n_prompt": 12,
+   "lint": [],
+   "fails": [
+    "mention_all"
+   ],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 8
+  },
+  {
+   "id": "demo04_cloud",
+   "rep": 0,
+   "raw": "[sad|speaker] {shake 0.7} Nope, not at all. {look_at:laptop 0.7} Everything runs right here on this local hardware.",
+   "valid": true,
+   "turn": {
+    "text": "Nope, not at all. Everything runs right here on this local hardware.",
+    "emotion": "sad",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "shake",
+      "intensity": 0.7
+     },
+     {
+      "word": 4,
+      "type": "look_at",
+      "intensity": 0.7,
+      "target": "laptop"
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.10418251401279122,
+   "t_header": 0.20902417998877354,
+   "t_first_sentence": 0.3754822289920412,
+   "t_total": 0.6137532859866042,
+   "n_gen": 39,
+   "n_prompt": 19,
+   "lint": [],
+   "fails": [
+    "emotion"
+   ],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 4
+  },
+  {
+   "id": "demo05_happy",
+   "rep": 0,
+   "raw": "[happy|speaker] {lean_in 0.7} Happy is an app for talking to AI agents! {nod 0.6} It's where I live, kind of. What about you?",
+   "valid": true,
+   "turn": {
+    "text": "Happy is an app for talking to AI agents! It's where I live, kind of. What about you?",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "lean_in",
+      "intensity": 0.7
+     },
+     {
+      "word": 9,
+      "type": "nod",
+      "intensity": 0.6
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.060358833987265825,
+   "t_header": 0.11201064198394306,
+   "t_first_sentence": 0.3489050589851104,
+   "t_total": 0.597829272999661,
+   "n_gen": 46,
+   "n_prompt": 11,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 9
+  },
+  {
+   "id": "demo06_fast",
+   "rep": 0,
+   "raw": "[sad|speaker] {sigh 0.6} Sometimes, yes. {tilt_right 0.5} It feels like a lot to take in, doesn't it? {shrug 0.4} What about you?",
+   "valid": true,
+   "turn": {
+    "text": "Sometimes, yes. It feels like a lot to take in, doesn't it? What about you?",
+    "emotion": "sad",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "sigh",
+      "intensity": 0.6
+     },
+     {
+      "word": 2,
+      "type": "tilt_right",
+      "intensity": 0.5
+     },
+     {
+      "word": 12,
+      "type": "shrug",
+      "intensity": 0.4
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06475291098468006,
+   "t_header": 0.15965864498866722,
+   "t_first_sentence": 0.30175729998154566,
+   "t_total": 0.716669720975915,
+   "n_gen": 52,
+   "n_prompt": 16,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 2
+  },
+  {
+   "id": "demo07_nod",
+   "rep": 0,
+   "raw": "[happy|speaker] {nod 0.8} Okay! {nod 0.7} What is it you want me to agree with?",
+   "valid": true,
+   "turn": {
+    "text": "Okay! What is it you want me to agree with?",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "nod",
+      "intensity": 0.8
+     },
+     {
+      "word": 1,
+      "type": "nod",
+      "intensity": 0.7
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.05889386500348337,
+   "t_header": 0.11055237401160412,
+   "t_first_sentence": 0.22895245702238753,
+   "t_total": 0.4302370290097315,
+   "n_gen": 32,
+   "n_prompt": 11,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 1
+  },
+  {
+   "id": "demo08_left",
+   "rep": 0,
+   "raw": "[neutral|target:left] {look_at:left 0.8} There it is. {nod 0.4} What about it?",
+   "valid": true,
+   "turn": {
+    "text": "There it is. What about it?",
+    "emotion": "neutral",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "look_at",
+      "intensity": 0.8,
+      "target": "left"
+     },
+     {
+      "word": 3,
+      "type": "nod",
+      "intensity": 0.4
+     }
+    ],
+    "gaze": "target:left"
+   },
+   "t_first_token": 0.0639254369889386,
+   "t_header": 0.17672561400104314,
+   "t_first_sentence": 0.4265602949890308,
+   "t_total": 0.557272865989944,
+   "n_gen": 34,
+   "n_prompt": 11,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 3
+  },
+  {
+   "id": "demo09_whoa",
+   "rep": 0,
+   "raw": "[surprised|target:robot_arm] {surprise 1.0} Whoa! {look_at:robot_arm 0.9} Wow, that's a big arm! {shrug 0.5} It looks very capable.",
+   "valid": true,
+   "turn": {
+    "text": "Whoa! Wow, that's a big arm! It looks very capable.",
+    "emotion": "surprised",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "surprise",
+      "intensity": 1.0
+     },
+     {
+      "word": 1,
+      "type": "look_at",
+      "intensity": 0.9,
+      "target": "robot_arm"
+     },
+     {
+      "word": 6,
+      "type": "shrug",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "target:robot_arm"
+   },
+   "t_first_token": 0.06180351198418066,
+   "t_header": 0.19616776698967442,
+   "t_first_sentence": 0.3268620099988766,
+   "t_total": 0.7414682579983491,
+   "n_gen": 56,
+   "n_prompt": 31,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 1
+  },
+  {
+   "id": "t10_joke",
+   "rep": 0,
+   "raw": "[happy|audience] {laugh 0.7} Why did the AI cross the road? {nod 0.5} To learn how to drive on the other side! {look_at:audience 0.5} Did that make you chuckle?",
+   "valid": true,
+   "turn": {
+    "text": "Why did the AI cross the road? To learn how to drive on the other side! Did that make you chuckle?",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "laugh",
+      "intensity": 0.7
+     },
+     {
+      "word": 7,
+      "type": "nod",
+      "intensity": 0.5
+     },
+     {
+      "word": 16,
+      "type": "look_at",
+      "intensity": 0.5,
+      "target": "audience"
+     }
+    ],
+    "gaze": "audience"
+   },
+   "t_first_token": 0.06173670300631784,
+   "t_header": 0.11384970400831662,
+   "t_first_sentence": 0.3037689430057071,
+   "t_total": 0.7075606730068102,
+   "n_gen": 55,
+   "n_prompt": 18,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 7
+  },
+  {
+   "id": "t11_won",
+   "rep": 0,
+   "raw": "[excited|speaker] {flail 1.0} Wow! {look_at:audience 0.9} That sounds amazing! {head_bob 0.8} What did you win?",
+   "valid": true,
+   "turn": {
+    "text": "Wow! That sounds amazing! What did you win?",
+    "emotion": "excited",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "flail",
+      "intensity": 1.0
+     },
+     {
+      "word": 1,
+      "type": "look_at",
+      "intensity": 0.9,
+      "target": "audience"
+     },
+     {
+      "word": 4,
+      "type": "head_bob",
+      "intensity": 0.8
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06036740401759744,
+   "t_header": 0.11221658400609158,
+   "t_first_sentence": 0.24246488302014768,
+   "t_total": 0.5861803599982522,
+   "n_gen": 45,
+   "n_prompt": 22,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 1
+  },
+  {
+   "id": "t12_bug",
+   "rep": 0,
+   "raw": "[sad|speaker] {sigh 0.7} Oh man, that sounds exhausting. {shrug 0.5} Maybe a quick break would help? What are you working on?",
+   "valid": true,
+   "turn": {
+    "text": "Oh man, that sounds exhausting. Maybe a quick break would help? What are you working on?",
+    "emotion": "sad",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "sigh",
+      "intensity": 0.7
+     },
+     {
+      "word": 5,
+      "type": "shrug",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06026222399668768,
+   "t_header": 0.11257914701127447,
+   "t_first_sentence": 0.29111936400295235,
+   "t_total": 0.5415796769957524,
+   "n_gen": 41,
+   "n_prompt": 20,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 5
+  },
+  {
+   "id": "t13_kermit",
+   "rep": 0,
+   "raw": "[annoyed|speaker] {shake 0.7} Nope, I'm Happy Kermit! {look_at:speaker 0.7} I'm the friendly face for the Happy app.",
+   "valid": true,
+   "turn": {
+    "text": "Nope, I'm Happy Kermit! I'm the friendly face for the Happy app.",
+    "emotion": "annoyed",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "shake",
+      "intensity": 0.7
+     },
+     {
+      "word": 4,
+      "type": "look_at",
+      "intensity": 0.7,
+      "target": "speaker"
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06914226998924278,
+   "t_header": 0.133100117003778,
+   "t_first_sentence": 0.33423403699998744,
+   "t_total": 0.5948580359981861,
+   "n_gen": 45,
+   "n_prompt": 15,
+   "lint": [],
+   "fails": [
+    "emotion"
+   ],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 4
+  },
+  {
+   "id": "t14_lookaround",
+   "rep": 0,
+   "raw": "[neutral|audience] {look_around 0.7} Well, there are a few folks here. {look_at:laptop 0.4} And my trusty laptop is right there. {shrug 0.3} What do you see?",
+   "valid": true,
+   "turn": {
+    "text": "Well, there are a few folks here. And my trusty laptop is right there. What do you see?",
+    "emotion": "neutral",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "look_around",
+      "intensity": 0.7
+     },
+     {
+      "word": 7,
+      "type": "look_at",
+      "intensity": 0.4,
+      "target": "laptop"
+     },
+     {
+      "word": 14,
+      "type": "shrug",
+      "intensity": 0.3
+     }
+    ],
+    "gaze": "audience"
+   },
+   "t_first_token": 0.05981525097740814,
+   "t_header": 0.13938642799621448,
+   "t_first_sentence": 0.41520857298746705,
+   "t_total": 0.7958041949896142,
+   "n_gen": 56,
+   "n_prompt": 20,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 7
+  },
+  {
+   "id": "t15_sock",
+   "rep": 0,
+   "raw": "[annoyed|speaker] {shake 0.5} Well, I'm a very happy sock on a robot! {tilt_right 0.4} What makes you say that?",
+   "valid": true,
+   "turn": {
+    "text": "Well, I'm a very happy sock on a robot! What makes you say that?",
+    "emotion": "annoyed",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "shake",
+      "intensity": 0.5
+     },
+     {
+      "word": 9,
+      "type": "tilt_right",
+      "intensity": 0.4
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.060022591991582885,
+   "t_header": 0.123676367016742,
+   "t_first_sentence": 0.45146418298827484,
+   "t_total": 0.6296011169906706,
+   "n_gen": 42,
+   "n_prompt": 27,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 9
+  },
+  {
+   "id": "t16_math",
+   "rep": 0,
+   "raw": "[happy|speaker] {head_bob 0.7} Two plus two is four! {nod 0.5} Are you learning about numbers right now?",
+   "valid": true,
+   "turn": {
+    "text": "Two plus two is four! Are you learning about numbers right now?",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "head_bob",
+      "intensity": 0.7
+     },
+     {
+      "word": 5,
+      "type": "nod",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06583787899580784,
+   "t_header": 0.11756150799919851,
+   "t_first_sentence": 0.30751316700479947,
+   "t_total": 0.48580819100607187,
+   "n_gen": 36,
+   "n_prompt": 20,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 5
+  },
+  {
+   "id": "t17_garbled",
+   "rep": 0,
+   "raw": "[thinking|speaker] {tilt_right 0.4} Fish window seven? {shrug 0.5} I'm not sure I know what that is. {look_at:speaker 0.5} What are you referring to?",
+   "valid": true,
+   "turn": {
+    "text": "Fish window seven? I'm not sure I know what that is. What are you referring to?",
+    "emotion": "thinking",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "tilt_right",
+      "intensity": 0.4
+     },
+     {
+      "word": 3,
+      "type": "shrug",
+      "intensity": 0.5
+     },
+     {
+      "word": 11,
+      "type": "look_at",
+      "intensity": 0.5,
+      "target": "speaker"
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.059738740004831925,
+   "t_header": 0.11166665199561976,
+   "t_first_sentence": 0.27787394999177195,
+   "t_total": 0.7048813169822097,
+   "n_gen": 55,
+   "n_prompt": 19,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 3
+  },
+  {
+   "id": "t18_silent",
+   "rep": 0,
+   "raw": "[happy|speaker] {head_bob 0.8} Hello there! {look_at:audience 0.7} You look like you're having a fun day.",
+   "valid": true,
+   "turn": {
+    "text": "Hello there! You look like you're having a fun day.",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "head_bob",
+      "intensity": 0.8
+     },
+     {
+      "word": 2,
+      "type": "look_at",
+      "intensity": 0.7,
+      "target": "audience"
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.05998224997892976,
+   "t_header": 0.11208342199097387,
+   "t_first_sentence": 0.2661438239738345,
+   "t_total": 0.557491907995427,
+   "n_gen": 40,
+   "n_prompt": 18,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 2
+  },
+  {
+   "id": "t19_shake",
+   "rep": 0,
+   "raw": "[thinking|speaker] {shake 0.7} I think that's a big question for a little frog to answer. {shrug 0.5} What do you think about it?",
+   "valid": true,
+   "turn": {
+    "text": "I think that's a big question for a little frog to answer. What do you think about it?",
+    "emotion": "thinking",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "shake",
+      "intensity": 0.7
+     },
+     {
+      "word": 12,
+      "type": "shrug",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.12113678100286052,
+   "t_header": 0.20701891800854355,
+   "t_first_sentence": 0.4800408349838108,
+   "t_total": 0.6581716689979658,
+   "n_gen": 43,
+   "n_prompt": 26,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 12
+  },
+  {
+   "id": "t20_bye",
+   "rep": 0,
+   "raw": "[happy|audience] {head_bob 0.7} Thanks so much for watching! {nod 0.5} I hope you all have a wonderful time. {look_around 0.4} See ya!",
+   "valid": true,
+   "turn": {
+    "text": "Thanks so much for watching! I hope you all have a wonderful time. See ya!",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "head_bob",
+      "intensity": 0.7
+     },
+     {
+      "word": 5,
+      "type": "nod",
+      "intensity": 0.5
+     },
+     {
+      "word": 13,
+      "type": "look_around",
+      "intensity": 0.4
+     }
+    ],
+    "gaze": "audience"
+   },
+   "t_first_token": 0.062145775998942554,
+   "t_header": 0.11410862702177837,
+   "t_first_sentence": 0.30458953001652844,
+   "t_total": 0.6799085389939137,
+   "n_gen": 49,
+   "n_prompt": 24,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 5
+  },
+  {
+   "id": "demo01_wake",
+   "rep": 1,
+   "raw": "[happy|speaker] {head_bob 0.7} Oh, hello! {look_at:speaker 0.7} Thanks for waking me up. {nod 0.5} How can Happy help you today?",
+   "valid": true,
+   "turn": {
+    "text": "Oh, hello! Thanks for waking me up. How can Happy help you today?",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "head_bob",
+      "intensity": 0.7
+     },
+     {
+      "word": 2,
+      "type": "look_at",
+      "intensity": 0.7,
+      "target": "speaker"
+     },
+     {
+      "word": 7,
+      "type": "nod",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06391879601869732,
+   "t_header": 0.11683725300827064,
+   "t_first_sentence": 0.2823873370070942,
+   "t_total": 0.6495736340002622,
+   "n_gen": 50,
+   "n_prompt": 32,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 2
+  },
+  {
+   "id": "demo02_judges",
+   "rep": 1,
+   "raw": "[happy|target:judges] {look_at:judges 0.8} Hi there, judges! {head_bob 0.7} Hope you are having a good time watching us!",
+   "valid": true,
+   "turn": {
+    "text": "Hi there, judges! Hope you are having a good time watching us!",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "look_at",
+      "intensity": 0.8,
+      "target": "judges"
+     },
+     {
+      "word": 3,
+      "type": "head_bob",
+      "intensity": 0.7
+     }
+    ],
+    "gaze": "target:judges"
+   },
+   "t_first_token": 0.059970461996272206,
+   "t_header": 0.1471159860084299,
+   "t_first_sentence": 0.3600419120048173,
+   "t_total": 0.5860458310053218,
+   "n_gen": 45,
+   "n_prompt": 26,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 3
+  },
+  {
+   "id": "demo03_what",
+   "rep": 1,
+   "raw": "[happy|speaker] {nod 0.7} I'm Happy Kermit, the face of the Happy app. {look_at:speaker 0.7} I run on Gemma right here on this laptop. What about you?",
+   "valid": true,
+   "turn": {
+    "text": "I'm Happy Kermit, the face of the Happy app. I run on Gemma right here on this laptop. What about you?",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "nod",
+      "intensity": 0.7
+     },
+     {
+      "word": 9,
+      "type": "look_at",
+      "intensity": 0.7,
+      "target": "speaker"
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.062081694981316105,
+   "t_header": 0.11405688599916175,
+   "t_first_sentence": 0.3755400709924288,
+   "t_total": 0.6737540499889292,
+   "n_gen": 52,
+   "n_prompt": 12,
+   "lint": [],
+   "fails": [
+    "mention_all"
+   ],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 9
+  },
+  {
+   "id": "demo04_cloud",
+   "rep": 1,
+   "raw": "[surprised|target:laptop] {shake 0.7} Nope! {look_at:laptop 0.8} Everything is right here on this laptop. {nod 0.5} No cloud surfing for me.",
+   "valid": true,
+   "turn": {
+    "text": "Nope! Everything is right here on this laptop. No cloud surfing for me.",
+    "emotion": "surprised",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "shake",
+      "intensity": 0.7
+     },
+     {
+      "word": 1,
+      "type": "look_at",
+      "intensity": 0.8,
+      "target": "laptop"
+     },
+     {
+      "word": 8,
+      "type": "nod",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "target:laptop"
+   },
+   "t_first_token": 0.0783147889887914,
+   "t_header": 0.16669032198842615,
+   "t_first_sentence": 0.28667405698797666,
+   "t_total": 0.6704563990060706,
+   "n_gen": 50,
+   "n_prompt": 19,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 1
+  },
+  {
+   "id": "demo05_happy",
+   "rep": 1,
+   "raw": "[happy|speaker] {head_bob 0.7} Happy is my app, see? {lean_in 0.5} It lets folks talk to AI agents like me. {nod 0.5} What about happy?",
+   "valid": true,
+   "turn": {
+    "text": "Happy is my app, see? It lets folks talk to AI agents like me. What about happy?",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "head_bob",
+      "intensity": 0.7
+     },
+     {
+      "word": 5,
+      "type": "lean_in",
+      "intensity": 0.5
+     },
+     {
+      "word": 14,
+      "type": "nod",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.11221444499096833,
+   "t_header": 0.1646568390133325,
+   "t_first_sentence": 0.3682507560006343,
+   "t_total": 0.7280841660103761,
+   "n_gen": 52,
+   "n_prompt": 11,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 5
+  },
+  {
+   "id": "demo06_fast",
+   "rep": 1,
+   "raw": "[sad|speaker] {sigh 0.5} Honestly, yeah, sometimes it feels like a lot to take in. {shake 0.4} Are you feeling that rush too?",
+   "valid": true,
+   "turn": {
+    "text": "Honestly, yeah, sometimes it feels like a lot to take in. Are you feeling that rush too?",
+    "emotion": "sad",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "sigh",
+      "intensity": 0.5
+     },
+     {
+      "word": 11,
+      "type": "shake",
+      "intensity": 0.4
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.0652297750057187,
+   "t_header": 0.1561356630118098,
+   "t_first_sentence": 0.42201418601325713,
+   "t_total": 0.5931889860075898,
+   "n_gen": 41,
+   "n_prompt": 16,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 11
+  },
+  {
+   "id": "demo07_nod",
+   "rep": 1,
+   "raw": "[thinking|speaker] {nod 0.7} If you're asking if I agree with you, what are we agreeing about? {tilt_right 0.4} Tell me first!",
+   "valid": true,
+   "turn": {
+    "text": "If you're asking if I agree with you, what are we agreeing about? Tell me first!",
+    "emotion": "thinking",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "nod",
+      "intensity": 0.7
+     },
+     {
+      "word": 13,
+      "type": "tilt_right",
+      "intensity": 0.4
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.08005267998669297,
+   "t_header": 0.13353236101102084,
+   "t_first_sentence": 0.4678038379934151,
+   "t_total": 0.6247997590107843,
+   "n_gen": 43,
+   "n_prompt": 11,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 13
+  },
+  {
+   "id": "demo08_left",
+   "rep": 1,
+   "raw": "[neutral|target:left] {look_at:left 0.7} There, I'm looking left now. {nod 0.3} What are you curious about over there?",
+   "valid": true,
+   "turn": {
+    "text": "There, I'm looking left now. What are you curious about over there?",
+    "emotion": "neutral",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "look_at",
+      "intensity": 0.7,
+      "target": "left"
+     },
+     {
+      "word": 5,
+      "type": "nod",
+      "intensity": 0.3
+     }
+    ],
+    "gaze": "target:left"
+   },
+   "t_first_token": 0.07871941098710522,
+   "t_header": 0.19110781699419022,
+   "t_first_sentence": 0.4993001399852801,
+   "t_total": 0.6782701589982025,
+   "n_gen": 43,
+   "n_prompt": 11,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 5
+  },
+  {
+   "id": "demo09_whoa",
+   "rep": 1,
+   "raw": "[surprised|target:robot_arm] {surprise 1.0} Whoa! {look_at:robot_arm 0.9} That is quite a piece of hardware! {tilt_right 0.5} What do you think of it?",
+   "valid": true,
+   "turn": {
+    "text": "Whoa! That is quite a piece of hardware! What do you think of it?",
+    "emotion": "surprised",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "surprise",
+      "intensity": 1.0
+     },
+     {
+      "word": 1,
+      "type": "look_at",
+      "intensity": 0.9,
+      "target": "robot_arm"
+     },
+     {
+      "word": 8,
+      "type": "tilt_right",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "target:robot_arm"
+   },
+   "t_first_token": 0.06822443500277586,
+   "t_header": 0.20279699101229198,
+   "t_first_sentence": 0.33337391301756725,
+   "t_total": 0.7730154629971366,
+   "n_gen": 58,
+   "n_prompt": 31,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 1
+  },
+  {
+   "id": "t10_joke",
+   "rep": 1,
+   "raw": "[happy|speaker] {laugh 0.7} Why did the robot cross the road? {look_at:audience 0.5} To get to the other side, of course!",
+   "valid": true,
+   "turn": {
+    "text": "Why did the robot cross the road? To get to the other side, of course!",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "laugh",
+      "intensity": 0.7
+     },
+     {
+      "word": 7,
+      "type": "look_at",
+      "intensity": 0.5,
+      "target": "audience"
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06334143402636983,
+   "t_header": 0.11514771400834434,
+   "t_first_sentence": 0.3057891080097761,
+   "t_total": 0.5558237110089976,
+   "n_gen": 42,
+   "n_prompt": 18,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 7
+  },
+  {
+   "id": "t11_won",
+   "rep": 1,
+   "raw": "[excited|speaker] {flail 1.0} Whoa! {look_at:speaker 0.9} That is amazing news! {head_bob 0.8} Celebrate big!",
+   "valid": true,
+   "turn": {
+    "text": "Whoa! That is amazing news! Celebrate big!",
+    "emotion": "excited",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "flail",
+      "intensity": 1.0
+     },
+     {
+      "word": 1,
+      "type": "look_at",
+      "intensity": 0.9,
+      "target": "speaker"
+     },
+     {
+      "word": 5,
+      "type": "head_bob",
+      "intensity": 0.8
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06359614498796873,
+   "t_header": 0.1154050350014586,
+   "t_first_sentence": 0.25808788399444893,
+   "t_total": 0.591372805996798,
+   "n_gen": 45,
+   "n_prompt": 22,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 1
+  },
+  {
+   "id": "t12_bug",
+   "rep": 1,
+   "raw": "[sad|speaker] {sigh 0.6} Oh, that sounds rough. {lean_in 0.5} Maybe just take a quick break? What part is giving you trouble?",
+   "valid": true,
+   "turn": {
+    "text": "Oh, that sounds rough. Maybe just take a quick break? What part is giving you trouble?",
+    "emotion": "sad",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "sigh",
+      "intensity": 0.6
+     },
+     {
+      "word": 4,
+      "type": "lean_in",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06222553699626587,
+   "t_header": 0.11409800601541065,
+   "t_first_sentence": 0.280205865012249,
+   "t_total": 0.5530154519947246,
+   "n_gen": 42,
+   "n_prompt": 20,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 4
+  },
+  {
+   "id": "t13_kermit",
+   "rep": 1,
+   "raw": "[annoyed|speaker] {shake 0.7} Nope, I'm Happy, the face of the Happy app. {shrug 0.5} I'm just a frog puppet, see?",
+   "valid": true,
+   "turn": {
+    "text": "Nope, I'm Happy, the face of the Happy app. I'm just a frog puppet, see?",
+    "emotion": "annoyed",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "shake",
+      "intensity": 0.7
+     },
+     {
+      "word": 9,
+      "type": "shrug",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06269718799740076,
+   "t_header": 0.16343047001282685,
+   "t_first_sentence": 0.42445914301788434,
+   "t_total": 0.6379329920164309,
+   "n_gen": 46,
+   "n_prompt": 15,
+   "lint": [],
+   "fails": [
+    "emotion"
+   ],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 9
+  },
+  {
+   "id": "t14_lookaround",
+   "rep": 1,
+   "raw": "[neutral|audience] {look_around 0.8} Whoa! {look_at:laptop 0.3} There are so many interesting things here. {look_at:robot_arm 0.3} What are you noticing?",
+   "valid": true,
+   "turn": {
+    "text": "Whoa! There are so many interesting things here. What are you noticing?",
+    "emotion": "neutral",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "look_around",
+      "intensity": 0.8
+     },
+     {
+      "word": 1,
+      "type": "look_at",
+      "intensity": 0.3,
+      "target": "laptop"
+     },
+     {
+      "word": 8,
+      "type": "look_at",
+      "intensity": 0.3,
+      "target": "robot_arm"
+     }
+    ],
+    "gaze": "audience"
+   },
+   "t_first_token": 0.06018081298680045,
+   "t_header": 0.13964812899939716,
+   "t_first_sentence": 0.3439237209968269,
+   "t_total": 0.805866132985102,
+   "n_gen": 55,
+   "n_prompt": 20,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 1
+  },
+  {
+   "id": "t15_sock",
+   "rep": 1,
+   "raw": "[annoyed|speaker] {shake 0.4} Well, I'm a frog puppet on a robot hand. {tilt_right 0.5} What do you think of that?",
+   "valid": true,
+   "turn": {
+    "text": "Well, I'm a frog puppet on a robot hand. What do you think of that?",
+    "emotion": "annoyed",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "shake",
+      "intensity": 0.4
+     },
+     {
+      "word": 9,
+      "type": "tilt_right",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06276905001141131,
+   "t_header": 0.1262087840004824,
+   "t_first_sentence": 0.3759522649925202,
+   "t_total": 0.566905151004903,
+   "n_gen": 43,
+   "n_prompt": 27,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 9
+  },
+  {
+   "id": "t16_math",
+   "rep": 1,
+   "raw": "[happy|speaker] {nod 0.7} Two plus two is four! {look_at:audience 0.5} Do you have any fun questions for me?",
+   "valid": true,
+   "turn": {
+    "text": "Two plus two is four! Do you have any fun questions for me?",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "nod",
+      "intensity": 0.7
+     },
+     {
+      "word": 5,
+      "type": "look_at",
+      "intensity": 0.5,
+      "target": "audience"
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06133832997875288,
+   "t_header": 0.11400896598934196,
+   "t_first_sentence": 0.2808031780004967,
+   "t_total": 0.5527125099906698,
+   "n_gen": 39,
+   "n_prompt": 20,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 5
+  },
+  {
+   "id": "t17_garbled",
+   "rep": 1,
+   "raw": "[thinking|speaker] {tilt_right 0.5} I'm not sure what you mean by that. {shrug 0.4} Could you tell me a bit more about the fish window?",
+   "valid": true,
+   "turn": {
+    "text": "I'm not sure what you mean by that. Could you tell me a bit more about the fish window?",
+    "emotion": "thinking",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "tilt_right",
+      "intensity": 0.5
+     },
+     {
+      "word": 8,
+      "type": "shrug",
+      "intensity": 0.4
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.0629747019847855,
+   "t_header": 0.11496308300411329,
+   "t_first_sentence": 0.36398035899037495,
+   "t_total": 0.6017105639912188,
+   "n_gen": 46,
+   "n_prompt": 19,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 8
+  },
+  {
+   "id": "t18_silent",
+   "rep": 1,
+   "raw": "[happy|target:audience] {head_bob 0.8} Hello there! {look_at:audience 0.7} Are you having a good time today?",
+   "valid": true,
+   "turn": {
+    "text": "Hello there! Are you having a good time today?",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "head_bob",
+      "intensity": 0.8
+     },
+     {
+      "word": 2,
+      "type": "look_at",
+      "intensity": 0.7,
+      "target": "audience"
+     }
+    ],
+    "gaze": "target:audience"
+   },
+   "t_first_token": 0.05723971498082392,
+   "t_header": 0.23036776698427275,
+   "t_first_sentence": 0.38495657200110145,
+   "t_total": 0.6104169489990454,
+   "n_gen": 41,
+   "n_prompt": 18,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 2
+  },
+  {
+   "id": "t19_shake",
+   "rep": 1,
+   "raw": "[thinking|speaker] {shake 0.7} I guess I'll shake my head for now. {shrug 0.5} What do you think about all this, though?",
+   "valid": true,
+   "turn": {
+    "text": "I guess I'll shake my head for now. What do you think about all this, though?",
+    "emotion": "thinking",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "shake",
+      "intensity": 0.7
+     },
+     {
+      "word": 8,
+      "type": "shrug",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06049410600098781,
+   "t_header": 0.144275970000308,
+   "t_first_sentence": 0.3702262589940801,
+   "t_total": 0.5844528729794547,
+   "n_gen": 42,
+   "n_prompt": 26,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 8
+  },
+  {
+   "id": "t20_bye",
+   "rep": 1,
+   "raw": "[happy|audience] {head_bob 0.7} Thanks so much for coming! {nod 0.5} I hope you all have a wonderful day!",
+   "valid": true,
+   "turn": {
+    "text": "Thanks so much for coming! I hope you all have a wonderful day!",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "head_bob",
+      "intensity": 0.7
+     },
+     {
+      "word": 5,
+      "type": "nod",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "audience"
+   },
+   "t_first_token": 0.1003867480030749,
+   "t_header": 0.1521350179973524,
+   "t_first_sentence": 0.34250412101391703,
+   "t_total": 0.5324975810071919,
+   "n_gen": 37,
+   "n_prompt": 24,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 5
+  },
+  {
+   "id": "demo01_wake",
+   "rep": 2,
+   "raw": "[happy|speaker] {head_bob 0.7} Oh, hello! {look_at:speaker 0.8} I'm right here! {shrug 0.4} What brings you over?",
+   "valid": true,
+   "turn": {
+    "text": "Oh, hello! I'm right here! What brings you over?",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "head_bob",
+      "intensity": 0.7
+     },
+     {
+      "word": 2,
+      "type": "look_at",
+      "intensity": 0.8,
+      "target": "speaker"
+     },
+     {
+      "word": 5,
+      "type": "shrug",
+      "intensity": 0.4
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06402454699855298,
+   "t_header": 0.11532980398624204,
+   "t_first_sentence": 0.2809651799907442,
+   "t_total": 0.6364510839921422,
+   "n_gen": 49,
+   "n_prompt": 32,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 2
+  },
+  {
+   "id": "demo02_judges",
+   "rep": 2,
+   "raw": "[happy|target:judges] {look_at:judges 0.8} Hi to the judges! {head_bob 0.7} Hope you're having a good day!",
+   "valid": true,
+   "turn": {
+    "text": "Hi to the judges! Hope you're having a good day!",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "look_at",
+      "intensity": 0.8,
+      "target": "judges"
+     },
+     {
+      "word": 4,
+      "type": "head_bob",
+      "intensity": 0.7
+     }
+    ],
+    "gaze": "target:judges"
+   },
+   "t_first_token": 0.060336474009091035,
+   "t_header": 0.1475268290087115,
+   "t_first_sentence": 0.36110099000507034,
+   "t_total": 0.5753800260135904,
+   "n_gen": 44,
+   "n_prompt": 26,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 4
+  },
+  {
+   "id": "demo03_what",
+   "rep": 2,
+   "raw": "[happy|speaker] {nod 0.7} I am Happy Kermit, and I'm the face of the Happy app. {look_at:speaker 0.7} What about you? What should I call you?",
+   "valid": true,
+   "turn": {
+    "text": "I am Happy Kermit, and I'm the face of the Happy app. What about you? What should I call you?",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "nod",
+      "intensity": 0.7
+     },
+     {
+      "word": 12,
+      "type": "look_at",
+      "intensity": 0.7,
+      "target": "speaker"
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06739682899205945,
+   "t_header": 0.11943788101780228,
+   "t_first_sentence": 0.4159482099930756,
+   "t_total": 0.6654232589935418,
+   "n_gen": 51,
+   "n_prompt": 12,
+   "lint": [],
+   "fails": [
+    "mention_all"
+   ],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 12
+  },
+  {
+   "id": "demo04_cloud",
+   "rep": 2,
+   "raw": "[neutral|speaker] {shake 0.7} Nope, not at all. {look_at:laptop 0.7} My whole thinking happens right here on this hardware.",
+   "valid": true,
+   "turn": {
+    "text": "Nope, not at all. My whole thinking happens right here on this hardware.",
+    "emotion": "neutral",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "shake",
+      "intensity": 0.7
+     },
+     {
+      "word": 4,
+      "type": "look_at",
+      "intensity": 0.7,
+      "target": "laptop"
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.07742858398705721,
+   "t_header": 0.12954257600358687,
+   "t_first_sentence": 0.29611257699434645,
+   "t_total": 0.5456644259975292,
+   "n_gen": 40,
+   "n_prompt": 19,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 4
+  },
+  {
+   "id": "demo05_happy",
+   "rep": 2,
+   "raw": "[happy|speaker] {nod 0.5} Happy is an app, see? {lean_in 0.5} It lets folks like me chat with my AI buddies. What do you think of it?",
+   "valid": true,
+   "turn": {
+    "text": "Happy is an app, see? It lets folks like me chat with my AI buddies. What do you think of it?",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "nod",
+      "intensity": 0.5
+     },
+     {
+      "word": 5,
+      "type": "lean_in",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.07545520100393333,
+   "t_header": 0.12737278098938987,
+   "t_first_sentence": 0.3052486849774141,
+   "t_total": 0.6279102499829605,
+   "n_gen": 47,
+   "n_prompt": 11,
+   "lint": [],
+   "fails": [
+    "mention"
+   ],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 5
+  },
+  {
+   "id": "demo06_fast",
+   "rep": 2,
+   "raw": "[sad|speaker] {sigh 0.7} Sometimes, yes. {shrug 0.5} It's a lot to take in, isn't it? {look_at:speaker 0.7} What makes you feel that way?",
+   "valid": true,
+   "turn": {
+    "text": "Sometimes, yes. It's a lot to take in, isn't it? What makes you feel that way?",
+    "emotion": "sad",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "sigh",
+      "intensity": 0.7
+     },
+     {
+      "word": 2,
+      "type": "shrug",
+      "intensity": 0.5
+     },
+     {
+      "word": 10,
+      "type": "look_at",
+      "intensity": 0.7,
+      "target": "speaker"
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06534437599475496,
+   "t_header": 0.15432467401842587,
+   "t_first_sentence": 0.2966881309985183,
+   "t_total": 0.7723196010047104,
+   "n_gen": 57,
+   "n_prompt": 16,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 2
+  },
+  {
+   "id": "demo07_nod",
+   "rep": 2,
+   "raw": "[thinking|speaker] {nod 0.7} I guess I do, for now. {shrug 0.4} What do you think we should agree on?",
+   "valid": true,
+   "turn": {
+    "text": "I guess I do, for now. What do you think we should agree on?",
+    "emotion": "thinking",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "nod",
+      "intensity": 0.7
+     },
+     {
+      "word": 6,
+      "type": "shrug",
+      "intensity": 0.4
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.07530131001840346,
+   "t_header": 0.12718229100573808,
+   "t_first_sentence": 0.34059442099533044,
+   "t_total": 0.5426023670006543,
+   "n_gen": 38,
+   "n_prompt": 11,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 6
+  },
+  {
+   "id": "demo08_left",
+   "rep": 2,
+   "raw": "[neutral|target:left] {look_at:left 0.9} Here we go. {nod 0.3} Is there something specific you wanted me to look at over there?",
+   "valid": true,
+   "turn": {
+    "text": "Here we go. Is there something specific you wanted me to look at over there?",
+    "emotion": "neutral",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "look_at",
+      "intensity": 0.9,
+      "target": "left"
+     },
+     {
+      "word": 3,
+      "type": "nod",
+      "intensity": 0.3
+     }
+    ],
+    "gaze": "target:left"
+   },
+   "t_first_token": 0.07402224198449403,
+   "t_header": 0.18280615599360317,
+   "t_first_sentence": 0.37318045800202526,
+   "t_total": 0.6110763539909385,
+   "n_gen": 43,
+   "n_prompt": 11,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 3
+  },
+  {
+   "id": "demo09_whoa",
+   "rep": 2,
+   "raw": "[surprised|target:robot_arm] {surprise 1.0} Whoa! {look_at:robot_arm 0.9} Wow, that is a big arm! {shrug 0.5} Pretty impressive hardware, huh?",
+   "valid": true,
+   "turn": {
+    "text": "Whoa! Wow, that is a big arm! Pretty impressive hardware, huh?",
+    "emotion": "surprised",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "surprise",
+      "intensity": 1.0
+     },
+     {
+      "word": 1,
+      "type": "look_at",
+      "intensity": 0.9,
+      "target": "robot_arm"
+     },
+     {
+      "word": 7,
+      "type": "shrug",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "target:robot_arm"
+   },
+   "t_first_token": 0.06743042898597196,
+   "t_header": 0.2020019769843202,
+   "t_first_sentence": 0.33273039999767207,
+   "t_total": 0.7492110249877442,
+   "n_gen": 56,
+   "n_prompt": 31,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 1
+  },
+  {
+   "id": "t10_joke",
+   "rep": 2,
+   "raw": "[happy|speaker] {laugh 0.7} Why did the robot cross the road? {nod 0.5} To get to the other circuit! {look_around 0.4} Hope that got a chuckle out of you both!",
+   "valid": true,
+   "turn": {
+    "text": "Why did the robot cross the road? To get to the other circuit! Hope that got a chuckle out of you both!",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "laugh",
+      "intensity": 0.7
+     },
+     {
+      "word": 7,
+      "type": "nod",
+      "intensity": 0.5
+     },
+     {
+      "word": 13,
+      "type": "look_around",
+      "intensity": 0.4
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06904752002446912,
+   "t_header": 0.12088832102017477,
+   "t_first_sentence": 0.31120991401257925,
+   "t_total": 0.7029206110164523,
+   "n_gen": 54,
+   "n_prompt": 18,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 7
+  },
+  {
+   "id": "t11_won",
+   "rep": 2,
+   "raw": "[excited|speaker] {flail 1.0} Whoa! {laugh 0.8} That sounds like fun! {look_at:speaker 0.7} What did you win?",
+   "valid": true,
+   "turn": {
+    "text": "Whoa! That sounds like fun! What did you win?",
+    "emotion": "excited",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "flail",
+      "intensity": 1.0
+     },
+     {
+      "word": 1,
+      "type": "laugh",
+      "intensity": 0.8
+     },
+     {
+      "word": 5,
+      "type": "look_at",
+      "intensity": 0.7,
+      "target": "speaker"
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06001111300429329,
+   "t_header": 0.11165950199938379,
+   "t_first_sentence": 0.25384503800887614,
+   "t_total": 0.5868556899949908,
+   "n_gen": 45,
+   "n_prompt": 22,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 1
+  },
+  {
+   "id": "t12_bug",
+   "rep": 2,
+   "raw": "[sad|speaker] {sigh 0.7} Oh, that sounds rough. {shrug 0.5} Have you tried taking a little break?",
+   "valid": true,
+   "turn": {
+    "text": "Oh, that sounds rough. Have you tried taking a little break?",
+    "emotion": "sad",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "sigh",
+      "intensity": 0.7
+     },
+     {
+      "word": 4,
+      "type": "shrug",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.06268097800784744,
+   "t_header": 0.11507283200626262,
+   "t_first_sentence": 0.2825426509953104,
+   "t_total": 0.4724258100031875,
+   "n_gen": 35,
+   "n_prompt": 20,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 4
+  },
+  {
+   "id": "t13_kermit",
+   "rep": 2,
+   "raw": "[annoyed|speaker] {shake 0.5} Not at all! {look_at:speaker 0.7} I'm Happy, the friendly face of the Happy app. {shrug 0.3} Are you confusing me with someone else?",
+   "valid": true,
+   "turn": {
+    "text": "Not at all! I'm Happy, the friendly face of the Happy app. Are you confusing me with someone else?",
+    "emotion": "annoyed",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "shake",
+      "intensity": 0.5
+     },
+     {
+      "word": 3,
+      "type": "look_at",
+      "intensity": 0.7,
+      "target": "speaker"
+     },
+     {
+      "word": 12,
+      "type": "shrug",
+      "intensity": 0.3
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.05962436000118032,
+   "t_header": 0.1231804650160484,
+   "t_first_sentence": 0.2654223919962533,
+   "t_total": 0.7405725290009286,
+   "n_gen": 58,
+   "n_prompt": 15,
+   "lint": [],
+   "fails": [
+    "emotion"
+   ],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 3
+  },
+  {
+   "id": "t14_lookaround",
+   "rep": 2,
+   "raw": "[happy|audience] {look_around 0.8} Whoa! {head_bob 0.7} Look at all this cool gear! {look_at:laptop 0.5} This whole hackathon setup is wild.",
+   "valid": true,
+   "turn": {
+    "text": "Whoa! Look at all this cool gear! This whole hackathon setup is wild.",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "look_around",
+      "intensity": 0.8
+     },
+     {
+      "word": 1,
+      "type": "head_bob",
+      "intensity": 0.7
+     },
+     {
+      "word": 7,
+      "type": "look_at",
+      "intensity": 0.5,
+      "target": "laptop"
+     }
+    ],
+    "gaze": "audience"
+   },
+   "t_first_token": 0.05993055101134814,
+   "t_header": 0.13994471202022396,
+   "t_first_sentence": 0.345610223012045,
+   "t_total": 0.7613340210227761,
+   "n_gen": 53,
+   "n_prompt": 20,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 1
+  },
+  {
+   "id": "t15_sock",
+   "rep": 2,
+   "raw": "[neutral|speaker] {shrug 0.5} Well, I'm a frog puppet on a robot, which is pretty close! {tilt_right 0.4} What do you think about that setup?",
+   "valid": true,
+   "turn": {
+    "text": "Well, I'm a frog puppet on a robot, which is pretty close! What do you think about that setup?",
+    "emotion": "neutral",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "shrug",
+      "intensity": 0.5
+     },
+     {
+      "word": 12,
+      "type": "tilt_right",
+      "intensity": 0.4
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.0625314979988616,
+   "t_header": 0.152021029003663,
+   "t_first_sentence": 0.4603563240088988,
+   "t_total": 0.6618553680018522,
+   "n_gen": 48,
+   "n_prompt": 27,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 12
+  },
+  {
+   "id": "t16_math",
+   "rep": 2,
+   "raw": "[happy|speaker] {nod 0.7} Two plus two is four! {look_at:audience 0.5} Are you learning some cool math things right now?",
+   "valid": true,
+   "turn": {
+    "text": "Two plus two is four! Are you learning some cool math things right now?",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "nod",
+      "intensity": 0.7
+     },
+     {
+      "word": 5,
+      "type": "look_at",
+      "intensity": 0.5,
+      "target": "audience"
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.059855222003534436,
+   "t_header": 0.11164191199350171,
+   "t_first_sentence": 0.2775515299872495,
+   "t_total": 0.5605188320041634,
+   "n_gen": 40,
+   "n_prompt": 20,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 5
+  },
+  {
+   "id": "t17_garbled",
+   "rep": 2,
+   "raw": "[thinking|speaker] {tilt_right 0.4} The fish window seven? {shrug 0.5} I don't see anything specific there, what are you looking at?",
+   "valid": true,
+   "turn": {
+    "text": "The fish window seven? I don't see anything specific there, what are you looking at?",
+    "emotion": "thinking",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "tilt_right",
+      "intensity": 0.4
+     },
+     {
+      "word": 4,
+      "type": "shrug",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.0598455109866336,
+   "t_header": 0.11154721098137088,
+   "t_first_sentence": 0.28944853399298154,
+   "t_total": 0.5622727829904761,
+   "n_gen": 43,
+   "n_prompt": 19,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 4
+  },
+  {
+   "id": "t18_silent",
+   "rep": 2,
+   "raw": "[happy|target:audience] {head_bob 0.8} Hello there! {look_at:audience 0.7} Hi! You look like you're having a great time!",
+   "valid": true,
+   "turn": {
+    "text": "Hello there! Hi! You look like you're having a great time!",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "head_bob",
+      "intensity": 0.8
+     },
+     {
+      "word": 2,
+      "type": "look_at",
+      "intensity": 0.7,
+      "target": "audience"
+     }
+    ],
+    "gaze": "target:audience"
+   },
+   "t_first_token": 0.06007372299791314,
+   "t_header": 0.2339429309940897,
+   "t_first_sentence": 0.38871922800899483,
+   "t_total": 0.6969504419830628,
+   "n_gen": 48,
+   "n_prompt": 18,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 2
+  },
+  {
+   "id": "t19_shake",
+   "rep": 2,
+   "raw": "[thinking|speaker] {shake 0.5} I don't think so. {shrug 0.4} What makes you think that, though?",
+   "valid": true,
+   "turn": {
+    "text": "I don't think so. What makes you think that, though?",
+    "emotion": "thinking",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "shake",
+      "intensity": 0.5
+     },
+     {
+      "word": 4,
+      "type": "shrug",
+      "intensity": 0.4
+     }
+    ],
+    "gaze": "speaker"
+   },
+   "t_first_token": 0.05997113301418722,
+   "t_header": 0.14377973700175062,
+   "t_first_sentence": 0.4470666100096423,
+   "t_total": 0.6372283630189486,
+   "n_gen": 38,
+   "n_prompt": 26,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 4
+  },
+  {
+   "id": "t20_bye",
+   "rep": 2,
+   "raw": "[happy|audience] {head_bob 0.7} Thanks for having me! {nod 0.5} Hope you all have a wonderful time!",
+   "valid": true,
+   "turn": {
+    "text": "Thanks for having me! Hope you all have a wonderful time!",
+    "emotion": "happy",
+    "gestures": [
+     {
+      "word": 0,
+      "type": "head_bob",
+      "intensity": 0.7
+     },
+     {
+      "word": 4,
+      "type": "nod",
+      "intensity": 0.5
+     }
+    ],
+    "gaze": "audience"
+   },
+   "t_first_token": 0.06086880702059716,
+   "t_header": 0.11307525099255145,
+   "t_first_sentence": 0.29114438602118753,
+   "t_total": 0.5186989259964321,
+   "n_gen": 35,
+   "n_prompt": 24,
+   "lint": [],
+   "fails": [],
+   "placement": [
+    true,
+    true
+   ],
+   "incoherent": false,
+   "unspeakable": false,
+   "first_sentence_words": 4
+  }
+ ]
+}

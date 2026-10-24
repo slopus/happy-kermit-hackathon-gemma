@@ -1,0 +1,4 @@
+{"event": "hand_pick", "id": 23, "description": "the man in blue shirt with dark hair", "bearing_deg": -30.3, "pitch_deg": -17.1, "conf": 0.9, "session_id": "kermit", "t": 190789.453}
+{"brain_reply_to": "hand_pick", "ms": 766, "lines": [{"event": "turn", "text": "Sure! What were you hoping to chat about?", "emotion": "neutral", "gestures": [{"word": 0, "type": "look_at", "intensity": 0.7, "target": "person_23"}, {"word": 1, "type": "nod", "intensity": 0.3}], "gaze": "target:person_23"}]}
+{"event": "look_command", "id": 25, "description": "the man with the microphone", "heard": "Kermit, look at the man with the microphone", "bearing_deg": -12.2, "pitch_deg": 18.0, "session_id": "kermit", "t": 190791.446}
+{"brain_reply_to": "look_command", "ms": 1, "lines": [{"event": "skip"}]}

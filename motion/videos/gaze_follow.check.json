@@ -1,0 +1,213 @@
+{
+ "dt": 0.016666666666666666,
+ "frames": 900,
+ "arm": [
+  {
+   "joint": "joint1",
+   "min_deg": -23.0,
+   "max_deg": 21.1,
+   "range_margin_deg": 337.0,
+   "vel_peak_dps": 22.5,
+   "vel_ratio": 0.125,
+   "vel": "ok",
+   "acc_peak_dps2": 112.0,
+   "acc_ratio": 0.098,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint2",
+   "min_deg": 2.5,
+   "max_deg": 6.0,
+   "range_margin_deg": 110.0,
+   "vel_peak_dps": 14.8,
+   "vel_ratio": 0.082,
+   "vel": "ok",
+   "acc_peak_dps2": 278.0,
+   "acc_ratio": 0.243,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint3",
+   "min_deg": -27.1,
+   "max_deg": -25.6,
+   "range_margin_deg": 35.6,
+   "vel_peak_dps": 3.7,
+   "vel_ratio": 0.02,
+   "vel": "ok",
+   "acc_peak_dps2": 42.0,
+   "acc_ratio": 0.036,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint4",
+   "min_deg": 151.4,
+   "max_deg": 189.4,
+   "range_margin_deg": 170.6,
+   "vel_peak_dps": 19.2,
+   "vel_ratio": 0.107,
+   "vel": "ok",
+   "acc_peak_dps2": 164.0,
+   "acc_ratio": 0.144,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint5",
+   "min_deg": 84.0,
+   "max_deg": 100.3,
+   "range_margin_deg": 79.7,
+   "vel_peak_dps": 62.1,
+   "vel_ratio": 0.345,
+   "vel": "ok",
+   "acc_peak_dps2": 631.0,
+   "acc_ratio": 0.551,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint6",
+   "min_deg": 84.6,
+   "max_deg": 101.0,
+   "range_margin_deg": 259.0,
+   "vel_peak_dps": 22.6,
+   "vel_ratio": 0.126,
+   "vel": "ok",
+   "acc_peak_dps2": 241.0,
+   "acc_ratio": 0.211,
+   "acc": "ok"
+  }
+ ],
+ "hand": [
+  {
+   "joint": "hand/rh_FFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_FFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_FFJ1",
+   "vel_peak": 4.144,
+   "vel_ratio": 0.913,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ1",
+   "vel_peak": 4.144,
+   "vel_ratio": 0.913,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ1",
+   "vel_peak": 4.144,
+   "vel_ratio": 0.913,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ1",
+   "vel_peak": 4.144,
+   "vel_ratio": 0.913,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ5",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ4",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ3",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ2",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ1",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  }
+ ],
+ "tcp": {
+  "vel_peak_mps": 0.284,
+  "vel_ratio": 0.284,
+  "vel": "ok",
+  "min_body_height_m": -0.189
+ },
+ "ok": true,
+ "warnings": [],
+ "hand_vel_note": "Inspire RH56DFX-like: fingers 260 deg/s, thumb 90 deg/s (stand-in)",
+ "ik_err_max": 9.944332043630384e-07,
+ "governor_hz": null,
+ "timeline": "samples/follow_talk.timeline.json",
+ "hand_profile": "shadow",
+ "video": "videos/gaze_follow.mp4"
+}

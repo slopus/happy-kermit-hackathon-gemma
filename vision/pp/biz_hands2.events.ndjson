@@ -1,0 +1,10 @@
+{"event":"person_arrived","id":1,"t":0.5,"role":"presenter","yaw_deg":7.5}
+{"event":"person_arrived","id":2,"t":0.5,"role":"judge","yaw_deg":-12.4}
+{"event":"person_arrived","id":3,"t":0.5,"role":"judge","yaw_deg":27.3}
+{"event":"person_arrived","id":4,"t":0.5,"role":"judge","yaw_deg":-18.8}
+{"event":"person_arrived","id":5,"t":0.5,"role":"judge","yaw_deg":-30.6}
+{"event":"person_arrived","id":7,"t":1.917,"role":"judge","yaw_deg":-4.0}
+{"event":"person_arrived","id":6,"t":4.583,"role":"judge","yaw_deg":37.6}
+{"event":"person_left","id":3,"t":5.167}
+{"event":"person_arrived","id":10,"t":7.417,"role":"judge","yaw_deg":22.9}
+{"event":"hand_raised","id":1,"t":10.333,"role":"judge","yaw_deg":5.2}

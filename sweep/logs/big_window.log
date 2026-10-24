@@ -1,0 +1,17 @@
+0, 11524 MiB
+1, 549 MiB
+[10:03:46] 26B latency on GPU1
+up pid=1148481 port=18091
+{"label": "26B_QAT_full_lat", "mode": "kml", "prompt": "full", "n": 40, "valid": "40/40", "lint_clean": "40/40", "expect_pass": "36/40", "placement_ok": "97/97", "emotion_gesture_clash": "0/40", "gestures_per_turn": 2.42, "words_med": 13.5, "first_sentence_words_med": 2.0, "ms_first_token_med": 56, "ms_header_med": 109, "ms_first_sentence_med": 268, "ms_first_sentence_p90": 342, "ms_text_first_sentence_med": null, "ms_total_med": 610, "gen_tokens_med": 48.0, "tps_med": 85.6, "annot_ms_med": null, "annot_tps_med": null}
+[10:04:46] swap 26B -> 31B
+total 17894284
+drwx------ 2 happy-agent happy-agent        4096 Oct 24 10:04 .
+drwx------ 7 happy-agent happy-agent        4096 Oct 24 10:04 ..
+-rw------- 1 happy-agent happy-agent 18323733440 Oct 24 10:07 gemma-4-31B-it-Q4_K_M.gguf
+/dev/mapper/ubuntu--vg-ubuntu--lv  376G  341G   18G  95% /
+[10:07:39] 31B split GPU1+GPU0
+0, 8039 MiB
+1, 549 MiB
+up pid=1155844 port=18092
+{"label": "31B_Q4_full", "mode": "kml", "prompt": "full", "n": 60, "valid": "60/60", "lint_clean": "60/60", "expect_pass": "60/60", "placement_ok": "162/162", "emotion_gesture_clash": "0/60", "gestures_per_turn": 2.7, "words_med": 14.0, "first_sentence_words_med": 2.0, "ms_first_token_med": 111, "ms_header_med": 401, "ms_first_sentence_med": 1293, "ms_first_sentence_p90": 1650, "ms_text_first_sentence_med": null, "ms_total_med": 3279, "gen_tokens_med": 49.0, "tps_med": 14.9, "annot_ms_med": null, "annot_tps_med": null}
+[10:11:08] window done

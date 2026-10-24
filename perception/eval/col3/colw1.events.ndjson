@@ -1,0 +1,5 @@
+{"event":"person_arrived","id":1,"t":0.501,"role":"presenter","yaw_deg":30.2}
+{"event":"person_arrived","id":2,"t":0.501,"role":"presenter","yaw_deg":2.1}
+{"event":"person_arrived","id":3,"t":0.501,"role":"presenter","yaw_deg":-31.0}
+{"event":"speaker_changed","from":null,"to":1,"t":0.501,"role":"presenter","yaw_deg":30.2}
+{"event":"speaker_changed","from":1,"to":2,"t":1.635,"role":"presenter","yaw_deg":2.5}

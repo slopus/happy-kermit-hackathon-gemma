@@ -1,0 +1,4 @@
+{"event": "look_command", "id": 3, "description": "the guy in the orange hoodie", "heard": "Kermit, look at the guy in the orange hoodie", "bearing_deg": -12.9, "pitch_deg": -17.3, "session_id": "kermit", "t": 190666.861}
+{"brain_reply_to": "look_command", "ms": 1, "lines": [{"event": "skip"}]}
+{"event": "hand_pick", "id": 7, "description": "the person in red top and dark pants", "bearing_deg": -5.3, "pitch_deg": -6.7, "conf": 0.9, "session_id": "kermit", "t": 190667.135}
+{"brain_reply_to": "hand_pick", "ms": 687, "lines": [{"event": "turn", "text": "Hello! Are you wanting to ask me something?", "emotion": "neutral", "gestures": [{"word": 0, "type": "look_at", "intensity": 0.7, "target": "person_7"}, {"word": 1, "type": "shrug", "intensity": 0.3}], "gaze": "target:person_7"}]}

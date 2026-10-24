@@ -1,0 +1,217 @@
+{
+ "dt": 0.016666666666666666,
+ "frames": 2312,
+ "arm": [
+  {
+   "joint": "joint1",
+   "min_deg": -7.5,
+   "max_deg": 1.6,
+   "range_margin_deg": 352.5,
+   "vel_peak_dps": 17.7,
+   "vel_ratio": 0.098,
+   "vel": "ok",
+   "acc_peak_dps2": 167.0,
+   "acc_ratio": 0.146,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint2",
+   "min_deg": -4.6,
+   "max_deg": 7.9,
+   "range_margin_deg": 108.1,
+   "vel_peak_dps": 32.3,
+   "vel_ratio": 0.18,
+   "vel": "ok",
+   "acc_peak_dps2": 240.0,
+   "acc_ratio": 0.21,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint3",
+   "min_deg": -31.2,
+   "max_deg": -13.3,
+   "range_margin_deg": 23.3,
+   "vel_peak_dps": 42.9,
+   "vel_ratio": 0.238,
+   "vel": "ok",
+   "acc_peak_dps2": 338.0,
+   "acc_ratio": 0.295,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint4",
+   "min_deg": 142.9,
+   "max_deg": 190.5,
+   "range_margin_deg": 169.5,
+   "vel_peak_dps": 112.8,
+   "vel_ratio": 0.627,
+   "vel": "ok",
+   "acc_peak_dps2": 926.0,
+   "acc_ratio": 0.809,
+   "acc": "WARN"
+  },
+  {
+   "joint": "joint5",
+   "min_deg": 81.9,
+   "max_deg": 119.7,
+   "range_margin_deg": 60.3,
+   "vel_peak_dps": 95.2,
+   "vel_ratio": 0.529,
+   "vel": "ok",
+   "acc_peak_dps2": 977.0,
+   "acc_ratio": 0.854,
+   "acc": "WARN"
+  },
+  {
+   "joint": "joint6",
+   "min_deg": 80.7,
+   "max_deg": 106.8,
+   "range_margin_deg": 253.2,
+   "vel_peak_dps": 47.9,
+   "vel_ratio": 0.266,
+   "vel": "ok",
+   "acc_peak_dps2": 434.0,
+   "acc_ratio": 0.379,
+   "acc": "ok"
+  }
+ ],
+ "hand": [
+  {
+   "joint": "hand/rh_FFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_FFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_FFJ1",
+   "vel_peak": 4.185,
+   "vel_ratio": 0.922,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ1",
+   "vel_peak": 4.185,
+   "vel_ratio": 0.922,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ1",
+   "vel_peak": 4.185,
+   "vel_ratio": 0.922,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ1",
+   "vel_peak": 4.185,
+   "vel_ratio": 0.922,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ5",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ4",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ3",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ2",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ1",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  }
+ ],
+ "tcp": {
+  "vel_peak_mps": 0.358,
+  "vel_ratio": 0.358,
+  "vel": "ok",
+  "min_body_height_m": -0.189
+ },
+ "ok": true,
+ "warnings": [
+  "joint4 acc WARN",
+  "joint5 acc WARN",
+  "arm motion low-passed at 8.0 Hz to fit limits"
+ ],
+ "hand_vel_note": "Inspire RH56DFX-like: fingers 260 deg/s, thumb 90 deg/s (stand-in)",
+ "ik_err_max": 9.93506467605832e-07,
+ "governor_hz": 8.0,
+ "timeline": "samples/hero.timeline.json",
+ "hand_profile": "shadow",
+ "video": "videos/hero.mp4"
+}

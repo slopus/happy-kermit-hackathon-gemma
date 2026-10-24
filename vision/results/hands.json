@@ -1,0 +1,267 @@
+{
+"summary": {
+"n": 23,
+"gemma_acc": 60.9,
+"spec_acc": 87.0,
+"ms_median": 195.0
+},
+"items": [
+{
+"key": "biz_hands1_003.0",
+"gt": [
+3
+],
+"gemma": 4,
+"spec": null,
+"gemma_ok": false,
+"spec_ok": false,
+"ms": 230
+},
+{
+"key": "biz_hands1_006.0",
+"gt": [
+3
+],
+"gemma": 7,
+"spec": 3,
+"gemma_ok": false,
+"spec_ok": true,
+"ms": 184
+},
+{
+"key": "biz_hands1_009.0",
+"gt": [],
+"gemma": 4,
+"spec": null,
+"gemma_ok": false,
+"spec_ok": true,
+"ms": 193
+},
+{
+"key": "biz_hands2_002.0",
+"gt": [
+1,
+7
+],
+"gemma": 7,
+"spec": 1,
+"gemma_ok": true,
+"spec_ok": true,
+"ms": 188
+},
+{
+"key": "biz_hands2_008.0",
+"gt": [
+1,
+7
+],
+"gemma": 7,
+"spec": 1,
+"gemma_ok": true,
+"spec_ok": true,
+"ms": 190
+},
+{
+"key": "class_kids_017.0",
+"gt": [
+4,
+3
+],
+"gemma": 3,
+"spec": 4,
+"gemma_ok": true,
+"spec_ok": true,
+"ms": 195
+},
+{
+"key": "class_kids_020.0",
+"gt": [
+4,
+1,
+3
+],
+"gemma": 2,
+"spec": 4,
+"gemma_ok": false,
+"spec_ok": true,
+"ms": 189
+},
+{
+"key": "class_kids2_003.0",
+"gt": [
+1,
+3,
+5,
+7
+],
+"gemma": 2,
+"spec": 1,
+"gemma_ok": true,
+"spec_ok": true,
+"ms": 194
+},
+{
+"key": "class_kids2_006.0",
+"gt": [
+1,
+3,
+6,
+7
+],
+"gemma": 6,
+"spec": 1,
+"gemma_ok": true,
+"spec_ok": true,
+"ms": 199
+},
+{
+"key": "concert_stock_020.0",
+"gt": [],
+"gemma": 32,
+"spec": null,
+"gemma_ok": true,
+"spec_ok": true,
+"ms": 206
+},
+{
+"key": "concert_stock_030.0",
+"gt": [
+37
+],
+"gemma": 37,
+"spec": 37,
+"gemma_ok": true,
+"spec_ok": true,
+"ms": 217
+},
+{
+"key": "concert_stock_038.0",
+"gt": [
+32
+],
+"gemma": 32,
+"spec": 2,
+"gemma_ok": true,
+"spec_ok": true,
+"ms": 223
+},
+{
+"key": "montessori_hands_003.0",
+"gt": [
+1,
+3
+],
+"gemma": 3,
+"spec": 3,
+"gemma_ok": true,
+"spec_ok": true,
+"ms": 195
+},
+{
+"key": "montessori_hands_009.0",
+"gt": [
+3
+],
+"gemma": 2,
+"spec": 3,
+"gemma_ok": true,
+"spec_ok": true,
+"ms": 198
+},
+{
+"key": "school_hands_012.0",
+"gt": [
+3,
+6,
+8,
+1
+],
+"gemma": 3,
+"spec": 3,
+"gemma_ok": true,
+"spec_ok": true,
+"ms": 185
+},
+{
+"key": "school_hands_024.0",
+"gt": [
+2,
+3,
+12,
+15
+],
+"gemma": 15,
+"spec": 3,
+"gemma_ok": true,
+"spec_ok": true,
+"ms": 225
+},
+{
+"key": "conf_woman_hand_001.5",
+"gt": [
+2
+],
+"gemma": 2,
+"spec": null,
+"gemma_ok": true,
+"spec_ok": false,
+"ms": 195
+},
+{
+"key": "conf_woman_hand_006.0",
+"gt": [],
+"gemma": 5,
+"spec": null,
+"gemma_ok": false,
+"spec_ok": true,
+"ms": 190
+},
+{
+"key": "lect_hands_003.0",
+"gt": [
+2
+],
+"gemma": 6,
+"spec": null,
+"gemma_ok": true,
+"spec_ok": false,
+"ms": 167
+},
+{
+"key": "obama_town_020.0",
+"gt": [],
+"gemma": 19,
+"spec": null,
+"gemma_ok": false,
+"spec_ok": true,
+"ms": 236
+},
+{
+"key": "obama_town_040.0",
+"gt": [],
+"gemma": 3,
+"spec": null,
+"gemma_ok": false,
+"spec_ok": true,
+"ms": 195
+},
+{
+"key": "obama_town_070.0",
+"gt": [],
+"gemma": 35,
+"spec": null,
+"gemma_ok": false,
+"spec_ok": true,
+"ms": 215
+},
+{
+"key": "panel_mic_005.0",
+"gt": [],
+"gemma": 1,
+"spec": null,
+"gemma_ok": false,
+"spec_ok": true,
+"ms": 194
+}
+]
+}

@@ -1,0 +1,21 @@
+id,holds,cutins,committed,delay,by,cands,cancels,text
+kermit__af_heart__17,3,0,True,0.3360000000000003,model,1,0,"We train the model last night, and honestly it was a lot of work. So how do you feel"
+kermit__am_adam__28,1,0,True,0.504,model,1,0,No not really
+kermit__am_adam__01,1,1,True,1.1849999999999996,model,2,1,Kermit What do you think about the robot arm
+kermit__af_heart__19,1,0,True,0.359,model,1,0,Um can you sing something
+kermit__bm_george__08,1,0,True,0.2939999999999996,model,1,0,Do you ever get tired of being on somebody's hand
+kermit__bf_emma__07,3,0,True,0.4219999999999997,model,1,0,So the thing is we built you in about twelve hours
+kermit__bm_george__20,1,0,True,0.8759999999999999,model,1,0,Do you like flies
+kermit__am_michael__23,1,0,True,0.29600000000000026,model,1,0,I'd like to know what you had for breakfast
+kermit__am_michael__05,1,0,True,0.43000000000000016,model,2,1,What's your take on the whole gem of thing
+kermit__af_bella__24,2,1,True,1.6630000000000003,model,2,1,Is it hard to talk with a robot hand Inside you
+kermit__am_adam__23,1,0,True,0.25599999999999934,model,1,0,I'd like to know what you had for breakfast
+kermit__af_heart__06,2,0,True,0.37100000000000044,model,1,0,"Hey Kermit, do you know where Miss Piggie is"
+kermit__af_bella__02,2,0,True,0.2450000000000001,model,1,0,"Okay, so I wanted to ask you what your favorite song is"
+kermit__bf_emma__01,1,0,True,1.0519999999999996,model,1,0,Kermit what do you think about the robot arm
+kermit__am_adam__04,2,0,True,0.19100000000000072,model,1,0,I was thinking that maybe we could talk about the hackathon
+kermit__am_michael__21,3,0,True,1.3339999999999996,model,1,0,So what we did was we took a Gemma model and we fine tuned to talk like you
+kermit__am_adam__21,3,0,True,1.033999999999999,model,1,0,So what we did was we took a gem of we fine tuned it to talk like you
+kermit__bf_emma__19,1,0,True,0.7069999999999999,model,1,0,Um can you sing something
+kermit__am_michael__08,1,0,True,0.266,model,1,0,Do you ever get tired of being on somebody's hand
+kermit__am_michael__13,2,0,True,0.6340000000000003,model,1,0,"This is the demo. We have a camera, a microphone, and a robot arm Kermit say hi to the judges"

@@ -1,0 +1,183 @@
+[
+ {
+  "step": 1,
+  "who": "kirill",
+  "beat": "wake",
+  "expected": true,
+  "line_on_t": 190796.867552694,
+  "line_off_t": 190800.15819881397,
+  "kermit_cut_in": null,
+  "reply_onset_t": 190802.27488631397,
+  "reply_end_t": 190805.79782381398
+ },
+ {
+  "step": 2,
+  "who": "kirill",
+  "beat": "feeling",
+  "expected": true,
+  "line_on_t": 190809.570750122,
+  "line_off_t": 190813.13744881397,
+  "kermit_cut_in": null,
+  "reply_onset_t": 190814.177886314,
+  "reply_end_t": 190822.538823814
+ },
+ {
+  "step": 3,
+  "who": "kirill",
+  "beat": "why_here",
+  "expected": true,
+  "line_on_t": 190823.596779394,
+  "line_off_t": 190825.33738631397,
+  "kermit_cut_in": null,
+  "reply_onset_t": 190826.317948814,
+  "reply_end_t": 190831.56394881397
+ },
+ {
+  "step": 4,
+  "who": "kirill",
+  "beat": "cloud",
+  "expected": true,
+  "line_on_t": 190834.747818322,
+  "line_off_t": 190837.21344881397,
+  "kermit_cut_in": null,
+  "reply_onset_t": 190839.139011314,
+  "reply_end_t": 190843.67994881398
+ },
+ {
+  "step": 5,
+  "who": "kirill",
+  "beat": "interject",
+  "expected": true,
+  "line_on_t": 190844.598041619,
+  "line_off_t": 190847.513823814,
+  "kermit_cut_in": 190847.41663631398
+ },
+ {
+  "step": 6,
+  "who": "kirill",
+  "beat": "back_turned",
+  "expected": true,
+  "line_on_t": 190848.88611396,
+  "line_off_t": 190852.20176131398,
+  "kermit_cut_in": 190849.46394881397,
+  "reply_onset_t": 190849.46394881397,
+  "reply_end_t": 190849.61719881397
+ },
+ {
+  "step": 7,
+  "who": "kirill",
+  "beat": "respect",
+  "expected": true,
+  "line_on_t": 190855.040420371,
+  "line_off_t": 190861.05669881398,
+  "kermit_cut_in": null,
+  "reply_onset_t": 190863.898073814,
+  "reply_end_t": 190867.683386314
+ },
+ {
+  "step": 8,
+  "who": "kirill",
+  "beat": null,
+  "expected": false,
+  "line_on_t": 190870.948398126,
+  "line_off_t": 190875.46438631398,
+  "kermit_cut_in": null
+ },
+ {
+  "step": 9,
+  "who": "steve",
+  "beat": "steve_brain",
+  "expected": true,
+  "line_on_t": 190876.264069575,
+  "line_off_t": 190880.429823814,
+  "kermit_cut_in": null,
+  "reply_onset_t": 190885.945636314,
+  "reply_end_t": 190891.816698814
+ },
+ {
+  "step": 10,
+  "who": "steve",
+  "beat": "steve_ears",
+  "expected": true,
+  "line_on_t": 190893.007701628,
+  "line_off_t": 190895.698448814,
+  "kermit_cut_in": null,
+  "reply_onset_t": 190898.13732381398,
+  "reply_end_t": 190906.534948814
+ },
+ {
+  "step": 11,
+  "who": "steve",
+  "beat": "steve_gestures",
+  "expected": true,
+  "line_on_t": 190907.64407488,
+  "line_off_t": 190910.434823814,
+  "kermit_cut_in": null,
+  "reply_onset_t": 190913.17338631398,
+  "reply_end_t": 190920.56326131398
+ },
+ {
+  "step": 12,
+  "who": "steve",
+  "beat": "steve_robotics",
+  "expected": true,
+  "line_on_t": 190923.6893882,
+  "line_off_t": 190927.10513631397,
+  "kermit_cut_in": null,
+  "reply_onset_t": 190930.74244881398,
+  "reply_end_t": 190937.06419881398
+ },
+ {
+  "step": 13,
+  "who": "kirill",
+  "beat": "handoff",
+  "expected": true,
+  "line_on_t": 190941.476678624,
+  "line_off_t": 190945.272698814,
+  "kermit_cut_in": null,
+  "reply_onset_t": 190949.08363631397,
+  "reply_end_t": 190952.58882381397
+ },
+ {
+  "step": 14,
+  "who": "judge1",
+  "beat": "qa_nod",
+  "expected": true,
+  "line_on_t": 190958.537079876,
+  "line_off_t": 190960.92757381397,
+  "kermit_cut_in": null,
+  "missed": true
+ },
+ {
+  "step": 15,
+  "who": "judge2",
+  "beat": "qa_cloud",
+  "expected": true,
+  "line_on_t": 190970.9380866,
+  "line_off_t": 190973.52869881399,
+  "kermit_cut_in": null,
+  "reply_onset_t": 190978.66994881397,
+  "reply_end_t": 190984.03769881398
+ },
+ {
+  "step": 16,
+  "who": "judge3",
+  "beat": "qa_robotics",
+  "expected": true,
+  "line_on_t": 190986.385659387,
+  "line_off_t": 190988.58601131398,
+  "kermit_cut_in": null,
+  "reply_onset_t": 190991.869448814,
+  "reply_end_t": 190996.35019881398
+ },
+ {
+  "step": 17,
+  "who": "judge1",
+  "beat": "qa_hard",
+  "expected": true,
+  "line_on_t": 190998.897186366,
+  "line_off_t": 191001.38782381397,
+  "kermit_cut_in": null,
+  "reply_onset_t": 191005.31857381397
+ }
+]

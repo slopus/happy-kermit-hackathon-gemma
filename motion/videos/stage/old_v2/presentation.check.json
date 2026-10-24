@@ -1,0 +1,215 @@
+{
+ "dt": 0.016666666666666666,
+ "frames": 4211,
+ "arm": [
+  {
+   "joint": "joint1",
+   "min_deg": -25.6,
+   "max_deg": 1.9,
+   "range_margin_deg": 334.4,
+   "vel_peak_dps": 33.4,
+   "vel_ratio": 0.186,
+   "vel": "ok",
+   "acc_peak_dps2": 137.0,
+   "acc_ratio": 0.12,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint2",
+   "min_deg": -2.6,
+   "max_deg": 15.8,
+   "range_margin_deg": 100.2,
+   "vel_peak_dps": 31.0,
+   "vel_ratio": 0.172,
+   "vel": "ok",
+   "acc_peak_dps2": 390.0,
+   "acc_ratio": 0.341,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint3",
+   "min_deg": -35.4,
+   "max_deg": -12.8,
+   "range_margin_deg": 22.8,
+   "vel_peak_dps": 48.7,
+   "vel_ratio": 0.27,
+   "vel": "ok",
+   "acc_peak_dps2": 417.0,
+   "acc_ratio": 0.364,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint4",
+   "min_deg": 165.4,
+   "max_deg": 207.5,
+   "range_margin_deg": 152.5,
+   "vel_peak_dps": 100.2,
+   "vel_ratio": 0.557,
+   "vel": "ok",
+   "acc_peak_dps2": 900.0,
+   "acc_ratio": 0.786,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint5",
+   "min_deg": 81.4,
+   "max_deg": 141.9,
+   "range_margin_deg": 38.1,
+   "vel_peak_dps": 100.3,
+   "vel_ratio": 0.557,
+   "vel": "ok",
+   "acc_peak_dps2": 805.0,
+   "acc_ratio": 0.703,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint6",
+   "min_deg": 75.4,
+   "max_deg": 104.5,
+   "range_margin_deg": 255.5,
+   "vel_peak_dps": 39.1,
+   "vel_ratio": 0.217,
+   "vel": "ok",
+   "acc_peak_dps2": 427.0,
+   "acc_ratio": 0.373,
+   "acc": "ok"
+  }
+ ],
+ "hand": [
+  {
+   "joint": "hand/rh_FFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_FFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_FFJ1",
+   "vel_peak": 4.223,
+   "vel_ratio": 0.931,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ1",
+   "vel_peak": 4.223,
+   "vel_ratio": 0.931,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ1",
+   "vel_peak": 4.223,
+   "vel_ratio": 0.931,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ1",
+   "vel_peak": 4.223,
+   "vel_ratio": 0.931,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ5",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ4",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ3",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ2",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ1",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  }
+ ],
+ "tcp": {
+  "vel_peak_mps": 0.464,
+  "vel_ratio": 0.464,
+  "vel": "ok",
+  "min_body_height_m": -0.189
+ },
+ "ok": true,
+ "warnings": [
+  "arm motion low-passed at 8.0 Hz to fit limits"
+ ],
+ "hand_vel_note": "Inspire RH56DFX-like: fingers 260 deg/s, thumb 90 deg/s (stand-in)",
+ "ik_err_max": 9.999264977474992e-07,
+ "governor_hz": 8.0,
+ "script": "samples/stage/presentation.stage.json",
+ "hand_profile": "shadow",
+ "video": "videos/stage/presentation.mp4"
+}

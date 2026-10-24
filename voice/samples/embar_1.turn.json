@@ -1,0 +1,18 @@
+{
+ "id": "embar_1",
+ "text": "Oh, gee. Sorry, I wasn't listening. Could you say that one more time?",
+ "emotion": "embarrassed",
+ "gaze": "speaker",
+ "gestures": [
+  {
+   "word": 0,
+   "type": "cover_face",
+   "intensity": 0.5
+  },
+  {
+   "word": 5,
+   "type": "tilt_left",
+   "intensity": 0.4
+  }
+ ]
+}

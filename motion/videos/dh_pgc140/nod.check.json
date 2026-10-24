@@ -1,0 +1,108 @@
+{
+ "dt": 0.016666666666666666,
+ "frames": 252,
+ "arm": [
+  {
+   "joint": "joint1",
+   "min_deg": 0.7,
+   "max_deg": 1.7,
+   "range_margin_deg": 358.3,
+   "vel_peak_dps": 3.4,
+   "vel_ratio": 0.019,
+   "vel": "ok",
+   "acc_peak_dps2": 40.0,
+   "acc_ratio": 0.035,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint2",
+   "min_deg": -0.1,
+   "max_deg": 8.7,
+   "range_margin_deg": 107.3,
+   "vel_peak_dps": 32.7,
+   "vel_ratio": 0.182,
+   "vel": "ok",
+   "acc_peak_dps2": 327.0,
+   "acc_ratio": 0.285,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint3",
+   "min_deg": -47.5,
+   "max_deg": -40.1,
+   "range_margin_deg": 50.1,
+   "vel_peak_dps": 27.0,
+   "vel_ratio": 0.15,
+   "vel": "ok",
+   "acc_peak_dps2": 256.0,
+   "acc_ratio": 0.223,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint4",
+   "min_deg": 168.7,
+   "max_deg": 173.4,
+   "range_margin_deg": 186.6,
+   "vel_peak_dps": 8.9,
+   "vel_ratio": 0.05,
+   "vel": "ok",
+   "acc_peak_dps2": 108.0,
+   "acc_ratio": 0.095,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint5",
+   "min_deg": 40.1,
+   "max_deg": 61.0,
+   "range_margin_deg": 119.0,
+   "vel_peak_dps": 80.5,
+   "vel_ratio": 0.447,
+   "vel": "ok",
+   "acc_peak_dps2": 853.0,
+   "acc_ratio": 0.745,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint6",
+   "min_deg": 93.1,
+   "max_deg": 98.2,
+   "range_margin_deg": 261.8,
+   "vel_peak_dps": 7.7,
+   "vel_ratio": 0.043,
+   "vel": "ok",
+   "acc_peak_dps2": 76.0,
+   "acc_ratio": 0.067,
+   "acc": "ok"
+  }
+ ],
+ "hand": [
+  {
+   "joint": "jaw_upper",
+   "vel_peak": 0.032,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "jaw_lower",
+   "vel_peak": 0.032,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  }
+ ],
+ "tcp": {
+  "vel_peak_mps": 0.23,
+  "vel_ratio": 0.23,
+  "vel": "ok",
+  "min_body_height_m": -0.189
+ },
+ "ok": true,
+ "warnings": [],
+ "hand_vel_note": "PGC-140-50: 25 mm per jaw in 0.75 s (conservative of 0.6/0.75 s datasheets)",
+ "ik_err_max": 9.974079627591165e-07,
+ "governor_hz": null,
+ "timeline": "samples/nod.timeline.json",
+ "hand_profile": "dh_pgc140",
+ "video": "videos/dh_pgc140/nod.mp4"
+}

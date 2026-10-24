@@ -1,0 +1,184 @@
+[
+ {
+  "step": 1,
+  "who": "kirill",
+  "beat": "wake",
+  "expected": true,
+  "line_on_t": 192606.698351854,
+  "line_off_t": 192610.03115747,
+  "kermit_cut_in": null,
+  "reply_onset_t": 192611.52115747,
+  "reply_end_t": 192615.04765747
+ },
+ {
+  "step": 2,
+  "who": "kirill",
+  "beat": "feeling",
+  "expected": true,
+  "line_on_t": 192618.842153325,
+  "line_off_t": 192622.41278247,
+  "kermit_cut_in": null,
+  "reply_onset_t": 192624.10940747,
+  "reply_end_t": 192632.47534497
+ },
+ {
+  "step": 3,
+  "who": "kirill",
+  "beat": "why_here",
+  "expected": true,
+  "line_on_t": 192633.529168579,
+  "line_off_t": 192635.27009497,
+  "kermit_cut_in": null,
+  "reply_onset_t": 192638.27553247,
+  "reply_end_t": 192643.52653247
+ },
+ {
+  "step": 4,
+  "who": "kirill",
+  "beat": "cloud",
+  "expected": true,
+  "line_on_t": 192646.720284925,
+  "line_off_t": 192649.18815747,
+  "kermit_cut_in": null,
+  "reply_onset_t": 192650.55740746998,
+  "reply_end_t": 192655.09909497
+ },
+ {
+  "step": 5,
+  "who": "kirill",
+  "beat": "interject",
+  "expected": true,
+  "line_on_t": 192656.01404965,
+  "line_off_t": 192662.05915747,
+  "kermit_cut_in": null,
+  "missed": true
+ },
+ {
+  "step": 6,
+  "who": "kirill",
+  "beat": "back_turned",
+  "expected": true,
+  "line_on_t": 192662.695045651,
+  "line_off_t": 192666.02365746998,
+  "kermit_cut_in": null,
+  "missed": true
+ },
+ {
+  "step": 7,
+  "who": "kirill",
+  "beat": "respect",
+  "expected": true,
+  "line_on_t": 192674.528026723,
+  "line_off_t": 192680.54515746998,
+  "kermit_cut_in": null,
+  "reply_onset_t": 192682.80803247,
+  "reply_end_t": 192686.58684497
+ },
+ {
+  "step": 8,
+  "who": "kirill",
+  "beat": null,
+  "expected": false,
+  "line_on_t": 192690.10205951,
+  "line_off_t": 192694.62321997,
+  "kermit_cut_in": null
+ },
+ {
+  "step": 9,
+  "who": "steve",
+  "beat": "steve_brain",
+  "expected": true,
+  "line_on_t": 192695.396350699,
+  "line_off_t": 192699.56709497,
+  "kermit_cut_in": null,
+  "reply_onset_t": 192702.17590747,
+  "reply_end_t": 192708.03759497
+ },
+ {
+  "step": 10,
+  "who": "steve",
+  "beat": "steve_ears",
+  "expected": true,
+  "line_on_t": 192708.982071543,
+  "line_off_t": 192711.67384497,
+  "kermit_cut_in": null,
+  "reply_onset_t": 192713.31653247,
+  "reply_end_t": 192721.70871997
+ },
+ {
+  "step": 11,
+  "who": "steve",
+  "beat": "steve_gestures",
+  "expected": true,
+  "line_on_t": 192722.897946981,
+  "line_off_t": 192725.69134497,
+  "kermit_cut_in": null,
+  "reply_onset_t": 192727.57515746998,
+  "reply_end_t": 192734.98609497
+ },
+ {
+  "step": 12,
+  "who": "steve",
+  "beat": "steve_robotics",
+  "expected": true,
+  "line_on_t": 192738.188068725,
+  "line_off_t": 192741.61090747,
+  "kermit_cut_in": null,
+  "reply_onset_t": 192744.09709497,
+  "reply_end_t": 192750.40503247
+ },
+ {
+  "step": 13,
+  "who": "kirill",
+  "beat": "handoff",
+  "expected": true,
+  "line_on_t": 192754.782057063,
+  "line_off_t": 192758.57271997,
+  "kermit_cut_in": null,
+  "reply_onset_t": 192760.62090747,
+  "reply_end_t": 192764.13284497
+ },
+ {
+  "step": 14,
+  "who": "judge1",
+  "beat": "qa_nod",
+  "expected": true,
+  "line_on_t": 192769.923429593,
+  "line_off_t": 192772.31409497,
+  "kermit_cut_in": null,
+  "reply_onset_t": 192773.90190747,
+  "reply_end_t": 192777.38353247
+ },
+ {
+  "step": 15,
+  "who": "judge2",
+  "beat": "qa_cloud",
+  "expected": true,
+  "line_on_t": 192781.989195828,
+  "line_off_t": 192784.58009497,
+  "kermit_cut_in": null,
+  "reply_onset_t": 192787.31384497,
+  "reply_end_t": 192791.01834496998
+ },
+ {
+  "step": 16,
+  "who": "judge3",
+  "beat": "qa_robotics",
+  "expected": true,
+  "line_on_t": 192793.413184666,
+  "line_off_t": 192795.60515746998,
+  "kermit_cut_in": null,
+  "reply_onset_t": 192797.96128247,
+  "reply_end_t": 192802.63621997
+ },
+ {
+  "step": 17,
+  "who": "judge1",
+  "beat": "qa_hard",
+  "expected": true,
+  "line_on_t": 192804.993119668,
+  "line_off_t": 192807.48378247,
+  "kermit_cut_in": null,
+  "reply_onset_t": 192809.35146997
+ }
+]

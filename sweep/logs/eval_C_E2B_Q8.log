@@ -1,0 +1,41 @@
+[C_E2B_Q8] demo01_wake OK  [] '[surprised|speaker] {surprise 0.9} Whoa! {head_bob 0.7} Good morning! I was just here thinking about how fast things are moving.'
+[C_E2B_Q8] demo02_judges OK  [] '[happy|speaker] {head_bob 0.8} Hello to everyone! {look_at:judges 0.7} It is really nice to meet you all.'
+[C_E2B_Q8] demo03_what OK  ['mention_all'] '[happy|speaker] {nod 0.7} I am Happy, the face of this app. {look_at:speaker 0.8} I help people talk to my AI agents.'
+[C_E2B_Q8] demo04_cloud OK  ['emotion'] '[thinking|speaker] {shake 0.7} No, I am not. {look_at:laptop 0.8} I am running right here on this laptop.'
+[C_E2B_Q8] demo05_happy OK  ['mention'] '[happy|speaker] {nod 0.8} Happy is just being cheerful and friendly. {look_at:speaker 0.7} I try to spread that around!'
+[C_E2B_Q8] demo06_fast OK  [] '[thinking|speaker] {lean_back 0.5} I do. {sigh 0.4} It is a lot to take in. {look_around 0.3} What part feels the fastest to you?'
+[C_E2B_Q8] demo07_nod OK  [] '[happy|speaker] {nod 0.9} I totally agree! {nod 0.7} That makes perfect sense.'
+[C_E2B_Q8] demo08_left OK  [] '[thinking|speaker] {look_at:left 0.9} Okay, I am looking to the left now. {nod 0.6} What do you need me to look at?'
+[C_E2B_Q8] demo09_whoa OK  [] '[surprised|speaker] {surprise 0.9} Whoa! {look_around 0.7} That is quite something! {lean_in 0.6} What is it doing?'
+[C_E2B_Q8] t10_joke OK  [] '[happy|speaker] {head_bob 0.7} Why did the computer go to the doctor? {look_around 0.5} Because it had a virus!'
+[C_E2B_Q8] t11_won OK  [] '[excited|speaker] {flail 1.0} We did it! {head_bob 0.9} That is fantastic news!'
+[C_E2B_Q8] t12_bug OK  [] '[sad|speaker] {sigh 0.7} Oh, that sounds rough. {lean_back 0.5} Maybe a short break would help you reset?'
+[C_E2B_Q8] t13_kermit OK  [] "[happy|speaker] {head_bob 0.8} Yep, that's me! {nod 0.6} I'm Happy, the face for the app."
+[C_E2B_Q8] t14_lookaround OK  [] '[thinking|speaker] {look_around 0.8} Okay, I see the audience, the laptop, and my arm. {nod 0.6} Everything is right here.'
+[C_E2B_Q8] t15_sock OK  [] "[thinking|speaker] {tilt_right 0.5} A sock, you say? {shrug 0.5} Well, I'm happy to be here."
+[C_E2B_Q8] t16_math OK  [] '[happy|speaker] {nod 0.8} Two plus two is four! {look_at:audience 0.5} Easy peasy.'
+[C_E2B_Q8] t17_garbled OK  [] '[thinking|speaker] {look_at:right 0.7} Fish window seven? {tilt_right 0.5} Is that something important right now?'
+[C_E2B_Q8] t18_silent OK  [] '[happy|speaker] {head_bob 0.9} Oh, hello there! {laugh 0.7} Hi there, little friend!'
+[C_E2B_Q8] t19_shake OK  [] '[thinking|speaker] {shake 0.9} I think that is a bit much. {shrug 0.5} What do you think about that?'
+[C_E2B_Q8] t20_bye OK  [] '[happy|audience] {nod 0.8} Bye everyone! {head_bob 0.7} See you next time!'
+[C_E2B_Q8] demo01_wake OK  [] '[happy|speaker] {head_bob 0.8} Oh, hello! {look_at:speaker 0.7} I am awake now. {nod 0.6} What can I help you with?'
+[C_E2B_Q8] demo02_judges OK  [] '[happy|speaker] {head_bob 0.9} Hello to the judges! {look_at:judges 0.7} It is really nice to meet you all.'
+[C_E2B_Q8] demo03_what OK  ['mention_all'] "[happy|speaker] {head_bob 0.8} Oh, hello! I am Happy, the face for this app. {look_at:speaker 0.7} I'm here to chat with you."
+[C_E2B_Q8] demo04_cloud OK  ['emotion'] '[thinking|speaker] {shake 0.8} No, I am not. {look_at:laptop 0.7} I am running right here on this machine.'
+[C_E2B_Q8] demo05_happy OK  ['mention'] "[happy|speaker] {nod 0.7} Happy is just feeling good inside. {look_at:speaker 0.8} It's about being cheerful and friendly."
+[C_E2B_Q8] demo06_fast OK  [] '[thinking|speaker] {look_around 0.5} Sometimes, yeah. {sigh 0.5} It is a lot to take in. {lean_back 0.3} What part of the speed worries you the most?'
+[C_E2B_Q8] demo07_nod OK  [] '[happy|speaker] {nod 1.0} I totally agree! {nod 0.7} That makes a lot of sense.'
+[C_E2B_Q8] demo08_left OK  [] '[thinking|speaker] {look_at:left 0.8} Okay, I am looking to the left now. {nod 0.5} What do you want me to look at?'
+[C_E2B_Q8] demo09_whoa OK  [] '[surprised|speaker] {surprise 1.0} Whoa! {look_at:robot_arm 0.9} That is quite something! {tilt_right 0.5} What is it doing?'
+[C_E2B_Q8] t10_joke OK  [] '[happy|speaker] {head_bob 0.8} Why did the computer go to the doctor? {look_around 0.5} Because it had a virus!'
+[C_E2B_Q8] t11_won OK  [] '[excited|speaker] {flail 0.9} We did it! {nod 0.8} That is fantastic news!'
+[C_E2B_Q8] t12_bug OK  [] '[sad|speaker] {sigh 0.8} Oh, that sounds exhausting. {lean_back 0.5} Maybe a little break would help you reset?'
+[C_E2B_Q8] t13_kermit OK  [] '[happy|speaker] {head_bob 0.8} I am Happy! {nod 0.7} I am the face for this app.'
+[C_E2B_Q8] t14_lookaround OK  [] '[thinking|speaker] {look_around 0.7} Okay, I see the audience, the laptop, and this arm. {nod 0.5} It is quite the setup!'
+[C_E2B_Q8] t15_sock OK  [] "[thinking|speaker] {tilt_right 0.7} That is one way to put it. {shrug 0.5} But I'm happy to be here."
+[C_E2B_Q8] t16_math OK  [] '[happy|speaker] {nod 0.8} Two plus two is four! {look_at:audience 0.5} Easy peasy!'
+[C_E2B_Q8] t17_garbled OK  [] "[thinking|speaker] {look_at:left 0.7} Fish window seven? {tilt_right 0.5} I'm not sure what that means. Can you tell me more about it?"
+[C_E2B_Q8] t18_silent OK  [] '[happy|speaker] {head_bob 0.9} Oh, hello there! {look_at:audience 0.8} Hi there, little friend!'
+[C_E2B_Q8] t19_shake OK  [] '[thinking|speaker] {shake 0.9} I think that is a bit much. {shrug 0.7} What do you think about that idea?'
+[C_E2B_Q8] t20_bye OK  [] '[happy|audience] {head_bob 0.8} Bye everybody! {nod 0.7} See you next time!'
+{"label": "C_E2B_Q8", "mode": "kml", "prompt": "full", "n": 40, "valid": "40/40", "lint_clean": "40/40", "expect_pass": "34/40", "placement_ok": "85/85", "emotion_gesture_clash": "0/40", "gestures_per_turn": 2.12, "words_med": 12.0, "first_sentence_words_med": 3.5, "ms_first_token_med": 51, "ms_header_med": 94, "ms_first_sentence_med": 239, "ms_first_sentence_p90": 316, "ms_text_first_sentence_med": null, "ms_total_med": 438, "gen_tokens_med": 39.0, "tps_med": 99.3, "annot_ms_med": null, "annot_tps_med": null}

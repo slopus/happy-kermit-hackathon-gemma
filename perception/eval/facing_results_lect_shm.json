@@ -1,0 +1,57 @@
+{
+ "clip": "data/yt/lect_shm.mp4 (YouTube YbFgNsM6r44, 900-1200 s)",
+ "seconds": 120,
+ "confusion_counts": {
+  "T": {
+   "T": 33,
+   "S": 2,
+   "A": 3,
+   "-": 0
+  },
+  "S": {
+   "T": 3,
+   "S": 21,
+   "A": 27,
+   "-": 0
+  },
+  "A": {
+   "T": 0,
+   "S": 3,
+   "A": 27,
+   "-": 1
+  }
+ },
+ "confusion_rownorm": {
+  "T": {
+   "T": 0.87,
+   "S": 0.05,
+   "A": 0.08
+  },
+  "S": {
+   "T": 0.06,
+   "S": 0.41,
+   "A": 0.53
+  },
+  "A": {
+   "T": 0.0,
+   "S": 0.1,
+   "A": 0.87
+  }
+ },
+ "acc_3class": 0.675,
+ "away_frame_P": 0.47,
+ "away_frame_R": 0.87,
+ "turn_runs_ge2s": 5,
+ "turned_away_events": 11,
+ "event_recall": 0.6,
+ "event_precision": 0.27,
+ "event_latency_s": [
+  -0.22,
+  -0.14,
+  -0.85
+ ],
+ "not_toward_runs_ge2s": 15,
+ "event_recall_not_toward": 0.67,
+ "event_precision_not_toward": 1.0,
+ "note": "latency is vs the 1-Hz label onset (\u00b10.5 s resolution); negative = event before the labelled second"
+}

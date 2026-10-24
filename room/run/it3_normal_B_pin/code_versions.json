@@ -1,0 +1,19 @@
+{
+ "files": {
+  "run_kermit.py": "12:04:57",
+  "turn/endpoint.py": "12:07:05",
+  "perception/people.py": "12:06:00",
+  "perception/oracle.py": "11:41:29",
+  "brain/brain.py": "11:28:45",
+  "voice/kermit_voice.py": "09:52:33",
+  "motion/live.py": "11:34:48",
+  "room/server.py": "11:52:53"
+ },
+ "env": {},
+ "taskset": "0-7",
+ "load": [
+  13.1064453125,
+  13.43603515625,
+  15.34716796875
+ ]
+}

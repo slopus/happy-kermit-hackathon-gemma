@@ -1,0 +1,4 @@
+{"event": "hand_pick", "id": 7, "description": "the person in red jacket and black shirt", "bearing_deg": -3.3, "pitch_deg": -6.9, "conf": 0.9, "session_id": "kermit", "t": 190714.334}
+{"event": "look_command", "id": 3, "description": "the guy in the orange hoodie", "heard": "Kermit, look at the guy in the orange hoodie", "bearing_deg": -12.9, "pitch_deg": -17.3, "session_id": "kermit", "t": 190714.392}
+{"brain_reply_to": "look_command", "ms": 3, "lines": [{"event": "skip"}]}
+{"brain_reply_to": "hand_pick", "ms": 749, "lines": [{"event": "turn", "text": "Hey! What's on your mind for us today?", "emotion": "neutral", "gestures": [{"word": 0, "type": "look_at", "intensity": 0.7, "target": "person_7"}, {"word": 1, "type": "tilt_right", "intensity": 0.4}], "gaze": "target:person_7"}]}

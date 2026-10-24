@@ -1,0 +1,8 @@
+{"event":"person_arrived","id":1,"t":0.501,"role":"presenter","yaw_deg":21.4}
+{"event":"person_arrived","id":2,"t":0.501,"role":"presenter","yaw_deg":-15.8}
+{"event":"speaker_changed","from":null,"to":1,"t":0.501,"role":"presenter","yaw_deg":21.4}
+{"event":"speaker_changed","from":1,"to":2,"t":2.603,"role":"presenter","yaw_deg":-16.6}
+{"event":"speaker_changed","from":2,"to":1,"t":14.581,"role":"presenter","yaw_deg":20.7}
+{"event":"speaker_changed","from":1,"to":2,"t":106.106,"role":"presenter","yaw_deg":-17.2}
+{"event":"speaker_changed","from":2,"to":1,"t":133.467,"role":"presenter","yaw_deg":19.6}
+{"event":"speaker_changed","from":1,"to":2,"t":175.075,"role":"presenter","yaw_deg":-17.1}

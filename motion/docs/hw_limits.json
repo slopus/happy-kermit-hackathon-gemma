@@ -1,0 +1,188 @@
+{
+ "_note": "web research 2026-10-24, not measured; see hw_limits.md. Conservative value chosen where sources disagree.",
+ "xarm6": {
+  "joint_limits_deg": {
+   "J1": [
+    -360,
+    360
+   ],
+   "J2": [
+    -117,
+    116
+   ],
+   "J3": [
+    -219,
+    10
+   ],
+   "J4": [
+    -360,
+    360
+   ],
+   "J5": [
+    -97,
+    180
+   ],
+   "J6": [
+    -360,
+    360
+   ]
+  },
+  "joint_limits_deg_alt_reseller": {
+   "J2": [
+    -118,
+    120
+   ],
+   "J3": [
+    -225,
+    11
+   ]
+  },
+  "joint_max_vel_deg_s": 180,
+  "joint_max_acc_deg_s2": 1145,
+  "joint_max_jerk_deg_s3": 28647,
+  "tcp_max_vel_mm_s": 1000,
+  "tcp_max_acc_mm_s2": 50000,
+  "tcp_max_jerk_mm_s3": [
+   10000,
+   100000
+  ],
+  "tcp_rot_max_vel_deg_s": 180,
+  "servo_j_mode1": {
+   "max_rate_hz": 250,
+   "recommended_rate_hz": [
+    100,
+    250
+   ],
+   "min_smooth_rate_hz": 30,
+   "faster_than_max": "dropped",
+   "speed_mvacc_mvtime_ignored": true,
+   "servo_cartesian_max_step_mm": 10,
+   "alt_mode": "mode 6 online joint planning (fw>=1.10.0)",
+   "sources": [
+    "https://help.ufactory.cc/en/articles/3973629-guide-to-use-the-interface-set_servo_cartesian-and-set_servo_anagle_j",
+    "https://github.com/xArm-Developer/xArm-Python-SDK/issues/93",
+    "https://github.com/xArm-Developer/xarm_ros2/blob/humble/xarm_api/ReadMe.md"
+   ]
+  },
+  "sources": [
+   "https://docs.xarm.ufactory.cc/8.technical_specifications.html",
+   "https://www.ufactory.cc/wp-content/uploads/2023/05/xArm-User-Manual-V2.0.0.pdf",
+   "https://www.ufactory.us/product/ufactory-xarm-6"
+  ]
+ },
+ "dh_pgc_140_50": {
+  "stroke_mm": 50,
+  "force_n_per_jaw": [
+   40,
+   140
+  ],
+  "open_close_time_s": 0.75,
+  "open_close_time_s_alt": 0.6,
+  "position_cmd_permille": [
+   0,
+   1000
+  ],
+  "position_resolution_mm_derived": 0.05,
+  "repeatability_mm": 0.03,
+  "speed_pct": [
+   1,
+   100
+  ],
+  "modbus": {
+   "type": "RTU RS485",
+   "baud": 115200,
+   "format": "8N1",
+   "slave_id": 1,
+   "pos_reg": "0x0103",
+   "force_reg": "0x0101",
+   "init_reg": "0x0100",
+   "baud_reg": "0x0303"
+  },
+  "command_latency_ms": null,
+  "weight_kg": 1.0,
+  "sources": [
+   "https://www.dh-robotics.com/wp-content/uploads/2022/01/PGC-Series.pdf",
+   "https://www.dobot.nu/en/product/dh-robotics-pgc-140-50/",
+   "https://www.devonics.com/product-page/copy-of-collaborative-parallel-gripper-pgc-140-50",
+   "https://www.manualslib.com/manual/2822592/Dh-Robotics-Pgc-50.html"
+  ]
+ },
+ "hands": {
+  "inspire_rh56dfx": {
+   "dof": 6,
+   "joints": 12,
+   "cmd_range": [
+    0,
+    1000
+   ],
+   "thumb_rot_deg_min": 65,
+   "finger_vel_deg_s": 260,
+   "thumb_bend_vel_deg_s": 70,
+   "thumb_rot_vel_deg_s": 107,
+   "close_time_s": 0.8,
+   "force_n": {
+    "finger": 10,
+    "thumb": 15
+   },
+   "weight_g": 540,
+   "weight_with_wrist_g": 650,
+   "bus": "RS485 115200 8N1 / CAN",
+   "voltage_v": 24,
+   "control_rate_hz": null,
+   "sources": [
+    "https://www.knoxlabs.com/products/inspire-robots-rh56dfx-dexterous-hand",
+    "https://en.inspire-robots.com/wp-content/uploads/2024/02/INSPIRE-ROBOTS-THE-DEXTEROUS-HAND-RH56-SERIES-USER-MANUAL.pdf"
+   ]
+  },
+  "inspire_rh56dftp": {
+   "dof": 6,
+   "joints": 12,
+   "finger_vel_deg_s_min": 200,
+   "thumb_vel_deg_s_min": 130,
+   "close_time_s": 0.8,
+   "grip_n": 30,
+   "weight_g": 790,
+   "tactile_rate_hz_min": 30,
+   "bus": "RS485/CAN/Ethernet",
+   "voltage_v": 24,
+   "current_a_max": 4.5,
+   "control_rate_hz": null,
+   "sources": [
+    "https://en.inspire-robots.com/wp-content/uploads/2025/01/INSPIRE-ROBOTS-The-Dexterous-Hand-RH56DFTP-User-Manual-V1.0.0.pdf",
+    "https://robosavvy.co.uk/rh56dftphands.html"
+   ]
+  },
+  "psyonic_ability": {
+   "dof": 6,
+   "close_90deg_s": 0.2,
+   "finger_vel_deg_s": 375,
+   "thumb_rot_vel_deg_s": 550,
+   "finger_range_deg_demo": [
+    0,
+    114
+   ],
+   "weight_g": 490,
+   "grip_n": {
+    "power": 66,
+    "pinch": 9.3
+   },
+   "bus": "BLE/I2C/UART/RS485",
+   "control_rate_hz": null,
+   "control_rate_hz_observed_lab": 500,
+   "sources": [
+    "https://www.psyonic.io/ability-hand",
+    "https://github.com/uiuckimlab/psyonic_hand_control",
+    "https://www.spsco.com/ability-hand-system.html"
+   ]
+  },
+  "shadow_dexterous": {
+   "joints": 24,
+   "full_range_hz": 1.0,
+   "f1_joint_vel_deg_s": 160,
+   "sources": [
+    "https://www.shadowrobot.com/wp-content/uploads/2024/06/20240610-UPDATED-shadow_dexterous_hand_e_technical_specification.pdf",
+    "https://www.shadowrobot.com/wp-content/uploads/2022/03/shadow_teleop_technical_specification.pdf"
+   ]
+  }
+ }
+}

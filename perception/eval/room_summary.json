@@ -1,0 +1,202 @@
+[
+ {
+  "run": "it1_loud_B",
+  "speaker_acc": 0.882,
+  "presenter_acc": 0.906,
+  "judge_acc": 0.754,
+  "away_periods": 6,
+  "away_detected": 6,
+  "away_latency_median_s": 1.06,
+  "false_presenter_turned_away": 2
+ },
+ {
+  "run": "it1_normal_A",
+  "speaker_acc": 0.595,
+  "presenter_acc": 0.715,
+  "judge_acc": 0.0,
+  "away_periods": 5,
+  "away_detected": 5,
+  "away_latency_median_s": 1.07,
+  "false_presenter_turned_away": 1
+ },
+ {
+  "run": "it1_normal_B",
+  "speaker_acc": 0.866,
+  "presenter_acc": 0.882,
+  "judge_acc": 0.784,
+  "away_periods": 6,
+  "away_detected": 6,
+  "away_latency_median_s": 1.42,
+  "false_presenter_turned_away": 2
+ },
+ {
+  "run": "it1_quiet_B",
+  "speaker_acc": 0.867,
+  "presenter_acc": 0.886,
+  "judge_acc": 0.768,
+  "away_periods": 6,
+  "away_detected": 6,
+  "away_latency_median_s": 1.04,
+  "false_presenter_turned_away": 2
+ },
+ {
+  "run": "it2_loud_B",
+  "speaker_acc": 0.813,
+  "presenter_acc": 0.827,
+  "judge_acc": 0.75,
+  "away_periods": 6,
+  "away_detected": 6,
+  "away_latency_median_s": 1.23,
+  "false_presenter_turned_away": 2
+ },
+ {
+  "run": "it2_normal_A",
+  "speaker_acc": 0.694,
+  "presenter_acc": 0.772,
+  "judge_acc": 0.324,
+  "away_periods": 2,
+  "away_detected": 1,
+  "away_latency_median_s": 0.84,
+  "false_presenter_turned_away": 1
+ },
+ {
+  "run": "it2_normal_B",
+  "speaker_acc": 0.796,
+  "presenter_acc": 0.814,
+  "judge_acc": 0.715,
+  "away_periods": 6,
+  "away_detected": 6,
+  "away_latency_median_s": 1.15,
+  "false_presenter_turned_away": 2
+ },
+ {
+  "run": "it2_quiet_B",
+  "speaker_acc": 0.743,
+  "presenter_acc": 0.758,
+  "judge_acc": 0.675,
+  "away_periods": 6,
+  "away_detected": 6,
+  "away_latency_median_s": 1.08,
+  "false_presenter_turned_away": 2
+ },
+ {
+  "run": "it3_loud_B",
+  "speaker_acc": 0.881,
+  "presenter_acc": 0.9,
+  "judge_acc": 0.796,
+  "away_periods": 6,
+  "away_detected": 6,
+  "away_latency_median_s": 1.13,
+  "false_presenter_turned_away": 2
+ },
+ {
+  "run": "it3_normal_B",
+  "speaker_acc": 0.827,
+  "presenter_acc": 0.856,
+  "judge_acc": 0.696,
+  "away_periods": 6,
+  "away_detected": 6,
+  "away_latency_median_s": 1.02,
+  "false_presenter_turned_away": 1
+ },
+ {
+  "run": "it3_normal_B_pin",
+  "speaker_acc": 0.84,
+  "presenter_acc": 0.84,
+  "judge_acc": null,
+  "away_periods": 1,
+  "away_detected": 1,
+  "away_latency_median_s": 0.91,
+  "false_presenter_turned_away": 0
+ },
+ {
+  "run": "it3_normal_B_tdt0",
+  "speaker_acc": 0.858,
+  "presenter_acc": 0.88,
+  "judge_acc": 0.759,
+  "away_periods": 6,
+  "away_detected": 6,
+  "away_latency_median_s": 1.16,
+  "false_presenter_turned_away": 2
+ },
+ {
+  "run": "it3_quiet_B",
+  "speaker_acc": 0.717,
+  "presenter_acc": 0.703,
+  "judge_acc": 0.786,
+  "away_periods": 6,
+  "away_detected": 6,
+  "away_latency_median_s": 1.26,
+  "false_presenter_turned_away": 2
+ },
+ {
+  "run": "s1_loud_A",
+  "speaker_acc": 0.578,
+  "presenter_acc": 0.704,
+  "judge_acc": 0.0,
+  "away_periods": 2,
+  "away_detected": 1,
+  "away_latency_median_s": 1.33,
+  "false_presenter_turned_away": 1
+ },
+ {
+  "run": "s1_loud_B",
+  "speaker_acc": 0.858,
+  "presenter_acc": 0.879,
+  "judge_acc": 0.753,
+  "away_periods": 6,
+  "away_detected": 6,
+  "away_latency_median_s": 1.04,
+  "false_presenter_turned_away": 2
+ },
+ {
+  "run": "s1_normal_A",
+  "speaker_acc": 0.743,
+  "presenter_acc": 0.854,
+  "judge_acc": 0.232,
+  "away_periods": 3,
+  "away_detected": 3,
+  "away_latency_median_s": 1.09,
+  "false_presenter_turned_away": 1
+ },
+ {
+  "run": "s1_normal_B",
+  "speaker_acc": 0.754,
+  "presenter_acc": 0.762,
+  "judge_acc": 0.709,
+  "away_periods": 6,
+  "away_detected": 6,
+  "away_latency_median_s": 1.21,
+  "false_presenter_turned_away": 2
+ },
+ {
+  "run": "s1_quiet_A",
+  "speaker_acc": 0.577,
+  "presenter_acc": 0.651,
+  "judge_acc": 0.216,
+  "away_periods": 6,
+  "away_detected": 6,
+  "away_latency_median_s": 1.08,
+  "false_presenter_turned_away": 1
+ },
+ {
+  "run": "s1_quiet_A_bargeoff",
+  "speaker_acc": 0.68,
+  "presenter_acc": 0.816,
+  "judge_acc": 0.0,
+  "away_periods": 6,
+  "away_detected": 6,
+  "away_latency_median_s": 1.21,
+  "false_presenter_turned_away": 2
+ },
+ {
+  "run": "s1_quiet_B",
+  "speaker_acc": 0.829,
+  "presenter_acc": 0.839,
+  "judge_acc": 0.782,
+  "away_periods": 6,
+  "away_detected": 6,
+  "away_latency_median_s": 1.01,
+  "false_presenter_turned_away": 2
+ }
+]

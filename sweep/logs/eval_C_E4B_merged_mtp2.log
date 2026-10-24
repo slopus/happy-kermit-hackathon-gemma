@@ -1,0 +1,41 @@
+[C_E4B_merged_mtp2] demo01_wake OK  [] "[excited|speaker] {surprise 0.8} Hey! {look_at:audience 0.4} Everyone, look, I'm awake! {laugh 0.4} Literally, I'm on a laptop."
+[C_E4B_merged_mtp2] demo02_judges OK  [] "[happy|audience] {look_at:audience 0.6} Hello, judges! {head_bob 0.6} I'm a little nervous, but I'm ready for your questions."
+[C_E4B_merged_mtp2] demo03_what OK  [] "[happy|speaker] {head_bob 0.6} I'm Happy Kermit, a parody frog hand-puppet who lives on a robot arm. {nod 0.4} I'm the friendly face of an app for talking to your AI agents."
+[C_E4B_merged_mtp2] demo04_cloud OK  [] '[happy|speaker] {shake 0.6} Nope, just this laptop! {nod 0.5} No cloud, no internet. {head_bob 0.4} Everything runs right here.'
+[C_E4B_merged_mtp2] demo05_happy OK  [] "[happy|speaker] {nod 0.5} It's an app for talking to your AI agents. {head_bob 0.5} Happy is the friendly face, and the team built it all."
+[C_E4B_merged_mtp2] demo06_fast OK  [] "[thinking|speaker] {nod 0.5} Oh, all the time! {sigh 0.4} Like every day there's a new scary word. {head_bob 0.4} Slow down, people. Let's breathe."
+[C_E4B_merged_mtp2] demo07_nod OK  [] "[happy|speaker] {nod 0.7} I think that's a fun idea! {laugh 0.4} I'd nod a lot."
+[C_E4B_merged_mtp2] demo08_left OK  [] '[happy|speaker] {look_at:left 0.8} Left! {head_bob 0.4} Nice and to the left.'
+[C_E4B_merged_mtp2] demo09_whoa OK  [] "[surprised|speaker] {surprise 0.8} Whoa! {look_around 0.6} A giant arm? {laugh 0.5} That's just my own! {nod 0.4} It waves, it talks, it's a very polite arm."
+[C_E4B_merged_mtp2] t10_joke OK  [] '[happy|audience] {look_at:audience 0.5} Why did the frog take the bus? {laugh 0.7} It was leaping! {head_bob 0.5} Okay, that one was old.'
+[C_E4B_merged_mtp2] t11_won OK  [] "[excited|speaker] {surprise 0.8} Whoa! {flail 0.6} Did we? {look_around 0.5} I don't know, but I'm cheering!"
+[C_E4B_merged_mtp2] t12_bug OK  [] '[sad|speaker] {sigh 0.6} The worst! {nod 0.5} Take a break. {lean_in 0.5} Sleep does more debugging than you do.'
+[C_E4B_merged_mtp2] t13_kermit OK  [] "[happy|speaker] {shake 0.5} Nope! I'm Happy Kermit, a parody frog. {laugh 0.4} Different frog, same green color."
+[C_E4B_merged_mtp2] t14_lookaround OK  [] "[happy|audience] {look_around 0.8} Wow! {head_bob 0.6} So many people, so many tables. {laugh 0.3} I'm going to need a nap and a menu."
+[C_E4B_merged_mtp2] t15_sock OK  [] '[embarrassed|speaker] {cover_face 0.5} Okay, fair! {laugh 0.5} But a very green and very chatty sock. {nod 0.4} And it runs on Gemma.'
+[C_E4B_merged_mtp2] t16_math OK  [] '[thinking|speaker] {tilt_left 0.4} Hmm, let me think. {nod 0.5} Four! {laugh 0.4} Always four.'
+[C_E4B_merged_mtp2] t17_garbled OK  [] "[thinking|speaker] {tilt_left 0.5} Fish window, seven? {look_around 0.5} I don't see one. {nod 0.3} Are you talking to someone else?"
+[C_E4B_merged_mtp2] t18_silent OK  [] "[excited|speaker] {head_bob 1.0} Oh, a guest! {flail 0.7} Hi, hi, hi! {lean_in 0.5} What's your name?"
+[C_E4B_merged_mtp2] t19_shake OK  [] "[thinking|speaker] {shake 0.7} No way! {laugh 0.5} And anyway, I'm a frog. {head_bob 0.5} My best weapon is my face."
+[C_E4B_merged_mtp2] t20_bye OK  [] "[happy|audience] {nod 0.6} Thank you, thank you! {head_bob 0.7} And goodbye to all of you, too! {look_around 0.4} I'll see you around."
+[C_E4B_merged_mtp2] demo01_wake OK  [] "[excited|speaker] {surprise 0.8} Hey! {head_bob 0.7} I'm wide awake. {look_around 0.4} Is this the best hackathon ever?"
+[C_E4B_merged_mtp2] demo02_judges OK  [] '[excited|audience] {look_at:audience 0.7} Hi, judges! {head_bob 0.7} You guys are the best. {laugh 0.4} And the toughest.'
+[C_E4B_merged_mtp2] demo03_what OK  [] "[happy|speaker] {head_bob 0.6} I'm Happy Kermit, a parody frog puppet! {nod 0.4} I live on a robot arm, and my brain is Gemma running right here on this laptop."
+[C_E4B_merged_mtp2] demo04_cloud OK  [] '[happy|speaker] {shake 0.6} Nope! {nod 0.6} My brain is Gemma, running right here on the laptop. No cloud, no internet, just pure frog power.'
+[C_E4B_merged_mtp2] demo05_happy OK  ['emotion'] '[thinking|speaker] {shrug 0.4} An app for talking to your AI agents.'
+[C_E4B_merged_mtp2] demo06_fast OK  [] "[thinking|speaker] {nod 0.6} Absolutely. {shrug 0.6} One day it's one thing, the next it's five. {laugh 0.4} Slow down, everyone! {head_bob 0.5} The frog's pacing is working."
+[C_E4B_merged_mtp2] demo07_nod OK  [] "[thinking|speaker] {nod 0.6} Hmm, I think it's a good idea. {laugh 0.4} But only because you asked."
+[C_E4B_merged_mtp2] demo08_left OK  [] '[thinking|speaker] {look_at:left 0.8} Over there, over there. {laugh 0.4} Is that the exit?'
+[C_E4B_merged_mtp2] demo09_whoa OK  [] "[surprised|speaker] {surprise 0.9} Whoa! {look_at:up 0.6} That's the robot arm! {nod 0.5} It's my best friend and my chauffeur."
+[C_E4B_merged_mtp2] t10_joke OK  [] "[happy|speaker] {look_at:left 0.5} What do you call a sleeping frog? {laugh 0.6} Un-hoppy! {look_at:right 0.4} I'll get my own."
+[C_E4B_merged_mtp2] t11_won OK  [] "[excited|speaker] {surprise 1.0} You won? {flail 1.0} Really? {head_bob 0.9} Oh no, I'm not here! {laugh 0.5} Congratulations!"
+[C_E4B_merged_mtp2] t12_bug OK  [] "[sad|speaker] {sigh 0.4} Oh, that's the worst. {lean_in 0.5} Want a virtual hug? {nod 0.3} Sometimes you just need a break and a snack."
+[C_E4B_merged_mtp2] t13_kermit OK  [] "[happy|speaker] {shake 0.6} Different frog, same great complexion! {laugh 0.5} I'm Happy Kermit, a parody puppet."
+[C_E4B_merged_mtp2] t14_lookaround OK  [] '[happy|audience] {look_around 0.8} Wow! {nod 0.4} So many people. {laugh 0.4} And so many laptops. Is this a laptop convention?'
+[C_E4B_merged_mtp2] t15_sock OK  [] "[embarrassed|speaker] {cover_face 0.5} Okay, fair! {laugh 0.5} But it's a very expensive sock. {head_bob 0.4} And it has a brain."
+[C_E4B_merged_mtp2] t16_math OK  [] "[thinking|speaker] {tilt_left 0.5} Hmm, let me check. {nod 0.4} Four! {laugh 0.4} I'm a frog, but I got it right."
+[C_E4B_merged_mtp2] t17_garbled OK  [] "[thinking|speaker] {look_at:up 0.5} Fish window seven? {tilt_left 0.5} Is that a color? {laugh 0.4} I've never seen it."
+[C_E4B_merged_mtp2] t18_silent OK  [] '[excited|speaker] {head_bob 1.0} Hi, hi, hi! {lean_in 0.6} Hi, little friend! {laugh 0.4} Are you waving at me, or the table?'
+[C_E4B_merged_mtp2] t19_shake OK  [] "[thinking|speaker] {shake 0.5} Nope! {laugh 0.4} I'm more worried about the flies. {nod 0.3} Robots take over? I'd ask for a break."
+[C_E4B_merged_mtp2] t20_bye OK  [] '[excited|audience] {flail 0.6} Thank you, everyone! {head_bob 0.8} Best crowd ever. {look_at:audience 0.4} Goodbye, goodbye!'
+{"label": "C_E4B_merged_mtp2", "mode": "kml", "prompt": "persona", "n": 40, "valid": "40/40", "lint_clean": "40/40", "expect_pass": "39/40", "placement_ok": "110/110", "emotion_gesture_clash": "0/40", "gestures_per_turn": 2.75, "words_med": 12.0, "first_sentence_words_med": 3.0, "ms_first_token_med": 57, "ms_header_med": 119, "ms_first_sentence_med": 245, "ms_first_sentence_p90": 297, "ms_text_first_sentence_med": null, "ms_total_med": 484, "gen_tokens_med": 49.0, "tps_med": 113.1, "annot_ms_med": null, "annot_tps_med": null}

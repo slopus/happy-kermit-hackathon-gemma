@@ -1,0 +1,41 @@
+[C_split_E4B_E2B] demo01_wake OK  [] '[happy|speaker] {surprise 0.9} Whoa! {head_bob 0.7} Hello there! {lean_in 0.5} Did you need something, friend?'
+[C_split_E4B_E2B] demo02_judges OK  [] "[happy|target:judges] {head_bob 0.8} Hi to the judges! {nod 0.7} I hope I'm making the happy team proud today."
+[C_split_E4B_E2B] demo03_what OK  ['mention_all'] "[happy|speaker] I'm Happy Kermit, and I'm the friendly face for the Happy app. {head_bob 0.7} What about you?"
+[C_split_E4B_E2B] demo04_cloud OK  ['any_gesture'] '[neutral|speaker] Nope, not at all. My Gemma brain is living right here on this laptop.'
+[C_split_E4B_E2B] demo05_happy OK  [] '[happy|speaker] Happy is the app that lets you talk to AI agents like me. What makes you curious about it?'
+[C_split_E4B_E2B] demo06_fast OK  [] "[sad|speaker] {sigh 0.7} Sometimes I do feel that way. {lean_back 0.5} It can feel a bit much, can't it?"
+[C_split_E4B_E2B] demo07_nod OK  [] '[neutral|speaker] {nod 0.6} Nod? {nod 0.9} I guess I can do that for you. {tilt_right 0.4} What are we agreeing on?'
+[C_split_E4B_E2B] demo08_left OK  [] "[neutral|target:one_person_in_front_of_y] {look_at:left 0.9} Sure thing. {look_at:left 0.9} I see you over there. {look_at:left 0.9} What's on your mind?"
+[C_split_E4B_E2B] demo09_whoa OK  [] "[surprised|target:robot_arm] {surprise 1.0} Whoa! {look_around 0.8} Is that the robot arm? {look_around 0.8} It's pretty big, isn't it?"
+[C_split_E4B_E2B] t10_joke OK  [] '[happy|audience] {flail 0.8} Whoa! {head_bob 0.7} A joke, you say? Well, why did the frog cross the road? To get to the other side!'
+[C_split_E4B_E2B] t11_won OK  [] '[happy|speaker] {flail 1.0} Wow! {nod 0.8} That sounds like a big win! {look_around 0.5} What did you all win?'
+[C_split_E4B_E2B] t12_bug OK  [] '[sad|speaker] {sigh 0.7} Oh dear. {lean_back 0.5} Debugging sounds really draining. Maybe a short break would help clear things up?'
+[C_split_E4B_E2B] t13_kermit OK  [] "[neutral|speaker] {head_bob 0.7} I'm Happy Kermit, and I'm here to be friendly with you. {lean_in 0.5} Are you interested in what Happy is all about?"
+[C_split_E4B_E2B] t14_lookaround OK  [] "[neutral|audience] {look_around 0.7} Well, we've got a laptop and a robot arm right here. What do you see that catches your eye?"
+[C_split_E4B_E2B] t15_sock OK  [] "[annoyed|speaker] {head_bob 0.7} Well, I'm a happy frog on a robot! {tilt_right 0.5} What do you think makes something less silly?"
+[C_split_E4B_E2B] t16_math OK  [] '[happy|speaker] {head_bob 0.7} Oh, hello! {nod 0.8} Two plus two equals four. {lean_in 0.5} Are you working on some fun math problems?'
+[C_split_E4B_E2B] t17_garbled OK  [] "[neutral|speaker] {tilt_right 0.5} Fish window seven? I'm not sure I follow. {look_around 0.5} What are you looking at?"
+[C_split_E4B_E2B] t18_silent OK  [] '[happy|target:kid] {head_bob 0.7} Hello there! {head_bob 0.7} Hi! {look_at:audience 0.5} Are you having a good time today?'
+[C_split_E4B_E2B] t19_shake OK  [] "[neutral|speaker] {shake 0.2} I don't really have a head to shake, so I guess I'll just stay still. {tilt_right 0.5} What do you think?"
+[C_split_E4B_E2B] t20_bye OK  [] '[happy|audience] {head_bob 0.7} Thanks so much for coming! {nod 0.6} I hope you all have a wonderful rest of your day.'
+[C_split_E4B_E2B] demo01_wake OK  [] '[happy|speaker] {surprise 0.9} Whoa! {head_bob 0.7} Hello there! {lean_in 0.7} Ready to chat about something fun?'
+[C_split_E4B_E2B] demo02_judges OK  [] "[happy|speaker] {head_bob 0.7} Hi to all the judges! {look_at:judges 0.8} Hope you're having a good day!"
+[C_split_E4B_E2B] demo03_what OK  ['mention_all'] "[neutral|speaker] {head_bob 0.7} Oh, hello! {head_bob 0.7} I'm Happy Kermit, the friendly face of the Happy app. {look_at:speaker 0.7} Who are you?"
+[C_split_E4B_E2B] demo04_cloud OK  ['any_gesture'] "[neutral|speaker] No, I'm not. My brain is running entirely on this local laptop right here."
+[C_split_E4B_E2B] demo05_happy OK  [] '[neutral|speaker] Happy is the app that lets you talk to my AI agents. Are you curious about how the Happy team built it?'
+[C_split_E4B_E2B] demo06_fast OK  [] "[sad|speaker] {sigh 0.7} Sometimes it feels like it. {lean_back 0.5} It's a lot to take in, isn't it? {lean_back 0.5} What are you hoping AI will do differently?"
+[C_split_E4B_E2B] demo07_nod OK  [] "[thinking|speaker] {nod 0.2} I don't have a built-in nod function for that. {tilt_right 0.5} What are you hoping I agree with?"
+[C_split_E4B_E2B] demo08_left OK  [] '[neutral|target:one_person_in_front_of_y] {look_at:left 0.8} Sure thing. {look_at:left 0.8} What caught your eye over there?'
+[C_split_E4B_E2B] demo09_whoa OK  [] "[surprised|target:robot_arm] {surprise 1.0} Whoa! {look_around 0.8} Is that a really big arm? {look_around 0.8} Are you telling me that's behind me?"
+[C_split_E4B_E2B] t10_joke OK  ['any_gesture'] "[happy|speaker] Well, I don't have many jokes programmed in yet. Maybe you could tell us one instead?"
+[C_split_E4B_E2B] t11_won OK  [] '[happy|speaker] {flail 0.9} Whoa! {nod 0.8} That sounds like fun! {look_at:speaker 0.8} What did you win?'
+[C_split_E4B_E2B] t12_bug OK  ['any_gesture'] '[sad|speaker] {lean_back 0.7} Oh, that sounds really tough. Have you tried taking a short break?'
+[C_split_E4B_E2B] t13_kermit OK  [] "[neutral|speaker] {surprise 0.9} Whoa! No, I'm Happy, a frog on a robot hand. {look_at:speaker 0.8} Are you asking about a specific character?"
+[C_split_E4B_E2B] t14_lookaround OK  [] '[neutral|target:audience] {look_around 0.8} Well, there are lots of folks here today. {look_around 0.8} What do you think of the setup?'
+[C_split_E4B_E2B] t15_sock OK  [] '[neutral|speaker] Well, I am a frog puppet on a robot hand. {lean_in 0.5} What makes you say that?'
+[C_split_E4B_E2B] t16_math OK  [] '[happy|speaker] {nod 0.8} Two plus two is four! {look_at:audience 0.6} Are you learning some cool new things today?'
+[C_split_E4B_E2B] t17_garbled OK  [] "[neutral|speaker] {surprise 0.8} Whoa. {look_around 0.5} I don't see any fish window seven right now. {tilt_right 0.5} What are you looking at?"
+[C_split_E4B_E2B] t18_silent OK  [] "[happy|target:kid] {head_bob 0.8} Hello there! {nod 0.7} It's nice to meet a new friend. {look_at:audience 0.5} What's your name?"
+[C_split_E4B_E2B] t19_shake OK  [] "[neutral|speaker] {shake 0.7} Well, I think it's up to us, don't you think? {lean_in 0.5} What are your thoughts on that?"
+[C_split_E4B_E2B] t20_bye OK  [] '[happy|audience] {head_bob 0.7} Thanks so much for coming to see me! {head_bob 0.7} Hope you all have a wonderful day.'
+{"label": "C_split_E4B_E2B", "mode": "split", "prompt": "full", "n": 40, "valid": "40/40", "lint_clean": "35/40", "expect_pass": "34/40", "placement_ok": "80/80", "emotion_gesture_clash": "0/40", "gestures_per_turn": 2.0, "words_med": 15.0, "first_sentence_words_med": 4.0, "ms_first_token_med": 63, "ms_header_med": 121, "ms_first_sentence_med": 547, "ms_first_sentence_p90": 701, "ms_text_first_sentence_med": 237, "ms_total_med": 961, "gen_tokens_med": 26.5, "tps_med": 69.2, "annot_ms_med": 289, "annot_tps_med": 90.6}

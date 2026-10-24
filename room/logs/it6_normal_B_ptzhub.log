@@ -1,0 +1,61 @@
+run it6_normal_B_ptzhub: room pid 1299253, run_kermit pid 1299576
+run it6_normal_B_ptzhub done → /var/lib/happy-agent/happy/Bots/bot_2/kermit/room/run/it6_normal_B_ptzhub
+ 1 kirill  wake            OK lat 1.49s  wer 0.10  heard: "A Kermit wake up.  There's a lot of people here"  → "Whoa! That is a lot of people. Hi, everybody! I'm "
+ 2 kirill  feeling         OK lat 1.70s  wer 0.00  heard: 'So Kermit. | How are you feeling about AI these days'  → "Honestly? A little tired. Every week there's a new"
+ 3 kirill  why_here        OK lat 3.00s  wer 0.00  heard: "Is that why you're here?"  → "Yep! I'm the friendly face of Happy, an app for ta"
+ 4 kirill  cloud           OK lat 1.37s  wer 0.25  heard: 'Weight, are you running in the cloud'  → 'Nope! My whole brain is Gemma, running right here '
+ 5 kirill  interject       XX             wer 1.00  heard: ''  → ''
+ 6 kirill  back_turned     XX             wer 4.12  heard: 'Honestly, I think everyone in this room feels it. New models'  → ''
+ 7 kirill  respect         OK lat 2.26s  wer 0.00  heard: "Well, Kermit, I respect you. It's just hard not to get distr"  → 'Okay, fair enough. They are a very cheerful bunch.'
+ 8 kirill  None            OK             wer 1.00  heard: ''  → ''
+ 9 steve   steve_brain     OK lat 2.61s  wer 2.93  heard: 'Steve, you built most of his insides. Tell everyone how he w'  → "Hi, Steve! Google's Gemma four, the E four B model"
+10 steve   steve_ears      OK lat 1.64s  wer 0.00  heard: 'And how do you hear me and talk back so fast?'  → 'Parakeet turns your voice into words, Gemma does t'
+11 steve   steve_gestures  OK lat 1.88s  wer 0.00  heard: 'How do you decide when to nod or look surprised?'  → 'I write little gesture tags right into my sentence'
+12 steve   steve_robotics  OK lat 2.49s  wer 0.00  heard: 'Last one, why do you think robotics is about to explode?'  → 'Because brains like mine now fit on a laptop! Smal'
+13 kirill  handoff         OK lat 2.05s  wer 0.00  heard: 'Well, Kermit, what do you say? Will you answer some question'  → 'Absolutely! Judges, hit me with your questions. I '
+14 judge1  qa_nod          OK lat 1.59s  wer 0.12  heard: 'How does the hand know when to no'  → 'The arm knows from my gesture tags! Like this one.'
+15 judge2  qa_cloud        OK lat 2.73s  wer 0.00  heard: 'Why Gemma? | And not a cloud model'  → 'Nope, no cloud! Everything runs right here, on the'
+16 judge3  qa_robotics     OK lat 2.36s  wer 0.00  heard: 'What happens to robotics next'  → 'I hope robots get cheaper, friendlier and everywhe'
+17 judge1  qa_hard         OK lat 1.87s  wer 0.00  heard: 'And what was the hardest part to build?'  → 'Landing gestures on the right words. Syncing voice'
+{
+ "run": "it6_normal_B_ptzhub",
+ "noise": "normal",
+ "venue_dba": 60.0,
+ "mic_noise_dba_median": 60.1,
+ "speech_snr_at_mic_db_median": 25.8,
+ "echo_to_speech_db": -32.8,
+ "steps": 17,
+ "beats_landed": 15,
+ "right_reply_started": 14,
+ "replies_cut_short": 0,
+ "self_bargeins": 0,
+ "bargeins_during_human": 0,
+ "expected_replies": 16,
+ "missed_turns": 2,
+ "false_cut_ins": 0,
+ "spontaneous_turns": 0,
+ "self_heard": 0,
+ "self_heard_flagged_echo": 0,
+ "self_triggered_leaks": 0,
+ "latency_mean_s": 2.074,
+ "latency_p95_s": 2.829,
+ "latency_max_s": 3.005,
+ "endpoint_mean_s": 1.464,
+ "stt_done_mean_s": 1.514,
+ "play_mean_s": 1.987,
+ "asr_behind_ms_median": 811.0,
+ "stt_wer_mean": 0.56,
+ "speaker_id_acc": 0.462,
+ "speaker_id_samples": 1102,
+ "facing_acc": 0.942,
+ "turned_away_events": 5,
+ "turned_away_presenter_while_speaking": 2,
+ "engine": {
+  "overruns": 47,
+  "proc_ms_mean": 10.46,
+  "proc_ms_p99": 28.64,
+  "proc_ms_max": 74.85,
+  "spk_late_blocks": 0,
+  "duration_s": 245.84
+ }
+}

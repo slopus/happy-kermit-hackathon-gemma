@@ -1,0 +1,83 @@
+[
+ {
+  "turn": 5,
+  "beat": "interject",
+  "trigger": "turned_away",
+  "context": "one person in front of you. visible: audience, laptop",
+  "heard": "(Kirill turns his back mid-sentence)",
+  "kml": "[surprised|speaker] {surprise 1.0} Oh, {look_at:speaker 0.8} like... {lean_in 0.6}",
+  "turn_json": {
+   "text": "Oh, like...",
+   "emotion": "surprised",
+   "gestures": [
+    {
+     "word": 0,
+     "type": "surprise",
+     "intensity": 1.0
+    },
+    {
+     "word": 1,
+     "type": "look_at",
+     "intensity": 0.8,
+     "target": "speaker"
+    },
+    {
+     "word": 1,
+     "type": "lean_in",
+     "intensity": 0.6
+    }
+   ],
+   "gaze": "speaker"
+  }
+ },
+ {
+  "turn": 6,
+  "beat": "back_turned",
+  "trigger": "away",
+  "context": "one person in front of you. visible: audience, laptop",
+  "heard": "(Kirill keeps talking with his back turned)",
+  "kml": "[annoyed|speaker] {shake 0.7} You, my friend, should learn how to speak to people {nod 0.6} face to face.",
+  "turn_json": {
+   "text": "You, my friend, should learn how to speak to people face to face.",
+   "emotion": "annoyed",
+   "gestures": [
+    {
+     "word": 0,
+     "type": "shake",
+     "intensity": 0.7
+    },
+    {
+     "word": 10,
+     "type": "nod",
+     "intensity": 0.6
+    }
+   ],
+   "gaze": "speaker"
+  }
+ },
+ {
+  "turn": 7,
+  "beat": "respect",
+  "trigger": "turn",
+  "context": "one person in front of you. visible: audience, laptop",
+  "heard": "well kermit i respect you it's just hard not to get distracted by this cheerful audience",
+  "kml": "[happy|audience] {look_around 0.7} Okay, fair enough. They are a very cheerful bunch. {head_bob 0.7} Respect accepted, my friend!",
+  "turn_json": {
+   "text": "Okay, fair enough. They are a very cheerful bunch. Respect accepted, my friend!",
+   "emotion": "happy",
+   "gestures": [
+    {
+     "word": 0,
+     "type": "look_around",
+     "intensity": 0.7
+    },
+    {
+     "word": 9,
+     "type": "head_bob",
+     "intensity": 0.7
+    }
+   ],
+   "gaze": "audience"
+  }
+ }
+]

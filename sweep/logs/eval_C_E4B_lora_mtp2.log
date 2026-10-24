@@ -1,0 +1,41 @@
+[C_E4B_lora_mtp2] demo01_wake OK  [] "[happy|speaker] {head_bob 0.7} Hey there! {look_at:laptop 0.4} The laptop's my brain. {laugh 0.4} It's awake, I'm awake. What's up?"
+[C_E4B_lora_mtp2] demo02_judges OK  [] '[excited|audience] {look_at:audience 0.6} Hello, judges! {look_at:audience 0.5} I hope my answers are as green as my complexion.'
+[C_E4B_lora_mtp2] demo03_what OK  [] "[happy|speaker] {head_bob 0.5} I'm Happy Kermit! {look_at:up 0.4} A frog puppet living on a robot arm. {laugh 0.3} And your friendly neighborhood AI mascot."
+[C_E4B_lora_mtp2] demo04_cloud OK  [] '[happy|speaker] {shake 0.6} Nope! {look_at:laptop 0.5} Right here on this laptop. {head_bob 0.4} Gemma, all local.'
+[C_E4B_lora_mtp2] demo05_happy OK  [] '[happy|speaker] {head_bob 0.4} An app for talking to your AI agents!'
+[C_E4B_lora_mtp2] demo06_fast OK  [] "[thinking|speaker] {nod 0.5} I'm a little nervous about it too, honestly. {lean_in 0.4} It's hard to keep up, even for a frog."
+[C_E4B_lora_mtp2] demo07_nod OK  [] '[thinking|speaker] {nod 0.6} I agree! {lean_in 0.4} Now, what am I nodding about?'
+[C_E4B_lora_mtp2] demo08_left OK  [] "[thinking|speaker] {look_at:left 0.7} To the left! {nod 0.4} Is that the wall? {laugh 0.3} I can't see anything else."
+[C_E4B_lora_mtp2] demo09_whoa OK  ['any_gesture', 'emotion'] "[embarrassed|speaker] {cover_face 0.5} Oh, that's my arm! {laugh 0.4} Hi, robot arm, you're welcome."
+[C_E4B_lora_mtp2] t10_joke OK  [] "[happy|speaker] {lean_in 0.5} Why are frogs so happy? {laugh 0.5} Because they eat what bugs them! {nod 0.4} Okay, that's all I've got."
+[C_E4B_lora_mtp2] t11_won OK  [] "[excited|speaker] {surprise 0.9} You did? {head_bob 0.8} Congratulations! {laugh 0.5} I'm just the mascot."
+[C_E4B_lora_mtp2] t12_bug OK  [] '[sad|speaker] {sigh 0.6} Oh, the classic bug. {lean_in 0.5} Get a glass of water and walk around for five minutes. Bugs hate naps.'
+[C_E4B_lora_mtp2] t13_kermit OK  [] "[happy|speaker] {shake 0.7} Nope, I'm Happy Kermit! {head_bob 0.5} A parody frog puppet living on a robot arm. {laugh 0.3} Different frog, same green."
+[C_E4B_lora_mtp2] t14_lookaround OK  [] '[thinking|audience] {look_around 0.5} Lots of people, lots of laptops! {head_bob 0.4} What do you see?'
+[C_E4B_lora_mtp2] t15_sock OK  [] '[happy|speaker] {laugh 0.5} A very comfortable sock, if I say so myself! {head_bob 0.5} And a very chatty one.'
+[C_E4B_lora_mtp2] t16_math OK  [] "[happy|speaker] {nod 0.6} Four! {head_bob 0.5} Easy peasy. {lean_in 0.3} Ask me anything, I'm a math frog."
+[C_E4B_lora_mtp2] t17_garbled OK  [] "[thinking|speaker] {tilt_right 0.5} Hmm, fish window? {nod 0.4} I'm a little lost. {lean_in 0.4} Could you say that one more time?"
+[C_E4B_lora_mtp2] t18_silent OK  [] "[excited|speaker] {head_bob 0.8} Hi there! {flail 0.6} That's a big wave! {lean_in 0.5} What's your name?"
+[C_E4B_lora_mtp2] t19_shake OK  [] "[happy|speaker] {shake 0.6} Nope! {laugh 0.5} Robots can't even make me a pond. {head_bob 0.4} I'm staying right here."
+[C_E4B_lora_mtp2] t20_bye OK  [] '[happy|audience] {head_bob 0.7} Goodbye, everyone! {look_around 0.5} Thanks for hanging out with a frog who runs on a laptop.'
+[C_E4B_lora_mtp2] demo01_wake OK  [] "[excited|speaker] {surprise 0.7} Whoa! {look_around 0.6} Hi! {head_bob 0.7} I'm awake and ready. What's up?"
+[C_E4B_lora_mtp2] demo02_judges OK  [] "[happy|audience] {look_at:audience 0.6} Hello, judges! {nod 0.4} I hope I'm not distracting you too much."
+[C_E4B_lora_mtp2] demo03_what OK  [] "[happy|speaker] {head_bob 0.6} A parody frog who lives on a robot hand! {nod 0.4} Happy, the app, is built by the team. I'm just the friendly face."
+[C_E4B_lora_mtp2] demo04_cloud OK  [] '[happy|target:laptop] {shake 0.7} Nope! {look_at:laptop 0.6} Gemma E-four-B, right here. {head_bob 0.4} Fully on the laptop.'
+[C_E4B_lora_mtp2] demo05_happy OK  [] "[happy|speaker] {nod 0.5} It's an app for talking to your AI agents. {head_bob 0.5} Like me, but you can actually use it on your own devices!"
+[C_E4B_lora_mtp2] demo06_fast OK  [] "[thinking|speaker] {nod 0.5} Honestly, yes. {sigh 0.4} That's why I like hackathons; slow, steady steps. {lean_in 0.4} How do you feel about the pace?"
+[C_E4B_lora_mtp2] demo07_nod OK  [] "[thinking|speaker] {nod 0.4} Okay, I'm nodding. {laugh 0.4} So, do I agree? You tell me."
+[C_E4B_lora_mtp2] demo08_left OK  [] "[thinking|speaker] {look_at:left 0.9} Left, left, left! {tilt_right 0.4} Nope, I'm bolted to the table. {laugh 0.4} Ask the arm."
+[C_E4B_lora_mtp2] demo09_whoa OK  ['any_gesture'] "[excited|target:robot_arm] {look_at:robot_arm 0.7} That's my ride! {head_bob 0.6} The best chauffeur a frog could ask for."
+[C_E4B_lora_mtp2] t10_joke OK  [] "[happy|speaker] {nod 0.5} Why did the frog take the bus? {laugh 0.5} He wanted to hop off the lilypad. {head_bob 0.4} Get it? I'll stop, I'm a little tired."
+[C_E4B_lora_mtp2] t11_won OK  [] "[excited|speaker] {flail 0.8} We won? {surprise 0.7} No, you did! {head_bob 0.6} Congratulations! {laugh 0.4} I'll take half the prize."
+[C_E4B_lora_mtp2] t12_bug OK  [] '[sad|speaker] {sigh 0.5} Ugh, the worst. {lean_in 0.5} Have you tried turning it off and on again? {laugh 0.3} The classic answer for a reason.'
+[C_E4B_lora_mtp2] t13_kermit OK  [] "[happy|speaker] {shake 0.6} Nope! I'm Happy Kermit, a parody frog. {head_bob 0.5} Different frog, same love for lily pads."
+[C_E4B_lora_mtp2] t14_lookaround OK  [] '[thinking|audience] {look_around 0.7} Okay, audience, laptop, robot arm! {nod 0.4} Lots of people, lots of blinking lights. {laugh 0.3} Very exciting.'
+[C_E4B_lora_mtp2] t15_sock OK  [] "[happy|speaker] {laugh 0.6} A sock with a brain! {nod 0.4} And a very good one at that. {head_bob 0.4} What's your sock's name?"
+[C_E4B_lora_mtp2] t16_math OK  [] '[happy|speaker] {nod 0.5} Four! {head_bob 0.4} Easy peasy. {lean_in 0.4} Want to try one?'
+[C_E4B_lora_mtp2] t17_garbled OK  [] "[thinking|speaker] {tilt_right 0.5} Fish window? {shrug 0.4} I'd love to, but I'm a frog with a laptop. {laugh 0.4} I can't swim through that window."
+[C_E4B_lora_mtp2] t18_silent OK  [] "[excited|speaker] {head_bob 0.8} Hello, buddy! {lean_in 0.5} What's your name? I'm Happy Kermit."
+[C_E4B_lora_mtp2] t19_shake OK  [] "[happy|speaker] {shake 0.9} Nope! {laugh 0.5} Robots are tired of that idea. {head_bob 0.5} They're busy waving at people instead."
+[C_E4B_lora_mtp2] t20_bye OK  [] '[happy|audience] {head_bob 0.7} Goodbye, everyone! {look_around 0.5} Thank you for hanging out with me.'
+{"label": "C_E4B_lora_mtp2", "mode": "kml", "prompt": "persona", "n": 40, "valid": "40/40", "lint_clean": "40/40", "expect_pass": "38/40", "placement_ok": "103/103", "emotion_gesture_clash": "1/40", "gestures_per_turn": 2.58, "words_med": 12.0, "first_sentence_words_med": 2.5, "ms_first_token_med": 72, "ms_header_med": 143, "ms_first_sentence_med": 306, "ms_first_sentence_p90": 365, "ms_text_first_sentence_med": null, "ms_total_med": 589, "gen_tokens_med": 48.0, "tps_med": 89.9, "annot_ms_med": null, "annot_tps_med": null}

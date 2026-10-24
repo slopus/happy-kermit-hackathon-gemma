@@ -1,0 +1,17 @@
+{
+ "text": "Okay, fair enough. They are a very cheerful bunch. Respect accepted, my friend!",
+ "emotion": "happy",
+ "gestures": [
+  {
+   "word": 0,
+   "type": "look_around",
+   "intensity": 0.7
+  },
+  {
+   "word": 9,
+   "type": "head_bob",
+   "intensity": 0.7
+  }
+ ],
+ "gaze": "audience"
+}

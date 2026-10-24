@@ -1,0 +1,108 @@
+{
+ "dt": 0.016666666666666666,
+ "frames": 289,
+ "arm": [
+  {
+   "joint": "joint1",
+   "min_deg": -1.8,
+   "max_deg": 3.3,
+   "range_margin_deg": 356.7,
+   "vel_peak_dps": 16.0,
+   "vel_ratio": 0.089,
+   "vel": "ok",
+   "acc_peak_dps2": 86.0,
+   "acc_ratio": 0.075,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint2",
+   "min_deg": 0.6,
+   "max_deg": 3.2,
+   "range_margin_deg": 112.8,
+   "vel_peak_dps": 8.2,
+   "vel_ratio": 0.045,
+   "vel": "ok",
+   "acc_peak_dps2": 73.0,
+   "acc_ratio": 0.064,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint3",
+   "min_deg": -41.9,
+   "max_deg": -38.5,
+   "range_margin_deg": 48.5,
+   "vel_peak_dps": 13.6,
+   "vel_ratio": 0.076,
+   "vel": "ok",
+   "acc_peak_dps2": 115.0,
+   "acc_ratio": 0.101,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint4",
+   "min_deg": 141.5,
+   "max_deg": 199.0,
+   "range_margin_deg": 161.0,
+   "vel_peak_dps": 137.3,
+   "vel_ratio": 0.763,
+   "vel": "ok",
+   "acc_peak_dps2": 738.0,
+   "acc_ratio": 0.645,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint5",
+   "min_deg": 53.2,
+   "max_deg": 62.2,
+   "range_margin_deg": 117.8,
+   "vel_peak_dps": 37.6,
+   "vel_ratio": 0.209,
+   "vel": "ok",
+   "acc_peak_dps2": 350.0,
+   "acc_ratio": 0.305,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint6",
+   "min_deg": 77.4,
+   "max_deg": 113.4,
+   "range_margin_deg": 246.6,
+   "vel_peak_dps": 77.0,
+   "vel_ratio": 0.428,
+   "vel": "ok",
+   "acc_peak_dps2": 448.0,
+   "acc_ratio": 0.391,
+   "acc": "ok"
+  }
+ ],
+ "hand": [
+  {
+   "joint": "jaw_upper",
+   "vel_peak": 0.032,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "jaw_lower",
+   "vel_peak": 0.032,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  }
+ ],
+ "tcp": {
+  "vel_peak_mps": 0.225,
+  "vel_ratio": 0.225,
+  "vel": "ok",
+  "min_body_height_m": -0.189
+ },
+ "ok": true,
+ "warnings": [],
+ "hand_vel_note": "PGC-140-50: 25 mm per jaw in 0.75 s (conservative of 0.6/0.75 s datasheets)",
+ "ik_err_max": 9.97347025379799e-07,
+ "governor_hz": null,
+ "timeline": "samples/turn.timeline.json",
+ "hand_profile": "dh_pgc140",
+ "video": "videos/dh_pgc140/turn.mp4"
+}

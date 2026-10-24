@@ -1,0 +1,130 @@
+hand biz_hands1_003.0 [3] gemma 4 spec None 230ms
+desc biz_hands1_003.0 2 | the man in the light blue shirt | The person in the blue box wearing a grey shirt. | The person in the grey shirt in the middle. | the person in the grey top
+desc biz_hands1_003.0 4 | the blonde woman | The woman in the light-colored top. | The person with the blonde hair in the picture. | the person in the yellow top
+desc biz_hands1_003.0 3 | the woman with long brown hair raising her hand | The person in the yellow box holding a hand up. | The person with the raised hand holding a drink. | the person in the orange top
+cmd biz_hands1_003.0 look at the guy in the blue shirt gt 2 gemma 2 spec None 220ms
+cmd biz_hands1_003.0 look at the blonde lady gt 4 gemma 4 spec None 174ms
+hand biz_hands1_006.0 [3] gemma 7 spec 3 184ms
+desc biz_hands1_006.0 4 | the blonde woman on the left | The person in the box tagged 4 is raising their hand. | The blonde woman with the light top. | the person in the yellow top
+desc biz_hands1_006.0 3 | the woman with long hair, hand up | The person in the yellow box is raising their hand. | The person with long brown hair in the foreground. | the person in the orange top
+desc biz_hands1_006.0 7 | the man in the dark suit | The person in the red shirt raising their hand. | The person in the dark jacket facing forward. | the person in the orange top
+cmd biz_hands1_006.0 look at the blonde woman gt 4 gemma 8 spec None 235ms
+cmd biz_hands1_006.0 look at the man in the dark suit gt 7 gemma 7 spec None 227ms
+hand biz_hands1_009.0 [] gemma 4 spec None 193ms
+desc biz_hands1_009.0 22 | the woman with brown hair at the front | The person in the box wearing a dark top. | The person with the blonde hair in the foreground. | the person in the black top
+desc biz_hands1_009.0 21 | the grey-haired man | The person in the green box is wearing a dark shirt. | The person in the yellow shirt in the foreground. | the person in the yellow top
+cmd biz_hands1_009.0 look at the grey haired guy gt 21 gemma 22 spec None 241ms
+hand biz_hands2_002.0 [1, 7] gemma 7 spec 1 188ms
+desc biz_hands2_002.0 1 | the woman in the red top | The person in the red shirt holding a device. | The person in the red shirt holding something. | the person in the black top
+desc biz_hands2_002.0 7 | the person in black holding up a phone | The person in the red shirt holding a phone. | The person in the red top holding a dark object. | the person in the black top
+cmd biz_hands2_002.0 look at the lady in red gt 1 gemma 1 spec 3 183ms
+cmd biz_hands2_002.0 look at the person holding up their phone on the right gt 7 gemma 7 spec 5 177ms
+hand biz_hands2_008.0 [1, 7] gemma 7 spec 1 190ms
+desc biz_hands2_008.0 1 | the woman in the red top | The person in the red shirt with raised arms. | The person in the red top with raised arms. | the person in the grey top
+desc biz_hands2_008.0 7 | the person in black holding up a phone | The person holding the object in the red box. | The person in the red shirt holding something. | the person in the grey top
+desc biz_hands2_008.0 10 | the person in the orange hoodie | The person in the red top holding something up. | The person in the orange hoodie holding something. | the person in the red top
+cmd biz_hands2_008.0 look at the guy in the orange hoodie gt 10 gemma 5 spec None 183ms
+cmd biz_hands2_008.0 look at the woman in red gt 1 gemma 1 spec 10 177ms
+hand class_kids_017.0 [4, 3] gemma 3 spec 4 195ms
+desc class_kids_017.0 2 | the girl in the white sweater | The person in the blue shirt at the desk. | The person in the light-colored top. | the person in the red top
+desc class_kids_017.0 1 | the boy in the grey hoodie | The person in the green box wearing a grey shirt. | The person in the grey shirt with the white chair. | the person in the black top
+desc class_kids_017.0 7 | the girl in the red top | The person in the red top with the book. | The person in the red top near the chair. | the person in the red top
+desc class_kids_017.0 4 | the boy in the navy jacket by the board | The person in the purple box is wearing a dark shirt. | The person in the dark blue shirt raising hand. | the person in the black top
+cmd class_kids_017.0 look at the kid in the grey hoodie gt 1 gemma 1 spec None 184ms
+cmd class_kids_017.0 look at the girl in red gt 7 gemma 7 spec 2 177ms
+cmd class_kids_017.0 look at the girl in the white sweater gt 2 gemma 1 spec None 178ms
+hand class_kids_020.0 [4, 1, 3] gemma 2 spec 4 189ms
+desc class_kids_020.0 1 | the boy in the grey hoodie | The person in the green box wearing a grey shirt. | The person in the grey hoodie and jeans. | the person in the grey top
+desc class_kids_020.0 4 | the boy in the navy jacket | The person in the purple box is raising their hand. | The person in the dark blue shirt raising hand. | the person in the black top
+desc class_kids_020.0 2 | the girl in the white sweater | The person in the blue box is a student. | The person with the light-colored shirt. | the person in the grey top
+cmd class_kids_020.0 look at the boy in the grey hoodie gt 1 gemma 1 spec 1 195ms
+cmd class_kids_020.0 look at the girl on the far left gt 2 gemma 2 spec 2 187ms
+hand class_kids2_003.0 [1, 3, 5, 7] gemma 2 spec 1 194ms
+desc class_kids2_003.0 1 | the boy in the teal t-shirt | The person in the green box holding a raised arm. | The person in the light green shirt. | the person in the orange top
+desc class_kids2_003.0 3 | the girl with the striped backpack | The person in the yellow box is holding a yellow object. | The person with the striped bag. | the person in the orange top
+desc class_kids2_003.0 4 | the teacher in the blue mask | The person in the blue shirt holding a pointer. | The woman in the blue shirt standing near the board. | the person in the blue top
+desc class_kids2_003.0 7 | the girl with long curly hair | The person in the box wearing a light blue shirt. | The person with curly brown hair in the background. | the person in the orange top
+desc class_kids2_003.0 5 | the kid in the white t-shirt | The person in the blue shirt holding a pencil. | The person in the white shirt holding the blue object. | the person in the white top
+cmd class_kids2_003.0 look at the teacher gt 4 gemma 1 spec None 187ms
+cmd class_kids2_003.0 look at the girl with the striped backpack gt 3 gemma 3 spec None 179ms
+cmd class_kids2_003.0 look at the boy in the teal shirt gt 1 gemma 6 spec None 178ms
+hand class_kids2_006.0 [1, 3, 6, 7] gemma 6 spec 1 199ms
+desc class_kids2_006.0 1 | the boy in the teal t-shirt | The person in the green box holding a green object. | Person with light blue shirt raising arm in crowd. | the person in the orange top
+desc class_kids2_006.0 3 | the girl with the striped backpack | The person in the yellow box is wearing a striped shirt. | Person with dark hair wearing striped backpack. | the person in the orange top
+desc class_kids2_006.0 7 | the girl with long curly hair | The person in the box tagged 7 is wearing a blue shirt. | The person with curly brown hair in the picture. | the person in the orange top
+desc class_kids2_006.0 6 | the boy in the white t-shirt | The person in the white shirt raising their hand. | The person in the white shirt reaching up. | the person in the white top
+desc class_kids2_006.0 4 | the teacher | The person in the box holding a blue object. | The person holding the blue cup. | the person in the blue top
+cmd class_kids2_006.0 look at the girl with the curly hair gt 7 gemma 7 spec None 193ms
+cmd class_kids2_006.0 look at the teacher gt 4 gemma 1 spec None 178ms
+hand concert_stock_020.0 [] gemma 32 spec None 206ms
+desc concert_stock_020.0 25 | the woman in the grey t-shirt | The woman in the light-colored top. | The person in the dark shirt holding a drink. | the person in the blue top
+desc concert_stock_020.0 3 | the man with grey hair and glasses | The person in the box wearing a dark shirt. | The person in the dark shirt near the center. | the person in the black top
+desc concert_stock_020.0 30 | the man in the dark jacket at the front left | The person in the box wearing a dark shirt. | The man in the dark shirt standing in the spotlight. | the person in the black top
+cmd concert_stock_020.0 look at the woman in the grey t-shirt gt 25 gemma 4 spec None 231ms
+cmd concert_stock_020.0 look at the guy with the glasses and grey hair gt 3 gemma 3 spec None 181ms
+hand concert_stock_030.0 [37] gemma 37 spec 37 217ms
+desc concert_stock_030.0 25 | the woman in the grey t-shirt | The person in the box is wearing a dark top. | The person with the dark top and glasses. | the person in the blue top
+desc concert_stock_030.0 30 | the man at the front left | The person in the box wearing a dark shirt. | The person in the dark shirt speaking to the crowd. | the person in the black top
+cmd concert_stock_030.0 look at the woman in the grey t-shirt on the right gt 25 gemma 25 spec 8 218ms
+hand concert_stock_038.0 [32] gemma 32 spec 2 223ms
+desc concert_stock_038.0 25 | the woman in the grey t-shirt | The person in the box is wearing a light-colored top. | The person in the patterned shirt holding a drink. | the person in the blue top
+desc concert_stock_038.0 3 | the man with grey hair | The person in the yellow box holding a microphone. | The person in the dark shirt holding a glass. | the person in the black top
+cmd concert_stock_038.0 look at the lady in the grey t-shirt gt 25 gemma 46 spec None 208ms
+hand montessori_hands_003.0 [1, 3] gemma 3 spec 3 195ms
+desc montessori_hands_003.0 2 | the curly-haired boy in the yellow sweater | The person in the yellow shirt at the table. | The person in the yellow shirt at the table. | the person in the yellow top
+desc montessori_hands_003.0 3 | the girl with pigtails | The person in the yellow box holding a pencil. | The person with the brown shirt at the table. | the person in the orange top
+desc montessori_hands_003.0 1 | the boy in the light blue shirt | The person in the green box wearing a light blue top. | The child in the light blue shirt. | the person in the grey top
+desc montessori_hands_003.0 4 | the red-haired girl | The girl in the blue shirt at the table. | The person with the light-colored top at the table. | the person in the orange top
+cmd montessori_hands_003.0 look at the boy in the yellow sweater gt 2 gemma 2 spec 2 189ms
+cmd montessori_hands_003.0 look at the redhead gt 4 gemma 4 spec None 185ms
+hand montessori_hands_009.0 [3] gemma 2 spec 3 198ms
+desc montessori_hands_009.0 2 | the curly-haired boy in the yellow sweater | The person in the yellow shirt with blonde hair. | The person in the yellow shirt with red objects. | the person in the yellow top
+desc montessori_hands_009.0 3 | the girl with pigtails | The person in the yellow box holding a pencil. | The person with the brown top and skirt. | the person in the orange top
+desc montessori_hands_009.0 1 | the boy in the light blue shirt | The child in the green box with blue shirt. | The boy with the red stick. | the person in the blue top
+desc montessori_hands_009.0 4 | the red-haired girl | The girl in the blue shirt with pencils. | The person with the light-colored top at the table. | the person in the orange top
+cmd montessori_hands_009.0 look at the red haired girl gt 4 gemma 4 spec None 192ms
+cmd montessori_hands_009.0 look at the boy in the light blue shirt gt 1 gemma 1 spec 1 175ms
+hand school_hands_012.0 [3, 6, 8, 1] gemma 3 spec 3 185ms
+desc school_hands_012.0 9 | the teacher at the board | The person in the box wearing a light top. | The person with the light-colored top in the background. | the person in the white top
+desc school_hands_012.0 6 | the girl on the far left | The person in the blue box with raised hands. | The person in the light grey shirt raising hands. | the person in the orange top
+cmd school_hands_012.0 look at the teacher gt 9 gemma 3 spec None 189ms
+hand school_hands_024.0 [2, 3, 12, 15] gemma 15 spec 3 225ms
+desc school_hands_024.0 20 | the teacher at the board | The person in the box wearing a light top. | The person with the light-colored top in the background. | the person in the white top
+cmd school_hands_024.0 look at the teacher gt 20 gemma 15 spec None 210ms
+hand conf_woman_hand_001.5 [2] gemma 2 spec None 195ms
+desc conf_woman_hand_001.5 2 | the woman in the white blouse and glasses | The woman in the white top holding a hand up. | The person in the white shirt raising their arm. | the person in the grey top
+desc conf_woman_hand_001.5 3 | the man with glasses on the left | The person in the white shirt holding the arm up. | The man in the dark shirt with glasses. | the person in the blue top
+desc conf_woman_hand_001.5 1 | the man in the navy suit | The man in the dark blue jacket. | The man in the dark suit jacket. | the person in the blue top
+desc conf_woman_hand_001.5 5 | the woman on the right | The woman in the orange-framed area. | The person in the dark blue shirt. | the person in the black top
+cmd conf_woman_hand_001.5 look at the guy in the navy suit gt 1 gemma 1 spec None 188ms
+cmd conf_woman_hand_001.5 look at the man with glasses on the left gt 3 gemma 3 spec 3 186ms
+hand conf_woman_hand_006.0 [] gemma 5 spec None 190ms
+desc conf_woman_hand_006.0 2 | the woman in the white blouse | The woman in the light-colored shirt. | The person in the light-colored shirt. | the person in the grey top
+desc conf_woman_hand_006.0 1 | the man in the navy suit | The man in the dark suit jacket. | The man in the dark suit jacket. | the person in the blue top
+cmd conf_woman_hand_006.0 look at the lady in the white blouse gt 2 gemma 3 spec None 187ms
+cmd conf_woman_hand_006.0 look at the man in the suit and striped tie gt 1 gemma 8 spec None 181ms
+hand lect_hands_003.0 [2] gemma 6 spec None 167ms
+desc lect_hands_003.0 1 | the blonde woman in the beige jacket | The person in the green box is wearing a grey blazer. | The person in the light grey jacket. | the person in the orange top
+desc lect_hands_003.0 3 | the woman in the black suit at the front | The woman in the black jacket. | The woman in the black blazer holding papers. | the person in the black top
+desc lect_hands_003.0 4 | the woman with short brown hair | The person in the purple box wearing a grey top. | The person in the dark jacket facing the camera. | the person in the black top
+cmd lect_hands_003.0 look at the speaker in the black suit gt 3 gemma 3 spec 4 149ms
+cmd lect_hands_003.0 look at the blonde woman gt 1 gemma 1 spec None 142ms
+hand obama_town_020.0 [] gemma 19 spec None 236ms
+desc obama_town_020.0 6 | the man in the tan jacket holding the microphone | The man in the grey suit speaking to the crowd. | The man in the olive jacket holding a microphone. | the person in the orange top
+desc obama_town_020.0 19 | the woman in the white top | The person in the light top holding a small object. | The woman in the white top and dark jacket. | the person in the white top
+desc obama_town_020.0 3 | the man in the checked tie | The man in the suit jacket is ready to speak. | The person in the dark jacket holding a drink. | the person in the black top
+cmd obama_town_020.0 look at the man with the microphone gt 6 gemma 5 spec None 195ms
+cmd obama_town_020.0 look at the woman in white gt 19 gemma 3 spec 19 212ms
+hand obama_town_040.0 [] gemma 3 spec None 195ms
+desc obama_town_040.0 37 | the man in the white shirt standing on stage | The man in the dark suit standing center stage. | The man in the white shirt and dark pants. | the person in the grey top
+cmd obama_town_040.0 look at the man standing on stage gt 37 gemma 37 spec None 215ms
+hand obama_town_070.0 [] gemma 35 spec None 215ms
+desc obama_town_070.0 37 | the man in the white shirt standing on stage | The man in the white shirt speaking to the crowd. | The man in the white shirt and dark trousers. | the person in the grey top
+cmd obama_town_070.0 look at the guy standing in the white shirt gt 37 gemma 37 spec None 211ms
+hand panel_mic_005.0 [] gemma 1 spec None 194ms
+desc panel_mic_005.0 1 | the man holding the microphone | The man in the dark suit jacket. | The person in the black jacket speaking at the event. | the person in the black top
+desc panel_mic_005.0 2 | the man on stage | The man in the dark suit speaking at the podium. | The man in the dark suit at the table. | the person in the grey top
+cmd panel_mic_005.0 look at the man on stage gt 2 gemma 1 spec None 186ms
+cmd panel_mic_005.0 look at the guy with the mic gt 1 gemma 1 spec None 178ms
+SUMMARY hands {'n': 23, 'gemma_acc': np.float64(60.9), 'spec_acc': np.float64(87.0), 'ms_median': 195.0}
+SUMMARY cmds {'n': 41, 'gemma_acc': np.float64(61.0), 'spec_acc': np.float64(14.6), 'ms_median': 187.0}

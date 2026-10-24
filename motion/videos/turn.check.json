@@ -1,0 +1,213 @@
+{
+ "dt": 0.016666666666666666,
+ "frames": 289,
+ "arm": [
+  {
+   "joint": "joint1",
+   "min_deg": -6.8,
+   "max_deg": 3.4,
+   "range_margin_deg": 353.2,
+   "vel_peak_dps": 23.7,
+   "vel_ratio": 0.132,
+   "vel": "ok",
+   "acc_peak_dps2": 149.0,
+   "acc_ratio": 0.13,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint2",
+   "min_deg": 3.3,
+   "max_deg": 6.0,
+   "range_margin_deg": 110.0,
+   "vel_peak_dps": 8.5,
+   "vel_ratio": 0.047,
+   "vel": "ok",
+   "acc_peak_dps2": 79.0,
+   "acc_ratio": 0.069,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint3",
+   "min_deg": -27.6,
+   "max_deg": -25.5,
+   "range_margin_deg": 35.5,
+   "vel_peak_dps": 7.1,
+   "vel_ratio": 0.039,
+   "vel": "ok",
+   "acc_peak_dps2": 72.0,
+   "acc_ratio": 0.063,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint4",
+   "min_deg": 141.0,
+   "max_deg": 198.5,
+   "range_margin_deg": 161.5,
+   "vel_peak_dps": 139.0,
+   "vel_ratio": 0.772,
+   "vel": "ok",
+   "acc_peak_dps2": 786.0,
+   "acc_ratio": 0.686,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint5",
+   "min_deg": 93.5,
+   "max_deg": 100.1,
+   "range_margin_deg": 79.9,
+   "vel_peak_dps": 29.3,
+   "vel_ratio": 0.163,
+   "vel": "ok",
+   "acc_peak_dps2": 260.0,
+   "acc_ratio": 0.227,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint6",
+   "min_deg": 81.6,
+   "max_deg": 105.8,
+   "range_margin_deg": 254.2,
+   "vel_peak_dps": 48.3,
+   "vel_ratio": 0.268,
+   "vel": "ok",
+   "acc_peak_dps2": 283.0,
+   "acc_ratio": 0.247,
+   "acc": "ok"
+  }
+ ],
+ "hand": [
+  {
+   "joint": "hand/rh_FFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_FFJ2",
+   "vel_peak": 4.401,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_FFJ1",
+   "vel_peak": 3.676,
+   "vel_ratio": 0.81,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ2",
+   "vel_peak": 4.401,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ1",
+   "vel_peak": 3.676,
+   "vel_ratio": 0.81,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ2",
+   "vel_peak": 4.401,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ1",
+   "vel_peak": 3.676,
+   "vel_ratio": 0.81,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ2",
+   "vel_peak": 4.401,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ1",
+   "vel_peak": 3.676,
+   "vel_ratio": 0.81,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ5",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ4",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ3",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ2",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ1",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  }
+ ],
+ "tcp": {
+  "vel_peak_mps": 0.225,
+  "vel_ratio": 0.225,
+  "vel": "ok",
+  "min_body_height_m": -0.189
+ },
+ "ok": true,
+ "warnings": [],
+ "hand_vel_note": "Inspire RH56DFX-like: fingers 260 deg/s, thumb 90 deg/s (stand-in)",
+ "ik_err_max": 9.916270481456037e-07,
+ "governor_hz": null,
+ "timeline": "samples/turn.timeline.json",
+ "hand_profile": "shadow",
+ "video": "videos/turn.mp4"
+}

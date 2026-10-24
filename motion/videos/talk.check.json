@@ -1,0 +1,213 @@
+{
+ "dt": 0.016666666666666666,
+ "frames": 382,
+ "arm": [
+  {
+   "joint": "joint1",
+   "min_deg": -4.1,
+   "max_deg": -3.2,
+   "range_margin_deg": 355.9,
+   "vel_peak_dps": 1.4,
+   "vel_ratio": 0.008,
+   "vel": "ok",
+   "acc_peak_dps2": 7.0,
+   "acc_ratio": 0.006,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint2",
+   "min_deg": 5.0,
+   "max_deg": 7.2,
+   "range_margin_deg": 108.8,
+   "vel_peak_dps": 2.6,
+   "vel_ratio": 0.014,
+   "vel": "ok",
+   "acc_peak_dps2": 15.0,
+   "acc_ratio": 0.013,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint3",
+   "min_deg": -27.6,
+   "max_deg": -26.9,
+   "range_margin_deg": 36.9,
+   "vel_peak_dps": 0.8,
+   "vel_ratio": 0.005,
+   "vel": "ok",
+   "acc_peak_dps2": 4.0,
+   "acc_ratio": 0.003,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint4",
+   "min_deg": 156.0,
+   "max_deg": 160.3,
+   "range_margin_deg": 199.7,
+   "vel_peak_dps": 6.7,
+   "vel_ratio": 0.037,
+   "vel": "ok",
+   "acc_peak_dps2": 40.0,
+   "acc_ratio": 0.035,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint5",
+   "min_deg": 101.0,
+   "max_deg": 105.3,
+   "range_margin_deg": 74.7,
+   "vel_peak_dps": 12.9,
+   "vel_ratio": 0.072,
+   "vel": "ok",
+   "acc_peak_dps2": 112.0,
+   "acc_ratio": 0.098,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint6",
+   "min_deg": 96.6,
+   "max_deg": 102.5,
+   "range_margin_deg": 257.5,
+   "vel_peak_dps": 9.1,
+   "vel_ratio": 0.051,
+   "vel": "ok",
+   "acc_peak_dps2": 30.0,
+   "acc_ratio": 0.026,
+   "acc": "ok"
+  }
+ ],
+ "hand": [
+  {
+   "joint": "hand/rh_FFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_FFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_FFJ1",
+   "vel_peak": 4.144,
+   "vel_ratio": 0.913,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ1",
+   "vel_peak": 4.144,
+   "vel_ratio": 0.913,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ1",
+   "vel_peak": 4.144,
+   "vel_ratio": 0.913,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ1",
+   "vel_peak": 4.144,
+   "vel_ratio": 0.913,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ5",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ4",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ3",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ2",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ1",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  }
+ ],
+ "tcp": {
+  "vel_peak_mps": 0.055,
+  "vel_ratio": 0.055,
+  "vel": "ok",
+  "min_body_height_m": -0.189
+ },
+ "ok": true,
+ "warnings": [],
+ "hand_vel_note": "Inspire RH56DFX-like: fingers 260 deg/s, thumb 90 deg/s (stand-in)",
+ "ik_err_max": 9.968963363031016e-07,
+ "governor_hz": null,
+ "timeline": "samples/talk.timeline.json",
+ "hand_profile": "shadow",
+ "video": "videos/talk.mp4"
+}

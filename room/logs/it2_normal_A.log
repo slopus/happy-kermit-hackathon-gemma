@@ -1,0 +1,61 @@
+run it2_normal_A: room pid 1263948, run_kermit pid 1265321
+run it2_normal_A done → /var/lib/happy-agent/happy/Bots/bot_2/kermit/room/run/it2_normal_A
+ 1 kirill  wake            XX             wer 0.60  heard: "There's a lot of"  → ''
+ 2 kirill  feeling         OK lat 1.00s  wer 0.20  heard: 'Colonel, how are you feeling about AI these days?'  → "Honestly? A little tired. Every week there's a new"
+ 3 kirill  why_here        XX lat 2.21s  wer 0.60  heard: 'Is that wide of you?'  → "Well, I'm a frog, so I'm always a little wide. I'm"
+ 4 kirill  cloud           OK lat 1.73s  wer 0.25  heard: 'And wait, running in the cloud.'  → 'Nope! My whole brain is Gemma, running right here '
+ 5 kirill  interject       XX cut-in 2.69s  wer 0.81  heard: "Honestly, I think everyone's."  → 'You, my friend, should learn how to speak to peopl'
+ 6 kirill  back_turned     XX             wer 3.00  heard: "Honestly, I think everyone who's tired of this. You, my frie"  → ''
+ 7 kirill  respect         OK lat 2.10s  wer 0.50  heard: 'Well coming. | Well, Carmen, I expect you. | Well, Kerman, I'  → 'Okay, fair enough. They are a very cheerful bunch.'
+ 8 kirill  None            OK             wer 1.00  heard: ''  → ''
+ 9 steve   steve_brain     OK lat 1.80s  wer 0.71  heard: 'Built most of his inside. Tell everyone how it works. Hi Ker'  → "Hi, Steve! Google's Gemma four, the E four B model"
+10 steve   steve_ears      OK lat 2.81s  wer 0.00  heard: 'And how do you hear me and talk back so fast?'  → 'Parakeet turns your voice into words, Gemma does t'
+11 steve   steve_gestures  OK lat 0.99s  wer 0.00  heard: 'How do you decide when to nod or look surprised?'  → 'I write little gesture tags right into my sentence'
+12 steve   steve_robotics  OK lat 0.94s  wer 0.18  heard: 'Last month. | Last one, why do you think robotics is about t'  → 'Because brains like mine now fit on a laptop! Smal'
+13 kirill  handoff         XX             wer 1.00  heard: ' | '  → ''
+14 judge1  qa_nod          XX             wer 0.75  heard: "I'll just hand it over to Tom."  → ''
+15 judge2  qa_cloud        XX             wer 0.57  heard: 'Chipper. | Jibber and not a cut.'  → ''
+16 judge3  qa_robotics     XX             wer 1.00  heard: ''  → ''
+17 judge1  qa_hard         XX             wer 1.00  heard: ''  → ''
+{
+ "run": "it2_normal_A",
+ "noise": "normal",
+ "venue_dba": 60.0,
+ "mic_noise_dba_median": 60.2,
+ "speech_snr_at_mic_db_median": 1.3,
+ "echo_to_speech_db": 6.4,
+ "steps": 17,
+ "beats_landed": 8,
+ "right_reply_started": 7,
+ "replies_cut_short": 0,
+ "self_bargeins": 0,
+ "bargeins_during_human": 0,
+ "expected_replies": 16,
+ "missed_turns": 7,
+ "false_cut_ins": 0,
+ "spontaneous_turns": 0,
+ "self_heard": 0,
+ "self_heard_flagged_echo": 0,
+ "self_triggered_leaks": 0,
+ "latency_mean_s": 1.696,
+ "latency_p95_s": 2.603,
+ "latency_max_s": 2.812,
+ "endpoint_mean_s": 1.297,
+ "stt_done_mean_s": 1.261,
+ "play_mean_s": 1.614,
+ "asr_behind_ms_median": 266.5,
+ "stt_wer_mean": 0.72,
+ "speaker_id_acc": 0.551,
+ "speaker_id_samples": 1065,
+ "facing_acc": 0.955,
+ "turned_away_events": 7,
+ "turned_away_presenter_while_speaking": 0,
+ "engine": {
+  "overruns": 0,
+  "proc_ms_mean": 5.42,
+  "proc_ms_p99": 18.33,
+  "proc_ms_max": 50.06,
+  "spk_late_blocks": 0,
+  "duration_s": 237.3
+ }
+}

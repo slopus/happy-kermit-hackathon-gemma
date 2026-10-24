@@ -1,0 +1,213 @@
+{
+ "dt": 0.016666666666666666,
+ "frames": 1993,
+ "arm": [
+  {
+   "joint": "joint1",
+   "min_deg": -17.2,
+   "max_deg": 16.2,
+   "range_margin_deg": 342.8,
+   "vel_peak_dps": 10.4,
+   "vel_ratio": 0.058,
+   "vel": "ok",
+   "acc_peak_dps2": 70.0,
+   "acc_ratio": 0.061,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint2",
+   "min_deg": 3.6,
+   "max_deg": 9.8,
+   "range_margin_deg": 106.2,
+   "vel_peak_dps": 12.9,
+   "vel_ratio": 0.072,
+   "vel": "ok",
+   "acc_peak_dps2": 197.0,
+   "acc_ratio": 0.172,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint3",
+   "min_deg": -27.8,
+   "max_deg": -25.3,
+   "range_margin_deg": 35.3,
+   "vel_peak_dps": 4.0,
+   "vel_ratio": 0.022,
+   "vel": "ok",
+   "acc_peak_dps2": 39.0,
+   "acc_ratio": 0.034,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint4",
+   "min_deg": 150.6,
+   "max_deg": 212.5,
+   "range_margin_deg": 147.5,
+   "vel_peak_dps": 40.5,
+   "vel_ratio": 0.225,
+   "vel": "ok",
+   "acc_peak_dps2": 395.0,
+   "acc_ratio": 0.345,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint5",
+   "min_deg": 80.3,
+   "max_deg": 116.5,
+   "range_margin_deg": 63.5,
+   "vel_peak_dps": 64.6,
+   "vel_ratio": 0.359,
+   "vel": "ok",
+   "acc_peak_dps2": 660.0,
+   "acc_ratio": 0.576,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint6",
+   "min_deg": 74.5,
+   "max_deg": 108.6,
+   "range_margin_deg": 251.4,
+   "vel_peak_dps": 29.3,
+   "vel_ratio": 0.163,
+   "vel": "ok",
+   "acc_peak_dps2": 304.0,
+   "acc_ratio": 0.266,
+   "acc": "ok"
+  }
+ ],
+ "hand": [
+  {
+   "joint": "hand/rh_FFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_FFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_FFJ1",
+   "vel_peak": 3.958,
+   "vel_ratio": 0.872,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ1",
+   "vel_peak": 3.958,
+   "vel_ratio": 0.872,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ1",
+   "vel_peak": 3.958,
+   "vel_ratio": 0.872,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ1",
+   "vel_peak": 3.958,
+   "vel_ratio": 0.872,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ5",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ4",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ3",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ2",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ1",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  }
+ ],
+ "tcp": {
+  "vel_peak_mps": 0.158,
+  "vel_ratio": 0.158,
+  "vel": "ok",
+  "min_body_height_m": -0.8
+ },
+ "ok": true,
+ "warnings": [],
+ "hand_vel_note": "Inspire RH56DFX-like: fingers 260 deg/s, thumb 90 deg/s (stand-in)",
+ "ik_err_max": 9.948535410319695e-07,
+ "governor_hz": null,
+ "script": "samples/stage/qa.stage.json",
+ "hand_profile": "shadow",
+ "video": "videos/stage/qa.mp4"
+}

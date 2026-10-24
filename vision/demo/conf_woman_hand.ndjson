@@ -1,0 +1,2 @@
+{"event": "look_command", "id": 2, "description": "the man in the navy suit", "heard": "look at the man in the navy suit", "bearing_deg": -22.1, "pitch_deg": 14.6, "session_id": "kermit", "t": 190758.725}
+{"brain_reply_to": "look_command", "ms": 1, "lines": [{"event": "skip"}]}

@@ -1,0 +1,4 @@
+=== C_26B_Q4_0_mtp 10:46:26 load=8.91
+{"label": "C_26B_Q4_0_mtp", "mode": "kml", "prompt": "full", "n": 40, "valid": "40/40", "lint_clean": "40/40", "expect_pass": "37/40", "placement_ok": "94/94", "emotion_gesture_clash": "0/40", "gestures_per_turn": 2.35, "words_med": 13.0, "first_sentence_words_med": 2.0, "ms_first_token_med": 63, "ms_header_med": 112, "ms_first_sentence_med": 259, "ms_first_sentence_p90": 370, "ms_text_first_sentence_med": null, "ms_total_med": 535, "gen_tokens_med": 44.0, "tps_med": 97.5, "annot_ms_med": null, "annot_tps_med": null}
+  mtp acceptance 0.43
+clean pass done 10:47:07

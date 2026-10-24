@@ -1,0 +1,28 @@
+{
+ "text": "I write little gesture tags right into my sentences. Like this nod. Whoa, and that one! The xArm performs them on the exact word.",
+ "emotion": "thinking",
+ "gestures": [
+  {
+   "word": 0,
+   "type": "tilt_right",
+   "intensity": 0.5
+  },
+  {
+   "word": 9,
+   "type": "nod",
+   "intensity": 0.8
+  },
+  {
+   "word": 12,
+   "type": "surprise",
+   "intensity": 0.9
+  },
+  {
+   "word": 16,
+   "type": "look_at",
+   "intensity": 0.5,
+   "target": "speaker"
+  }
+ ],
+ "gaze": "speaker"
+}

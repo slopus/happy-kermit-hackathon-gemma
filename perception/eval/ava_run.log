@@ -1,0 +1,54 @@
+053oq2xB3oU {'offline': 61.9, '(1.2, 8, 0)': 53.7, 'frames': 12240, 'pos': 1177, 'sec': 89}
+2DUITARAsWQ {'offline': 89.4, '(1.2, 8, 0)': 70.2, 'frames': 5985, 'pos': 459, 'sec': 60}
+5milLu-6bWI {'offline': 95.6, '(1.2, 8, 0)': 83.3, 'frames': 3612, 'pos': 1235, 'sec': 45}
+2qQs3Y9OJX0 {'offline': 76.3, '(1.2, 8, 0)': 51.6, 'frames': 15397, 'pos': 1165, 'sec': 99}
+IzvOYVMltkI {'offline': 95.3, '(1.2, 8, 0)': 80.5, 'frames': 3849, 'pos': 1265, 'sec': 43}
+{
+ "crop": "box",
+ "configs": "(window_s, a, b): mean of frame logits [T-a, T-b) of a causal window ending now",
+ "per_video": {
+  "053oq2xB3oU": {
+   "offline": 61.9,
+   "(1.2, 8, 0)": 53.7,
+   "frames": 12240,
+   "pos": 1177,
+   "sec": 89
+  },
+  "2DUITARAsWQ": {
+   "offline": 89.4,
+   "(1.2, 8, 0)": 70.2,
+   "frames": 5985,
+   "pos": 459,
+   "sec": 60
+  },
+  "5milLu-6bWI": {
+   "offline": 95.6,
+   "(1.2, 8, 0)": 83.3,
+   "frames": 3612,
+   "pos": 1235,
+   "sec": 45
+  },
+  "2qQs3Y9OJX0": {
+   "offline": 76.3,
+   "(1.2, 8, 0)": 51.6,
+   "frames": 15397,
+   "pos": 1165,
+   "sec": 99
+  },
+  "IzvOYVMltkI": {
+   "offline": 95.3,
+   "(1.2, 8, 0)": 80.5,
+   "frames": 3849,
+   "pos": 1265,
+   "sec": 43
+  }
+ },
+ "all": {
+  "offline": 84.1,
+  "(1.2, 8, 0)": 66.6,
+  "acc@0 offline": 94.2,
+  "acc@0 (1.2, 8, 0)": 91.2
+ },
+ "frames": 41083,
+ "positives": 5301
+}

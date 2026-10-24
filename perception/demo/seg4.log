@@ -1,0 +1,10 @@
+[ WARN:0@4.338] global net_impl_backend.cpp:345 setPreferableTarget Targets are not supported by the new graph engine for now
+{"event": "person_arrived", "id": 1, "t": 35.5, "role": "presenter", "yaw_deg": 18.0}
+{"event": "person_arrived", "id": 2, "t": 35.5, "role": "presenter", "yaw_deg": -14.6}
+{"event": "speaker_changed", "from": null, "to": 2, "t": 36.267, "role": "presenter", "yaw_deg": -15.7}
+{"event": "speaker_changed", "from": 2, "to": 1, "t": 49.1, "role": "presenter", "yaw_deg": 13.6}
+{"event": "speaker_changed", "from": 1, "to": 2, "t": 53.167, "role": "presenter", "yaw_deg": -15.7}
+{"event": "speaker_changed", "from": 2, "to": 1, "t": 57.167, "role": "presenter", "yaw_deg": 16.5}
+{"event": "speaker_changed", "from": 1, "to": 2, "t": 59.867, "role": "presenter", "yaw_deg": -18.9}
+{"event": "speaker_changed", "from": 2, "to": 1, "t": 63.0, "role": "presenter", "yaw_deg": 15.5}
+{"timing_median_ms": {"pose_ms": 14.7, "face_ms": 31.4, "asd_ms": 9.7, "total_ms": 49.3}, "frames": 902}

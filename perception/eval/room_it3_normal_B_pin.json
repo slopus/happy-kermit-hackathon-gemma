@@ -1,0 +1,38 @@
+{
+ "run": "it3_normal_B_pin",
+ "speaker_acc": 0.84,
+ "n": 1269,
+ "per_truth_speaker": {
+  "kirill": {
+   "none": 3,
+   "steve": 111,
+   "ok": 781
+  },
+  "steve": {
+   "kirill": 89,
+   "ok": 285
+  }
+ },
+ "events": {
+  "person_arrived": 5,
+  "speaker_changed": 4,
+  "turned_away": 1,
+  "turned_back": 1
+ },
+ "turned_away_vs_truth_facing": {
+  "true": 1
+ },
+ "turned_away_log": [
+  [
+   77.48,
+   "kirill",
+   "away",
+   true
+  ]
+ ],
+ "presenter_away_periods": 1,
+ "presenter_away_latency_s": [
+  0.91
+ ],
+ "presenter_false_turned_away": 0
+}

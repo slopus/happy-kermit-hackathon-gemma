@@ -1,0 +1,15 @@
+[ WARN:0@3.218] global net_impl_backend.cpp:345 setPreferableTarget Targets are not supported by the new graph engine for now
+{"event": "person_arrived", "id": 1, "t": 5.088, "role": "judge", "yaw_deg": -20.3}
+{"event": "turned_away", "id": 7, "t": 23.523, "role": "judge", "yaw_deg": 28.2, "while_speaking": false}
+{"event": "turned_back", "id": 7, "t": 23.941, "role": "judge", "yaw_deg": 28.3}
+{"event": "person_arrived", "id": 17, "t": 33.951, "role": "judge", "yaw_deg": -28.0}
+{"event": "turned_away", "id": 17, "t": 38.121, "role": "judge", "yaw_deg": -19.7, "while_speaking": false}
+{"event": "person_arrived", "id": 3, "t": 38.288, "role": "judge", "yaw_deg": -8.3}
+{"event": "turned_back", "id": 17, "t": 38.622, "role": "judge", "yaw_deg": -21.6}
+{"event": "turned_away", "id": 6, "t": 39.039, "role": "judge", "yaw_deg": 9.4, "while_speaking": false}
+{"event": "person_arrived", "id": 5, "t": 40.207, "role": "judge", "yaw_deg": 14.7}
+{"event": "speaker_changed", "from": null, "to": 5, "t": 40.207, "role": "judge", "yaw_deg": 14.7}
+{"event": "person_left", "id": 1, "t": 41.792}
+{"event": "person_left", "id": 5, "t": 48.465}
+{"event": "person_left", "id": 3, "t": 56.056}
+{"timing_median_ms": {"pose_ms": 16.3, "face_ms": 32.4, "asd_ms": 20.2, "mic_ms": 15.4, "total_ms": 62.2}, "frames": 1439}

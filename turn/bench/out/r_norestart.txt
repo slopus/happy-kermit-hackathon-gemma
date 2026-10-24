@@ -1,0 +1,1 @@
+turns 40  holds 64  cut-ins 2 (3.1% of pauses, 5.0% of turns)  delay after true end: mean 661 ms, median 467 ms (silence measured from the last word's end)  timeouts 0%

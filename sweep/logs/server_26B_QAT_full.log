@@ -1,0 +1,16 @@
+0.00.128.184 I srv  llama_server: initializing ...
+0.00.128.219 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.131.259 W srv  llama_server: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)
+0.00.135.043 I srv    load_model: loading model '/var/lib/happy-agent/happy/Bots/bot_2/.context/gemma-bench/models/26B/gemma-4-26B_q4_0-it.gguf'
+0.01.298.194 W common_fit_params: failed to fit params to free device memory: n_gpu_layers already set by user to 99, abort
+0.01.838.742 W load: control-looking token:    212 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.01.838.819 W load: control-looking token:     50 '<|tool_response>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.01.846.977 W load: '</s>' is a normal token here, removing it from EOG list
+0.11.763.375 E ggml_backend_cuda_buffer_type_alloc_buffer: allocating 13755.42 MiB on device 0: cudaMalloc failed: out of memory
+0.11.763.396 E ggml_backend_buft_alloc_buffer_n_default: failed to allocate CUDA0 buffer of size 14423602944
+0.12.589.454 E llama_model_load: error loading model: unable to allocate CUDA0 buffer
+0.12.589.473 E llama_model_load_from_file_impl: failed to load model
+0.12.589.508 E cmn  common_init_: failed to load model '/var/lib/happy-agent/happy/Bots/bot_2/.context/gemma-bench/models/26B/gemma-4-26B_q4_0-it.gguf'
+0.12.589.532 E srv    load_model: failed to load model, '/var/lib/happy-agent/happy/Bots/bot_2/.context/gemma-bench/models/26B/gemma-4-26B_q4_0-it.gguf'
+0.12.589.537 I srv    operator(): operator(): cleaning up before exit...
+0.12.598.908 E srv  llama_server: exiting due to model loading error

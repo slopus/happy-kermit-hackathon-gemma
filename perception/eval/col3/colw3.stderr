@@ -1,0 +1,25 @@
+[ WARN:0@4.557] global net_impl_backend.cpp:345 setPreferableTarget Targets are not supported by the new graph engine for now
+{"event": "person_arrived", "id": 1, "t": 0.501, "role": "presenter", "yaw_deg": 1.6}
+{"event": "person_arrived", "id": 2, "t": 0.501, "role": "presenter", "yaw_deg": -28.8}
+{"event": "person_arrived", "id": 3, "t": 0.501, "role": "presenter", "yaw_deg": 27.6}
+{"event": "speaker_changed", "from": null, "to": 1, "t": 0.501, "role": "presenter", "yaw_deg": 1.6}
+{"event": "turned_away", "id": 3, "t": 84.284, "role": "judge", "yaw_deg": 37.7, "while_speaking": false}
+{"event": "person_arrived", "id": 5, "t": 84.985, "role": "presenter", "yaw_deg": -35.9}
+{"event": "person_left", "id": 3, "t": 86.553, "role": "judge", "yaw_deg": 37.1}
+{"event": "person_arrived", "id": 3, "t": 87.487, "role": "judge", "yaw_deg": 36.8}
+{"event": "turned_back", "id": 3, "t": 87.854, "role": "judge", "yaw_deg": 36.3}
+{"event": "person_left", "id": 5, "t": 89.489, "role": "judge", "yaw_deg": -37.7}
+{"event": "person_arrived", "id": 9, "t": 90.457, "role": "judge", "yaw_deg": 37.4}
+{"event": "turned_away", "id": 2, "t": 90.924, "role": "judge", "yaw_deg": -36.7, "while_speaking": false}
+{"event": "person_left", "id": 2, "t": 93.093, "role": "judge", "yaw_deg": -37.3}
+{"event": "speaker_changed", "from": 1, "to": 3, "t": 101.268, "role": "presenter", "yaw_deg": -1.1}
+{"event": "speaker_changed", "from": 3, "to": 1, "t": 110.644, "role": "presenter", "yaw_deg": -27.4}
+{"event": "speaker_changed", "from": 1, "to": 3, "t": 114.581, "role": "presenter", "yaw_deg": 2.3}
+{"event": "speaker_changed", "from": 3, "to": 1, "t": 117.651, "role": "presenter", "yaw_deg": -26.7}
+{"event": "speaker_changed", "from": 1, "to": 3, "t": 119.319, "role": "presenter", "yaw_deg": -0.1}
+{"event": "speaker_changed", "from": 3, "to": 1, "t": 125.492, "role": "presenter", "yaw_deg": -26.9}
+{"event": "speaker_changed", "from": 1, "to": 3, "t": 126.493, "role": "presenter", "yaw_deg": -0.4}
+{"event": "speaker_changed", "from": 3, "to": 9, "t": 129.463, "role": "presenter", "yaw_deg": 31.4}
+{"event": "speaker_changed", "from": 9, "to": 3, "t": 132.632, "role": "presenter", "yaw_deg": 0.8}
+{"event": "speaker_changed", "from": 3, "to": 1, "t": 135.736, "role": "presenter", "yaw_deg": -26.6}
+{"timing_median_ms": {"pose_ms": 18.6, "face_ms": 15.5, "asd_ms": 23.5, "total_ms": 43.0}, "frames": 4496}

@@ -1,0 +1,95 @@
+{
+ "voice_scene": "../../../voice/samples/scene/scene.json",
+ "floor_z": -0.8,
+ "speakers": {
+  "human": "presenter"
+ },
+ "labels": {
+  "presenter": "Presenter"
+ },
+ "people": [
+  {
+   "id": 2,
+   "name": "presenter",
+   "style": "presenter",
+   "role": "presenter",
+   "mic": true,
+   "pos": [
+    1.4,
+    -0.8
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "t": 38.3,
+   "who": "presenter",
+   "do": "turn_away",
+   "dur": 1.1
+  },
+  {
+   "t": 50.85,
+   "who": "presenter",
+   "do": "turn_back",
+   "dur": 1.0
+  }
+ ],
+ "shots": [
+  [
+   0,
+   "stage_wide"
+  ],
+  [
+   1.6,
+   "two_shot"
+  ],
+  [
+   3.4,
+   "kermit_cu"
+  ],
+  [
+   7.6,
+   "two_shot"
+  ],
+  [
+   11.1,
+   "kermit_cu"
+  ],
+  [
+   15.6,
+   "two_shot"
+  ],
+  [
+   22.1,
+   "kermit_cu"
+  ],
+  [
+   28.0,
+   "two_shot"
+  ],
+  [
+   30.7,
+   "kermit_cu"
+  ],
+  [
+   35.8,
+   "two_shot"
+  ],
+  [
+   57.1,
+   "kermit_cu"
+  ],
+  [
+   61.6,
+   "two_shot"
+  ],
+  [
+   64.3,
+   "kermit_cu"
+  ],
+  [
+   66.6,
+   "stage_wide"
+  ]
+ ]
+}

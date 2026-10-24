@@ -1,0 +1,61 @@
+run final3_quiet_B: room pid 1315481, run_kermit pid 1315558
+run final3_quiet_B done → /var/lib/happy-agent/happy/Bots/bot_2/kermit/room/run/final3_quiet_B
+ 1 kirill  wake            OK lat 1.70s  wer 0.10  heard: "Hay Kermit, wake up there's a lot of people here"  → "Whoa! That is a lot of people. Hi, everybody! I'm "
+ 2 kirill  feeling         OK lat 0.86s  wer 0.10  heard: 'So Kerman, how are you feeling about AI these days'  → "Honestly? A little tired. Every week there's a new"
+ 3 kirill  why_here        OK lat 1.01s  wer 0.00  heard: "Is that why you're here"  → "Yep! I'm the friendly face of Happy, an app for ta"
+ 4 kirill  cloud           OK lat 1.62s  wer 0.00  heard: 'And wait, are you running in the cloud'  → 'Nope! My whole brain is Gemma, running right here '
+ 5 kirill  interject       OK cut-in 0.99s  wer 1.00  heard: ''  → 'Oh, like...'
+ 6 kirill  back_turned     OK lat 1.26s  wer 1.12  heard: 'Honestly, I think everyone in this room feels it. And every '  → 'You, my friend, should learn how to speak to peopl'
+ 7 kirill  respect         OK lat 1.31s  wer 0.00  heard: "Well, Kermit, I respect you. It's just hard not to get distr"  → 'Okay, fair enough. They are a very cheerful bunch.'
+ 8 kirill  None            OK             wer 0.00  heard: 'Steve, you built most of his insides. Tell everyone how he w'  → ''
+ 9 steve   steve_brain     OK lat 0.97s  wer 0.93  heard: 'Steve, you built most of his insides. Tell everyone how he w'  → "Hi, Steve! Google's Gemma four, the E four B model"
+10 steve   steve_ears      OK lat 1.24s  wer 0.00  heard: 'And how do you hear me and talk back so fast?'  → 'Parakeet turns your voice into words, Gemma does t'
+11 steve   steve_gestures  OK lat 0.90s  wer 0.00  heard: 'How do you decide when to nod or look surprised?'  → 'I write little gesture tags right into my sentence'
+12 steve   steve_robotics  OK lat 0.71s  wer 0.00  heard: 'Last one, why do you think robotics is about to explode?'  → 'Because brains like mine now fit on a laptop! Smal'
+13 kirill  handoff         OK lat 1.49s  wer 0.55  heard: 'Well, Kermit, what do you say? | Well, Kermit, what do you s'  → 'Absolutely! Judges, hit me with your questions. I '
+14 judge1  qa_nod          OK lat 1.81s  wer 0.00  heard: 'How does the hand know when to nod'  → 'I write gesture tags right into my sentences. The '
+15 judge2  qa_cloud        OK lat 1.76s  wer 0.00  heard: 'Why Gemma and not a cloud model?'  → 'The hackathon requires me to be offline. Plus, pri'
+16 judge3  qa_robotics     OK lat 1.47s  wer 0.00  heard: 'What happens to robotics next?'  → "They're getting cheaper, friendlier and everywhere"
+17 judge1  qa_hard         OK lat 3.04s  wer 0.00  heard: 'And what was the hardest part to build'  → 'Keeping a small model funny, landing gestures on t'
+{
+ "run": "final3_quiet_B",
+ "noise": "quiet",
+ "venue_dba": 45.0,
+ "mic_noise_dba_median": 45.9,
+ "speech_snr_at_mic_db_median": 39.1,
+ "echo_to_speech_db": -31.6,
+ "steps": 17,
+ "beats_landed": 17,
+ "right_reply_started": 16,
+ "replies_cut_short": 0,
+ "self_bargeins": 0,
+ "bargeins_during_human": 1,
+ "expected_replies": 16,
+ "missed_turns": 0,
+ "false_cut_ins": 0,
+ "spontaneous_turns": 0,
+ "self_heard": 0,
+ "self_heard_flagged_echo": 0,
+ "self_triggered_leaks": 0,
+ "latency_mean_s": 1.41,
+ "latency_p95_s": 2.182,
+ "latency_max_s": 3.045,
+ "endpoint_mean_s": 1.163,
+ "stt_done_mean_s": 0.757,
+ "play_mean_s": 1.324,
+ "asr_behind_ms_median": 166.0,
+ "stt_wer_mean": 0.22,
+ "speaker_id_acc": 0.837,
+ "speaker_id_samples": 1052,
+ "facing_acc": 0.957,
+ "turned_away_events": 15,
+ "turned_away_presenter_while_speaking": 1,
+ "engine": {
+  "overruns": 0,
+  "proc_ms_mean": 5.74,
+  "proc_ms_p99": 17.03,
+  "proc_ms_max": 34.7,
+  "spk_late_blocks": 0,
+  "duration_s": 230.36
+ }
+}

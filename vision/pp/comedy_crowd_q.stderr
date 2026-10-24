@@ -1,0 +1,5 @@
+[ WARN:0@2.906] global net_impl_backend.cpp:345 setPreferableTarget Targets are not supported by the new graph engine for now
+{"event": "person_arrived", "id": 1, "t": 0.501, "role": "presenter", "yaw_deg": 8.6}
+{"event": "speaker_changed", "from": null, "to": 1, "t": 1.201, "role": "presenter", "yaw_deg": 8.6}
+{"event": "hand_raised", "id": 1, "t": 40.04, "role": "presenter", "yaw_deg": 8.4}
+{"timing_median_ms": {"pose_ms": 14.3, "face_ms": 17.9, "asd_ms": 8.0, "mic_ms": 14.9, "total_ms": 39.7}, "frames": 1800}

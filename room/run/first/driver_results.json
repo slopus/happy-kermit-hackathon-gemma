@@ -1,0 +1,43 @@
+[
+ {
+  "step": 1,
+  "who": "kirill",
+  "beat": "wake",
+  "expected": true,
+  "line_on_t": 184613.218017883,
+  "line_off_t": 184616.50969324698,
+  "kermit_cut_in": null,
+  "missed": true
+ },
+ {
+  "step": 2,
+  "who": "kirill",
+  "beat": "feeling",
+  "expected": true,
+  "line_on_t": 184625.030845734,
+  "line_off_t": 184628.59638074698,
+  "kermit_cut_in": null,
+  "missed": true
+ },
+ {
+  "step": 3,
+  "who": "kirill",
+  "beat": "why_here",
+  "expected": true,
+  "line_on_t": 184637.202729466,
+  "line_off_t": 184638.94350574698,
+  "kermit_cut_in": null,
+  "reply_onset_t": 184639.989693247,
+  "reply_end_t": 184645.25206824698
+ },
+ {
+  "step": 4,
+  "who": "kirill",
+  "beat": "cloud",
+  "expected": true,
+  "line_on_t": 184648.440804418,
+  "line_off_t": 184650.90975574698,
+  "kermit_cut_in": null,
+  "missed": true
+ }
+]

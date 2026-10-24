@@ -1,0 +1,7 @@
+{"event":"person_arrived","id":1,"t":0.5,"role":"judge","yaw_deg":-6.2}
+{"event":"person_arrived","id":2,"t":0.5,"role":"judge","yaw_deg":29.0}
+{"event":"person_arrived","id":3,"t":0.5,"role":"judge","yaw_deg":15.9}
+{"event":"person_arrived","id":4,"t":0.5,"role":"judge","yaw_deg":-19.2}
+{"event":"hand_raised","id":3,"t":1.1,"role":"judge","yaw_deg":18.2}
+{"event":"hand_raised","id":1,"t":2.4,"role":"judge","yaw_deg":-4.3}
+{"event":"hand_raised","id":3,"t":7.8,"role":"judge","yaw_deg":17.9}

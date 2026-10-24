@@ -1,0 +1,62 @@
+{
+ "source": "measured on real video (perception/eval): ASD = AVA-ActiveSpeaker val 5\u00d73 min causal Light-ASD; facing = MIT lecture 120 s hand-labelled; mic = town-hall/lecture/Columbia frames",
+ "asd_logit_speaking": [
+  -0.32,
+  0.74
+ ],
+ "asd_logit_silent": [
+  -1.52,
+  0.76
+ ],
+ "asd_ar": 0.8,
+ "asd_max_dist_m": 4.0,
+ "facing_confusion": {
+  "toward": {
+   "toward": 0.97,
+   "side": 0.03,
+   "away": 0.0
+  },
+  "side": {
+   "toward": 0.0,
+   "side": 0.84,
+   "away": 0.16
+  },
+  "away": {
+   "toward": 0.0,
+   "side": 0.48,
+   "away": 0.52
+  }
+ },
+ "facing_block_s": 0.5,
+ "yaw_sigma_deg": 1.0,
+ "dist_rel_sigma": 0.15,
+ "dropouts_per_min": 0.5,
+ "dropout_s": [
+  0.2,
+  1.0
+ ],
+ "id_switch_after_dropout": 0.1,
+ "mic_miss": 0.0,
+ "mic_false_pos": 0.0,
+ "respect_in_fov": true,
+ "measured": {
+  "ava_causal_AP": 66.6,
+  "ava_offline_AP": 84.1,
+  "columbia_speaker_id_acc": 91.7,
+  "columbia_switch_latency_median_s": 1.07,
+  "lecture_facing_acc_3class": 0.733,
+  "mic_person_level_town_lecture": {
+   "P": 1.0,
+   "R": 1.0,
+   "n_pos": 10
+  }
+ },
+ "facing_confusion_side_clean": {
+  "toward": 0.06,
+  "side": 0.94,
+  "away": 0.0
+ },
+ "side_clean_below_deg": 75,
+ "asd_source": "Columbia panel through the full live pipeline (YuNet crops, causal Light-ASD), 46k labelled face-frames, AUC 0.87; AVA (movies, GT boxes) gave speaking -0.31\u00b11.37 / silent -2.29\u00b10.83, AUC similar, heavier tails",
+ "asd_ar_note": "calibrated: oracle on Columbia ground truth reproduces the real end-to-end speaker_id accuracy (rho 0.65 \u2192 95.4%, 0.9 \u2192 89.2%, real 91.8%)"
+}

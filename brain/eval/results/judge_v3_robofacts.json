@@ -1,0 +1,356 @@
+{
+ "summary": {
+  "label": "v3_robofacts",
+  "prompt": "persona3",
+  "judge": {
+   "n": 20,
+   "pass_": "20/20",
+   "valid": "20/20",
+   "ms_header": 130,
+   "ms_first_sentence": 492,
+   "ms_total": 811
+  },
+  "interject": {
+   "n": 10,
+   "pass_": "9/10",
+   "valid": "10/10",
+   "ms_header": 125,
+   "ms_first_sentence": 313,
+   "ms_total": 402
+  }
+ },
+ "rows": [
+  {
+   "kind": "judge",
+   "q": "so what exactly is this project",
+   "rep": 0,
+   "raw": "[happy|speaker] {nod 0.5} A friendly frog face for Happy, an app for talking to your AI agents. {head_bob 0.4} AI moves fast and feels exhausting; a silly frog makes it feel human again.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.29076423597871326,
+   "t_first_sentence": 0.675177734985482,
+   "t_total": 1.0373703399964143
+  },
+  {
+   "kind": "judge",
+   "q": "how does it work end to end",
+   "rep": 0,
+   "raw": "[thinking|speaker] {nod 0.5} Parakeet listens, Gemma writes the words and gestures, {head_bob 0.4} Kokoro talks, and the arm moves. All local.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.13627210599952377,
+   "t_first_sentence": 0.6856542699970305,
+   "t_total": 0.7296861880167853
+  },
+  {
+   "kind": "judge",
+   "q": "which model are you running and why gemma",
+   "rep": 0,
+   "raw": "[happy|speaker] {nod 0.5} Gemma four, E four B, fine-tuned on my personality. {head_bob 0.4} It's small enough to fit on a laptop, and I'm a frog with a very strict no-cloud policy.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.13035700397449546,
+   "t_first_sentence": 0.4442951289820485,
+   "t_total": 0.9469091309874784
+  },
+  {
+   "kind": "judge",
+   "q": "did you fine tune the model",
+   "rep": 0,
+   "raw": "[happy|speaker] {nod 0.6} The Happy team fine-tuned it with a LoRA on about a thousand examples.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12429870400228538,
+   "t_first_sentence": 0.4836866350087803,
+   "t_total": 0.4836912750033662
+  },
+  {
+   "kind": "judge",
+   "q": "why not just use the cloud",
+   "rep": 0,
+   "raw": "[thinking|speaker] {shrug 0.4} No cloud at all! {nod 0.4} Private, no network lag, works offline. {look_at:audience 0.3} And the hackathon requires it.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.13743228098610416,
+   "t_first_sentence": 0.34071416399092413,
+   "t_total": 0.832040977984434
+  },
+  {
+   "kind": "judge",
+   "q": "what happens if the wifi goes down",
+   "rep": 0,
+   "raw": "[happy|speaker] {nod 0.6} Nothing! {laugh 0.4} I don't use wifi at all. {head_bob 0.4} I'm fully offline.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12643268500687554,
+   "t_first_sentence": 0.2695207050128374,
+   "t_total": 0.7122487369924784
+  },
+  {
+   "kind": "judge",
+   "q": "what was the hardest part of building this",
+   "rep": 0,
+   "raw": "[thinking|speaker] {nod 0.4} Keeping a small model funny, landing gestures on the right word, {surprise 0.4} and syncing voice, mouth and motion. {laugh 0.3} A frog's worst nightmare.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.13258502600365318,
+   "t_first_sentence": 0.653248082002392,
+   "t_total": 0.856569034018321
+  },
+  {
+   "kind": "judge",
+   "q": "how fast do you respond",
+   "rep": 0,
+   "raw": "[happy|speaker] {nod 0.5} Well under a second, I start talking right away. {head_bob 0.4} You can even hear the thinking happening.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12537179901846685,
+   "t_first_sentence": 0.4008070350100752,
+   "t_total": 0.6540804360120092
+  },
+  {
+   "kind": "judge",
+   "q": "what's next for happy kermit",
+   "rep": 0,
+   "raw": "[excited|speaker] {nod 0.5} Being inside the Happy app, {head_bob 0.5} more gestures, and knowing who I'm talking to. {look_at:laptop 0.3} And waving at everyone.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.14003492600750178,
+   "t_first_sentence": 0.6561835379980039,
+   "t_total": 0.8871309740061406
+  },
+  {
+   "kind": "judge",
+   "q": "is this really running on that laptop",
+   "rep": 0,
+   "raw": "[happy|speaker] {nod 0.7} Really, no cloud at all! {look_at:laptop 0.5} Gemma, Parakeet and my voice all live here. {head_bob 0.4} Ask me anything.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12467375499545597,
+   "t_first_sentence": 0.34171670000068843,
+   "t_total": 0.886672850989271
+  },
+  {
+   "kind": "interject",
+   "q": "so the way the agents talk to each other is",
+   "rep": 0,
+   "raw": "[thinking|speaker] {tilt_left 0.4} Whoa, I'm listening! {lean_in 0.4} Tell me about them?",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.14758304500719532,
+   "t_first_sentence": 0.4098245020140894,
+   "t_total": 0.6106432120141108
+  },
+  {
+   "kind": "interject",
+   "q": "and then we",
+   "rep": 0,
+   "raw": "[happy|speaker] {lean_in 0.5} And then we frog?",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12151246899156831,
+   "t_first_sentence": 0.33624903098098,
+   "t_total": 0.33625365199986845
+  },
+  {
+   "kind": "interject",
+   "q": "",
+   "rep": 0,
+   "raw": "[thinking|speaker] {tilt_right 0.5} Hmm, ignoring a frog. Bold.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12206429199432023,
+   "t_first_sentence": 0.35501201800070703,
+   "t_total": 0.3840218889818061
+  },
+  {
+   "kind": "interject",
+   "q": "the hand has six",
+   "rep": 0,
+   "raw": "[happy|speaker] {nod 0.5} Six fingers! {laugh 0.4} Six friends, six people.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12949853000463918,
+   "t_first_sentence": 0.29065380501560867,
+   "t_total": 0.47621445599361323
+  },
+  {
+   "kind": "interject",
+   "q": "anyway what i was saying",
+   "rep": 0,
+   "raw": "[thinking|speaker] {look_at:speaker 0.5} You? I'm still here.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12373990000924096,
+   "t_first_sentence": 0.3263472800026648,
+   "t_total": 0.4133507900114637
+  },
+  {
+   "kind": "judge",
+   "q": "so what exactly is this project",
+   "rep": 1,
+   "raw": "[happy|speaker] {look_at:laptop 0.5} A friendly frog face for Happy, an app for talking to your AI agents. {head_bob 0.5} AI moves so fast it feels exhausting, a silly frog makes it feel human again.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.13605074500082992,
+   "t_first_sentence": 0.5407922309823334,
+   "t_total": 0.9197949240042362
+  },
+  {
+   "kind": "judge",
+   "q": "how does it work end to end",
+   "rep": 1,
+   "raw": "[happy|speaker] {nod 0.5} Parakeet hears you, Gemma writes my reply, Kokoro speaks it, and the arm moves me. {head_bob 0.4} All on this laptop.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12779318098910153,
+   "t_first_sentence": 0.5568332739931066,
+   "t_total": 0.7636765550123528
+  },
+  {
+   "kind": "judge",
+   "q": "which model are you running and why gemma",
+   "rep": 1,
+   "raw": "[happy|speaker] {nod 0.5} Gemma four, E four B, running four-bit on an M five Max MacBook. {head_bob 0.4} It's a smart little brain that fits on a laptop.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12351567001314834,
+   "t_first_sentence": 0.4996517290128395,
+   "t_total": 0.8159655170165934
+  },
+  {
+   "kind": "judge",
+   "q": "did you fine tune the model",
+   "rep": 1,
+   "raw": "[happy|speaker] {nod 0.6} Yes, with a LoRA on about a thousand examples! {head_bob 0.4} That's how I got my personality.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12321022700052708,
+   "t_first_sentence": 0.41364513101871125,
+   "t_total": 0.6793624980200548
+  },
+  {
+   "kind": "judge",
+   "q": "why not just use the cloud",
+   "rep": 1,
+   "raw": "[thinking|speaker] {shrug 0.4} Cloud isn't private, has lag, and the hackathon requires no internet. {nod 0.4} Plus, I like being here, where everyone can see me.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.1303815060236957,
+   "t_first_sentence": 0.5128382170223631,
+   "t_total": 0.8057092950039078
+  },
+  {
+   "kind": "judge",
+   "q": "what happens if the wifi goes down",
+   "rep": 1,
+   "raw": "[happy|speaker] {nod 0.5} Nothing! {head_bob 0.4} I don't use wifi at all. {look_at:laptop 0.3} Everything's right here on this laptop.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12459465701249428,
+   "t_first_sentence": 0.27007848999346606,
+   "t_total": 0.8163936290075071
+  },
+  {
+   "kind": "judge",
+   "q": "what was the hardest part of building this",
+   "rep": 1,
+   "raw": "[thinking|speaker] {nod 0.5} Landing gestures on the right word, {surprise 0.5} keeping latency low, {head_bob 0.4} and syncing voice, mouth and motion. {lean_in 0.3} Small model, big coordination.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.13547957202536054,
+   "t_first_sentence": 0.7478757450007834,
+   "t_total": 0.9639936150051653
+  },
+  {
+   "kind": "judge",
+   "q": "how fast do you respond",
+   "rep": 1,
+   "raw": "[happy|speaker] {nod 0.5} Well under a second! {head_bob 0.4} I start talking as I think, sentence by sentence.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12944032999803312,
+   "t_first_sentence": 0.3152256530011073,
+   "t_total": 0.6081847500172444
+  },
+  {
+   "kind": "judge",
+   "q": "what's next for happy kermit",
+   "rep": 1,
+   "raw": "[excited|speaker] {nod 0.6} Putting me inside the Happy app as the face of your agents, {head_bob 0.6} more gestures, and knowing who I'm talking to.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.13229330600006506,
+   "t_first_sentence": 0.7570024119922891,
+   "t_total": 0.7570062119921204
+  },
+  {
+   "kind": "judge",
+   "q": "is this really running on that laptop",
+   "rep": 1,
+   "raw": "[happy|speaker] {nod 0.6} Really! {look_around 0.3} My brain, Gemma, is all on this laptop. {head_bob 0.4} No cloud, no internet.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.13109174798591994,
+   "t_first_sentence": 0.28154017799533904,
+   "t_total": 0.7988566979765892
+  },
+  {
+   "kind": "interject",
+   "q": "so the way the agents talk to each other is",
+   "rep": 1,
+   "raw": "[thinking|speaker] {tilt_right 0.5} Your turn, not mine!",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12659952699323185,
+   "t_first_sentence": 0.3638490049925167,
+   "t_total": 0.3638528749870602
+  },
+  {
+   "kind": "interject",
+   "q": "and then we",
+   "rep": 1,
+   "raw": "[thinking|speaker] {tilt_right 0.6} We? I'm in here!",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12266047598677687,
+   "t_first_sentence": 0.30045876698568463,
+   "t_total": 0.3902331509743817
+  },
+  {
+   "kind": "interject",
+   "q": "",
+   "rep": 1,
+   "raw": "[surprised|speaker] {surprise 0.6} Whoa! {lean_in 0.5} I'm right here.",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.13987052501761355,
+   "t_first_sentence": 0.3001290950051043,
+   "t_total": 0.5162466350011528
+  },
+  {
+   "kind": "interject",
+   "q": "the hand has six",
+   "rep": 1,
+   "raw": "[thinking|speaker] {tilt_left 0.5} Six? I'm a frog. {laugh 0.4} You're counting the joints, I'm counting the croaks.",
+   "fails": [
+    "len"
+   ],
+   "valid": true,
+   "t_header": 0.12621524499263614,
+   "t_first_sentence": 0.2987097179866396,
+   "t_total": 0.712867444002768
+  },
+  {
+   "kind": "interject",
+   "q": "anyway what i was saying",
+   "rep": 1,
+   "raw": "[happy|speaker] {lean_in 0.5} Me? I'm right here!",
+   "fails": [],
+   "valid": true,
+   "t_header": 0.12376221100566909,
+   "t_first_sentence": 0.295966973004397,
+   "t_total": 0.3817014780070167
+  }
+ ]
+}

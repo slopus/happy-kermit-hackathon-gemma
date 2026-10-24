@@ -1,0 +1,6 @@
+{"event": "hand_pick", "id": 1, "description": "the person in light blue shirt", "bearing_deg": -15.2, "pitch_deg": -4.9, "conf": 0.9, "session_id": "kermit", "t": 190728.313}
+{"brain_reply_to": "hand_pick", "ms": 660, "lines": [{"event": "turn", "text": "Hi! Is there something you wanted to ask?", "emotion": "neutral", "gestures": [{"word": 0, "type": "look_at", "intensity": 0.7, "target": "person_1"}, {"word": 1, "type": "nod", "intensity": 0.3}], "gaze": "target:person_1"}]}
+{"event": "look_command", "id": 3, "description": "the girl with the striped backpack", "heard": "Kermit, look at the girl with the striped backpack", "bearing_deg": -28.6, "pitch_deg": 2.5, "session_id": "kermit", "t": 190733.425}
+{"brain_reply_to": "look_command", "ms": 2, "lines": [{"event": "skip"}]}
+{"event": "hand_pick", "id": 2, "description": "the woman with brown curly hair in a pink top", "bearing_deg": 29.2, "pitch_deg": 3.1, "conf": 0.7, "session_id": "kermit", "t": 190737.649}
+{"brain_reply_to": "hand_pick", "ms": 687, "lines": [{"event": "turn", "text": "Hello! What can I do for you?", "emotion": "neutral", "gestures": [{"word": 0, "type": "look_at", "intensity": 0.7, "target": "person_2"}, {"word": 1, "type": "shrug", "intensity": 0.3}], "gaze": "target:person_2"}]}

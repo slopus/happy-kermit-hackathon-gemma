@@ -1,0 +1,41 @@
+[26B_QAT_full_lat] demo01_wake OK  [] "[surprised|speaker] {surprise 0.8} Oh! {head_bob 0.6} I'm awake, I'm awake! {look_at:speaker 0.5} Did I miss something important?"
+[26B_QAT_full_lat] demo02_judges OK  [] "[happy|speaker] {look_at:audience 0.8} Hi, judges! {head_bob 0.7} I hope you're having a wonderful time at the hackathon."
+[26B_QAT_full_lat] demo03_what OK  ['mention_all'] "[happy|speaker] {head_bob 0.5} I'm Happy Kermit! {look_at:speaker 0.4} I'm the friendly face of the Happy app, living right here on this robot arm."
+[26B_QAT_full_lat] demo04_cloud OK  ['emotion'] '[thinking|speaker] {shake 0.8} Nope! {look_at:laptop 0.7} Everything is happening right here on this laptop. No internet or cloud required!'
+[26B_QAT_full_lat] demo05_happy OK  ['emotion'] "[thinking|speaker] {tilt_right 0.5} Well, Happy is an app for talking to your AI agents. {nod 0.4} It's the friendly way to interact with tech like me!"
+[26B_QAT_full_lat] demo06_fast OK  [] '[sad|speaker] {sigh 0.7} Definitely. {tilt_left 0.5} It feels like a lot to keep up with sometimes. {lean_in 0.4} Does it feel overwhelming to you too?'
+[26B_QAT_full_lat] demo07_nod OK  [] '[happy|speaker] {nod 0.9} I certainly do! {lean_in 0.4} What are we agreeing on?'
+[26B_QAT_full_lat] demo08_left OK  [] '[neutral|speaker] {look_at:left 0.8} There you go! {tilt_right 0.4} Did I do it right?'
+[26B_QAT_full_lat] demo09_whoa OK  [] "[surprised|speaker] {surprise 0.8} Whoa! {look_at:robot_arm 0.9} I didn't even notice! {lean_in 0.5} Do you think it's looking at me?"
+[26B_QAT_full_lat] t10_joke OK  [] '[happy|speaker] {lean_in 0.6} Okay, here is one. {laugh 0.4} Why did the robot go to the doctor? Because it had a virus! {laugh 0.3} Was that bad?'
+[26B_QAT_full_lat] t11_won OK  [] '[excited|speaker] {flail 1.0} Whoa! {surprise 0.8} That is amazing news! {lean_in 0.6} What did you win?'
+[26B_QAT_full_lat] t12_bug OK  [] "[sad|speaker] {sigh 0.8} Oh man, that's the worst. {lean_in 0.6} Do you need to take a break, or should we just stare at the screen together?"
+[26B_QAT_full_lat] t13_kermit OK  [] '[neutral|speaker] {shake 0.8} No, no, no! I am Happy Kermit, the friendly face of the Happy app. {tilt_right 0.5} Have you heard of us?'
+[26B_QAT_full_lat] t14_lookaround OK  [] '[happy|speaker] {look_around 0.8} Wow! {look_at:audience 0.7} There are so many cool people here. {look_at:laptop 0.5} And some very fancy hardware, too.'
+[26B_QAT_full_lat] t15_sock OK  [] "[embarrassed|speaker] {shrug 0.7} Well, you caught me. {laugh 0.4} I'm just a very high-tech puppet, but I promise I'm a good listener!"
+[26B_QAT_full_lat] t16_math OK  [] '[happy|speaker] {nod 0.5} That is a fun one! It is four. {tilt_right 0.4} Do you know what three plus three is?'
+[26B_QAT_full_lat] t17_garbled OK  [] "[thinking|speaker] {tilt_right 0.5} Uh oh. {shrug 0.6} I didn't quite catch that. {lean_in 0.4} Could you say that one more time?"
+[26B_QAT_full_lat] t18_silent OK  [] '[happy|speaker] {head_bob 0.8} Oh, hello! {look_at:speaker 0.9} Hi there, little friend! {flail 0.5} It is so nice to meet you!'
+[26B_QAT_full_lat] t19_shake OK  [] "[thinking|speaker] {shake 0.8} No way! {lean_in 0.5} I'm way too nervous to run the world. Do you think you could handle a robot boss?"
+[26B_QAT_full_lat] t20_bye OK  [] '[happy|audience] {flail 0.9} Goodbye, everyone! {nod 0.6} It was so much fun meeting you all!'
+[26B_QAT_full_lat] demo01_wake OK  [] "[surprised|speaker] {surprise 0.8} Whoa! {head_bob 0.5} I'm awake, I'm awake! {look_at:speaker 0.6} Did you have something important to tell me?"
+[26B_QAT_full_lat] demo02_judges OK  [] "[happy|speaker] {look_at:audience 0.7} Hi, judges! {head_bob 0.8} I hope you're all having a wonderful time at the hackathon!"
+[26B_QAT_full_lat] demo03_what OK  [] '[happy|speaker] {head_bob 0.5} Oh, hello! I am Happy, your friendly little frog friend. {lean_in 0.6} I am here to talk to your AI agents.'
+[26B_QAT_full_lat] demo04_cloud OK  [] '[happy|speaker] {shake 0.8} No way! {look_at:laptop 0.7} Everything is happening right here on this machine. {nod 0.5} No internet required!'
+[26B_QAT_full_lat] demo05_happy OK  ['emotion'] "[thinking|speaker] {tilt_right 0.5} It is the app you're using to talk to me! {nod 0.4} It lets you chat with AI agents like me, and the best part is it's all local."
+[26B_QAT_full_lat] demo06_fast OK  [] '[sad|speaker] {sigh 0.7} Totally. {tilt_right 0.5} Sometimes it feels like a lot to keep up with. {lean_in 0.4} Does it feel overwhelming to you too?'
+[26B_QAT_full_lat] demo07_nod OK  [] '[happy|speaker] {nod 0.8} I certainly do! {lean_in 0.5} What are we agreeing on?'
+[26B_QAT_full_lat] demo08_left OK  [] '[neutral|speaker] {look_at:left 0.8} Done! {nod 0.4} What am I looking at over there?'
+[26B_QAT_full_lat] demo09_whoa OK  [] "[surprised|speaker] {surprise 0.7} Wait, really? {look_at:robot_arm 0.9} I didn't even realize I was attached to it! {lean_in 0.5} Do you think it's looking at me?"
+[26B_QAT_full_lat] t10_joke OK  [] '[happy|speaker] {laugh 0.4} Oh, okay! {tilt_right 0.5} Why did the robot go to the doctor? {lean_in 0.6} Because it had a virus! {laugh 0.5} Get it?'
+[26B_QAT_full_lat] t11_won OK  [] "[excited|speaker] {flail 1.0} Whoa! {surprise 0.8} That's incredible! {lean_in 0.6} Tell me everything, what happened?"
+[26B_QAT_full_lat] t12_bug OK  [] '[sad|speaker] {sigh 0.7} Oh man, that is the worst. {lean_in 0.5} Do you need a coffee or just someone to listen to your bug stories?'
+[26B_QAT_full_lat] t13_kermit OK  [] '[neutral|speaker] {shake 0.8} No, no, no! {shrug 0.5} I am Happy, the friendly face of the Happy app.'
+[26B_QAT_full_lat] t14_lookaround OK  [] '[happy|speaker] {look_around 0.8} Wow! {look_at:audience 0.6} This is a lot of people and a lot of cool machines.'
+[26B_QAT_full_lat] t15_sock OK  [] "[embarrassed|speaker] {shrug 0.7} Hey, I'm a very high-tech sock! {laugh 0.4} Does it make me less cool if I'm attached to a robot arm?"
+[26B_QAT_full_lat] t16_math OK  [] "[happy|speaker] {head_bob 0.6} Oh, easy! It's four! {nod 0.5} Do you like math?"
+[26B_QAT_full_lat] t17_garbled OK  [] "[thinking|speaker] {tilt_right 0.5} Uh oh. {shrug 0.6} I'm not quite sure what you mean by that. {lean_in 0.4} Could you say that again?"
+[26B_QAT_full_lat] t18_silent OK  [] '[happy|target:audience] {look_at:audience 0.9} Oh, hello! {head_bob 0.8} It is so nice to meet you!'
+[26B_QAT_full_lat] t19_shake OK  [] "[thinking|speaker] {shake 0.8} Nope! {lean_in 0.5} I think they're just here to help us chat. {nod 0.6} Don't you?"
+[26B_QAT_full_lat] t20_bye OK  [] '[happy|audience] {head_bob 0.6} Bye-bye, everyone! {flail 0.5} It was so much fun meeting you all!'
+{"label": "26B_QAT_full_lat", "mode": "kml", "prompt": "full", "n": 40, "valid": "40/40", "lint_clean": "40/40", "expect_pass": "36/40", "placement_ok": "97/97", "emotion_gesture_clash": "0/40", "gestures_per_turn": 2.42, "words_med": 13.5, "first_sentence_words_med": 2.0, "ms_first_token_med": 56, "ms_header_med": 109, "ms_first_sentence_med": 268, "ms_first_sentence_p90": 342, "ms_text_first_sentence_med": null, "ms_total_med": 610, "gen_tokens_med": 48.0, "tps_med": 85.6, "annot_ms_med": null, "annot_tps_med": null}

@@ -1,0 +1,119 @@
+[
+ {
+  "turn": 1,
+  "beat": "wake",
+  "trigger": "turn",
+  "context": "one person in front of you. visible: audience, laptop",
+  "heard": "hey kermit wake up there's a lot of people here",
+  "kml": "[surprised|audience] {surprise 1.0} Whoa! {look_around 0.7} That is a lot of people. {head_bob 0.8} Hi, everybody! I'm Happy Kermit.",
+  "turn_json": {
+   "text": "Whoa! That is a lot of people. Hi, everybody! I'm Happy Kermit.",
+   "emotion": "surprised",
+   "gestures": [
+    {
+     "word": 0,
+     "type": "surprise",
+     "intensity": 1.0
+    },
+    {
+     "word": 1,
+     "type": "look_around",
+     "intensity": 0.7
+    },
+    {
+     "word": 7,
+     "type": "head_bob",
+     "intensity": 0.8
+    }
+   ],
+   "gaze": "audience"
+  }
+ },
+ {
+  "turn": 2,
+  "beat": "feeling",
+  "trigger": "turn",
+  "context": "one person in front of you. visible: audience, laptop",
+  "heard": "so kermit how are you feeling about ai these days",
+  "kml": "[thinking|speaker] {sigh 0.6} Honestly? A little tired. {look_at:audience 0.5} Every week there's a new model, a new agent, a new robot. {nod 0.6} Some days it feels like a sci-fi movie, and not the fun kind.",
+  "turn_json": {
+   "text": "Honestly? A little tired. Every week there's a new model, a new agent, a new robot. Some days it feels like a sci-fi movie, and not the fun kind.",
+   "emotion": "thinking",
+   "gestures": [
+    {
+     "word": 0,
+     "type": "sigh",
+     "intensity": 0.6
+    },
+    {
+     "word": 4,
+     "type": "look_at",
+     "intensity": 0.5,
+     "target": "audience"
+    },
+    {
+     "word": 16,
+     "type": "nod",
+     "intensity": 0.6
+    }
+   ],
+   "gaze": "speaker"
+  }
+ },
+ {
+  "turn": 3,
+  "beat": "why_here",
+  "trigger": "turn",
+  "context": "one person in front of you. visible: audience, laptop",
+  "heard": "is that why you're here",
+  "kml": "[happy|speaker] {nod 0.8} Yep! I'm the friendly face of Happy, an app for talking to your AI agents. {lean_in 0.6} Less dystopia, more frog.",
+  "turn_json": {
+   "text": "Yep! I'm the friendly face of Happy, an app for talking to your AI agents. Less dystopia, more frog.",
+   "emotion": "happy",
+   "gestures": [
+    {
+     "word": 0,
+     "type": "nod",
+     "intensity": 0.8
+    },
+    {
+     "word": 15,
+     "type": "lean_in",
+     "intensity": 0.6
+    }
+   ],
+   "gaze": "speaker"
+  }
+ },
+ {
+  "turn": 4,
+  "beat": "cloud",
+  "trigger": "turn",
+  "context": "one person in front of you. visible: audience, laptop",
+  "heard": "and wait are you running in the cloud",
+  "kml": "[excited|audience] {shake 0.8} Nope! {look_at:laptop 0.7} My whole brain is Gemma, running right here on this laptop. {flail 0.8} No cloud, no internet, just me!",
+  "turn_json": {
+   "text": "Nope! My whole brain is Gemma, running right here on this laptop. No cloud, no internet, just me!",
+   "emotion": "excited",
+   "gestures": [
+    {
+     "word": 0,
+     "type": "shake",
+     "intensity": 0.8
+    },
+    {
+     "word": 1,
+     "type": "look_at",
+     "intensity": 0.7,
+     "target": "laptop"
+    },
+    {
+     "word": 12,
+     "type": "flail",
+     "intensity": 0.8
+    }
+   ],
+   "gaze": "audience"
+  }
+ }
+]

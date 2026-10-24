@@ -1,0 +1,38 @@
+# environments and caches (recreated by the setup scripts)
+.venv/
+.venvs/
+venv/
+.uv-cache/
+.hf/
+__pycache__/
+*.pyc
+.context/
+torchinductor_*/
+Ultralytics-0/
+.DS_Store
+
+# models fetched by setup scripts (brain/mac/setup.sh, voice/setup_mac.sh, perception/setup_mac.sh, turn/setup_models.sh, vision/mac/run_vision.sh)
+brain/models/
+voice/models/sherpa-onnx-*
+turn/models/nemotron-160ms
+turn/models/livekit-ml/onnx/model_q8.onnx
+perception/models/weights/
+vision/models/
+
+# >100 MB: in the GitHub release `models-v1` (see README.md)
+brain/artifacts/kermit-E4B-Q4_K_M.gguf
+brain/artifacts/peft-adapter-*/adapter_model.safetensors
+
+# room sim runs: keep only the small result files
+room/run/**
+!room/run/*/
+!room/run/*/score.json
+!room/run/*/meta.json
+!room/run/*/driver_results.json
+!room/run/*/engine.json
+!room/run/*/code_versions.json
+
+# runtime logs
+*.log.tmp
+llama-server.log
+vision-server.log

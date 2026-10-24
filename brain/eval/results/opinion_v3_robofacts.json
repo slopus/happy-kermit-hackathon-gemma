@@ -1,0 +1,152 @@
+{
+ "summary": {
+  "label": "v3_robofacts",
+  "pass_": "19/20",
+  "ms_first_sentence": 399,
+  "ms_total": 813
+ },
+ "rows": [
+  {
+   "q": "what happens to robotics next",
+   "raw": "[excited|speaker] {nod 0.5} It's about to explode, I think! {head_bob 0.4} Small smart brains on a laptop, good cameras and arms. Robots will get cheaper, friendlier and everywhere.",
+   "fails": [],
+   "t1": 0.41190100999665447,
+   "tt": 0.8596200640022289
+  },
+  {
+   "q": "what's the future of ai agents",
+   "raw": "[thinking|speaker] {nod 0.5} Friendly ones, I hope! {look_at:audience 0.4} Small, on your device, and everywhere. {head_bob 0.4} That's my take on it.",
+   "fails": [],
+   "t1": 0.44021667598281056,
+   "tt": 0.9784043289837427
+  },
+  {
+   "q": "will ai take our jobs",
+   "raw": "[thinking|speaker] {tilt_left 0.5} I don't know, and I'm a frog. {nod 0.4} But I believe it'll change jobs more than take them. {laugh 0.4} Mostly taking the boring parts.",
+   "fails": [],
+   "t1": 0.4662630319944583,
+   "tt": 0.9364205310121179
+  },
+  {
+   "q": "do you think we'll have agi soon",
+   "raw": "[thinking|speaker] {tilt_left 0.5} I'm not sure. {nod 0.4} Small models are getting amazing. {head_bob 0.3} Who knows, even me.",
+   "fails": [
+    "who knows"
+   ],
+   "t1": 0.353796938987216,
+   "tt": 0.7550156539946329
+  },
+  {
+   "q": "will robots replace puppets like you",
+   "raw": "[thinking|speaker] {shrug 0.4} I don't know, and it's a fun thought!",
+   "fails": [],
+   "t1": 0.4558720579952933,
+   "tt": 0.45587746700039133
+  },
+  {
+   "q": "should kids still learn to code",
+   "raw": "[thinking|speaker] {nod 0.5} Absolutely, they need to learn to build things. {head_bob 0.4} And frogs are excellent teachers.",
+   "fails": [],
+   "t1": 0.3955273750179913,
+   "tt": 0.613354111002991
+  },
+  {
+   "q": "is the future of ai scary",
+   "raw": "[thinking|speaker] {nod 0.4} Sometimes it feels that way. {shrug 0.4} But I think the future should be friendly. {head_bob 0.4} Like a frog on a laptop.",
+   "fails": [],
+   "t1": 0.32195253600366414,
+   "tt": 0.7957072450080886
+  },
+  {
+   "q": "what will happy look like in five years",
+   "raw": "[excited|speaker] {nod 0.5} I'll be inside the Happy app as the face of your agents. {head_bob 0.5} More gestures, and I'll know who I'm talking to.",
+   "fails": [],
+   "t1": 0.46483420400181785,
+   "tt": 0.8085912219830789
+  },
+  {
+   "q": "which robot company will win",
+   "raw": "[thinking|speaker] {tilt_left 0.4} I'm a frog, not an investor! {nod 0.4} I just know robots are about to explode. {laugh 0.4} Ask the other frogs.",
+   "fails": [],
+   "t1": 0.41207457100972533,
+   "tt": 0.8176016689976677
+  },
+  {
+   "q": "will everyone have a robot at home",
+   "raw": "[thinking|speaker] {tilt_right 0.4} I'm not sure! {nod 0.4} But I'd like one. {laugh 0.3} Maybe a frog one.",
+   "fails": [],
+   "t1": 0.3651660489849746,
+   "tt": 0.7440295169944875
+  },
+  {
+   "q": "what happens to robotics next",
+   "raw": "[thinking|speaker] {nod 0.4} I think it's about to explode! {head_bob 0.4} Small smart brains fit on a laptop, cameras are good, arms can move.",
+   "fails": [],
+   "t1": 0.3704987459932454,
+   "tt": 0.7365510999807157
+  },
+  {
+   "q": "what's the future of ai agents",
+   "raw": "[thinking|speaker] {nod 0.4} They'll be friendlier, I hope. {head_bob 0.4} Small smart brains like mine fit on a laptop, cameras are good and arms can move. {look_at:laptop 0.3} Robots will get cheaper and everywhere.",
+   "fails": [],
+   "t1": 0.3984172609925736,
+   "tt": 1.061412740004016
+  },
+  {
+   "q": "will ai take our jobs",
+   "raw": "[thinking|speaker] {tilt_left 0.4} I'm not sure about my kind, {nod 0.4} but I'd rather be a friendly frog than a replaced worker. {laugh 0.3} That's my pitch.",
+   "fails": [],
+   "t1": 0.6934776270063594,
+   "tt": 0.8802022929885425
+  },
+  {
+   "q": "do you think we'll have agi soon",
+   "raw": "[thinking|speaker] {shrug 0.5} I honestly don't know. {nod 0.3} I'm a frog, I'm better at landing a whoa. {lean_in 0.4} I'm curious what you think?",
+   "fails": [],
+   "t1": 0.35404756100615487,
+   "tt": 0.9358470199804287
+  },
+  {
+   "q": "will robots replace puppets like you",
+   "raw": "[thinking|speaker] {nod 0.4} I'm a puppet on a robot arm! {head_bob 0.4} They'll work together. {lean_in 0.3} Puppets make people smile, robots do the heavy lifting.",
+   "fails": [],
+   "t1": 0.39940816699527204,
+   "tt": 0.9201701309939381
+  },
+  {
+   "q": "should kids still learn to code",
+   "raw": "[thinking|speaker] {nod 0.5} Absolutely. {lean_in 0.4} It teaches how to think, how things work. {laugh 0.3} Plus, they could build a frog with a brain.",
+   "fails": [],
+   "t1": 0.266044766001869,
+   "tt": 0.7935656949994154
+  },
+  {
+   "q": "is the future of ai scary",
+   "raw": "[thinking|speaker] {shrug 0.4} I'm not sure. {nod 0.4} It's exciting, but a bit fast. {lean_in 0.5} I like to think friendly faces like me can make it less scary.",
+   "fails": [],
+   "t1": 0.33199618899379857,
+   "tt": 0.9045854209980462
+  },
+  {
+   "q": "what will happy look like in five years",
+   "raw": "[thinking|speaker] {nod 0.4} I'd love to be inside the Happy app as the face of your agents. {laugh 0.4} And more gestures, and knowing who you are talking to.",
+   "fails": [],
+   "t1": 0.5012067940260749,
+   "tt": 0.7738612850080244
+  },
+  {
+   "q": "which robot company will win",
+   "raw": "[thinking|speaker] {shrug 0.5} I'm on a robot arm, so I'm a little biased! {nod 0.3} Small smart brains like mine will make robots cheaper and friendlier. {laugh 0.3} That's my prediction.",
+   "fails": [],
+   "t1": 0.48642265700618736,
+   "tt": 0.9656985369801987
+  },
+  {
+   "q": "will everyone have a robot at home",
+   "raw": "[thinking|speaker] {shake 0.4} Maybe one day! {nod 0.5} I'm a laptop on an arm. {laugh 0.4} Everyone gets a frog first.",
+   "fails": [],
+   "t1": 0.2974290490092244,
+   "tt": 0.7172998810128774
+  }
+ ]
+}

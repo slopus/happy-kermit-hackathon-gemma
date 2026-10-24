@@ -1,0 +1,337 @@
+{
+ "voice_scene": "../../../voice/samples/show/scene.json",
+ "floor_z": -0.8,
+ "labels": {
+  "kirill": "Kirill",
+  "steve": "Steve",
+  "judge1": "Judge 1",
+  "judge2": "Judge 2",
+  "judge3": "Judge 3"
+ },
+ "people": [
+  {
+   "id": 1,
+   "name": "kirill",
+   "style": "presenter",
+   "role": "presenter",
+   "pos": [
+    0.757,
+    0.707
+   ],
+   "yaw": -1.3696647373015023,
+   "mic": true
+  },
+  {
+   "id": 2,
+   "name": "steve",
+   "style": "judge_b",
+   "role": "presenter",
+   "pos": [
+    0.757,
+    -0.707
+   ],
+   "yaw": 1.3696647373015023,
+   "mic": true,
+   "start": [
+    1.657,
+    -1.607
+   ]
+  },
+  {
+   "id": 3,
+   "name": "judge1",
+   "style": "judge_a",
+   "role": "judge",
+   "pos": [
+    3.431,
+    0.906
+   ],
+   "seated": true
+  },
+  {
+   "id": 4,
+   "name": "judge2",
+   "style": "judge_c",
+   "role": "judge",
+   "pos": [
+    3.55,
+    0.0
+   ],
+   "seated": true
+  },
+  {
+   "id": 5,
+   "name": "judge3",
+   "style": "judge_a",
+   "role": "judge",
+   "pos": [
+    3.431,
+    -0.906
+   ],
+   "seated": true
+  },
+  {
+   "id": 10,
+   "name": "aud0",
+   "style": "judge_b",
+   "role": "audience",
+   "seated": true,
+   "pos": [
+    3.774,
+    2.15
+   ]
+  },
+  {
+   "id": 11,
+   "name": "aud1",
+   "style": "judge_c",
+   "role": "audience",
+   "seated": true,
+   "pos": [
+    3.774,
+    -2.15
+   ]
+  },
+  {
+   "id": 12,
+   "name": "aud2",
+   "style": "judge_b",
+   "role": "audience",
+   "seated": true,
+   "pos": [
+    4.605,
+    0.64
+   ]
+  },
+  {
+   "id": 13,
+   "name": "aud3",
+   "style": "presenter",
+   "role": "audience",
+   "seated": true,
+   "pos": [
+    4.679,
+    -0.816
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "t": 37.294999999999995,
+   "who": "kirill",
+   "do": "turn_to",
+   "deg": -16.69924423399362,
+   "dur": 1.0
+  },
+  {
+   "t": 50.095,
+   "who": "kirill",
+   "do": "turn_to",
+   "deg": -78.4760087952707,
+   "dur": 0.9
+  },
+  {
+   "t": 63.16,
+   "who": "steve",
+   "do": "move_to",
+   "pos": [
+    0.757,
+    -0.707
+   ],
+   "dur": 2.0,
+   "deg": 78.4760087952707
+  },
+  {
+   "t": 117.63000000000001,
+   "who": "kirill",
+   "do": "move_to",
+   "pos": [
+    0.834,
+    1.279
+   ],
+   "dur": 1.8,
+   "deg": -37.50865616925071
+  },
+  {
+   "t": 117.63000000000001,
+   "who": "steve",
+   "do": "move_to",
+   "pos": [
+    0.834,
+    -1.279
+   ],
+   "dur": 1.8,
+   "deg": 37.50865616925071
+  },
+  {
+   "t": 117.33,
+   "who": "judge1",
+   "do": "raise_hand",
+   "hold": 0.9
+  },
+  {
+   "t": 124.895,
+   "who": "judge2",
+   "do": "raise_hand",
+   "hold": 0.9
+  },
+  {
+   "t": 133.10000000000002,
+   "who": "judge3",
+   "do": "raise_hand",
+   "hold": 0.9
+  },
+  {
+   "t": 142.08,
+   "who": "judge1",
+   "do": "raise_hand",
+   "hold": 0.9
+  }
+ ],
+ "shots": [
+  [
+   0.0,
+   "stage_wide"
+  ],
+  [
+   0.3,
+   "two_kirill"
+  ],
+  [
+   3.75,
+   "kermit_cu@45"
+  ],
+  [
+   7.95,
+   "two_kirill"
+  ],
+  [
+   11.7,
+   "kermit_cu@45"
+  ],
+  [
+   16.56,
+   "two_kirill"
+  ],
+  [
+   22.68,
+   "kermit_cu@45"
+  ],
+  [
+   28.62,
+   "two_kirill"
+  ],
+  [
+   31.28,
+   "kermit_cu@45"
+  ],
+  [
+   36.5,
+   "two_kirill"
+  ],
+  [
+   41.82,
+   "kermit_cu@45"
+  ],
+  [
+   43.05,
+   "two_kirill"
+  ],
+  [
+   46.43,
+   "kermit_cu@45"
+  ],
+  [
+   49.89,
+   "two_kirill"
+  ],
+  [
+   56.07,
+   "kermit_cu@45"
+  ],
+  [
+   60.54,
+   "three_shot"
+  ],
+  [
+   65.16,
+   "two_steve"
+  ],
+  [
+   69.48,
+   "kermit_cu@-45"
+  ],
+  [
+   76.03,
+   "two_steve"
+  ],
+  [
+   78.94,
+   "kermit_cu@-45"
+  ],
+  [
+   83.81,
+   "two_steve"
+  ],
+  [
+   91.02,
+   "kermit_cu@-45"
+  ],
+  [
+   95.35,
+   "two_steve"
+  ],
+  [
+   102.69,
+   "kermit_cu@-45"
+  ],
+  [
+   106.42,
+   "two_steve"
+  ],
+  [
+   109.7,
+   "two_kirill"
+  ],
+  [
+   113.62,
+   "three_shot"
+  ],
+  [
+   117.83,
+   "qa_wide"
+  ],
+  [
+   120.12,
+   "kermit_cu@15"
+  ],
+  [
+   125.39,
+   "qa_wide"
+  ],
+  [
+   128.01,
+   "kermit_cu@0"
+  ],
+  [
+   133.6,
+   "qa_wide"
+  ],
+  [
+   136.14,
+   "kermit_cu@-15"
+  ],
+  [
+   142.58,
+   "qa_wide"
+  ],
+  [
+   145.01,
+   "kermit_cu@15"
+  ],
+  [
+   152.89,
+   "stage_wide"
+  ]
+ ]
+}

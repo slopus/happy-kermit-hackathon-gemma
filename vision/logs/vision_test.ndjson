@@ -1,0 +1,3 @@
+{"event": "hand_pick", "id": 1, "description": "the person in light green shirt facing away", "bearing_deg": -15.4, "pitch_deg": -5.4, "conf": 0.9, "session_id": "kermit", "t": 190408.057}
+{"event": "look_command", "id": 3, "description": "the girl with the striped backpack", "heard": "Kermit, look at the girl with the striped backpack", "bearing_deg": -31.0, "pitch_deg": 1.4, "session_id": "kermit", "t": 190408.889}
+{"event": "look_command", "id": 2, "description": "the teacher", "heard": "turn to the teacher please", "bearing_deg": 26.4, "pitch_deg": 3.8, "session_id": "kermit", "t": 190411.706}

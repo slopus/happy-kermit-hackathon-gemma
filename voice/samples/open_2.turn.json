@@ -1,0 +1,24 @@
+{
+ "id": "open_2",
+ "text": "Whoa! Is that a robot arm? Is that my robot arm?",
+ "emotion": "surprised",
+ "gaze": "target:arm",
+ "gestures": [
+  {
+   "word": 0,
+   "type": "surprise",
+   "intensity": 1.0
+  },
+  {
+   "word": 4,
+   "type": "look_at",
+   "target": "arm",
+   "intensity": 0.6
+  },
+  {
+   "word": 8,
+   "type": "lean_in",
+   "intensity": 0.5
+  }
+ ]
+}

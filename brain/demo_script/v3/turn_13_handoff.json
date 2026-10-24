@@ -1,0 +1,22 @@
+{
+ "text": "Absolutely! Judges, hit me with your questions. I promise I only bite flies.",
+ "emotion": "excited",
+ "gestures": [
+  {
+   "word": 0,
+   "type": "nod",
+   "intensity": 0.8
+  },
+  {
+   "word": 1,
+   "type": "look_around",
+   "intensity": 0.7
+  },
+  {
+   "word": 7,
+   "type": "lean_in",
+   "intensity": 0.6
+  }
+ ],
+ "gaze": "audience"
+}

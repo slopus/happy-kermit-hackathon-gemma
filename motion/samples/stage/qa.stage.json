@@ -1,0 +1,99 @@
+{
+ "voice_scene": "../../../voice/samples/qa/scene.json",
+ "floor_z": -0.8,
+ "speakers": {
+  "judge_1": "judge1",
+  "judge_2": "judge2",
+  "judge_3": "judge3"
+ },
+ "labels": {
+  "judge1": "Judge 1",
+  "judge2": "Judge 2",
+  "judge3": "Judge 3"
+ },
+ "people": [
+  {
+   "id": 1,
+   "name": "judge1",
+   "style": "judge_a",
+   "role": "judge",
+   "seated": true,
+   "pos": [
+    1.681,
+    0.761
+   ]
+  },
+  {
+   "id": 2,
+   "name": "judge2",
+   "style": "judge_b",
+   "role": "judge",
+   "seated": true,
+   "pos": [
+    1.85,
+    0.0
+   ]
+  },
+  {
+   "id": 3,
+   "name": "judge3",
+   "style": "judge_c",
+   "role": "judge",
+   "seated": true,
+   "pos": [
+    1.681,
+    -0.761
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "t": -0.09999999999999998,
+   "who": "judge1",
+   "do": "raise_hand",
+   "hold": 0.9
+  },
+  {
+   "t": 11.1,
+   "who": "judge2",
+   "do": "raise_hand",
+   "hold": 0.9
+  },
+  {
+   "t": 22.58,
+   "who": "judge3",
+   "do": "raise_hand",
+   "hold": 0.9
+  }
+ ],
+ "shots": [
+  [
+   0,
+   "stage_wide"
+  ],
+  [
+   2.0,
+   "qa_wide"
+  ],
+  [
+   5.8,
+   "kermit_cu"
+  ],
+  [
+   11.4,
+   "qa_wide"
+  ],
+  [
+   17.0,
+   "kermit_cu"
+  ],
+  [
+   22.9,
+   "qa_wide"
+  ],
+  [
+   26.1,
+   "kermit_cu"
+  ]
+ ]
+}

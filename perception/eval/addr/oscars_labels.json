@@ -1,0 +1,8 @@
+{
+ "clip": "data/yt/oscars_hosts.mp4 (YouTube 82fIpQjOxmc, 2011 Oscars hosts two-shot)",
+ "t0": 35,
+ "step_s": 1,
+ "note": "hand labels per second: K = head toward the camera (=Kermit), O = head turned toward the other host, X = elsewhere (down/away/audience), N = wide shot, skip. left = Franco, right = Hathaway",
+ "left": "OOKKKKXXOXXXOXOOXOXKXKKKKKKKXKNNNKKKKKKKKKKKKKKKKKKKKKXKKKKX",
+ "right": "KOKKKKXXKOOKOOKOOOOOKOOKOKKXXXNNNKXXXXKKOKOOKOKKOOKOOOXXXXXX"
+}

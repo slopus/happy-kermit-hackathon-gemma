@@ -1,0 +1,109 @@
+{
+ "overruns": 0,
+ "proc_ms_mean": 4.3,
+ "proc_ms_p99": 11.43,
+ "proc_ms_max": 37.27,
+ "spk_late_blocks": 0,
+ "spk_writes": 263,
+ "noise_events": [
+  [
+   84480,
+   51024,
+   "mouse_click",
+   "laptop_fan",
+   52.9
+  ],
+  [
+   144011,
+   34894,
+   "applause",
+   "crowd0",
+   57.5
+  ],
+  [
+   144699,
+   45808,
+   "applause",
+   "crowd1",
+   57.5
+  ],
+  [
+   144695,
+   34860,
+   "applause",
+   "crowd2",
+   57.5
+  ],
+  [
+   146476,
+   38016,
+   "applause",
+   "crowd3",
+   57.5
+  ],
+  [
+   145637,
+   33803,
+   "applause",
+   "crowd4",
+   57.5
+  ],
+  [
+   145850,
+   36227,
+   "applause",
+   "crowd5",
+   57.5
+  ],
+  [
+   156800,
+   60684,
+   "coughing",
+   "crowd0",
+   51.7
+  ],
+  [
+   202560,
+   80000,
+   "footsteps",
+   "crowd4",
+   59.7
+  ],
+  [
+   324480,
+   63751,
+   "footsteps",
+   "crowd0",
+   59.6
+  ],
+  [
+   357760,
+   21061,
+   "mouse_click",
+   "laptop_fan",
+   55
+  ],
+  [
+   366080,
+   80000,
+   "footsteps",
+   "crowd5",
+   63.9
+  ],
+  [
+   395200,
+   80000,
+   "door_wood_creaks",
+   "crowd2",
+   60.8
+  ],
+  [
+   475200,
+   80000,
+   "footsteps",
+   "crowd4",
+   65.8
+  ]
+ ],
+ "duration_s": 30.24
+}

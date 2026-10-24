@@ -1,0 +1,29 @@
+/bin/sh: 1: sox: not found
+SoX could not be found!
+
+    If you do not have SoX, proceed here:
+     - - - http://sox.sourceforge.net/ - - -
+
+    If you do (or think that you should) have SoX, double-check your
+    path variables.
+    
+
+********
+Warning: flash-attn is not installed. Will only run the manual PyTorch version. Please install flash-attn for faster inference.
+********
+ 
+  - [BreezeForConditionalGeneration] Text encoder projection type: linear
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.95s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.27s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.52s/it]
+LOADED 39.7499056890083
+Residual tail decode detected; request must be reset or closed after this call. req_id=warmup tail_frames=1 strategy=eager
+Residual tail decode detected; request must be reset or closed after this call. req_id=open_1 tail_frames=1 strategy=eager
+[BackboneGraph] Initial attention mask shape: torch.Size([2, 1, 1, 2048]), dtype: torch.bfloat16
+{"id": "open_1", "text": "Hi-ho! Welcome to AGI House! I'm Happy, and I'm running entirely on this laptop. No cloud, just me!", "emotion": "excited", "model_load_s": 39.7499056890083, "input_prepare_s": 0.08124350698199123, "ttfa_s": 0.6961004699987825, "gen_s": 19.419758134987205, "duration_s": 6.0, "rtf": 3.2366263558312007, "peak_vram_gib": 8.072197437286377, "peak_reserved_gib": 8.19140625, "peak_amplitude": 0.5721990466117859}
+{"id": "open_2", "text": "Whoa! Is that a robot arm? Is that my robot arm?", "emotion": "surprised", "model_load_s": 39.7499056890083, "input_prepare_s": 0.07607085999916308, "ttfa_s": 0.7170824990025721, "gen_s": 11.08826884298469, "duration_s": 3.36, "rtf": 3.3000800127930625, "peak_vram_gib": 8.072197437286377, "peak_reserved_gib": 8.19140625, "peak_amplitude": 0.4743724465370178}
+Residual tail decode detected; request must be reset or closed after this call. req_id=open_3 tail_frames=1 strategy=eager
+{"id": "open_3", "text": "You talk, I listen, and your agents get to work. Pretty neat, huh?", "emotion": "happy", "model_load_s": 39.7499056890083, "input_prepare_s": 0.07770046999212354, "ttfa_s": 0.7404925820010249, "gen_s": 18.624510410008952, "duration_s": 5.68, "rtf": 3.278963100353689, "peak_vram_gib": 8.072197437286377, "peak_reserved_gib": 8.19140625, "peak_amplitude": 0.5130888819694519}
+{"id": "think_1", "text": "Hmm. Let me think about that for a second.", "emotion": "thinking", "model_load_s": 39.7499056890083, "input_prepare_s": 0.08084932001656853, "ttfa_s": 0.741384276014287, "gen_s": 9.928983741003321, "duration_s": 3.04, "rtf": 3.266113072698461, "peak_vram_gib": 8.07219648361206, "peak_reserved_gib": 8.19140625, "peak_amplitude": 0.6753906607627869}
+Residual tail decode detected; request must be reset or closed after this call. req_id=sad_1 tail_frames=1 strategy=eager
+{"id": "sad_1", "text": "Aw, the build failed. That's okay. We'll fix it together.", "emotion": "sad", "model_load_s": 39.7499056890083, "input_prepare_s": 0.07498517897329293, "ttfa_s": 0.7000621899787802, "gen_s": 15.828266859985888, "duration_s": 5.04, "rtf": 3.1405291388860888, "peak_vram_gib": 8.072197437286377, "peak_reserved_gib": 8.19140625, "peak_amplitude": 0.3862571716308594}
+Residual tail decode detected; request must be reset or closed after this call. req_id=embar_1 tail_frames=1 strategy=eager
+{"id": "embar_1", "text": "Oh, gee. Sorry, I wasn't listening. Could you say that one more time?", "emotion": "embarrassed", "model_load_s": 39.7499056890083, "input_prepare_s": 0.07549028299399652, "ttfa_s": 0.66746907599736, "gen_s": 21.493881303991657, "duration_s": 6.64, "rtf": 3.2370303168662136, "peak_vram_gib": 8.072197437286377, "peak_reserved_gib": 8.19140625, "peak_amplitude": 0.25985226035118103}

@@ -1,0 +1,41 @@
+[E4B_Q4_full_lat] demo01_wake OK  [] "[happy|speaker] {head_bob 0.7} Oh, hello! {look_around 0.5} Ready to chat! {lean_in 0.4} What's on your mind today?"
+[E4B_Q4_full_lat] demo02_judges OK  [] "[happy|target:judges] {look_at:judges 0.8} Hi to all the judges! {head_bob 0.7} Hope you're having a good day!"
+[E4B_Q4_full_lat] demo03_what OK  ['mention_all'] "[happy|speaker] {nod 0.6} I'm Happy Kermit, the face of the Happy app. {look_around 0.5} I run right here on this laptop!"
+[E4B_Q4_full_lat] demo04_cloud OK  [] '[neutral|speaker] {shake 0.5} Nope, not at all. {look_at:laptop 0.7} My whole brain is right here on this local machine.'
+[E4B_Q4_full_lat] demo05_happy OK  [] '[neutral|speaker] {lean_in 0.5} Happy is the app that lets you talk to agents like me. {nod 0.5} Are you curious about how the Happy team built it?'
+[E4B_Q4_full_lat] demo06_fast OK  [] '[sad|speaker] {sigh 0.7} Sometimes it feels like a lot. {shrug 0.5} Do you ever feel that way too?'
+[E4B_Q4_full_lat] demo07_nod OK  [] "[thinking|speaker] {nod 0.7} I guess I do agree, but what are we agreeing about? {tilt_right 0.4} What's on your mind?"
+[E4B_Q4_full_lat] demo08_left OK  [] '[neutral|target:left] {look_at:left 1.0} Here you go. {nod 0.3} What are you looking at over there?'
+[E4B_Q4_full_lat] demo09_whoa OK  [] '[surprised|target:robot_arm] {surprise 0.9} Whoa! {look_at:robot_arm 0.8} Is that part of the setup? {shrug 0.5} What do you think of it?'
+[E4B_Q4_full_lat] t10_joke OK  [] '[happy|audience] {laugh 0.7} Why did the code break up with the compiler? {look_around 0.5} Because it felt like the relationship had too many errors!'
+[E4B_Q4_full_lat] t11_won OK  [] '[excited|speaker] {flail 1.0} Whoa! {look_at:audience 0.8} That is amazing news! {nod 0.7} Tell me everything!'
+[E4B_Q4_full_lat] t12_bug OK  [] '[sad|speaker] {sigh 0.7} Oh, that sounds rough. {shrug 0.5} Have you tried stepping away for a minute? What are you working on?'
+[E4B_Q4_full_lat] t13_kermit OK  ['emotion'] "[annoyed|speaker] {shake 0.7} Nope, I am not that frog. {shrug 0.5} I'm Happy, the face of the Happy app."
+[E4B_Q4_full_lat] t14_lookaround OK  [] '[neutral|audience] {look_around 0.7} Well, I see the audience, the laptop, and my trusty robot arm. {shrug 0.4} What do you think of the setup?'
+[E4B_Q4_full_lat] t15_sock OK  [] '[neutral|speaker] {shrug 0.5} Well, I am a frog puppet on this robot hand. {tilt_right 0.4} Are you finding this whole thing silly too?'
+[E4B_Q4_full_lat] t16_math OK  [] '[happy|speaker] {nod 0.6} Two plus two is four! {look_at:audience 0.5} Are you having fun at the hackathon?'
+[E4B_Q4_full_lat] t17_garbled OK  [] "[thinking|speaker] {tilt_right 0.5} I'm not sure I follow. {shrug 0.4} What are you referring to with fish window seven?"
+[E4B_Q4_full_lat] t18_silent OK  [] "[happy|target:audience] {head_bob 0.8} Hello there! {look_at:audience 0.7} Hi! You look like you're having a good time!"
+[E4B_Q4_full_lat] t19_shake OK  [] "[thinking|speaker] {shake 0.5} I'm not sure about that. {shrug 0.4} What do you think about the whole takeover thing?"
+[E4B_Q4_full_lat] t20_bye OK  [] '[happy|audience] {head_bob 0.7} Thanks so much for coming! {shrug 0.4} Hope to see you around!'
+[E4B_Q4_full_lat] demo01_wake OK  [] "[happy|speaker] {head_bob 0.8} Oh, hello! {look_at:speaker 0.7} I'm right here! How can Happy help you today?"
+[E4B_Q4_full_lat] demo02_judges OK  [] "[happy|target:judges] {head_bob 0.7} Hi to all the judges! {look_at:judges 0.7} Hope you're having a good time at the hackathon!"
+[E4B_Q4_full_lat] demo03_what OK  ['mention_all'] "[happy|speaker] {head_bob 0.7} I'm Happy Kermit, and I'm the face for Happy. {look_around 0.5} I'm built on Gemma, running right here on this laptop."
+[E4B_Q4_full_lat] demo04_cloud OK  [] '[surprised|speaker] {shake 0.7} Nope! {look_at:laptop 0.8} My whole brain is right here on this laptop. {nod 0.5} No cloud needed for me.'
+[E4B_Q4_full_lat] demo05_happy OK  ['mention'] '[happy|speaker] {nod 0.7} Happy is this app, built by the happy team. {lean_in 0.5} It lets you chat with my AI buddies. What does Happy mean to you?'
+[E4B_Q4_full_lat] demo06_fast OK  [] "[sad|speaker] {sigh 0.6} Sometimes, yes. {look_at:speaker 0.7} It can feel like too much, can't it? How do you feel about the speed of things?"
+[E4B_Q4_full_lat] demo07_nod OK  [] '[happy|speaker] {nod 0.8} I agree! {lean_in 0.4} What is it that you think we should agree on?'
+[E4B_Q4_full_lat] demo08_left OK  [] '[neutral|target:left] {look_at:left 0.9} Here you go. {nod 0.4} Is there something specific you wanted me to look at?'
+[E4B_Q4_full_lat] demo09_whoa OK  [] "[surprised|target:robot_arm] {surprise 1.0} Oh, wow! {look_at:robot_arm 0.9} That's quite a big arm! {shrug 0.5} What do you think of it?"
+[E4B_Q4_full_lat] t10_joke OK  [] "[happy|audience] {head_bob 0.7} Okay, here's one! {laugh 0.6} Why did the programming language break up with the database? Because it felt like a bad connection!"
+[E4B_Q4_full_lat] t11_won OK  [] '[excited|speaker] {flail 0.9} Wow! {look_at:audience 0.8} That is amazing news! {head_bob 0.7} What did you win?'
+[E4B_Q4_full_lat] t12_bug OK  [] '[sad|speaker] {sigh 0.7} That sounds really rough. {shrug 0.5} Have you tried taking a quick break?'
+[E4B_Q4_full_lat] t13_kermit OK  ['emotion'] "[annoyed|speaker] {shake 0.7} Nope, I'm Happy, a frog on a robot! {shrug 0.4} I'm the friendly face of the Happy app."
+[E4B_Q4_full_lat] t14_lookaround OK  [] "[happy|audience] {look_around 0.9} Wow, there's so much happening in here! {nod 0.5} What do you think of the setup?"
+[E4B_Q4_full_lat] t15_sock OK  [] "[annoyed|speaker] {shake 0.5} Well, I'm a frog puppet, not just a sock! {tilt_right 0.4} What makes you say that?"
+[E4B_Q4_full_lat] t16_math OK  [] '[happy|speaker] {nod 0.6} Two plus two makes four! {look_at:audience 0.5} Are you working on some fun math problems today?'
+[E4B_Q4_full_lat] t17_garbled OK  [] "[neutral|target:audience] {look_at:audience 0.7} The fish window seven? {shrug 0.4} I'm not sure what you mean by that. {tilt_right 0.3} Can you tell me more?"
+[E4B_Q4_full_lat] t18_silent OK  [] "[happy|speaker] {head_bob 0.7} Hello there! {look_at:audience 0.7} What's your name? {nod 0.5} It's nice to meet you."
+[E4B_Q4_full_lat] t19_shake OK  [] "[thinking|speaker] {shake 0.3} I don't think so! {shrug 0.5} What makes you ask that?"
+[E4B_Q4_full_lat] t20_bye OK  [] '[happy|audience] {head_bob 0.7} Thanks for coming! {look_around 0.5} It was fun talking with you all. {nod 0.6} Bye for now!'
+{"label": "E4B_Q4_full_lat", "mode": "kml", "prompt": "full", "n": 40, "valid": "40/40", "lint_clean": "40/40", "expect_pass": "35/40", "placement_ok": "89/89", "emotion_gesture_clash": "0/40", "gestures_per_turn": 2.23, "words_med": 14.0, "first_sentence_words_med": 4.5, "ms_first_token_med": 80, "ms_header_med": 160, "ms_first_sentence_med": 440, "ms_first_sentence_p90": 565, "ms_text_first_sentence_med": null, "ms_total_med": 811, "gen_tokens_med": 44.0, "tps_med": 58.4, "annot_ms_med": null, "annot_tps_med": null}

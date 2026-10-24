@@ -1,0 +1,27 @@
+{
+ "clip": "data/yt/oscars_hosts.mp4 (YouTube 82fIpQjOxmc, 2011 Oscars hosts two-shot)",
+ "samples": 114,
+ "confusion": {
+  "K": {
+   "K": 54,
+   "O": 1,
+   "X": 1,
+   "-": 2
+  },
+  "O": {
+   "K": 12,
+   "O": 15,
+   "X": 2,
+   "-": 0
+  },
+  "X": {
+   "K": 16,
+   "O": 7,
+   "X": 4,
+   "-": 0
+  }
+ },
+ "acc_3class": 0.64,
+ "talking_to_kermit_P": 0.66,
+ "talking_to_kermit_R": 0.93
+}

@@ -1,0 +1,20 @@
+[
+  {"id": "open_1", "text": "Hi-ho! Welcome to AGI House! I'm Happy, and I'm running entirely on this laptop. No cloud, just me!",
+   "emotion": "excited", "gaze": "audience",
+   "gestures": [{"word": 0, "type": "head_bob", "intensity": 0.9}, {"word": 3, "type": "flail", "intensity": 0.7}, {"word": 15, "type": "nod", "intensity": 0.6}]},
+  {"id": "open_2", "text": "Whoa! Is that a robot arm? Is that my robot arm?",
+   "emotion": "surprised", "gaze": "target:arm",
+   "gestures": [{"word": 0, "type": "surprise", "intensity": 1.0}, {"word": 4, "type": "look_at", "target": "arm", "intensity": 0.6}, {"word": 8, "type": "lean_in", "intensity": 0.5}]},
+  {"id": "open_3", "text": "You talk, I listen, and your agents get to work. Pretty neat, huh?",
+   "emotion": "happy", "gaze": "speaker",
+   "gestures": [{"word": 0, "type": "tilt_left", "intensity": 0.4}, {"word": 2, "type": "nod", "intensity": 0.5}, {"word": 10, "type": "head_bob", "intensity": 0.6}]},
+  {"id": "think_1", "text": "Hmm. Let me think about that for a second.",
+   "emotion": "thinking", "gaze": "up",
+   "gestures": [{"word": 0, "type": "tilt_right", "intensity": 0.5}, {"word": 2, "type": "look_around", "intensity": 0.3}]},
+  {"id": "sad_1", "text": "Aw, the build failed. That's okay. We'll fix it together.",
+   "emotion": "sad", "gaze": "down",
+   "gestures": [{"word": 0, "type": "sigh", "intensity": 0.7}, {"word": 5, "type": "nod", "intensity": 0.4}]},
+  {"id": "embar_1", "text": "Oh, gee. Sorry, I wasn't listening. Could you say that one more time?",
+   "emotion": "embarrassed", "gaze": "speaker",
+   "gestures": [{"word": 0, "type": "cover_face", "intensity": 0.5}, {"word": 5, "type": "tilt_left", "intensity": 0.4}]}
+]

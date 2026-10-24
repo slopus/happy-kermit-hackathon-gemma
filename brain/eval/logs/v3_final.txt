@@ -1,0 +1,3 @@
+{"label": "v3_final", "pass_": "20/20", "ms_first_sentence": 385, "ms_total": 897}
+{"label": "v3_final", "prompt": "persona3", "judge": {"n": 20, "pass_": "20/20", "valid": "20/20", "ms_header": 133, "ms_first_sentence": 439, "ms_total": 850}, "interject": {"n": 10, "pass_": "10/10", "valid": "10/10", "ms_header": 128, "ms_first_sentence": 350, "ms_total": 409}}
+{"label": "v3_final", "prompt": "persona3", "n": 80, "pass_": "79/80", "pass_qa": "40/40", "pass_presentation": "39/40", "words_med": 14.5, "ms_first_sentence": 360, "ms_total": 800, "fail_kinds": {"forbidden": 1}}

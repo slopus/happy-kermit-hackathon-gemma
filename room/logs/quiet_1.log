@@ -1,0 +1,54 @@
+run quiet_1: room pid 1171606, run_kermit pid 1171702
+run quiet_1 done → /var/lib/happy-agent/happy/Bots/bot_2/kermit/room/run/quiet_1
+ 1 kirill  wake            OK lat 2.38s  wer 0.00  heard: "Hey Kermit, wake up. There's a lot of people here."  → "Whoa! That is a lot of people. Hi, everybody! I'm "
+ 2 kirill  feeling         XX lat 2.11s  wer 2.00  heard: "Hey Kermit, wake up. There's a lot of people here. What is a"  → "Honestly? A little tired. Every week there's a new"
+ 3 kirill  why_here        XX             wer 1.00  heard: ''  → ''
+ 4 kirill  cloud           OK lat 2.42s  wer 0.00  heard: 'And wait, are you running in the cloud?'  → 'Nope! My whole brain is Gemma, running right here '
+ 5 kirill  interject       OK cut-in 0.76s  wer 1.00  heard: ''  → 'Oh, like...'
+ 6 kirill  back_turned     XX             wer 1.88  heard: 'And wait, are you running in the cloud? Honestly, I think ev'  → ''
+ 7 kirill  respect         OK lat 2.58s  wer 0.06  heard: "Well, Kerman, I respect you. It's just hard not to get distr"  → 'Okay, fair enough. They are a very cheerful bunch.'
+ 8 kirill  None            OK             wer 0.00  heard: 'Steve, you built most of his insides. Tell everyone how he w'  → ''
+ 9 steve   steve_brain     OK lat 1.88s  wer 0.86  heard: 'Steve, you built most of his insides. Tell everyone how he w'  → "Hi, Steve! Google's Gemma four, the E four B model"
+10 steve   steve_ears      OK lat 1.95s  wer 5.09  heard: 'Steve, you built most of his insides. Tell everyone how he w'  → 'Parakeet turns your voice into words, Gemma does t'
+11 steve   steve_gestures  OK lat 2.08s  wer 8.00  heard: 'Steve, you built most of his insides. Tell everyone how he w'  → 'I write little gesture tags right into my sentence'
+12 steve   steve_robotics  XX             wer 1.00  heard: ''  → ''
+13 kirill  handoff         OK lat 1.62s  wer 0.00  heard: 'Well, Kermit, what do you say? Will you answer some question'  → 'Absolutely! Judges, hit me with your questions. I '
+14 judge1  qa_nod          OK lat 2.55s  wer 0.62  heard: 'Yeah. | How does a man know who to not?'  → "My camera tracks who's talking and if they're faci"
+15 judge2  qa_cloud        XX             wer 1.00  heard: ''  → ''
+16 judge3  qa_robotics     XX             wer 1.00  heard: ''  → ''
+17 judge1  qa_hard         OK lat 4.02s  wer 0.00  heard: 'And what was the hardest part to build?'  → 'Landing gestures on the right word, keeping latenc'
+{
+ "run": "quiet_1",
+ "noise": "quiet",
+ "venue_dba": 45.0,
+ "mic_noise_dba_median": 46.3,
+ "speech_snr_at_mic_db_median": 14.3,
+ "echo_to_speech_db": 1.6,
+ "steps": 17,
+ "beats_landed": 11,
+ "expected_replies": 16,
+ "missed_turns": 5,
+ "false_cut_ins": 2,
+ "spontaneous_turns": 3,
+ "self_heard": 0,
+ "self_heard_flagged_echo": 0,
+ "self_triggered_leaks": 0,
+ "latency_mean_s": 2.36,
+ "latency_p95_s": 3.372,
+ "latency_max_s": 4.016,
+ "stt_wer_mean": 1.38,
+ "speaker_id_acc": 0.671,
+ "speaker_id_samples": 1032,
+ "facing_acc": 0.794,
+ "turned_away_events": 35,
+ "turned_away_presenter_while_speaking": 2,
+ "engine": {
+  "overruns": 0,
+  "proc_ms_mean": 5.55,
+  "proc_ms_p99": 21.26,
+  "proc_ms_max": 56.33,
+  "spk_late_blocks": 0,
+  "duration_s": 175.26
+ }
+}
+false cut-ins: [{'t': 113.15, 'step': 11}, {'t': 149.03, 'step': 15}] spontaneous: [{'t': 38.05, 'step': None}, {'t': 138.92, 'step': None}, {'t': 148.38, 'step': None}]

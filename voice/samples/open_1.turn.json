@@ -1,0 +1,23 @@
+{
+ "id": "open_1",
+ "text": "Hi-ho! Welcome to AGI House! I'm Happy, and I'm running entirely on this laptop. No cloud, just me!",
+ "emotion": "excited",
+ "gaze": "audience",
+ "gestures": [
+  {
+   "word": 0,
+   "type": "head_bob",
+   "intensity": 0.9
+  },
+  {
+   "word": 3,
+   "type": "flail",
+   "intensity": 0.7
+  },
+  {
+   "word": 15,
+   "type": "nod",
+   "intensity": 0.6
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+[0;93m2026-10-24 09:40:30.635267344 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier[m
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+/var/lib/happy-agent/happy/Bots/bot_2/kermit/turn/.venv/lib/python3.12/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 30] Read-only file system.  joblib will operate in serial mode
+  warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+[audio 0/4] 0/38 24s
+[audio 0/4] 10/38 130s
+[audio 0/4] 20/38 258s
+[audio 0/4] 30/38 378s
+             dur    t1m_rtf    smart_ms   peou_rtf
+count  38.000000  38.000000   38.000000  38.000000
+mean    7.000525   0.070729  167.308483   0.432791
+std     1.601882   0.191694   22.135898   0.078318
+min     4.100000   0.020984  129.148258   0.286529
+25%     5.646750   0.027762  150.202392   0.384443
+50%     6.889156   0.037683  165.218291   0.441441
+75%     7.996656   0.050264  177.022439   0.477272
+max    10.450125   1.218468  222.282820   0.650204

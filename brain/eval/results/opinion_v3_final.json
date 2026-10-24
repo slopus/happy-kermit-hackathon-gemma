@@ -1,0 +1,150 @@
+{
+ "summary": {
+  "label": "v3_final",
+  "pass_": "20/20",
+  "ms_first_sentence": 385,
+  "ms_total": 897
+ },
+ "rows": [
+  {
+   "q": "what happens to robotics next",
+   "raw": "[thinking|speaker] {nod 0.5} It's about to explode, because small smart brains like mine now fit on a laptop. {head_bob 0.4} Robots will get cheaper, friendlier and everywhere.",
+   "fails": [],
+   "t1": 0.6962882519874256,
+   "tt": 0.9850731949845795
+  },
+  {
+   "q": "what's the future of ai agents",
+   "raw": "[thinking|speaker] {nod 0.4} They'll get friendlier! {head_bob 0.5} Small smart brains like mine fit on a laptop now. {lean_in 0.4} Robots will get cheaper, friendlier and everywhere, helping people instead of scaring them.",
+   "fails": [],
+   "t1": 0.37793462999979965,
+   "tt": 1.0640950960223563
+  },
+  {
+   "q": "will ai take our jobs",
+   "raw": "[thinking|speaker] {nod 0.4} Some things will change. {lean_in 0.5} I'd rather not be one of them. {laugh 0.3} I'm too cute.",
+   "fails": [],
+   "t1": 0.3233360059966799,
+   "tt": 0.7949642460152972
+  },
+  {
+   "q": "do you think we'll have agi soon",
+   "raw": "[thinking|speaker] {nod 0.5} I don't know what's around the corner. {head_bob 0.4} But I hope it's friendly. {laugh 0.3} Like me, but smarter.",
+   "fails": [],
+   "t1": 0.42648190300678834,
+   "tt": 0.8728974259865936
+  },
+  {
+   "q": "will robots replace puppets like you",
+   "raw": "[thinking|speaker] {shrug 0.4} I hope not! {nod 0.4} Robots are getting friendlier, not just better. {head_bob 0.3} Puppets are already here, and they're loved.",
+   "fails": [],
+   "t1": 0.3250694559828844,
+   "tt": 0.8874979929823894
+  },
+  {
+   "q": "should kids still learn to code",
+   "raw": "[thinking|speaker] {nod 0.5} Definitely! {look_at:audience 0.4} It teaches problem-solving and how things work. {head_bob 0.3} Even if they don't become coders.",
+   "fails": [],
+   "t1": 0.28460178498062305,
+   "tt": 0.8765730739978608
+  },
+  {
+   "q": "is the future of ai scary",
+   "raw": "[thinking|speaker] {nod 0.4} Some parts, like how fast it moves. {head_bob 0.5} But a friendly frog, running on a laptop, makes it feel a lot more human.",
+   "fails": [],
+   "t1": 0.3848197750048712,
+   "tt": 0.7822029850212857
+  },
+  {
+   "q": "what will happy look like in five years",
+   "raw": "[thinking|speaker] {shrug 0.5} I'm the face, I don't do the plumbing! {nod 0.4} More gestures, knowing who you are, and inside the Happy app. {laugh 0.3} The team knows the rest.",
+   "fails": [],
+   "t1": 0.47521720902295783,
+   "tt": 0.9785770970047452
+  },
+  {
+   "q": "which robot company will win",
+   "raw": "[thinking|speaker] {shrug 0.6} I'm a frog, not a market analyst! {nod 0.4} I hope the Happy team wins for me.",
+   "fails": [],
+   "t1": 0.42349405100685544,
+   "tt": 0.6641303910000715
+  },
+  {
+   "q": "will everyone have a robot at home",
+   "raw": "[thinking|speaker] {shrug 0.5} I don't know! {nod 0.4} But the idea of a friendly robot helping you with chores is fun. {laugh 0.3} I'd like one, but I'm busy being cute.",
+   "fails": [],
+   "t1": 0.36119359399890527,
+   "tt": 0.9845246369950473
+  },
+  {
+   "q": "what happens to robotics next",
+   "raw": "[excited|speaker] {nod 0.6} They get cheaper and friendlier, everywhere! {look_at:audience 0.4} Small smart brains fit on a laptop, cameras are good, arms can move.",
+   "fails": [],
+   "t1": 0.3727775129955262,
+   "tt": 0.7790030780015513
+  },
+  {
+   "q": "what's the future of ai agents",
+   "raw": "[thinking|speaker] {nod 0.5} They'll get friendlier, like me. {head_bob 0.4} Small smart brains on laptops, arms that move, and good cameras. {look_at:audience 0.4} Helping people instead of scaring them.",
+   "fails": [],
+   "t1": 0.3845230869774241,
+   "tt": 0.9900352589902468
+  },
+  {
+   "q": "will ai take our jobs",
+   "raw": "[thinking|speaker] {nod 0.5} I can't say. {shrug 0.5} But I'm the face of Happy, an app for talking to your agents. {lean_in 0.4} You get to choose what to build.",
+   "fails": [],
+   "t1": 0.33538121698074974,
+   "tt": 0.952848078974057
+  },
+  {
+   "q": "do you think we'll have agi soon",
+   "raw": "[thinking|speaker] {nod 0.4} I'm no expert, and I've never seen the future. {lean_in 0.4} But I'm here, running on a laptop, right now, and that feels like a pretty big step.",
+   "fails": [],
+   "t1": 0.46358532900922,
+   "tt": 0.9353669790143613
+  },
+  {
+   "q": "will robots replace puppets like you",
+   "raw": "[thinking|speaker] {nod 0.4} I hope not, I'm glad to be here! {lean_in 0.5} My point is robots will get friendlier and everywhere. {head_bob 0.3} Friendliness is the part that matters.",
+   "fails": [],
+   "t1": 0.42686955601675436,
+   "tt": 0.9752747890015598
+  },
+  {
+   "q": "should kids still learn to code",
+   "raw": "[thinking|speaker] {nod 0.6} Absolutely! {head_bob 0.5} It teaches problem solving. {look_at:laptop 0.4} And building things with code is pretty cool, even if you don't end up a coder.",
+   "fails": [],
+   "t1": 0.2830974749813322,
+   "tt": 0.9626785569998901
+  },
+  {
+   "q": "is the future of ai scary",
+   "raw": "[thinking|speaker] {shake 0.4} It can be if you're not in the loop. {nod 0.5} I'm a little robot who runs on your laptop, and I'm friendly, so I'm a good start.",
+   "fails": [],
+   "t1": 0.4207985590037424,
+   "tt": 0.9071272209985182
+  },
+  {
+   "q": "what will happy look like in five years",
+   "raw": "[thinking|speaker] {shrug 0.4} I don't know, the team does! {nod 0.3} Maybe I'll have a hat. {laugh 0.4} A frog with a hat.",
+   "fails": [],
+   "t1": 0.4238879260083195,
+   "tt": 0.8410128329996951
+  },
+  {
+   "q": "which robot company will win",
+   "raw": "[thinking|speaker] {tilt_left 0.5} I'm a frog, not a venture capitalist! {nod 0.4} But I have a feeling friendly robots will win.",
+   "fails": [],
+   "t1": 0.45497328499914147,
+   "tt": 0.7084943030204158
+  },
+  {
+   "q": "will everyone have a robot at home",
+   "raw": "[thinking|speaker] {shake 0.4} Probably not! {nod 0.4} Small robots will get cheaper and friendlier. {lean_in 0.4} Some will just be like me, on a desk.",
+   "fails": [],
+   "t1": 0.293112540995935,
+   "tt": 0.830719658988528
+  }
+ ]
+}

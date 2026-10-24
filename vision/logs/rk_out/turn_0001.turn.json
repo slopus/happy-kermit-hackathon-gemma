@@ -1,0 +1,1 @@
+{"text": "Oh! He's got a nice hoodie on. What about him catches your eye?", "emotion": "happy", "gestures": [{"word": 0, "type": "look_at", "intensity": 0.9, "target": "person_3"}, {"word": 1, "type": "head_bob", "intensity": 0.7}, {"word": 7, "type": "nod", "intensity": 0.5}], "gaze": "target:person_3"}

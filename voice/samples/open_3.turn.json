@@ -1,0 +1,23 @@
+{
+ "id": "open_3",
+ "text": "You talk, I listen, and your agents get to work. Pretty neat, huh?",
+ "emotion": "happy",
+ "gaze": "speaker",
+ "gestures": [
+  {
+   "word": 0,
+   "type": "tilt_left",
+   "intensity": 0.4
+  },
+  {
+   "word": 2,
+   "type": "nod",
+   "intensity": 0.5
+  },
+  {
+   "word": 10,
+   "type": "head_bob",
+   "intensity": 0.6
+  }
+ ]
+}

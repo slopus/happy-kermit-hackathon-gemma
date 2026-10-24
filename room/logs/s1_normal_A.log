@@ -1,0 +1,57 @@
+run s1_normal_A: room pid 1198841, run_kermit pid 1199008
+run s1_normal_A done → /var/lib/happy-agent/happy/Bots/bot_2/kermit/room/run/s1_normal_A
+ 1 kirill  wake            XX             wer 0.90  heard: "They're coming, pick up. | They come and they go. There's a "  → ''
+ 2 kirill  feeling         OK lat 1.41s  wer 0.10  heard: 'So Carmen, how are you feeling about AI these days?'  → "Honestly? A little tired. Every week there's a new"
+ 3 kirill  why_here        OK lat 0.29s  wer 0.40  heard: 'Is that why you'  → "Yep! I'm the friendly face of Happy, an app for ta"
+ 4 kirill  cloud           XX             wer 1.00  heard: ''  → ''
+ 5 kirill  interject       OK cut-in 1.41s  wer 0.81  heard: 'Honestly, I think | Honestly, I think everyone can.'  → 'Oh, like...'
+ 6 kirill  back_turned     XX             wer 3.12  heard: 'Honestly, I think everyone gets relevant. Oh, my. Every sing'  → ''
+ 7 kirill  respect         OK lat 1.59s  wer 0.06  heard: "Well, Kerman, I respect you. It's just hard not to get distr"  → 'Okay, fair enough. They are a very cheerful bunch.'
+ 8 kirill  None            OK             wer 0.75  heard: 'built most of us inside. | build monsters in size.'  → ''
+ 9 steve   steve_brain     OK lat 1.95s  wer 0.29  heard: "Hi Kermit, I'm Steve. | Hi Kermit, I'm Steve. Do you know wh"  → "Hi, Steve! Google's Gemma four, the E four B model"
+10 steve   steve_ears      OK lat 2.86s  wer 1.00  heard: 'Then how do you hear me and talk back so fast? | Then how do'  → 'Parakeet turns your voice into words, Gemma does t'
+11 steve   steve_gestures  OK lat 0.80s  wer 0.10  heard: 'How do you decide when to knob or look surprised?'  → 'I write little gesture tags right into my sentence'
+12 steve   steve_robotics  OK lat 2.22s  wer 3.82  heard: "Last one. | Last one, why do you think we're bottom? | Last "  → 'Because brains like mine now fit on a laptop! Smal'
+13 kirill  handoff         XX             wer 1.27  heard: "That's coming. | They'll comment what you said. | They'll co"  → ''
+14 judge1  qa_nod          OK lat 1.85s  wer 0.75  heard: "How does it mean now we're not?"  → "I can't say, I don't see the world. I only know I'"
+15 judge2  qa_cloud        XX             wer 1.00  heard: 'Jibber.'  → ''
+16 judge3  qa_robotics     XX             wer 1.00  heard: ''  → ''
+17 judge1  qa_hard         XX             wer 0.38  heard: 'It was the hardest part to do.'  → ''
+{
+ "run": "s1_normal_A",
+ "noise": "normal",
+ "venue_dba": 60.0,
+ "mic_noise_dba_median": 60.6,
+ "speech_snr_at_mic_db_median": 0.8,
+ "echo_to_speech_db": 6.7,
+ "steps": 17,
+ "beats_landed": 10,
+ "right_reply_started": 9,
+ "replies_cut_short": 0,
+ "self_bargeins": 0,
+ "bargeins_during_human": 0,
+ "expected_replies": 16,
+ "missed_turns": 7,
+ "false_cut_ins": 0,
+ "spontaneous_turns": 0,
+ "self_heard": 0,
+ "self_heard_flagged_echo": 0,
+ "self_triggered_leaks": 0,
+ "latency_mean_s": 1.62,
+ "latency_p95_s": 2.633,
+ "latency_max_s": 2.857,
+ "stt_wer_mean": 0.99,
+ "speaker_id_acc": 0.818,
+ "speaker_id_samples": 1037,
+ "facing_acc": 0.921,
+ "turned_away_events": 20,
+ "turned_away_presenter_while_speaking": 2,
+ "engine": {
+  "overruns": 12,
+  "proc_ms_mean": 7.07,
+  "proc_ms_p99": 23.04,
+  "proc_ms_max": 58.02,
+  "spk_late_blocks": 0,
+  "duration_s": 238.36
+ }
+}

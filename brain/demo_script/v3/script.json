@@ -1,0 +1,641 @@
+{
+ "version": "v3",
+ "contract": "CONTRACT \u00a76",
+ "speakers": {
+  "kirill": "presenter, ~1 m on Kermit's left, angled ~45\u00b0",
+  "steve": "presenter, ~1 m on Kermit's right, angled ~45\u00b0",
+  "judge1": "judge, audience, ~3-4 m",
+  "judge2": "judge, audience, ~3-4 m",
+  "judge3": "judge, audience, ~3-4 m"
+ },
+ "brain": {
+  "start": "python3 brain.py serve --prompt persona3 --phase presentation",
+  "presentation": "scripted beats, instant; off-script lines not addressed to Kermit -> skip; after 'handoff' the session switches to qa",
+  "qa": "live Gemma (persona3 + FACTS); send speaker_changed(role=judge) before each new judge",
+  "context_speech": "Kirill on your left and Steve on your right. visible: audience, laptop",
+  "context_qa": "a judge in the audience, a few metres away. visible: audience, laptop"
+ },
+ "steps": [
+  {
+   "step": 1,
+   "phase": "speech1",
+   "speaker": "kirill",
+   "line": "Hey Kermit, wake up! There's a lot of people here.",
+   "staging": [],
+   "kermit": {
+    "beat": "wake",
+    "mode": "scripted",
+    "trigger": "end of the human line (/turn)",
+    "kml": "[surprised|audience] {surprise 1.0} Whoa! {look_around 0.7} That is a lot of people. {head_bob 0.8} Hi, everybody! I'm Happy Kermit.",
+    "turn": {
+     "text": "Whoa! That is a lot of people. Hi, everybody! I'm Happy Kermit.",
+     "emotion": "surprised",
+     "gestures": [
+      {
+       "word": 0,
+       "type": "surprise",
+       "intensity": 1.0
+      },
+      {
+       "word": 1,
+       "type": "look_around",
+       "intensity": 0.7
+      },
+      {
+       "word": 7,
+       "type": "head_bob",
+       "intensity": 0.8
+      }
+     ],
+     "gaze": "audience"
+    },
+    "file": "turn_01_wake.json"
+   }
+  },
+  {
+   "step": 2,
+   "phase": "speech1",
+   "speaker": "kirill",
+   "line": "So Kermit, how are you feeling about AI these days?",
+   "staging": [],
+   "kermit": {
+    "beat": "feeling",
+    "mode": "scripted",
+    "trigger": "end of the human line (/turn)",
+    "kml": "[thinking|speaker] {sigh 0.6} Honestly? A little tired. {look_at:audience 0.5} Every week there's a new model, a new agent, a new robot. {nod 0.6} Some days it feels like a sci-fi movie, and not the fun kind.",
+    "turn": {
+     "text": "Honestly? A little tired. Every week there's a new model, a new agent, a new robot. Some days it feels like a sci-fi movie, and not the fun kind.",
+     "emotion": "thinking",
+     "gestures": [
+      {
+       "word": 0,
+       "type": "sigh",
+       "intensity": 0.6
+      },
+      {
+       "word": 4,
+       "type": "look_at",
+       "intensity": 0.5,
+       "target": "audience"
+      },
+      {
+       "word": 16,
+       "type": "nod",
+       "intensity": 0.6
+      }
+     ],
+     "gaze": "speaker"
+    },
+    "file": "turn_02_feeling.json"
+   }
+  },
+  {
+   "step": 3,
+   "phase": "speech1",
+   "speaker": "kirill",
+   "line": "Is that why you're here?",
+   "staging": [],
+   "kermit": {
+    "beat": "why_here",
+    "mode": "scripted",
+    "trigger": "end of the human line (/turn)",
+    "kml": "[happy|speaker] {nod 0.8} Yep! I'm the friendly face of Happy, an app for talking to your AI agents. {lean_in 0.6} Less dystopia, more frog.",
+    "turn": {
+     "text": "Yep! I'm the friendly face of Happy, an app for talking to your AI agents. Less dystopia, more frog.",
+     "emotion": "happy",
+     "gestures": [
+      {
+       "word": 0,
+       "type": "nod",
+       "intensity": 0.8
+      },
+      {
+       "word": 15,
+       "type": "lean_in",
+       "intensity": 0.6
+      }
+     ],
+     "gaze": "speaker"
+    },
+    "file": "turn_03_why_here.json"
+   }
+  },
+  {
+   "step": 4,
+   "phase": "speech1",
+   "speaker": "kirill",
+   "line": "And wait, are you running in the cloud?",
+   "staging": [],
+   "kermit": {
+    "beat": "cloud",
+    "mode": "scripted",
+    "trigger": "end of the human line (/turn)",
+    "kml": "[excited|audience] {shake 0.8} Nope! {look_at:laptop 0.7} My whole brain is Gemma, running right here on this laptop. {flail 0.8} No cloud, no internet, just me!",
+    "turn": {
+     "text": "Nope! My whole brain is Gemma, running right here on this laptop. No cloud, no internet, just me!",
+     "emotion": "excited",
+     "gestures": [
+      {
+       "word": 0,
+       "type": "shake",
+       "intensity": 0.8
+      },
+      {
+       "word": 1,
+       "type": "look_at",
+       "intensity": 0.7,
+       "target": "laptop"
+      },
+      {
+       "word": 12,
+       "type": "flail",
+       "intensity": 0.8
+      }
+     ],
+     "gaze": "audience"
+    },
+    "file": "turn_04_cloud.json"
+   }
+  },
+  {
+   "step": 5,
+   "phase": "speech1",
+   "speaker": "kirill",
+   "line": "Honestly, I think everyone in this room feels it. New models every week, new agents every...",
+   "staging": [
+    {
+     "at_word": 3,
+     "who": "kirill",
+     "action": "turns toward the audience and keeps talking to them"
+    },
+    {
+     "at_word": 15,
+     "who": "kirill",
+     "action": "trails off as Kermit cuts in"
+    }
+   ],
+   "kermit": {
+    "beat": "interject",
+    "mode": "scripted",
+    "trigger": "PERCEPTION turned_away while_speaking (/event), Kermit barges in",
+    "kml": "[surprised|speaker] {surprise 1.0} Oh, {look_at:speaker 0.8} like... {lean_in 0.6}",
+    "turn": {
+     "text": "Oh, like...",
+     "emotion": "surprised",
+     "gestures": [
+      {
+       "word": 0,
+       "type": "surprise",
+       "intensity": 1.0
+      },
+      {
+       "word": 1,
+       "type": "look_at",
+       "intensity": 0.8,
+       "target": "speaker"
+      },
+      {
+       "word": 1,
+       "type": "lean_in",
+       "intensity": 0.6
+      }
+     ],
+     "gaze": "speaker"
+    },
+    "file": "turn_05_interject.json"
+   }
+  },
+  {
+   "step": 6,
+   "phase": "speech1",
+   "speaker": "kirill",
+   "line": "...and every single launch says it changes everything.",
+   "staging": [
+    {
+     "at_word": 0,
+     "who": "kirill",
+     "action": "still facing the audience, does not pause"
+    }
+   ],
+   "kermit": {
+    "beat": "back_turned",
+    "mode": "scripted",
+    "trigger": "end of the human line while the speaker still faces away (/turn)",
+    "kml": "[annoyed|speaker] {shake 0.7} You, my friend, should learn how to speak to people {nod 0.6} face to face.",
+    "turn": {
+     "text": "You, my friend, should learn how to speak to people face to face.",
+     "emotion": "annoyed",
+     "gestures": [
+      {
+       "word": 0,
+       "type": "shake",
+       "intensity": 0.7
+      },
+      {
+       "word": 10,
+       "type": "nod",
+       "intensity": 0.6
+      }
+     ],
+     "gaze": "speaker"
+    },
+    "file": "turn_06_back_turned.json"
+   }
+  },
+  {
+   "step": 7,
+   "phase": "speech1",
+   "speaker": "kirill",
+   "line": "Well, Kermit, I respect you. It's just hard not to get distracted by this cheerful audience.",
+   "staging": [
+    {
+     "at_word": 0,
+     "who": "kirill",
+     "action": "turns back to face Kermit"
+    }
+   ],
+   "kermit": {
+    "beat": "respect",
+    "mode": "scripted",
+    "trigger": "end of the human line (/turn)",
+    "kml": "[happy|audience] {look_around 0.7} Okay, fair enough. They are a very cheerful bunch. {head_bob 0.7} Respect accepted, my friend!",
+    "turn": {
+     "text": "Okay, fair enough. They are a very cheerful bunch. Respect accepted, my friend!",
+     "emotion": "happy",
+     "gestures": [
+      {
+       "word": 0,
+       "type": "look_around",
+       "intensity": 0.7
+      },
+      {
+       "word": 9,
+       "type": "head_bob",
+       "intensity": 0.7
+      }
+     ],
+     "gaze": "audience"
+    },
+    "file": "turn_07_respect.json"
+   }
+  },
+  {
+   "step": 8,
+   "phase": "speech2",
+   "speaker": "kirill",
+   "line": "Steve, you built most of his insides. Tell everyone how he works.",
+   "staging": [],
+   "kermit": null,
+   "note": "presenter to presenter: Kermit stays quiet (BRAIN returns skip)"
+  },
+  {
+   "step": 9,
+   "phase": "speech2",
+   "speaker": "steve",
+   "line": "Hi Kermit, I'm Steve. Do you know what's actually running your brain right now?",
+   "staging": [
+    {
+     "at_word": 0,
+     "who": "steve",
+     "action": "steps in on Kermit's right, facing him"
+    }
+   ],
+   "kermit": {
+    "beat": "steve_brain",
+    "mode": "scripted",
+    "trigger": "end of the human line (/turn)",
+    "kml": "[excited|speaker] {head_bob 0.6} Hi, Steve! {look_at:laptop 0.6} Google's Gemma four, the E four B model, right here on this MacBook. {laugh 0.4} You gave it a LoRA, and now it thinks it's a frog.",
+    "turn": {
+     "text": "Hi, Steve! Google's Gemma four, the E four B model, right here on this MacBook. You gave it a LoRA, and now it thinks it's a frog.",
+     "emotion": "excited",
+     "gestures": [
+      {
+       "word": 0,
+       "type": "head_bob",
+       "intensity": 0.6
+      },
+      {
+       "word": 2,
+       "type": "look_at",
+       "intensity": 0.6,
+       "target": "laptop"
+      },
+      {
+       "word": 15,
+       "type": "laugh",
+       "intensity": 0.4
+      }
+     ],
+     "gaze": "speaker"
+    },
+    "file": "turn_09_steve_brain.json"
+   }
+  },
+  {
+   "step": 10,
+   "phase": "speech2",
+   "speaker": "steve",
+   "line": "And how do you hear me and talk back so fast?",
+   "staging": [],
+   "kermit": {
+    "beat": "steve_ears",
+    "mode": "scripted",
+    "trigger": "end of the human line (/turn)",
+    "kml": "[happy|speaker] {lean_in 0.6} Parakeet turns your voice into words, Gemma does the thinking, and Kokoro gives me this lovely voice. {nod 0.6} I speak sentence by sentence, so I start in well under a second.",
+    "turn": {
+     "text": "Parakeet turns your voice into words, Gemma does the thinking, and Kokoro gives me this lovely voice. I speak sentence by sentence, so I start in well under a second.",
+     "emotion": "happy",
+     "gestures": [
+      {
+       "word": 0,
+       "type": "lean_in",
+       "intensity": 0.6
+      },
+      {
+       "word": 17,
+       "type": "nod",
+       "intensity": 0.6
+      }
+     ],
+     "gaze": "speaker"
+    },
+    "file": "turn_10_steve_ears.json"
+   }
+  },
+  {
+   "step": 11,
+   "phase": "speech2",
+   "speaker": "steve",
+   "line": "How do you decide when to nod or look surprised?",
+   "staging": [],
+   "kermit": {
+    "beat": "steve_gestures",
+    "mode": "scripted",
+    "trigger": "end of the human line (/turn)",
+    "kml": "[thinking|speaker] {tilt_right 0.5} I write little gesture tags right into my sentences. {nod 0.8} Like this nod. {surprise 0.9} Whoa, and that one! {look_at:speaker 0.5} The xArm performs them on the exact word.",
+    "turn": {
+     "text": "I write little gesture tags right into my sentences. Like this nod. Whoa, and that one! The xArm performs them on the exact word.",
+     "emotion": "thinking",
+     "gestures": [
+      {
+       "word": 0,
+       "type": "tilt_right",
+       "intensity": 0.5
+      },
+      {
+       "word": 9,
+       "type": "nod",
+       "intensity": 0.8
+      },
+      {
+       "word": 12,
+       "type": "surprise",
+       "intensity": 0.9
+      },
+      {
+       "word": 16,
+       "type": "look_at",
+       "intensity": 0.5,
+       "target": "speaker"
+      }
+     ],
+     "gaze": "speaker"
+    },
+    "file": "turn_11_steve_gestures.json"
+   }
+  },
+  {
+   "step": 12,
+   "phase": "speech2",
+   "speaker": "steve",
+   "line": "Last one. Why do you think robotics is about to explode?",
+   "staging": [],
+   "kermit": {
+    "beat": "steve_robotics",
+    "mode": "scripted",
+    "trigger": "end of the human line (/turn)",
+    "kml": "[excited|audience] {flail 0.8} Because brains like mine now fit on a laptop! {look_at:audience 0.6} Small smart models, good cameras, and arms that can move. {nod 0.7} Robots are about to get a lot friendlier.",
+    "turn": {
+     "text": "Because brains like mine now fit on a laptop! Small smart models, good cameras, and arms that can move. Robots are about to get a lot friendlier.",
+     "emotion": "excited",
+     "gestures": [
+      {
+       "word": 0,
+       "type": "flail",
+       "intensity": 0.8
+      },
+      {
+       "word": 9,
+       "type": "look_at",
+       "intensity": 0.6,
+       "target": "audience"
+      },
+      {
+       "word": 19,
+       "type": "nod",
+       "intensity": 0.7
+      }
+     ],
+     "gaze": "audience"
+    },
+    "file": "turn_12_steve_robotics.json"
+   }
+  },
+  {
+   "step": 13,
+   "phase": "handoff",
+   "speaker": "kirill",
+   "line": "Well, Kermit, what do you say? Will you answer some questions?",
+   "staging": [],
+   "kermit": {
+    "beat": "handoff",
+    "mode": "scripted",
+    "trigger": "end of the human line (/turn)",
+    "kml": "[excited|audience] {nod 0.8} Absolutely! {look_around 0.7} Judges, hit me with your questions. {lean_in 0.6} I promise I only bite flies.",
+    "turn": {
+     "text": "Absolutely! Judges, hit me with your questions. I promise I only bite flies.",
+     "emotion": "excited",
+     "gestures": [
+      {
+       "word": 0,
+       "type": "nod",
+       "intensity": 0.8
+      },
+      {
+       "word": 1,
+       "type": "look_around",
+       "intensity": 0.7
+      },
+      {
+       "word": 7,
+       "type": "lean_in",
+       "intensity": 0.6
+      }
+     ],
+     "gaze": "audience"
+    },
+    "file": "turn_13_handoff.json"
+   }
+  },
+  {
+   "step": 14,
+   "phase": "qa",
+   "speaker": "judge1",
+   "line": "How does the hand know when to nod?",
+   "staging": [
+    {
+     "at_word": 0,
+     "who": "judge1",
+     "action": "asks from the audience, ~3-4 m away"
+    }
+   ],
+   "kermit": {
+    "beat": "qa_nod",
+    "mode": "live",
+    "trigger": "speaker_changed(role=judge) then /turn",
+    "fallback_kml": "[thinking|speaker] {nod 0.7} I tell it! {lean_in 0.5} I write a nod tag right before the word, and the hand performs it in time with my voice. {laugh 0.4} Like puppet sheet music.",
+    "fallback_turn": {
+     "text": "I tell it! I write a nod tag right before the word, and the hand performs it in time with my voice. Like puppet sheet music.",
+     "emotion": "thinking",
+     "gestures": [
+      {
+       "word": 0,
+       "type": "nod",
+       "intensity": 0.7
+      },
+      {
+       "word": 3,
+       "type": "lean_in",
+       "intensity": 0.5
+      },
+      {
+       "word": 22,
+       "type": "laugh",
+       "intensity": 0.4
+      }
+     ],
+     "gaze": "speaker"
+    }
+   }
+  },
+  {
+   "step": 15,
+   "phase": "qa",
+   "speaker": "judge2",
+   "line": "Why Gemma and not a cloud model?",
+   "staging": [
+    {
+     "at_word": 0,
+     "who": "judge2",
+     "action": "asks from the audience, ~3-4 m away"
+    }
+   ],
+   "kermit": {
+    "beat": "qa_cloud",
+    "mode": "live",
+    "trigger": "speaker_changed(role=judge) then /turn",
+    "fallback_kml": "[happy|speaker] {shake 0.6} No cloud for this frog. {look_at:laptop 0.6} Gemma runs right here on the laptop, so it's private, has no network lag, and works offline. {nod 0.5} Also, the hackathon said so.",
+    "fallback_turn": {
+     "text": "No cloud for this frog. Gemma runs right here on the laptop, so it's private, has no network lag, and works offline. Also, the hackathon said so.",
+     "emotion": "happy",
+     "gestures": [
+      {
+       "word": 0,
+       "type": "shake",
+       "intensity": 0.6
+      },
+      {
+       "word": 5,
+       "type": "look_at",
+       "intensity": 0.6,
+       "target": "laptop"
+      },
+      {
+       "word": 22,
+       "type": "nod",
+       "intensity": 0.5
+      }
+     ],
+     "gaze": "speaker"
+    }
+   }
+  },
+  {
+   "step": 16,
+   "phase": "qa",
+   "speaker": "judge3",
+   "line": "What happens to robotics next?",
+   "staging": [
+    {
+     "at_word": 0,
+     "who": "judge3",
+     "action": "asks from the audience, ~3-4 m away"
+    }
+   ],
+   "kermit": {
+    "beat": "qa_robotics",
+    "mode": "live",
+    "trigger": "speaker_changed(role=judge) then /turn",
+    "fallback_kml": "[excited|speaker] {surprise 0.8} Whoa, big question! {nod 0.6} Small smart models like mine now run right on the device. {lean_in 0.5} So robots get friendlier, faster, and a lot more fun to talk to.",
+    "fallback_turn": {
+     "text": "Whoa, big question! Small smart models like mine now run right on the device. So robots get friendlier, faster, and a lot more fun to talk to.",
+     "emotion": "excited",
+     "gestures": [
+      {
+       "word": 0,
+       "type": "surprise",
+       "intensity": 0.8
+      },
+      {
+       "word": 3,
+       "type": "nod",
+       "intensity": 0.6
+      },
+      {
+       "word": 14,
+       "type": "lean_in",
+       "intensity": 0.5
+      }
+     ],
+     "gaze": "speaker"
+    }
+   }
+  },
+  {
+   "step": 17,
+   "phase": "qa",
+   "speaker": "judge1",
+   "line": "And what was the hardest part to build?",
+   "staging": [
+    {
+     "at_word": 0,
+     "who": "judge1",
+     "action": "asks from the audience, ~3-4 m away"
+    }
+   ],
+   "kermit": {
+    "beat": "qa_hard",
+    "mode": "live",
+    "trigger": "speaker_changed(role=judge) then /turn",
+    "fallback_kml": "[thinking|speaker] {sigh 0.4} Keeping a small model funny and in character. {nod 0.6} And landing every gesture on the right word, while voice, mouth and motion stay in sync.",
+    "fallback_turn": {
+     "text": "Keeping a small model funny and in character. And landing every gesture on the right word, while voice, mouth and motion stay in sync.",
+     "emotion": "thinking",
+     "gestures": [
+      {
+       "word": 0,
+       "type": "sigh",
+       "intensity": 0.4
+      },
+      {
+       "word": 8,
+       "type": "nod",
+       "intensity": 0.6
+      }
+     ],
+     "gaze": "speaker"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "run": "s1_quiet_A_bargeoff",
+ "speaker_acc": 0.68,
+ "n": 1542,
+ "per_truth_speaker": {
+  "kirill": {
+   "none": 11,
+   "steve": 158,
+   "ok": 728
+  },
+  "steve": {
+   "kirill": 68,
+   "ok": 320
+  },
+  "judge1": {
+   "kirill": 134
+  },
+  "judge2": {
+   "kirill": 77
+  },
+  "judge3": {
+   "kirill": 46
+  }
+ },
+ "events": {
+  "person_arrived": 5,
+  "speaker_changed": 8,
+  "turned_away": 14,
+  "turned_back": 11
+ },
+ "turned_away_vs_truth_facing": {
+  "true": 7,
+  "false": 7
+ },
+ "turned_away_log": [
+  [
+   79.19,
+   "kirill",
+   "away",
+   true
+  ],
+  [
+   184.44,
+   "kirill",
+   "away",
+   false
+  ],
+  [
+   185.51,
+   "judge2",
+   "side",
+   false
+  ],
+  [
+   186.18,
+   "steve",
+   "side",
+   false
+  ],
+  [
+   199.48,
+   "kirill",
+   "away",
+   false
+  ],
+  [
+   199.81,
+   "judge3",
+   "side",
+   false
+  ],
+  [
+   200.19,
+   "steve",
+   "away",
+   false
+  ],
+  [
+   211.34,
+   "kirill",
+   "away",
+   false
+  ],
+  [
+   211.34,
+   "steve",
+   "away",
+   false
+  ],
+  [
+   211.9,
+   "judge1",
+   "side",
+   false
+  ],
+  [
+   212.28,
+   "judge2",
+   "side",
+   false
+  ],
+  [
+   216.61,
+   "kirill",
+   "away",
+   false
+  ],
+  [
+   217.21,
+   "judge2",
+   "side",
+   false
+  ],
+  [
+   218.63,
+   "steve",
+   "side",
+   false
+  ]
+ ],
+ "presenter_away_periods": 6,
+ "presenter_away_latency_s": [
+  1.01,
+  1.02,
+  1.29,
+  2.0,
+  1.21,
+  1.21
+ ],
+ "presenter_false_turned_away": 2
+}

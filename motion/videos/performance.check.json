@@ -1,0 +1,216 @@
+{
+ "dt": 0.016666666666666666,
+ "frames": 957,
+ "arm": [
+  {
+   "joint": "joint1",
+   "min_deg": -7.8,
+   "max_deg": 3.7,
+   "range_margin_deg": 352.2,
+   "vel_peak_dps": 30.1,
+   "vel_ratio": 0.167,
+   "vel": "ok",
+   "acc_peak_dps2": 182.0,
+   "acc_ratio": 0.159,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint2",
+   "min_deg": -2.3,
+   "max_deg": 9.8,
+   "range_margin_deg": 106.2,
+   "vel_peak_dps": 38.4,
+   "vel_ratio": 0.213,
+   "vel": "ok",
+   "acc_peak_dps2": 432.0,
+   "acc_ratio": 0.377,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint3",
+   "min_deg": -32.0,
+   "max_deg": -13.6,
+   "range_margin_deg": 23.6,
+   "vel_peak_dps": 53.5,
+   "vel_ratio": 0.297,
+   "vel": "ok",
+   "acc_peak_dps2": 484.0,
+   "acc_ratio": 0.422,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint4",
+   "min_deg": 137.5,
+   "max_deg": 202.6,
+   "range_margin_deg": 157.4,
+   "vel_peak_dps": 147.5,
+   "vel_ratio": 0.819,
+   "vel": "WARN",
+   "acc_peak_dps2": 851.0,
+   "acc_ratio": 0.743,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint5",
+   "min_deg": 80.9,
+   "max_deg": 123.9,
+   "range_margin_deg": 56.1,
+   "vel_peak_dps": 83.0,
+   "vel_ratio": 0.461,
+   "vel": "ok",
+   "acc_peak_dps2": 955.0,
+   "acc_ratio": 0.834,
+   "acc": "WARN"
+  },
+  {
+   "joint": "joint6",
+   "min_deg": 80.2,
+   "max_deg": 109.1,
+   "range_margin_deg": 250.9,
+   "vel_peak_dps": 62.2,
+   "vel_ratio": 0.346,
+   "vel": "ok",
+   "acc_peak_dps2": 512.0,
+   "acc_ratio": 0.447,
+   "acc": "ok"
+  }
+ ],
+ "hand": [
+  {
+   "joint": "hand/rh_FFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_FFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_FFJ1",
+   "vel_peak": 4.246,
+   "vel_ratio": 0.936,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ1",
+   "vel_peak": 4.246,
+   "vel_ratio": 0.936,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ1",
+   "vel_peak": 4.246,
+   "vel_ratio": 0.936,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ1",
+   "vel_peak": 4.246,
+   "vel_ratio": 0.936,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ5",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ4",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ3",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ2",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ1",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  }
+ ],
+ "tcp": {
+  "vel_peak_mps": 0.376,
+  "vel_ratio": 0.376,
+  "vel": "ok",
+  "min_body_height_m": -0.189
+ },
+ "ok": true,
+ "warnings": [
+  "joint4 vel WARN",
+  "joint5 acc WARN"
+ ],
+ "hand_vel_note": "Inspire RH56DFX-like: fingers 260 deg/s, thumb 90 deg/s (stand-in)",
+ "ik_err_max": 9.737668735124248e-07,
+ "governor_hz": null,
+ "timeline": "samples/performance.timeline.json",
+ "hand_profile": "shadow",
+ "video": "videos/performance.mp4"
+}

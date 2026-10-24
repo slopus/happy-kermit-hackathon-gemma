@@ -1,0 +1,67 @@
+{
+ "device": "cpu",
+ "load_s": 1.8560094400017988,
+ "speed": 1.15,
+ "lines": [
+  {
+   "voice": "am_puck",
+   "id": "open_1",
+   "ttfa_s": 1.7044,
+   "total_s": 1.7045,
+   "audio_s": 6.4,
+   "rtf": 0.2663,
+   "n_words": 18,
+   "n_text_words": 18
+  },
+  {
+   "voice": "am_puck",
+   "id": "open_2",
+   "ttfa_s": 0.5444,
+   "total_s": 0.5445,
+   "audio_s": 3.125,
+   "rtf": 0.1742,
+   "n_words": 11,
+   "n_text_words": 11
+  },
+  {
+   "voice": "am_puck",
+   "id": "open_3",
+   "ttfa_s": 0.6011,
+   "total_s": 0.6012,
+   "audio_s": 3.625,
+   "rtf": 0.1658,
+   "n_words": 13,
+   "n_text_words": 13
+  },
+  {
+   "voice": "am_puck",
+   "id": "think_1",
+   "ttfa_s": 0.4499,
+   "total_s": 0.4499,
+   "audio_s": 2.35,
+   "rtf": 0.1915,
+   "n_words": 9,
+   "n_text_words": 9
+  },
+  {
+   "voice": "am_puck",
+   "id": "sad_1",
+   "ttfa_s": 0.5518,
+   "total_s": 0.5518,
+   "audio_s": 3.225,
+   "rtf": 0.1711,
+   "n_words": 10,
+   "n_text_words": 10
+  },
+  {
+   "voice": "am_puck",
+   "id": "embar_1",
+   "ttfa_s": 0.6587,
+   "total_s": 0.6587,
+   "audio_s": 3.975,
+   "rtf": 0.1657,
+   "n_words": 13,
+   "n_text_words": 13
+  }
+ ]
+}

@@ -1,0 +1,2 @@
+{"label": "base_full3", "prompt": "full3", "judge": {"n": 20, "pass_": "17/20", "valid": "20/20", "ms_header": 150, "ms_first_sentence": 447, "ms_total": 717}, "interject": {"n": 10, "pass_": "10/10", "valid": "10/10", "ms_header": 134, "ms_first_sentence": 265, "ms_total": 579}}
+{"label": "v2_persona3", "prompt": "persona3", "judge": {"n": 20, "pass_": "17/20", "valid": "20/20", "ms_header": 128, "ms_first_sentence": 420, "ms_total": 802}, "interject": {"n": 10, "pass_": "10/10", "valid": "10/10", "ms_header": 151, "ms_first_sentence": 361, "ms_total": 847}}

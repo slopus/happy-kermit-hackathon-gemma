@@ -1,0 +1,50 @@
+{
+ "per_speaker": {
+  "bell": {
+   "frames": 13982,
+   "speaking_frac": 0.73,
+   "F1_fused": 89.2,
+   "F1_asd_only": 39.0,
+   "asd_frames": 13833,
+   "acc_fused": 82.6
+  },
+  "boll": {
+   "frames": 9410,
+   "speaking_frac": 0.2,
+   "F1_fused": 40.1,
+   "F1_asd_only": 49.8,
+   "asd_frames": 9372,
+   "acc_fused": 40.4
+  },
+  "long": {
+   "frames": 4195,
+   "speaking_frac": 0.41,
+   "F1_fused": 60.7,
+   "F1_asd_only": 10.7,
+   "asd_frames": 3960,
+   "acc_fused": 49.8
+  },
+  "sick": {
+   "frames": 10326,
+   "speaking_frac": 0.24,
+   "F1_fused": 39.5,
+   "F1_asd_only": 75.6,
+   "asd_frames": 10218,
+   "acc_fused": 28.8
+  }
+ },
+ "speaker_id_accuracy": 44.7,
+ "mean_F1_fused": 57.4,
+ "mean_F1_asd_only": 43.8,
+ "speaker_id_frames": 15037,
+ "speaker_id_none_frames": 56,
+ "switch_latency_s": {
+  "n": 3,
+  "median": 0.0,
+  "all": [
+   0.0,
+   0.0,
+   0.0
+  ]
+ }
+}

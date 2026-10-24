@@ -1,0 +1,23 @@
+[
+ {
+  "step": 1,
+  "who": "kirill",
+  "beat": "wake",
+  "expected": true,
+  "line_on_t": 185510.957620033,
+  "line_off_t": 185514.248437993,
+  "kermit_cut_in": null,
+  "reply_onset_t": 185517.028937993,
+  "reply_end_t": 185520.55637549298
+ },
+ {
+  "step": 2,
+  "who": "kirill",
+  "beat": "feeling",
+  "expected": true,
+  "line_on_t": 185524.318645706,
+  "line_off_t": 185527.884625493,
+  "kermit_cut_in": null,
+  "reply_onset_t": 185529.02031299297
+ }
+]

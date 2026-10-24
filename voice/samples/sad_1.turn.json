@@ -1,0 +1,18 @@
+{
+ "id": "sad_1",
+ "text": "Aw, the build failed. That's okay. We'll fix it together.",
+ "emotion": "sad",
+ "gaze": "down",
+ "gestures": [
+  {
+   "word": 0,
+   "type": "sigh",
+   "intensity": 0.7
+  },
+  {
+   "word": 5,
+   "type": "nod",
+   "intensity": 0.4
+  }
+ ]
+}

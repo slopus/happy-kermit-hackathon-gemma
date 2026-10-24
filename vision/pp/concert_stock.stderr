@@ -1,0 +1,57 @@
+[ WARN:0@3.049] global net_impl_backend.cpp:345 setPreferableTarget Targets are not supported by the new graph engine for now
+{"event": "person_arrived", "id": 2, "t": 4.755, "role": "judge", "yaw_deg": -0.9}
+{"event": "person_arrived", "id": 4, "t": 4.755, "role": "judge", "yaw_deg": -14.4}
+{"event": "person_arrived", "id": 6, "t": 4.755, "role": "judge", "yaw_deg": -25.3}
+{"event": "person_arrived", "id": 7, "t": 4.755, "role": "judge", "yaw_deg": 25.4}
+{"event": "person_arrived", "id": 8, "t": 4.755, "role": "judge", "yaw_deg": -33.3}
+{"event": "person_arrived", "id": 3, "t": 4.838, "role": "judge", "yaw_deg": 12.5}
+{"event": "person_arrived", "id": 5, "t": 4.838, "role": "judge", "yaw_deg": -8.4}
+{"event": "person_arrived", "id": 9, "t": 5.672, "role": "judge", "yaw_deg": 35.0}
+{"event": "person_arrived", "id": 1, "t": 7.09, "role": "judge", "yaw_deg": -37.3}
+{"event": "person_left", "id": 9, "t": 8.508}
+{"event": "person_arrived", "id": 18, "t": 10.26, "role": "presenter", "yaw_deg": 35.5}
+{"event": "person_left", "id": 7, "t": 10.26}
+{"event": "person_left", "id": 1, "t": 11.094}
+{"event": "hand_raised", "id": 8, "t": 11.762, "role": "judge", "yaw_deg": -0.7}
+{"event": "hand_raised", "id": 5, "t": 13.764, "role": "judge", "yaw_deg": -1.1}
+{"event": "person_arrived", "id": 25, "t": 14.348, "role": "judge", "yaw_deg": -25.1}
+{"event": "speaker_changed", "from": null, "to": 5, "t": 14.848, "role": "judge", "yaw_deg": -0.6}
+{"event": "hand_raised", "id": 2, "t": 15.432, "role": "judge", "yaw_deg": -0.6}
+{"event": "person_arrived", "id": 30, "t": 15.766, "role": "judge", "yaw_deg": 25.0}
+{"event": "person_arrived", "id": 32, "t": 15.849, "role": "judge", "yaw_deg": 19.3}
+{"event": "hand_raised", "id": 2, "t": 16.683, "role": "judge", "yaw_deg": -0.5}
+{"event": "turned_away", "id": 4, "t": 16.934, "role": "judge", "yaw_deg": -16.4, "while_speaking": false}
+{"event": "person_left", "id": 6, "t": 16.934}
+{"event": "turned_back", "id": 4, "t": 17.517, "role": "judge", "yaw_deg": -14.4}
+{"event": "person_arrived", "id": 33, "t": 17.768, "role": "judge", "yaw_deg": -33.7}
+{"event": "person_arrived", "id": 34, "t": 19.269, "role": "judge", "yaw_deg": -2.7}
+{"event": "person_left", "id": 34, "t": 21.355}
+{"event": "person_left", "id": 33, "t": 21.688}
+{"event": "person_arrived", "id": 35, "t": 26.109, "role": "judge", "yaw_deg": 15.5}
+{"event": "person_arrived", "id": 36, "t": 26.193, "role": "judge", "yaw_deg": 1.2}
+{"event": "person_arrived", "id": 37, "t": 27.527, "role": "judge", "yaw_deg": 21.3}
+{"event": "person_left", "id": 36, "t": 28.528}
+{"event": "turned_away", "id": 18, "t": 29.279, "role": "judge", "yaw_deg": 36.7, "while_speaking": false}
+{"event": "hand_raised", "id": 37, "t": 29.529, "role": "judge", "yaw_deg": 19.4}
+{"event": "person_arrived", "id": 41, "t": 31.031, "role": "judge", "yaw_deg": 0.8}
+{"event": "person_left", "id": 37, "t": 31.531}
+{"event": "person_left", "id": 35, "t": 33.2}
+{"event": "person_arrived", "id": 44, "t": 34.952, "role": "judge", "yaw_deg": -9.7}
+{"event": "person_left", "id": 41, "t": 35.202}
+{"event": "turned_back", "id": 18, "t": 36.203, "role": "judge", "yaw_deg": 36.6}
+{"event": "person_arrived", "id": 46, "t": 36.87, "role": "judge", "yaw_deg": 0.0}
+{"event": "hand_raised", "id": 2, "t": 38.038, "role": "judge", "yaw_deg": -1.0}
+{"event": "turned_away", "id": 18, "t": 38.622, "role": "judge", "yaw_deg": 36.2, "while_speaking": false}
+{"event": "person_left", "id": 44, "t": 38.956}
+{"event": "person_left", "id": 46, "t": 39.957}
+{"event": "hand_raised", "id": 2, "t": 40.707, "role": "judge", "yaw_deg": -0.3}
+{"event": "person_left", "id": 5, "t": 42.292}
+{"event": "person_left", "id": 2, "t": 42.876}
+{"event": "person_left", "id": 3, "t": 42.876}
+{"event": "person_left", "id": 4, "t": 42.876}
+{"event": "person_left", "id": 8, "t": 42.876}
+{"event": "person_left", "id": 18, "t": 42.876}
+{"event": "person_left", "id": 25, "t": 42.876}
+{"event": "person_left", "id": 30, "t": 42.876}
+{"event": "person_left", "id": 32, "t": 42.876}
+{"timing_median_ms": {"pose_ms": 16.1, "face_ms": 32.6, "asd_ms": 12.9, "mic_ms": 15.8, "total_ms": 60.6}, "frames": 1127}

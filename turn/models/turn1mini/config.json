@@ -1,0 +1,15 @@
+{
+  "model_type": "turn-1-mini",
+  "library": "p99turn",
+  "version": "1.2.3",
+  "task": "end-of-turn detection",
+  "language": "en",
+  "parameters": 5262337,
+  "sample_rate_hz": 16000,
+  "bandlimit_hz": 4000,
+  "frame_s": 0.02,
+  "step_s": 0.16,
+  "left_context_frames": 60,
+  "readout": "any-time",
+  "weights_file": "turn-1-mini.safetensors"
+}

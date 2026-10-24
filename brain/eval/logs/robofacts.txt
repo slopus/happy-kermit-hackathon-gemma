@@ -1,0 +1,3 @@
+{"label": "v3_robofacts", "pass_": "19/20", "ms_first_sentence": 399, "ms_total": 813}
+{"label": "v3_robofacts", "prompt": "persona3", "judge": {"n": 20, "pass_": "20/20", "valid": "20/20", "ms_header": 130, "ms_first_sentence": 492, "ms_total": 811}, "interject": {"n": 10, "pass_": "9/10", "valid": "10/10", "ms_header": 125, "ms_first_sentence": 313, "ms_total": 402}}
+{"label": "v3_robofacts", "prompt": "persona3", "n": 80, "pass_": "75/80", "pass_qa": "39/40", "pass_presentation": "36/40", "words_med": 15.0, "ms_first_sentence": 351, "ms_total": 807, "fail_kinds": {"forbidden": 1, "not_hedged": 4}}

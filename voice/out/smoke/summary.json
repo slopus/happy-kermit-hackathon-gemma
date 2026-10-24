@@ -1,0 +1,23 @@
+{
+ "torch-cuda": {
+  "load_s": 11.39,
+  "first_sentence_ms_median": 118.3,
+  "first_sentence_ms_max": 131.6,
+  "rtf_median": 0.0299,
+  "word_timings_ok": true
+ },
+ "torch-cpu": {
+  "load_s": 1.96,
+  "first_sentence_ms_median": 313.2,
+  "first_sentence_ms_max": 597.5,
+  "rtf_median": 0.2306,
+  "word_timings_ok": true
+ },
+ "mlx": {
+  "error": "ModuleNotFoundError(\"No module named 'mlx_audio'\")"
+ },
+ "stt_cpu": {
+  "ms_median_for_5.3s": 350,
+  "text": "Hi ho! Welcome to AGI House. I'm happy and I'm running entirely on this laptop. No cloud just me."
+ }
+}

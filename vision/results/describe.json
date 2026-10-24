@@ -1,0 +1,646 @@
+{
+"items": [
+{
+"key": "biz_hands1_003.0",
+"id": 2,
+"ref": "the man in the light blue shirt",
+"gemma_tag": "The person in the blue box wearing a grey shirt.",
+"gemma_crop": "The person in the grey shirt in the middle.",
+"spec": "the person in the grey top",
+"ms_tag": 320,
+"ms_crop": 221
+},
+{
+"key": "biz_hands1_003.0",
+"id": 4,
+"ref": "the blonde woman",
+"gemma_tag": "The woman in the light-colored top.",
+"gemma_crop": "The person with the blonde hair in the picture.",
+"spec": "the person in the yellow top",
+"ms_tag": 300,
+"ms_crop": 234
+},
+{
+"key": "biz_hands1_003.0",
+"id": 3,
+"ref": "the woman with long brown hair raising her hand",
+"gemma_tag": "The person in the yellow box holding a hand up.",
+"gemma_crop": "The person with the raised hand holding a drink.",
+"spec": "the person in the orange top",
+"ms_tag": 316,
+"ms_crop": 228
+},
+{
+"key": "biz_hands1_006.0",
+"id": 4,
+"ref": "the blonde woman on the left",
+"gemma_tag": "The person in the box tagged 4 is raising their hand.",
+"gemma_crop": "The blonde woman with the light top.",
+"spec": "the person in the yellow top",
+"ms_tag": 339,
+"ms_crop": 197
+},
+{
+"key": "biz_hands1_006.0",
+"id": 3,
+"ref": "the woman with long hair, hand up",
+"gemma_tag": "The person in the yellow box is raising their hand.",
+"gemma_crop": "The person with long brown hair in the foreground.",
+"spec": "the person in the orange top",
+"ms_tag": 311,
+"ms_crop": 225
+},
+{
+"key": "biz_hands1_006.0",
+"id": 7,
+"ref": "the man in the dark suit",
+"gemma_tag": "The person in the red shirt raising their hand.",
+"gemma_crop": "The person in the dark jacket facing forward.",
+"spec": "the person in the orange top",
+"ms_tag": 297,
+"ms_crop": 212
+},
+{
+"key": "biz_hands1_009.0",
+"id": 22,
+"ref": "the woman with brown hair at the front",
+"gemma_tag": "The person in the box wearing a dark top.",
+"gemma_crop": "The person with the blonde hair in the foreground.",
+"spec": "the person in the black top",
+"ms_tag": 303,
+"ms_crop": 232
+},
+{
+"key": "biz_hands1_009.0",
+"id": 21,
+"ref": "the grey-haired man",
+"gemma_tag": "The person in the green box is wearing a dark shirt.",
+"gemma_crop": "The person in the yellow shirt in the foreground.",
+"spec": "the person in the yellow top",
+"ms_tag": 319,
+"ms_crop": 221
+},
+{
+"key": "biz_hands2_002.0",
+"id": 1,
+"ref": "the woman in the red top",
+"gemma_tag": "The person in the red shirt holding a device.",
+"gemma_crop": "The person in the red shirt holding something.",
+"spec": "the person in the black top",
+"ms_tag": 303,
+"ms_crop": 233
+},
+{
+"key": "biz_hands2_002.0",
+"id": 7,
+"ref": "the person in black holding up a phone",
+"gemma_tag": "The person in the red shirt holding a phone.",
+"gemma_crop": "The person in the red top holding a dark object.",
+"spec": "the person in the black top",
+"ms_tag": 301,
+"ms_crop": 242
+},
+{
+"key": "biz_hands2_008.0",
+"id": 1,
+"ref": "the woman in the red top",
+"gemma_tag": "The person in the red shirt with raised arms.",
+"gemma_crop": "The person in the red top with raised arms.",
+"spec": "the person in the grey top",
+"ms_tag": 296,
+"ms_crop": 275
+},
+{
+"key": "biz_hands2_008.0",
+"id": 7,
+"ref": "the person in black holding up a phone",
+"gemma_tag": "The person holding the object in the red box.",
+"gemma_crop": "The person in the red shirt holding something.",
+"spec": "the person in the grey top",
+"ms_tag": 293,
+"ms_crop": 213
+},
+{
+"key": "biz_hands2_008.0",
+"id": 10,
+"ref": "the person in the orange hoodie",
+"gemma_tag": "The person in the red top holding something up.",
+"gemma_crop": "The person in the orange hoodie holding something.",
+"spec": "the person in the red top",
+"ms_tag": 308,
+"ms_crop": 212
+},
+{
+"key": "class_kids_017.0",
+"id": 2,
+"ref": "the girl in the white sweater",
+"gemma_tag": "The person in the blue shirt at the desk.",
+"gemma_crop": "The person in the light-colored top.",
+"spec": "the person in the red top",
+"ms_tag": 308,
+"ms_crop": 220
+},
+{
+"key": "class_kids_017.0",
+"id": 1,
+"ref": "the boy in the grey hoodie",
+"gemma_tag": "The person in the green box wearing a grey shirt.",
+"gemma_crop": "The person in the grey shirt with the white chair.",
+"spec": "the person in the black top",
+"ms_tag": 310,
+"ms_crop": 243
+},
+{
+"key": "class_kids_017.0",
+"id": 7,
+"ref": "the girl in the red top",
+"gemma_tag": "The person in the red top with the book.",
+"gemma_crop": "The person in the red top near the chair.",
+"spec": "the person in the red top",
+"ms_tag": 296,
+"ms_crop": 227
+},
+{
+"key": "class_kids_017.0",
+"id": 4,
+"ref": "the boy in the navy jacket by the board",
+"gemma_tag": "The person in the purple box is wearing a dark shirt.",
+"gemma_crop": "The person in the dark blue shirt raising hand.",
+"spec": "the person in the black top",
+"ms_tag": 325,
+"ms_crop": 233
+},
+{
+"key": "class_kids_020.0",
+"id": 1,
+"ref": "the boy in the grey hoodie",
+"gemma_tag": "The person in the green box wearing a grey shirt.",
+"gemma_crop": "The person in the grey hoodie and jeans.",
+"spec": "the person in the grey top",
+"ms_tag": 316,
+"ms_crop": 225
+},
+{
+"key": "class_kids_020.0",
+"id": 4,
+"ref": "the boy in the navy jacket",
+"gemma_tag": "The person in the purple box is raising their hand.",
+"gemma_crop": "The person in the dark blue shirt raising hand.",
+"spec": "the person in the black top",
+"ms_tag": 319,
+"ms_crop": 227
+},
+{
+"key": "class_kids_020.0",
+"id": 2,
+"ref": "the girl in the white sweater",
+"gemma_tag": "The person in the blue box is a student.",
+"gemma_crop": "The person with the light-colored shirt.",
+"spec": "the person in the grey top",
+"ms_tag": 304,
+"ms_crop": 222
+},
+{
+"key": "class_kids2_003.0",
+"id": 1,
+"ref": "the boy in the teal t-shirt",
+"gemma_tag": "The person in the green box holding a raised arm.",
+"gemma_crop": "The person in the light green shirt.",
+"spec": "the person in the orange top",
+"ms_tag": 323,
+"ms_crop": 223
+},
+{
+"key": "class_kids2_003.0",
+"id": 3,
+"ref": "the girl with the striped backpack",
+"gemma_tag": "The person in the yellow box is holding a yellow object.",
+"gemma_crop": "The person with the striped bag.",
+"spec": "the person in the orange top",
+"ms_tag": 335,
+"ms_crop": 198
+},
+{
+"key": "class_kids2_003.0",
+"id": 4,
+"ref": "the teacher in the blue mask",
+"gemma_tag": "The person in the blue shirt holding a pointer.",
+"gemma_crop": "The woman in the blue shirt standing near the board.",
+"spec": "the person in the blue top",
+"ms_tag": 303,
+"ms_crop": 243
+},
+{
+"key": "class_kids2_003.0",
+"id": 7,
+"ref": "the girl with long curly hair",
+"gemma_tag": "The person in the box wearing a light blue shirt.",
+"gemma_crop": "The person with curly brown hair in the background.",
+"spec": "the person in the orange top",
+"ms_tag": 342,
+"ms_crop": 237
+},
+{
+"key": "class_kids2_003.0",
+"id": 5,
+"ref": "the kid in the white t-shirt",
+"gemma_tag": "The person in the blue shirt holding a pencil.",
+"gemma_crop": "The person in the white shirt holding the blue object.",
+"spec": "the person in the white top",
+"ms_tag": 297,
+"ms_crop": 235
+},
+{
+"key": "class_kids2_006.0",
+"id": 1,
+"ref": "the boy in the teal t-shirt",
+"gemma_tag": "The person in the green box holding a green object.",
+"gemma_crop": "Person with light blue shirt raising arm in crowd.",
+"spec": "the person in the orange top",
+"ms_tag": 316,
+"ms_crop": 257
+},
+{
+"key": "class_kids2_006.0",
+"id": 3,
+"ref": "the girl with the striped backpack",
+"gemma_tag": "The person in the yellow box is wearing a striped shirt.",
+"gemma_crop": "Person with dark hair wearing striped backpack.",
+"spec": "the person in the orange top",
+"ms_tag": 338,
+"ms_crop": 221
+},
+{
+"key": "class_kids2_006.0",
+"id": 7,
+"ref": "the girl with long curly hair",
+"gemma_tag": "The person in the box tagged 7 is wearing a blue shirt.",
+"gemma_crop": "The person with curly brown hair in the picture.",
+"spec": "the person in the orange top",
+"ms_tag": 364,
+"ms_crop": 229
+},
+{
+"key": "class_kids2_006.0",
+"id": 6,
+"ref": "the boy in the white t-shirt",
+"gemma_tag": "The person in the white shirt raising their hand.",
+"gemma_crop": "The person in the white shirt reaching up.",
+"spec": "the person in the white top",
+"ms_tag": 325,
+"ms_crop": 217
+},
+{
+"key": "class_kids2_006.0",
+"id": 4,
+"ref": "the teacher",
+"gemma_tag": "The person in the box holding a blue object.",
+"gemma_crop": "The person holding the blue cup.",
+"spec": "the person in the blue top",
+"ms_tag": 296,
+"ms_crop": 192
+},
+{
+"key": "concert_stock_020.0",
+"id": 25,
+"ref": "the woman in the grey t-shirt",
+"gemma_tag": "The woman in the light-colored top.",
+"gemma_crop": "The person in the dark shirt holding a drink.",
+"spec": "the person in the blue top",
+"ms_tag": 291,
+"ms_crop": 228
+},
+{
+"key": "concert_stock_020.0",
+"id": 3,
+"ref": "the man with grey hair and glasses",
+"gemma_tag": "The person in the box wearing a dark shirt.",
+"gemma_crop": "The person in the dark shirt near the center.",
+"spec": "the person in the black top",
+"ms_tag": 303,
+"ms_crop": 227
+},
+{
+"key": "concert_stock_020.0",
+"id": 30,
+"ref": "the man in the dark jacket at the front left",
+"gemma_tag": "The person in the box wearing a dark shirt.",
+"gemma_crop": "The man in the dark shirt standing in the spotlight.",
+"spec": "the person in the black top",
+"ms_tag": 304,
+"ms_crop": 245
+},
+{
+"key": "concert_stock_030.0",
+"id": 25,
+"ref": "the woman in the grey t-shirt",
+"gemma_tag": "The person in the box is wearing a dark top.",
+"gemma_crop": "The person with the dark top and glasses.",
+"spec": "the person in the blue top",
+"ms_tag": 307,
+"ms_crop": 221
+},
+{
+"key": "concert_stock_030.0",
+"id": 30,
+"ref": "the man at the front left",
+"gemma_tag": "The person in the box wearing a dark shirt.",
+"gemma_crop": "The person in the dark shirt speaking to the crowd.",
+"spec": "the person in the black top",
+"ms_tag": 300,
+"ms_crop": 248
+},
+{
+"key": "concert_stock_038.0",
+"id": 25,
+"ref": "the woman in the grey t-shirt",
+"gemma_tag": "The person in the box is wearing a light-colored top.",
+"gemma_crop": "The person in the patterned shirt holding a drink.",
+"spec": "the person in the blue top",
+"ms_tag": 348,
+"ms_crop": 230
+},
+{
+"key": "concert_stock_038.0",
+"id": 3,
+"ref": "the man with grey hair",
+"gemma_tag": "The person in the yellow box holding a microphone.",
+"gemma_crop": "The person in the dark shirt holding a glass.",
+"spec": "the person in the black top",
+"ms_tag": 313,
+"ms_crop": 232
+},
+{
+"key": "montessori_hands_003.0",
+"id": 2,
+"ref": "the curly-haired boy in the yellow sweater",
+"gemma_tag": "The person in the yellow shirt at the table.",
+"gemma_crop": "The person in the yellow shirt at the table.",
+"spec": "the person in the yellow top",
+"ms_tag": 305,
+"ms_crop": 228
+},
+{
+"key": "montessori_hands_003.0",
+"id": 3,
+"ref": "the girl with pigtails",
+"gemma_tag": "The person in the yellow box holding a pencil.",
+"gemma_crop": "The person with the brown shirt at the table.",
+"spec": "the person in the orange top",
+"ms_tag": 301,
+"ms_crop": 230
+},
+{
+"key": "montessori_hands_003.0",
+"id": 1,
+"ref": "the boy in the light blue shirt",
+"gemma_tag": "The person in the green box wearing a light blue top.",
+"gemma_crop": "The child in the light blue shirt.",
+"spec": "the person in the grey top",
+"ms_tag": 344,
+"ms_crop": 208
+},
+{
+"key": "montessori_hands_003.0",
+"id": 4,
+"ref": "the red-haired girl",
+"gemma_tag": "The girl in the blue shirt at the table.",
+"gemma_crop": "The person with the light-colored top at the table.",
+"spec": "the person in the orange top",
+"ms_tag": 306,
+"ms_crop": 255
+},
+{
+"key": "montessori_hands_009.0",
+"id": 2,
+"ref": "the curly-haired boy in the yellow sweater",
+"gemma_tag": "The person in the yellow shirt with blonde hair.",
+"gemma_crop": "The person in the yellow shirt with red objects.",
+"spec": "the person in the yellow top",
+"ms_tag": 311,
+"ms_crop": 247
+},
+{
+"key": "montessori_hands_009.0",
+"id": 3,
+"ref": "the girl with pigtails",
+"gemma_tag": "The person in the yellow box holding a pencil.",
+"gemma_crop": "The person with the brown top and skirt.",
+"spec": "the person in the orange top",
+"ms_tag": 295,
+"ms_crop": 215
+},
+{
+"key": "montessori_hands_009.0",
+"id": 1,
+"ref": "the boy in the light blue shirt",
+"gemma_tag": "The child in the green box with blue shirt.",
+"gemma_crop": "The boy with the red stick.",
+"spec": "the person in the blue top",
+"ms_tag": 309,
+"ms_crop": 195
+},
+{
+"key": "montessori_hands_009.0",
+"id": 4,
+"ref": "the red-haired girl",
+"gemma_tag": "The girl in the blue shirt with pencils.",
+"gemma_crop": "The person with the light-colored top at the table.",
+"spec": "the person in the orange top",
+"ms_tag": 289,
+"ms_crop": 252
+},
+{
+"key": "school_hands_012.0",
+"id": 9,
+"ref": "the teacher at the board",
+"gemma_tag": "The person in the box wearing a light top.",
+"gemma_crop": "The person with the light-colored top in the background.",
+"spec": "the person in the white top",
+"ms_tag": 306,
+"ms_crop": 259
+},
+{
+"key": "school_hands_012.0",
+"id": 6,
+"ref": "the girl on the far left",
+"gemma_tag": "The person in the blue box with raised hands.",
+"gemma_crop": "The person in the light grey shirt raising hands.",
+"spec": "the person in the orange top",
+"ms_tag": 308,
+"ms_crop": 245
+},
+{
+"key": "school_hands_024.0",
+"id": 20,
+"ref": "the teacher at the board",
+"gemma_tag": "The person in the box wearing a light top.",
+"gemma_crop": "The person with the light-colored top in the background.",
+"spec": "the person in the white top",
+"ms_tag": 317,
+"ms_crop": 255
+},
+{
+"key": "conf_woman_hand_001.5",
+"id": 2,
+"ref": "the woman in the white blouse and glasses",
+"gemma_tag": "The woman in the white top holding a hand up.",
+"gemma_crop": "The person in the white shirt raising their arm.",
+"spec": "the person in the grey top",
+"ms_tag": 317,
+"ms_crop": 277
+},
+{
+"key": "conf_woman_hand_001.5",
+"id": 3,
+"ref": "the man with glasses on the left",
+"gemma_tag": "The person in the white shirt holding the arm up.",
+"gemma_crop": "The man in the dark shirt with glasses.",
+"spec": "the person in the blue top",
+"ms_tag": 310,
+"ms_crop": 221
+},
+{
+"key": "conf_woman_hand_001.5",
+"id": 1,
+"ref": "the man in the navy suit",
+"gemma_tag": "The man in the dark blue jacket.",
+"gemma_crop": "The man in the dark suit jacket.",
+"spec": "the person in the blue top",
+"ms_tag": 273,
+"ms_crop": 252
+},
+{
+"key": "conf_woman_hand_001.5",
+"id": 5,
+"ref": "the woman on the right",
+"gemma_tag": "The woman in the orange-framed area.",
+"gemma_crop": "The person in the dark blue shirt.",
+"spec": "the person in the black top",
+"ms_tag": 285,
+"ms_crop": 211
+},
+{
+"key": "conf_woman_hand_006.0",
+"id": 2,
+"ref": "the woman in the white blouse",
+"gemma_tag": "The woman in the light-colored shirt.",
+"gemma_crop": "The person in the light-colored shirt.",
+"spec": "the person in the grey top",
+"ms_tag": 295,
+"ms_crop": 256
+},
+{
+"key": "conf_woman_hand_006.0",
+"id": 1,
+"ref": "the man in the navy suit",
+"gemma_tag": "The man in the dark suit jacket.",
+"gemma_crop": "The man in the dark suit jacket.",
+"spec": "the person in the blue top",
+"ms_tag": 278,
+"ms_crop": 247
+},
+{
+"key": "lect_hands_003.0",
+"id": 1,
+"ref": "the blonde woman in the beige jacket",
+"gemma_tag": "The person in the green box is wearing a grey blazer.",
+"gemma_crop": "The person in the light grey jacket.",
+"spec": "the person in the orange top",
+"ms_tag": 317,
+"ms_crop": 212
+},
+{
+"key": "lect_hands_003.0",
+"id": 3,
+"ref": "the woman in the black suit at the front",
+"gemma_tag": "The woman in the black jacket.",
+"gemma_crop": "The woman in the black blazer holding papers.",
+"spec": "the person in the black top",
+"ms_tag": 241,
+"ms_crop": 215
+},
+{
+"key": "lect_hands_003.0",
+"id": 4,
+"ref": "the woman with short brown hair",
+"gemma_tag": "The person in the purple box wearing a grey top.",
+"gemma_crop": "The person in the dark jacket facing the camera.",
+"spec": "the person in the black top",
+"ms_tag": 297,
+"ms_crop": 232
+},
+{
+"key": "obama_town_020.0",
+"id": 6,
+"ref": "the man in the tan jacket holding the microphone",
+"gemma_tag": "The man in the grey suit speaking to the crowd.",
+"gemma_crop": "The man in the olive jacket holding a microphone.",
+"spec": "the person in the orange top",
+"ms_tag": 316,
+"ms_crop": 265
+},
+{
+"key": "obama_town_020.0",
+"id": 19,
+"ref": "the woman in the white top",
+"gemma_tag": "The person in the light top holding a small object.",
+"gemma_crop": "The woman in the white top and dark jacket.",
+"spec": "the person in the white top",
+"ms_tag": 313,
+"ms_crop": 236
+},
+{
+"key": "obama_town_020.0",
+"id": 3,
+"ref": "the man in the checked tie",
+"gemma_tag": "The man in the suit jacket is ready to speak.",
+"gemma_crop": "The person in the dark jacket holding a drink.",
+"spec": "the person in the black top",
+"ms_tag": 316,
+"ms_crop": 249
+},
+{
+"key": "obama_town_040.0",
+"id": 37,
+"ref": "the man in the white shirt standing on stage",
+"gemma_tag": "The man in the dark suit standing center stage.",
+"gemma_crop": "The man in the white shirt and dark pants.",
+"spec": "the person in the grey top",
+"ms_tag": 315,
+"ms_crop": 244
+},
+{
+"key": "obama_town_070.0",
+"id": 37,
+"ref": "the man in the white shirt standing on stage",
+"gemma_tag": "The man in the white shirt speaking to the crowd.",
+"gemma_crop": "The man in the white shirt and dark trousers.",
+"spec": "the person in the grey top",
+"ms_tag": 317,
+"ms_crop": 225
+},
+{
+"key": "panel_mic_005.0",
+"id": 1,
+"ref": "the man holding the microphone",
+"gemma_tag": "The man in the dark suit jacket.",
+"gemma_crop": "The person in the black jacket speaking at the event.",
+"spec": "the person in the black top",
+"ms_tag": 271,
+"ms_crop": 267
+},
+{
+"key": "panel_mic_005.0",
+"id": 2,
+"ref": "the man on stage",
+"gemma_tag": "The man in the dark suit speaking at the podium.",
+"gemma_crop": "The man in the dark suit at the table.",
+"spec": "the person in the grey top",
+"ms_tag": 310,
+"ms_crop": 264
+}
+],
+"ms_tag_median": 308.0,
+"ms_crop_median": 230.0
+}

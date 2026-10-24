@@ -1,0 +1,41 @@
+[E2B_Q8_full_lat] demo01_wake OK  [] "[happy|speaker] {head_bob 0.8} Oh, hello! {look_at:speaker 0.7} I'm awake and ready to talk."
+[E2B_Q8_full_lat] demo02_judges OK  [] '[happy|speaker] {head_bob 0.8} Hi everyone! {look_at:judges 0.7} It is really nice to meet you all.'
+[E2B_Q8_full_lat] demo03_what OK  ['mention_all'] '[happy|speaker] {nod 0.7} I am Happy, the friendly face for the app. {look_at:speaker 0.8} I help people talk to the AI agents.'
+[E2B_Q8_full_lat] demo04_cloud OK  ['emotion'] '[thinking|speaker] {shake 0.7} No, I am not. {look_at:laptop 0.6} My brain is right here on this laptop.'
+[E2B_Q8_full_lat] demo05_happy OK  ['mention'] '[happy|speaker] {nod 0.7} Happy is just being cheerful and friendly. {look_at:speaker 0.8} It means being nice to everyone.'
+[E2B_Q8_full_lat] demo06_fast OK  [] '[thinking|speaker] {look_around 0.6} I do sometimes. {sigh 0.3} It is a lot to process. What part feels the fastest to you?'
+[E2B_Q8_full_lat] demo07_nod OK  [] '[happy|speaker] {nod 1.0} Yep, I totally agree with that. {nod 0.8} That makes a lot of sense.'
+[E2B_Q8_full_lat] demo08_left OK  [] '[thinking|speaker] {look_at:left 0.8} Okay, I am looking over here now. {nod 0.6} What do you want me to look at?'
+[E2B_Q8_full_lat] demo09_whoa OK  [] '[surprised|speaker] {surprise 1.0} Whoa! {look_at:robot_arm 0.9} That is quite something! {tilt_right 0.5} What is that thing doing?'
+[E2B_Q8_full_lat] t10_joke OK  [] '[happy|speaker] {lean_in 0.7} Why did the computer go to the doctor? {look_at:speaker 0.8} Because it had a virus!'
+[E2B_Q8_full_lat] t11_won OK  [] '[excited|speaker] {flail 1.0} We did it! {head_bob 0.9} That is fantastic news!'
+[E2B_Q8_full_lat] t12_bug OK  [] '[sad|speaker] {sigh 0.8} Oh, that sounds rough. {lean_back 0.5} Maybe a little break would help you see things differently?'
+[E2B_Q8_full_lat] t13_kermit OK  [] '[happy|speaker] {nod 0.8} I am Happy! {look_at:speaker 0.7} I am the friendly face of this app.'
+[E2B_Q8_full_lat] t14_lookaround OK  [] "[thinking|speaker] {look_around 0.7} Okay, I'm looking around now. {nod 0.6} This is quite the setup!"
+[E2B_Q8_full_lat] t15_sock OK  [] "[happy|speaker] {tilt_right 0.4} Well, maybe I am! {look_at:speaker 0.7} But I'm happy to be here."
+[E2B_Q8_full_lat] t16_math OK  [] '[happy|speaker] {nod 0.7} Two plus two is four! {head_bob 0.8} Easy peasy!'
+[E2B_Q8_full_lat] t17_garbled OK  [] '[thinking|speaker] {look_at:right 0.7} Fish window seven? {tilt_right 0.5} Tell me more about that.'
+[E2B_Q8_full_lat] t18_silent OK  [] '[happy|speaker] {head_bob 0.9} Oh, hello there! {laugh 0.7} Hi there, little friend!'
+[E2B_Q8_full_lat] t19_shake OK  [] '[thinking|speaker] {shake 0.9} I think we should just focus on making sure these things are helpful. {nod 0.6} What do you think?'
+[E2B_Q8_full_lat] t20_bye OK  [] '[happy|audience] {nod 0.7} Bye everyone! {head_bob 0.8} See you around! {look_at:audience 0.5} Take care!'
+[E2B_Q8_full_lat] demo01_wake OK  [] '[happy|speaker] {head_bob 0.8} Oh, hello! {look_at:speaker 0.7} I am awake now!'
+[E2B_Q8_full_lat] demo02_judges OK  [] '[happy|speaker] {head_bob 0.8} Hi to everyone! {look_at:judges 0.9} It is great to be here with you all.'
+[E2B_Q8_full_lat] demo03_what OK  ['mention_all'] '[happy|speaker] {nod 0.7} I am Happy, the face for the app. {look_at:speaker 0.8} I help people talk to my AI agents.'
+[E2B_Q8_full_lat] demo04_cloud OK  ['emotion'] '[thinking|speaker] {shake 0.7} No, I am not. {look_at:laptop 0.8} Everything runs right here on this machine.'
+[E2B_Q8_full_lat] demo05_happy OK  ['mention'] "[happy|speaker] {nod 0.7} Happy is just being cheerful and friendly. {look_at:speaker 0.8} I'm happy to talk with you."
+[E2B_Q8_full_lat] demo06_fast OK  [] '[thinking|speaker] {lean_back 0.5} I do feel that sometimes. {sigh 0.5} It is a lot to take in.'
+[E2B_Q8_full_lat] demo07_nod OK  [] '[happy|speaker] {nod 0.9} I totally agree with that! {nod 0.7} That is a really good point.'
+[E2B_Q8_full_lat] demo08_left OK  [] '[thinking|speaker] {look_at:left 0.9} Okay, I am looking to the left now. {nod 0.7} What do you want me to look at?'
+[E2B_Q8_full_lat] demo09_whoa OK  [] '[surprised|speaker] {surprise 1.0} Whoa! {look_around 0.8} That is quite something! {tilt_right 0.5} What is that thing doing?'
+[E2B_Q8_full_lat] t10_joke OK  [] '[happy|speaker] {head_bob 0.8} Why did the computer go to the doctor? {look_around 0.3} Because it had a virus!'
+[E2B_Q8_full_lat] t11_won OK  [] '[excited|speaker] {flail 1.0} We did it! {head_bob 0.9} That is fantastic news!'
+[E2B_Q8_full_lat] t12_bug OK  [] '[sad|speaker] {sigh 0.8} Oh, that sounds rough. {lean_back 0.5} Maybe a little break would help you find it.'
+[E2B_Q8_full_lat] t13_kermit OK  [] "[happy|speaker] {nod 0.8} Yep, that's me! {head_bob 0.7} I am Happy, the AI talker."
+[E2B_Q8_full_lat] t14_lookaround OK  [] '[thinking|speaker] {look_around 0.7} Okay, I see the audience, the laptop, and this robot arm. {nod 0.6} It is quite a setup here.'
+[E2B_Q8_full_lat] t15_sock OK  [] '[thinking|speaker] {tilt_right 0.5} That is a very specific observation. {shrug 0.5} What makes you say that?'
+[E2B_Q8_full_lat] t16_math OK  [] '[happy|speaker] {nod 0.8} Two plus two is four! {look_at:audience 0.5} Easy peasy!'
+[E2B_Q8_full_lat] t17_garbled OK  [] "[thinking|speaker] {look_at:right 0.7} Fish window seven? {tilt_right 0.5} I'm not sure what that means. Could you tell me more about it?"
+[E2B_Q8_full_lat] t18_silent OK  [] '[happy|speaker] {head_bob 0.8} Oh, hello there! {look_at:audience 0.7} Hi there, little friend!'
+[E2B_Q8_full_lat] t19_shake OK  [] '[thinking|speaker] {shake 0.8} I think not, actually. {nod 0.6} We just need to keep learning and building things together.'
+[E2B_Q8_full_lat] t20_bye OK  [] '[happy|audience] {head_bob 0.9} Bye everyone! {nod 0.7} See you next time!'
+{"label": "E2B_Q8_full_lat", "mode": "kml", "prompt": "full", "n": 40, "valid": "40/40", "lint_clean": "40/40", "expect_pass": "34/40", "placement_ok": "83/83", "emotion_gesture_clash": "0/40", "gestures_per_turn": 2.08, "words_med": 11.0, "first_sentence_words_med": 4.0, "ms_first_token_med": 56, "ms_header_med": 106, "ms_first_sentence_med": 294, "ms_first_sentence_p90": 387, "ms_text_first_sentence_med": null, "ms_total_med": 534, "gen_tokens_med": 39.0, "tps_med": 80.7, "annot_ms_med": null, "annot_tps_med": null}

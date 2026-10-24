@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/var/lib/happy-agent/happy/Bots/bot_2/kermit/turn/bench/scores_audio.py", line 189, in <module>
+    with Pool(nw) as pool:
+         ^^^^^^^^
+  File "/var/lib/happy-agent/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/multiprocessing/context.py", line 119, in Pool
+    return Pool(processes, initializer, initargs, maxtasksperchild,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/lib/happy-agent/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/multiprocessing/pool.py", line 191, in __init__
+    self._setup_queues()
+  File "/var/lib/happy-agent/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/multiprocessing/pool.py", line 346, in _setup_queues
+    self._inqueue = self._ctx.SimpleQueue()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/lib/happy-agent/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/multiprocessing/context.py", line 113, in SimpleQueue
+    return SimpleQueue(ctx=self.get_context())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/lib/happy-agent/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/multiprocessing/queues.py", line 363, in __init__
+    self._rlock = ctx.Lock()
+                  ^^^^^^^^^^
+  File "/var/lib/happy-agent/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/multiprocessing/context.py", line 68, in Lock
+    return Lock(ctx=self.get_context())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/lib/happy-agent/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/multiprocessing/synchronize.py", line 169, in __init__
+    SemLock.__init__(self, SEMAPHORE, 1, 1, ctx=ctx)
+  File "/var/lib/happy-agent/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/multiprocessing/synchronize.py", line 57, in __init__
+    sl = self._semlock = _multiprocessing.SemLock(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 30] Read-only file system

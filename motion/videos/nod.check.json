@@ -1,0 +1,215 @@
+{
+ "dt": 0.016666666666666666,
+ "frames": 252,
+ "arm": [
+  {
+   "joint": "joint1",
+   "min_deg": -1.6,
+   "max_deg": -0.8,
+   "range_margin_deg": 358.4,
+   "vel_peak_dps": 1.3,
+   "vel_ratio": 0.007,
+   "vel": "ok",
+   "acc_peak_dps2": 19.0,
+   "acc_ratio": 0.017,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint2",
+   "min_deg": 3.9,
+   "max_deg": 6.4,
+   "range_margin_deg": 109.6,
+   "vel_peak_dps": 8.1,
+   "vel_ratio": 0.045,
+   "vel": "ok",
+   "acc_peak_dps2": 122.0,
+   "acc_ratio": 0.107,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint3",
+   "min_deg": -28.4,
+   "max_deg": -25.6,
+   "range_margin_deg": 35.6,
+   "vel_peak_dps": 7.4,
+   "vel_ratio": 0.041,
+   "vel": "ok",
+   "acc_peak_dps2": 91.0,
+   "acc_ratio": 0.079,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint4",
+   "min_deg": 169.4,
+   "max_deg": 174.0,
+   "range_margin_deg": 186.0,
+   "vel_peak_dps": 7.8,
+   "vel_ratio": 0.043,
+   "vel": "ok",
+   "acc_peak_dps2": 64.0,
+   "acc_ratio": 0.056,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint5",
+   "min_deg": 77.9,
+   "max_deg": 102.9,
+   "range_margin_deg": 77.1,
+   "vel_peak_dps": 96.4,
+   "vel_ratio": 0.535,
+   "vel": "ok",
+   "acc_peak_dps2": 1049.0,
+   "acc_ratio": 0.916,
+   "acc": "WARN"
+  },
+  {
+   "joint": "joint6",
+   "min_deg": 91.7,
+   "max_deg": 95.5,
+   "range_margin_deg": 264.5,
+   "vel_peak_dps": 5.6,
+   "vel_ratio": 0.031,
+   "vel": "ok",
+   "acc_peak_dps2": 32.0,
+   "acc_ratio": 0.028,
+   "acc": "ok"
+  }
+ ],
+ "hand": [
+  {
+   "joint": "hand/rh_FFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_FFJ2",
+   "vel_peak": 4.401,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_FFJ1",
+   "vel_peak": 3.676,
+   "vel_ratio": 0.81,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ2",
+   "vel_peak": 4.401,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ1",
+   "vel_peak": 3.676,
+   "vel_ratio": 0.81,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ2",
+   "vel_peak": 4.401,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ1",
+   "vel_peak": 3.676,
+   "vel_ratio": 0.81,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ2",
+   "vel_peak": 4.401,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ1",
+   "vel_peak": 3.676,
+   "vel_ratio": 0.81,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ5",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ4",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ3",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ2",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ1",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  }
+ ],
+ "tcp": {
+  "vel_peak_mps": 0.23,
+  "vel_ratio": 0.23,
+  "vel": "ok",
+  "min_body_height_m": -0.189
+ },
+ "ok": true,
+ "warnings": [
+  "joint5 acc WARN"
+ ],
+ "hand_vel_note": "Inspire RH56DFX-like: fingers 260 deg/s, thumb 90 deg/s (stand-in)",
+ "ik_err_max": 9.548021623807298e-07,
+ "governor_hz": null,
+ "timeline": "samples/nod.timeline.json",
+ "hand_profile": "shadow",
+ "video": "videos/nod.mp4"
+}

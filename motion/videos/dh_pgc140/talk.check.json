@@ -1,0 +1,108 @@
+{
+ "dt": 0.016666666666666666,
+ "frames": 382,
+ "arm": [
+  {
+   "joint": "joint1",
+   "min_deg": 1.6,
+   "max_deg": 2.2,
+   "range_margin_deg": 357.8,
+   "vel_peak_dps": 1.0,
+   "vel_ratio": 0.006,
+   "vel": "ok",
+   "acc_peak_dps2": 10.0,
+   "acc_ratio": 0.009,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint2",
+   "min_deg": -0.3,
+   "max_deg": 1.9,
+   "range_margin_deg": 114.1,
+   "vel_peak_dps": 6.5,
+   "vel_ratio": 0.036,
+   "vel": "ok",
+   "acc_peak_dps2": 57.0,
+   "acc_ratio": 0.05,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint3",
+   "min_deg": -40.8,
+   "max_deg": -39.8,
+   "range_margin_deg": 49.8,
+   "vel_peak_dps": 2.7,
+   "vel_ratio": 0.015,
+   "vel": "ok",
+   "acc_peak_dps2": 24.0,
+   "acc_ratio": 0.021,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint4",
+   "min_deg": 154.9,
+   "max_deg": 159.9,
+   "range_margin_deg": 200.1,
+   "vel_peak_dps": 8.6,
+   "vel_ratio": 0.048,
+   "vel": "ok",
+   "acc_peak_dps2": 35.0,
+   "acc_ratio": 0.031,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint5",
+   "min_deg": 60.2,
+   "max_deg": 64.1,
+   "range_margin_deg": 115.9,
+   "vel_peak_dps": 11.2,
+   "vel_ratio": 0.062,
+   "vel": "ok",
+   "acc_peak_dps2": 96.0,
+   "acc_ratio": 0.084,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint6",
+   "min_deg": 101.0,
+   "max_deg": 108.1,
+   "range_margin_deg": 251.9,
+   "vel_peak_dps": 11.2,
+   "vel_ratio": 0.062,
+   "vel": "ok",
+   "acc_peak_dps2": 36.0,
+   "acc_ratio": 0.031,
+   "acc": "ok"
+  }
+ ],
+ "hand": [
+  {
+   "joint": "jaw_upper",
+   "vel_peak": 0.032,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "jaw_lower",
+   "vel_peak": 0.032,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  }
+ ],
+ "tcp": {
+  "vel_peak_mps": 0.055,
+  "vel_ratio": 0.055,
+  "vel": "ok",
+  "min_body_height_m": -0.189
+ },
+ "ok": true,
+ "warnings": [],
+ "hand_vel_note": "PGC-140-50: 25 mm per jaw in 0.75 s (conservative of 0.6/0.75 s datasheets)",
+ "ik_err_max": 9.930512990231025e-07,
+ "governor_hz": null,
+ "timeline": "samples/talk.timeline.json",
+ "hand_profile": "dh_pgc140",
+ "video": "videos/dh_pgc140/talk.mp4"
+}

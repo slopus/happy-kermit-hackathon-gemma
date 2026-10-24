@@ -1,0 +1,64 @@
+/bin/sh: 1: sox: not found
+SoX could not be found!
+
+    If you do not have SoX, proceed here:
+     - - - http://sox.sourceforge.net/ - - -
+
+    If you do (or think that you should) have SoX, double-check your
+    path variables.
+    
+
+********
+Warning: flash-attn is not installed. Will only run the manual PyTorch version. Please install flash-attn for faster inference.
+********
+ 
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1474.53it/s]
+LOADED design 7.876098606997402
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+REFERENCE_READY /var/lib/happy-agent/happy/Bots/bot_2/kermit/voice/bench/qwen3/ref_frog.wav {'gen_s': 20.99116020000656, 'ttfa_s': None, 'duration_s': 9.84, 'rtf': 2.133247987805545, 'peak_vram_gib': 4.099793434143066, 'peak_reserved_gib': 4.2578125, 'peak_amplitude': 0.5625, 'model_load_s': 7.876098606997402}
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+{"mode": "design", "id": "open_1", "text": "Hi-ho! Welcome to AGI House! I'm Happy, and I'm running entirely on this laptop. No cloud, just me!", "emotion": "excited", "emotion_conditioned": true, "gen_s": 17.03476683999179, "ttfa_s": null, "duration_s": 8.08, "rtf": 2.108263222771261, "peak_vram_gib": 4.06434440612793, "peak_reserved_gib": 4.2578125, "peak_amplitude": 0.6015625, "model_load_s": 7.876098606997402}
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+{"mode": "design", "id": "open_2", "text": "Whoa! Is that a robot arm? Is that my robot arm?", "emotion": "surprised", "emotion_conditioned": true, "gen_s": 6.727007153007435, "ttfa_s": null, "duration_s": 3.36, "rtf": 2.002085462204594, "peak_vram_gib": 3.9687957763671875, "peak_reserved_gib": 4.2578125, "peak_amplitude": 0.59375, "model_load_s": 7.876098606997402}
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+{"mode": "design", "id": "open_3", "text": "You talk, I listen, and your agents get to work. Pretty neat, huh?", "emotion": "happy", "emotion_conditioned": true, "gen_s": 8.72227272199234, "ttfa_s": null, "duration_s": 4.16, "rtf": 2.096700173555851, "peak_vram_gib": 3.9844589233398438, "peak_reserved_gib": 4.2578125, "peak_amplitude": 0.80078125, "model_load_s": 7.876098606997402}
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+{"mode": "design", "id": "think_1", "text": "Hmm. Let me think about that for a second.", "emotion": "thinking", "emotion_conditioned": true, "gen_s": 7.047494361002464, "ttfa_s": null, "duration_s": 3.36, "rtf": 2.097468559822162, "peak_vram_gib": 3.9687957763671875, "peak_reserved_gib": 4.2578125, "peak_amplitude": 0.60546875, "model_load_s": 7.876098606997402}
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+{"mode": "design", "id": "sad_1", "text": "Aw, the build failed. That's okay. We'll fix it together.", "emotion": "sad", "emotion_conditioned": true, "gen_s": 8.0255781240121, "ttfa_s": null, "duration_s": 3.84, "rtf": 2.089994303128151, "peak_vram_gib": 3.9780030250549316, "peak_reserved_gib": 4.2578125, "peak_amplitude": 0.5, "model_load_s": 7.876098606997402}
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+{"mode": "design", "id": "embar_1", "text": "Oh, gee. Sorry, I wasn't listening. Could you say that one more time?", "emotion": "embarrassed", "emotion_conditioned": true, "gen_s": 9.133872620994225, "ttfa_s": null, "duration_s": 4.64, "rtf": 1.9685070303866865, "peak_vram_gib": 3.994143486022949, "peak_reserved_gib": 4.2578125, "peak_amplitude": 0.85546875, "model_load_s": 7.876098606997402}
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files:  25%|██▌       | 1/4 [00:00<00:01,  2.25it/s]Fetching 4 files: 100%|██████████| 4/4 [00:24<00:00,  6.03s/it]Fetching 4 files: 100%|██████████| 4/4 [00:24<00:00,  6.03s/it]
+LOADED base17 95.02563263100456
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+{"mode": "base17", "id": "open_1", "text": "Hi-ho! Welcome to AGI House! I'm Happy, and I'm running entirely on this laptop. No cloud, just me!", "emotion": "excited", "emotion_conditioned": false, "gen_s": 16.554550550004933, "ttfa_s": null, "duration_s": 8.08, "rtf": 2.048830513614472, "peak_vram_gib": 4.316684246063232, "peak_reserved_gib": 4.763671875, "peak_amplitude": 0.54296875, "model_load_s": 95.02563263100456}
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+{"mode": "base17", "id": "open_2", "text": "Whoa! Is that a robot arm? Is that my robot arm?", "emotion": "surprised", "emotion_conditioned": false, "gen_s": 9.667419298988534, "ttfa_s": null, "duration_s": 4.72, "rtf": 2.0481820548704524, "peak_vram_gib": 4.247916221618652, "peak_reserved_gib": 4.763671875, "peak_amplitude": 0.58203125, "model_load_s": 95.02563263100456}
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+{"mode": "base17", "id": "open_3", "text": "You talk, I listen, and your agents get to work. Pretty neat, huh?", "emotion": "happy", "emotion_conditioned": false, "gen_s": 9.756436167022912, "ttfa_s": null, "duration_s": 4.72, "rtf": 2.067041560809939, "peak_vram_gib": 4.247916221618652, "peak_reserved_gib": 4.763671875, "peak_amplitude": 0.55078125, "model_load_s": 95.02563263100456}
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+{"mode": "base17", "id": "think_1", "text": "Hmm. Let me think about that for a second.", "emotion": "thinking", "emotion_conditioned": false, "gen_s": 6.582710576010868, "ttfa_s": null, "duration_s": 3.12, "rtf": 2.1098431333368164, "peak_vram_gib": 4.215634346008301, "peak_reserved_gib": 4.763671875, "peak_amplitude": 0.58203125, "model_load_s": 95.02563263100456}
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+{"mode": "base17", "id": "sad_1", "text": "Aw, the build failed. That's okay. We'll fix it together.", "emotion": "sad", "emotion_conditioned": false, "gen_s": 7.337008506990969, "ttfa_s": null, "duration_s": 3.600041666666667, "rtf": 2.0380343302482986, "peak_vram_gib": 4.225318431854248, "peak_reserved_gib": 4.763671875, "peak_amplitude": 0.439453125, "model_load_s": 95.02563263100456}
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+{"mode": "base17", "id": "embar_1", "text": "Oh, gee. Sorry, I wasn't listening. Could you say that one more time?", "emotion": "embarrassed", "emotion_conditioned": false, "gen_s": 11.221202837012243, "ttfa_s": null, "duration_s": 5.6, "rtf": 2.0037862208950434, "peak_vram_gib": 4.265671730041504, "peak_reserved_gib": 4.763671875, "peak_amplitude": 0.51953125, "model_load_s": 95.02563263100456}
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files:  25%|██▌       | 1/4 [00:00<00:00,  4.97it/s]Fetching 4 files: 100%|██████████| 4/4 [00:07<00:00,  1.89s/it]Fetching 4 files: 100%|██████████| 4/4 [00:07<00:00,  1.89s/it]
+LOADED base06 31.38138636999065
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+{"mode": "base06", "id": "open_1", "text": "Hi-ho! Welcome to AGI House! I'm Happy, and I'm running entirely on this laptop. No cloud, just me!", "emotion": "excited", "emotion_conditioned": false, "gen_s": 16.44718837097753, "ttfa_s": null, "duration_s": 8.32, "rtf": 1.976825525357876, "peak_vram_gib": 2.432339668273926, "peak_reserved_gib": 2.787109375, "peak_amplitude": 0.453125, "model_load_s": 31.38138636999065}
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+{"mode": "base06", "id": "open_2", "text": "Whoa! Is that a robot arm? Is that my robot arm?", "emotion": "surprised", "emotion_conditioned": false, "gen_s": 9.808963143004803, "ttfa_s": null, "duration_s": 4.72, "rtf": 2.078170157416272, "peak_vram_gib": 2.359013557434082, "peak_reserved_gib": 2.787109375, "peak_amplitude": 0.46875, "model_load_s": 31.38138636999065}
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+{"mode": "base06", "id": "open_3", "text": "You talk, I listen, and your agents get to work. Pretty neat, huh?", "emotion": "happy", "emotion_conditioned": false, "gen_s": 9.192515387985623, "ttfa_s": null, "duration_s": 4.4, "rtf": 2.089208042724005, "peak_vram_gib": 2.352564811706543, "peak_reserved_gib": 2.787109375, "peak_amplitude": 0.4453125, "model_load_s": 31.38138636999065}
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+{"mode": "base06", "id": "think_1", "text": "Hmm. Let me think about that for a second.", "emotion": "thinking", "emotion_conditioned": false, "gen_s": 5.794829448015662, "ttfa_s": null, "duration_s": 2.8, "rtf": 2.069581945719879, "peak_vram_gib": 2.3203210830688477, "peak_reserved_gib": 2.787109375, "peak_amplitude": 0.455078125, "model_load_s": 31.38138636999065}
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+{"mode": "base06", "id": "sad_1", "text": "Aw, the build failed. That's okay. We'll fix it together.", "emotion": "sad", "emotion_conditioned": false, "gen_s": 9.364243582997005, "ttfa_s": null, "duration_s": 4.56, "rtf": 2.0535621892537295, "peak_vram_gib": 2.3557887077331543, "peak_reserved_gib": 2.787109375, "peak_amplitude": 0.46484375, "model_load_s": 31.38138636999065}
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+{"mode": "base06", "id": "embar_1", "text": "Oh, gee. Sorry, I wasn't listening. Could you say that one more time?", "emotion": "embarrassed", "emotion_conditioned": false, "gen_s": 9.431066680990625, "ttfa_s": null, "duration_s": 4.56, "rtf": 2.068216377410225, "peak_vram_gib": 2.3557887077331543, "peak_reserved_gib": 2.787109375, "peak_amplitude": 0.51171875, "model_load_s": 31.38138636999065}

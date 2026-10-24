@@ -1,0 +1,241 @@
+{"t": 0.0, "present": true, "yaw_deg": -40.0, "pitch_deg": 16.7, "dist_m": 1.462, "conf": 0.9, "target_base": [1.122, -0.9, 0.52]}
+{"t": 0.05, "present": true, "yaw_deg": -40.0, "pitch_deg": 16.97, "dist_m": 1.466, "conf": 0.9, "target_base": [1.124, -0.902, 0.528]}
+{"t": 0.1, "present": true, "yaw_deg": -40.0, "pitch_deg": 17.15, "dist_m": 1.471, "conf": 0.9, "target_base": [1.126, -0.903, 0.534]}
+{"t": 0.15, "present": true, "yaw_deg": -40.0, "pitch_deg": 17.17, "dist_m": 1.473, "conf": 0.9, "target_base": [1.128, -0.905, 0.535]}
+{"t": 0.2, "present": true, "yaw_deg": -40.0, "pitch_deg": 17.01, "dist_m": 1.475, "conf": 0.9, "target_base": [1.13, -0.907, 0.532]}
+{"t": 0.25, "present": true, "yaw_deg": -40.0, "pitch_deg": 16.73, "dist_m": 1.475, "conf": 0.9, "target_base": [1.132, -0.908, 0.525]}
+{"t": 0.3, "present": true, "yaw_deg": -40.0, "pitch_deg": 16.39, "dist_m": 1.476, "conf": 0.9, "target_base": [1.134, -0.91, 0.516]}
+{"t": 0.35, "present": true, "yaw_deg": -40.0, "pitch_deg": 16.09, "dist_m": 1.476, "conf": 0.9, "target_base": [1.136, -0.912, 0.509]}
+{"t": 0.4, "present": true, "yaw_deg": -40.0, "pitch_deg": 15.92, "dist_m": 1.477, "conf": 0.9, "target_base": [1.138, -0.913, 0.505]}
+{"t": 0.45, "present": true, "yaw_deg": -40.0, "pitch_deg": 15.92, "dist_m": 1.48, "conf": 0.9, "target_base": [1.14, -0.915, 0.506]}
+{"t": 0.5, "present": true, "yaw_deg": -40.0, "pitch_deg": 16.09, "dist_m": 1.484, "conf": 0.9, "target_base": [1.142, -0.917, 0.511]}
+{"t": 0.55, "present": true, "yaw_deg": -40.0, "pitch_deg": 16.35, "dist_m": 1.489, "conf": 0.9, "target_base": [1.144, -0.918, 0.519]}
+{"t": 0.6, "present": true, "yaw_deg": -40.0, "pitch_deg": 16.62, "dist_m": 1.493, "conf": 0.9, "target_base": [1.146, -0.92, 0.527]}
+{"t": 0.65, "present": true, "yaw_deg": -40.0, "pitch_deg": 16.81, "dist_m": 1.497, "conf": 0.9, "target_base": [1.148, -0.921, 0.533]}
+{"t": 0.7, "present": true, "yaw_deg": -40.0, "pitch_deg": 16.85, "dist_m": 1.5, "conf": 0.9, "target_base": [1.15, -0.923, 0.535]}
+{"t": 0.75, "present": true, "yaw_deg": -40.0, "pitch_deg": 16.72, "dist_m": 1.502, "conf": 0.9, "target_base": [1.152, -0.925, 0.532]}
+{"t": 0.8, "present": true, "yaw_deg": -40.0, "pitch_deg": 16.46, "dist_m": 1.502, "conf": 0.9, "target_base": [1.154, -0.926, 0.526]}
+{"t": 0.85, "present": true, "yaw_deg": -40.0, "pitch_deg": 16.12, "dist_m": 1.502, "conf": 0.9, "target_base": [1.155, -0.928, 0.517]}
+{"t": 0.9, "present": true, "yaw_deg": -40.0, "pitch_deg": 15.83, "dist_m": 1.502, "conf": 0.9, "target_base": [1.157, -0.929, 0.51]}
+{"t": 0.95, "present": true, "yaw_deg": -40.0, "pitch_deg": 15.65, "dist_m": 1.503, "conf": 0.9, "target_base": [1.159, -0.931, 0.505]}
+{"t": 1.0, "present": true, "yaw_deg": -40.0, "pitch_deg": 15.63, "dist_m": 1.506, "conf": 0.9, "target_base": [1.161, -0.932, 0.506]}
+{"t": 1.05, "present": true, "yaw_deg": -39.99, "pitch_deg": 15.78, "dist_m": 1.509, "conf": 0.9, "target_base": [1.163, -0.933, 0.51]}
+{"t": 1.1, "present": true, "yaw_deg": -39.98, "pitch_deg": 16.04, "dist_m": 1.513, "conf": 0.9, "target_base": [1.165, -0.934, 0.518]}
+{"t": 1.15, "present": true, "yaw_deg": -39.95, "pitch_deg": 16.32, "dist_m": 1.518, "conf": 0.9, "target_base": [1.167, -0.935, 0.526]}
+{"t": 1.2, "present": true, "yaw_deg": -39.91, "pitch_deg": 16.52, "dist_m": 1.522, "conf": 0.9, "target_base": [1.169, -0.936, 0.533]}
+{"t": 1.25, "present": true, "yaw_deg": -39.85, "pitch_deg": 16.58, "dist_m": 1.524, "conf": 0.9, "target_base": [1.172, -0.936, 0.535]}
+{"t": 1.3, "present": true, "yaw_deg": -39.79, "pitch_deg": 16.48, "dist_m": 1.526, "conf": 0.9, "target_base": [1.174, -0.936, 0.533]}
+{"t": 1.35, "present": true, "yaw_deg": -39.71, "pitch_deg": 16.23, "dist_m": 1.526, "conf": 0.9, "target_base": [1.177, -0.936, 0.526]}
+{"t": 1.4, "present": true, "yaw_deg": -39.63, "pitch_deg": 15.91, "dist_m": 1.525, "conf": 0.9, "target_base": [1.18, -0.936, 0.518]}
+{"t": 1.45, "present": true, "yaw_deg": -39.53, "pitch_deg": 15.61, "dist_m": 1.525, "conf": 0.9, "target_base": [1.183, -0.935, 0.51]}
+{"t": 1.5, "present": true, "yaw_deg": -39.42, "pitch_deg": 15.42, "dist_m": 1.526, "conf": 0.9, "target_base": [1.186, -0.934, 0.506]}
+{"t": 1.55, "present": true, "yaw_deg": -39.3, "pitch_deg": 15.4, "dist_m": 1.527, "conf": 0.9, "target_base": [1.189, -0.933, 0.505]}
+{"t": 1.6, "present": true, "yaw_deg": -39.17, "pitch_deg": 15.53, "dist_m": 1.53, "conf": 0.9, "target_base": [1.193, -0.931, 0.51]}
+{"t": 1.65, "present": true, "yaw_deg": -39.03, "pitch_deg": 15.78, "dist_m": 1.534, "conf": 0.9, "target_base": [1.197, -0.93, 0.517]}
+{"t": 1.7, "present": true, "yaw_deg": -38.88, "pitch_deg": 16.06, "dist_m": 1.538, "conf": 0.9, "target_base": [1.2, -0.928, 0.526]}
+{"t": 1.75, "present": true, "yaw_deg": -38.72, "pitch_deg": 16.28, "dist_m": 1.541, "conf": 0.9, "target_base": [1.204, -0.925, 0.532]}
+{"t": 1.8, "present": true, "yaw_deg": -38.55, "pitch_deg": 16.37, "dist_m": 1.543, "conf": 0.9, "target_base": [1.208, -0.923, 0.535]}
+{"t": 1.85, "present": true, "yaw_deg": -38.36, "pitch_deg": 16.29, "dist_m": 1.544, "conf": 0.9, "target_base": [1.212, -0.92, 0.533]}
+{"t": 1.9, "present": true, "yaw_deg": -38.17, "pitch_deg": 16.06, "dist_m": 1.544, "conf": 0.9, "target_base": [1.217, -0.917, 0.527]}
+{"t": 1.95, "present": true, "yaw_deg": -37.97, "pitch_deg": 15.76, "dist_m": 1.543, "conf": 0.9, "target_base": [1.221, -0.914, 0.519]}
+{"t": 2.0, "present": true, "yaw_deg": -37.76, "pitch_deg": 15.46, "dist_m": 1.542, "conf": 0.9, "target_base": [1.225, -0.91, 0.511]}
+{"t": 2.05, "present": true, "yaw_deg": -37.54, "pitch_deg": 15.26, "dist_m": 1.542, "conf": 0.9, "target_base": [1.23, -0.907, 0.506]}
+{"t": 2.1, "present": true, "yaw_deg": -37.31, "pitch_deg": 15.22, "dist_m": 1.543, "conf": 0.9, "target_base": [1.234, -0.903, 0.505]}
+{"t": 2.15, "present": true, "yaw_deg": -37.07, "pitch_deg": 15.35, "dist_m": 1.545, "conf": 0.9, "target_base": [1.239, -0.898, 0.509]}
+{"t": 2.2, "present": true, "yaw_deg": -36.82, "pitch_deg": 15.6, "dist_m": 1.548, "conf": 0.9, "target_base": [1.244, -0.894, 0.516]}
+{"t": 2.25, "present": true, "yaw_deg": -36.56, "pitch_deg": 15.88, "dist_m": 1.552, "conf": 0.9, "target_base": [1.249, -0.889, 0.525]}
+{"t": 2.3, "present": true, "yaw_deg": -36.3, "pitch_deg": 16.12, "dist_m": 1.554, "conf": 0.9, "target_base": [1.254, -0.884, 0.532]}
+{"t": 2.35, "present": true, "yaw_deg": -36.02, "pitch_deg": 16.23, "dist_m": 1.556, "conf": 0.9, "target_base": [1.259, -0.879, 0.535]}
+{"t": 2.4, "present": true, "yaw_deg": -35.74, "pitch_deg": 16.17, "dist_m": 1.557, "conf": 0.9, "target_base": [1.264, -0.873, 0.534]}
+{"t": 2.45, "present": true, "yaw_deg": -35.44, "pitch_deg": 15.97, "dist_m": 1.556, "conf": 0.9, "target_base": [1.269, -0.867, 0.528]}
+{"t": 2.5, "present": true, "yaw_deg": -35.14, "pitch_deg": 15.68, "dist_m": 1.554, "conf": 0.9, "target_base": [1.274, -0.861, 0.52]}
+{"t": 2.55, "present": true, "yaw_deg": -34.83, "pitch_deg": 15.38, "dist_m": 1.553, "conf": 0.9, "target_base": [1.279, -0.855, 0.512]}
+{"t": 2.6, "present": true, "yaw_deg": -34.51, "pitch_deg": 15.18, "dist_m": 1.552, "conf": 0.9, "target_base": [1.284, -0.849, 0.506]}
+{"t": 2.65, "present": true, "yaw_deg": -34.18, "pitch_deg": 15.13, "dist_m": 1.552, "conf": 0.9, "target_base": [1.289, -0.842, 0.505]}
+{"t": 2.7, "present": true, "yaw_deg": -33.85, "pitch_deg": 15.24, "dist_m": 1.553, "conf": 0.9, "target_base": [1.295, -0.835, 0.508]}
+{"t": 2.75, "present": true, "yaw_deg": -33.51, "pitch_deg": 15.49, "dist_m": 1.556, "conf": 0.9, "target_base": [1.3, -0.828, 0.515]}
+{"t": 2.8, "present": true, "yaw_deg": -33.16, "pitch_deg": 15.78, "dist_m": 1.558, "conf": 0.9, "target_base": [1.305, -0.82, 0.524]}
+{"t": 2.85, "present": true, "yaw_deg": -32.8, "pitch_deg": 16.03, "dist_m": 1.56, "conf": 0.9, "target_base": [1.311, -0.812, 0.531]}
+{"t": 2.9, "present": true, "yaw_deg": -32.43, "pitch_deg": 16.16, "dist_m": 1.562, "conf": 0.9, "target_base": [1.316, -0.804, 0.535]}
+{"t": 2.95, "present": true, "yaw_deg": -32.06, "pitch_deg": 16.14, "dist_m": 1.561, "conf": 0.9, "target_base": [1.321, -0.796, 0.534]}
+{"t": 3.0, "present": true, "yaw_deg": -31.68, "pitch_deg": 15.95, "dist_m": 1.56, "conf": 0.9, "target_base": [1.326, -0.788, 0.529]}
+{"t": 3.05, "present": true, "yaw_deg": -31.29, "pitch_deg": 15.68, "dist_m": 1.558, "conf": 0.9, "target_base": [1.332, -0.779, 0.521]}
+{"t": 3.1, "present": true, "yaw_deg": -30.9, "pitch_deg": 15.39, "dist_m": 1.556, "conf": 0.9, "target_base": [1.337, -0.77, 0.513]}
+{"t": 3.15, "present": true, "yaw_deg": -30.5, "pitch_deg": 15.18, "dist_m": 1.554, "conf": 0.9, "target_base": [1.342, -0.761, 0.507]}
+{"t": 3.2, "present": true, "yaw_deg": -30.09, "pitch_deg": 15.12, "dist_m": 1.553, "conf": 0.9, "target_base": [1.347, -0.752, 0.505]}
+{"t": 3.25, "present": true, "yaw_deg": -29.67, "pitch_deg": 15.22, "dist_m": 1.554, "conf": 0.9, "target_base": [1.353, -0.742, 0.508]}
+{"t": 3.3, "present": true, "yaw_deg": -29.25, "pitch_deg": 15.46, "dist_m": 1.555, "conf": 0.9, "target_base": [1.358, -0.732, 0.514]}
+{"t": 3.35, "present": true, "yaw_deg": -28.82, "pitch_deg": 15.76, "dist_m": 1.557, "conf": 0.9, "target_base": [1.363, -0.722, 0.523]}
+{"t": 3.4, "present": true, "yaw_deg": -28.39, "pitch_deg": 16.03, "dist_m": 1.558, "conf": 0.9, "target_base": [1.368, -0.712, 0.53]}
+{"t": 3.45, "present": true, "yaw_deg": -27.95, "pitch_deg": 16.18, "dist_m": 1.559, "conf": 0.9, "target_base": [1.373, -0.702, 0.535]}
+{"t": 3.5, "present": true, "yaw_deg": -27.5, "pitch_deg": 16.18, "dist_m": 1.558, "conf": 0.9, "target_base": [1.377, -0.691, 0.534]}
+{"t": 3.55, "present": true, "yaw_deg": -27.05, "pitch_deg": 16.02, "dist_m": 1.556, "conf": 0.9, "target_base": [1.382, -0.68, 0.53]}
+{"t": 3.6, "present": true, "yaw_deg": -26.59, "pitch_deg": 15.76, "dist_m": 1.553, "conf": 0.9, "target_base": [1.387, -0.669, 0.522]}
+{"t": 3.65, "present": true, "yaw_deg": -26.12, "pitch_deg": 15.47, "dist_m": 1.55, "conf": 0.9, "target_base": [1.392, -0.658, 0.514]}
+{"t": 3.7, "present": true, "yaw_deg": -25.65, "pitch_deg": 15.26, "dist_m": 1.548, "conf": 0.9, "target_base": [1.396, -0.647, 0.507]}
+{"t": 3.75, "present": true, "yaw_deg": -25.18, "pitch_deg": 15.18, "dist_m": 1.546, "conf": 0.9, "target_base": [1.401, -0.635, 0.505]}
+{"t": 3.8, "present": true, "yaw_deg": -24.7, "pitch_deg": 15.28, "dist_m": 1.546, "conf": 0.9, "target_base": [1.405, -0.623, 0.507]}
+{"t": 3.85, "present": true, "yaw_deg": -24.21, "pitch_deg": 15.51, "dist_m": 1.547, "conf": 0.9, "target_base": [1.409, -0.611, 0.514]}
+{"t": 3.9, "present": true, "yaw_deg": -23.72, "pitch_deg": 15.82, "dist_m": 1.548, "conf": 0.9, "target_base": [1.413, -0.599, 0.522]}
+{"t": 3.95, "present": true, "yaw_deg": -23.22, "pitch_deg": 16.1, "dist_m": 1.549, "conf": 0.9, "target_base": [1.417, -0.587, 0.53]}
+{"t": 4.0, "present": true, "yaw_deg": -22.72, "pitch_deg": 16.28, "dist_m": 1.549, "conf": 0.9, "target_base": [1.421, -0.574, 0.534]}
+{"t": 4.05, "present": true, "yaw_deg": -22.21, "pitch_deg": 16.31, "dist_m": 1.548, "conf": 0.9, "target_base": [1.425, -0.562, 0.535]}
+{"t": 4.1, "present": true, "yaw_deg": -21.7, "pitch_deg": 16.17, "dist_m": 1.545, "conf": 0.9, "target_base": [1.429, -0.549, 0.53]}
+{"t": 4.15, "present": true, "yaw_deg": -21.19, "pitch_deg": 15.92, "dist_m": 1.542, "conf": 0.9, "target_base": [1.432, -0.536, 0.523]}
+{"t": 4.2, "present": true, "yaw_deg": -20.67, "pitch_deg": 15.64, "dist_m": 1.538, "conf": 0.9, "target_base": [1.436, -0.523, 0.514]}
+{"t": 4.25, "present": true, "yaw_deg": -20.14, "pitch_deg": 15.41, "dist_m": 1.535, "conf": 0.9, "target_base": [1.439, -0.509, 0.508]}
+{"t": 4.3, "present": true, "yaw_deg": -19.61, "pitch_deg": 15.33, "dist_m": 1.532, "conf": 0.9, "target_base": [1.442, -0.496, 0.505]}
+{"t": 4.35, "present": true, "yaw_deg": -19.08, "pitch_deg": 15.41, "dist_m": 1.531, "conf": 0.9, "target_base": [1.445, -0.483, 0.507]}
+{"t": 4.4, "present": true, "yaw_deg": -18.54, "pitch_deg": 15.64, "dist_m": 1.531, "conf": 0.9, "target_base": [1.448, -0.469, 0.513]}
+{"t": 4.45, "present": true, "yaw_deg": -18.0, "pitch_deg": 15.95, "dist_m": 1.532, "conf": 0.9, "target_base": [1.45, -0.455, 0.521]}
+{"t": 4.5, "present": true, "yaw_deg": -17.46, "pitch_deg": 16.26, "dist_m": 1.532, "conf": 0.9, "target_base": [1.453, -0.441, 0.529]}
+{"t": 4.55, "present": true, "yaw_deg": -16.91, "pitch_deg": 16.46, "dist_m": 1.532, "conf": 0.9, "target_base": [1.455, -0.427, 0.534]}
+{"t": 4.6, "present": true, "yaw_deg": -16.36, "pitch_deg": 16.51, "dist_m": 1.53, "conf": 0.9, "target_base": [1.458, -0.413, 0.535]}
+{"t": 4.65, "present": true, "yaw_deg": -15.81, "pitch_deg": 16.39, "dist_m": 1.527, "conf": 0.9, "target_base": [1.46, -0.399, 0.531]}
+{"t": 4.7, "present": true, "yaw_deg": -15.25, "pitch_deg": 16.15, "dist_m": 1.523, "conf": 0.9, "target_base": [1.461, -0.385, 0.524]}
+{"t": 4.75, "present": true, "yaw_deg": -14.69, "pitch_deg": 15.87, "dist_m": 1.519, "conf": 0.9, "target_base": [1.463, -0.37, 0.515]}
+{"t": 4.8, "present": true, "yaw_deg": -14.12, "pitch_deg": 15.64, "dist_m": 1.515, "conf": 0.9, "target_base": [1.465, -0.356, 0.508]}
+{"t": 4.85, "present": true, "yaw_deg": -13.56, "pitch_deg": 15.54, "dist_m": 1.512, "conf": 0.9, "target_base": [1.466, -0.341, 0.505]}
+{"t": 4.9, "present": true, "yaw_deg": -12.99, "pitch_deg": 15.61, "dist_m": 1.51, "conf": 0.9, "target_base": [1.467, -0.327, 0.506]}
+{"t": 4.95, "present": true, "yaw_deg": -12.41, "pitch_deg": 15.84, "dist_m": 1.51, "conf": 0.9, "target_base": [1.468, -0.312, 0.512]}
+{"t": 5.0, "present": true, "yaw_deg": -11.84, "pitch_deg": 16.15, "dist_m": 1.51, "conf": 0.9, "target_base": [1.469, -0.298, 0.52]}
+{"t": 5.05, "present": true, "yaw_deg": -11.26, "pitch_deg": 16.47, "dist_m": 1.51, "conf": 0.9, "target_base": [1.47, -0.283, 0.528]}
+{"t": 5.1, "present": true, "yaw_deg": -10.68, "pitch_deg": 16.7, "dist_m": 1.509, "conf": 0.9, "target_base": [1.47, -0.268, 0.534]}
+{"t": 5.15, "present": true, "yaw_deg": -10.1, "pitch_deg": 16.77, "dist_m": 1.507, "conf": 0.9, "target_base": [1.471, -0.253, 0.535]}
+{"t": 5.2, "present": false}
+{"t": 5.25, "present": false}
+{"t": 5.3, "present": false}
+{"t": 5.35, "present": false}
+{"t": 5.4, "present": false}
+{"t": 5.45, "present": false}
+{"t": 5.5, "present": false}
+{"t": 5.55, "present": false}
+{"t": 5.6, "present": false}
+{"t": 5.65, "present": false}
+{"t": 5.7, "present": false}
+{"t": 5.75, "present": false}
+{"t": 5.8, "present": false}
+{"t": 5.85, "present": false}
+{"t": 5.9, "present": false}
+{"t": 5.95, "present": false}
+{"t": 6.0, "present": false}
+{"t": 6.05, "present": false}
+{"t": 6.1, "present": false}
+{"t": 6.15, "present": false}
+{"t": 6.2, "present": false}
+{"t": 6.25, "present": false}
+{"t": 6.3, "present": false}
+{"t": 6.35, "present": false}
+{"t": 6.4, "present": false}
+{"t": 6.45, "present": false}
+{"t": 6.5, "present": false}
+{"t": 6.55, "present": false}
+{"t": 6.6, "present": false}
+{"t": 6.65, "present": false}
+{"t": 6.7, "present": false}
+{"t": 6.75, "present": false}
+{"t": 6.8, "present": false}
+{"t": 6.85, "present": true, "yaw_deg": 10.1, "pitch_deg": 17.7, "dist_m": 1.424, "conf": 0.9, "target_base": [1.386, 0.238, 0.533]}
+{"t": 6.9, "present": true, "yaw_deg": 10.68, "pitch_deg": 17.5, "dist_m": 1.42, "conf": 0.9, "target_base": [1.381, 0.251, 0.527]}
+{"t": 6.95, "present": true, "yaw_deg": 11.26, "pitch_deg": 17.22, "dist_m": 1.416, "conf": 0.9, "target_base": [1.376, 0.264, 0.519]}
+{"t": 7.0, "present": true, "yaw_deg": 11.84, "pitch_deg": 16.94, "dist_m": 1.411, "conf": 0.9, "target_base": [1.371, 0.277, 0.511]}
+{"t": 7.05, "present": true, "yaw_deg": 12.41, "pitch_deg": 16.77, "dist_m": 1.408, "conf": 0.9, "target_base": [1.366, 0.29, 0.506]}
+{"t": 7.1, "present": true, "yaw_deg": 12.99, "pitch_deg": 16.76, "dist_m": 1.405, "conf": 0.9, "target_base": [1.361, 0.302, 0.505]}
+{"t": 7.15, "present": true, "yaw_deg": 13.56, "pitch_deg": 16.94, "dist_m": 1.404, "conf": 0.9, "target_base": [1.356, 0.315, 0.509]}
+{"t": 7.2, "present": true, "yaw_deg": 14.12, "pitch_deg": 17.24, "dist_m": 1.404, "conf": 0.9, "target_base": [1.351, 0.327, 0.516]}
+{"t": 7.25, "present": true, "yaw_deg": 14.69, "pitch_deg": 17.59, "dist_m": 1.405, "conf": 0.9, "target_base": [1.345, 0.34, 0.525]}
+{"t": 7.3, "present": true, "yaw_deg": 15.25, "pitch_deg": 17.89, "dist_m": 1.405, "conf": 0.9, "target_base": [1.34, 0.352, 0.532]}
+{"t": 7.35, "present": true, "yaw_deg": 15.81, "pitch_deg": 18.04, "dist_m": 1.404, "conf": 0.9, "target_base": [1.335, 0.364, 0.535]}
+{"t": 7.4, "present": true, "yaw_deg": 16.36, "pitch_deg": 18.02, "dist_m": 1.402, "conf": 0.9, "target_base": [1.329, 0.376, 0.534]}
+{"t": 7.45, "present": true, "yaw_deg": 16.91, "pitch_deg": 17.83, "dist_m": 1.398, "conf": 0.9, "target_base": [1.324, 0.387, 0.528]}
+{"t": 7.5, "present": true, "yaw_deg": 17.46, "pitch_deg": 17.53, "dist_m": 1.394, "conf": 0.9, "target_base": [1.318, 0.399, 0.52]}
+{"t": 7.55, "present": true, "yaw_deg": 18.0, "pitch_deg": 17.24, "dist_m": 1.39, "conf": 0.9, "target_base": [1.312, 0.41, 0.512]}
+{"t": 7.6, "present": true, "yaw_deg": 18.54, "pitch_deg": 17.04, "dist_m": 1.387, "conf": 0.9, "target_base": [1.307, 0.422, 0.506]}
+{"t": 7.65, "present": true, "yaw_deg": 19.08, "pitch_deg": 17.01, "dist_m": 1.385, "conf": 0.9, "target_base": [1.301, 0.433, 0.505]}
+{"t": 7.7, "present": true, "yaw_deg": 19.61, "pitch_deg": 17.17, "dist_m": 1.384, "conf": 0.9, "target_base": [1.296, 0.444, 0.508]}
+{"t": 7.75, "present": true, "yaw_deg": 20.14, "pitch_deg": 17.46, "dist_m": 1.384, "conf": 0.9, "target_base": [1.29, 0.455, 0.515]}
+{"t": 7.8, "present": true, "yaw_deg": 20.67, "pitch_deg": 17.81, "dist_m": 1.385, "conf": 0.9, "target_base": [1.284, 0.466, 0.524]}
+{"t": 7.85, "present": true, "yaw_deg": 21.19, "pitch_deg": 18.11, "dist_m": 1.386, "conf": 0.9, "target_base": [1.279, 0.476, 0.531]}
+{"t": 7.9, "present": true, "yaw_deg": 21.7, "pitch_deg": 18.28, "dist_m": 1.386, "conf": 0.9, "target_base": [1.273, 0.487, 0.535]}
+{"t": 7.95, "present": true, "yaw_deg": 22.21, "pitch_deg": 18.27, "dist_m": 1.385, "conf": 0.9, "target_base": [1.267, 0.497, 0.534]}
+{"t": 8.0, "present": true, "yaw_deg": 22.72, "pitch_deg": 18.08, "dist_m": 1.382, "conf": 0.9, "target_base": [1.261, 0.507, 0.529]}
+{"t": 8.05, "present": true, "yaw_deg": 23.22, "pitch_deg": 17.79, "dist_m": 1.378, "conf": 0.9, "target_base": [1.256, 0.517, 0.521]}
+{"t": 8.1, "present": true, "yaw_deg": 23.72, "pitch_deg": 17.48, "dist_m": 1.374, "conf": 0.9, "target_base": [1.25, 0.527, 0.513]}
+{"t": 8.15, "present": true, "yaw_deg": 24.21, "pitch_deg": 17.26, "dist_m": 1.371, "conf": 0.9, "target_base": [1.245, 0.537, 0.507]}
+{"t": 8.2, "present": true, "yaw_deg": 24.7, "pitch_deg": 17.2, "dist_m": 1.37, "conf": 0.9, "target_base": [1.239, 0.547, 0.505]}
+{"t": 8.25, "present": true, "yaw_deg": 25.18, "pitch_deg": 17.32, "dist_m": 1.37, "conf": 0.9, "target_base": [1.233, 0.556, 0.508]}
+{"t": 8.3, "present": true, "yaw_deg": 25.65, "pitch_deg": 17.6, "dist_m": 1.371, "conf": 0.9, "target_base": [1.228, 0.566, 0.514]}
+{"t": 8.35, "present": true, "yaw_deg": 26.12, "pitch_deg": 17.94, "dist_m": 1.372, "conf": 0.9, "target_base": [1.222, 0.575, 0.523]}
+{"t": 8.4, "present": true, "yaw_deg": 26.59, "pitch_deg": 18.25, "dist_m": 1.374, "conf": 0.9, "target_base": [1.217, 0.584, 0.53]}
+{"t": 8.45, "present": true, "yaw_deg": 27.05, "pitch_deg": 18.43, "dist_m": 1.375, "conf": 0.9, "target_base": [1.211, 0.593, 0.535]}
+{"t": 8.5, "present": true, "yaw_deg": 27.5, "pitch_deg": 18.43, "dist_m": 1.374, "conf": 0.9, "target_base": [1.206, 0.602, 0.534]}
+{"t": 8.55, "present": true, "yaw_deg": 27.95, "pitch_deg": 18.25, "dist_m": 1.372, "conf": 0.9, "target_base": [1.201, 0.611, 0.53]}
+{"t": 8.6, "present": true, "yaw_deg": 28.39, "pitch_deg": 17.95, "dist_m": 1.369, "conf": 0.9, "target_base": [1.196, 0.619, 0.522]}
+{"t": 8.65, "present": true, "yaw_deg": 28.82, "pitch_deg": 17.63, "dist_m": 1.366, "conf": 0.9, "target_base": [1.19, 0.628, 0.514]}
+{"t": 8.7, "present": true, "yaw_deg": 29.25, "pitch_deg": 17.38, "dist_m": 1.363, "conf": 0.9, "target_base": [1.185, 0.636, 0.507]}
+{"t": 8.75, "present": true, "yaw_deg": 29.67, "pitch_deg": 17.29, "dist_m": 1.362, "conf": 0.9, "target_base": [1.18, 0.644, 0.505]}
+{"t": 8.8, "present": true, "yaw_deg": 30.09, "pitch_deg": 17.39, "dist_m": 1.363, "conf": 0.9, "target_base": [1.175, 0.652, 0.507]}
+{"t": 8.85, "present": true, "yaw_deg": 30.5, "pitch_deg": 17.65, "dist_m": 1.365, "conf": 0.9, "target_base": [1.17, 0.66, 0.514]}
+{"t": 8.9, "present": true, "yaw_deg": 30.9, "pitch_deg": 17.98, "dist_m": 1.367, "conf": 0.9, "target_base": [1.166, 0.668, 0.522]}
+{"t": 8.95, "present": true, "yaw_deg": 31.29, "pitch_deg": 18.28, "dist_m": 1.369, "conf": 0.9, "target_base": [1.161, 0.675, 0.53]}
+{"t": 9.0, "present": true, "yaw_deg": 31.68, "pitch_deg": 18.47, "dist_m": 1.371, "conf": 0.9, "target_base": [1.156, 0.683, 0.534]}
+{"t": 9.05, "present": true, "yaw_deg": 32.06, "pitch_deg": 18.48, "dist_m": 1.371, "conf": 0.9, "target_base": [1.152, 0.69, 0.535]}
+{"t": 9.1, "present": true, "yaw_deg": 32.43, "pitch_deg": 18.31, "dist_m": 1.369, "conf": 0.9, "target_base": [1.147, 0.697, 0.53]}
+{"t": 9.15, "present": true, "yaw_deg": 32.8, "pitch_deg": 18.01, "dist_m": 1.367, "conf": 0.9, "target_base": [1.143, 0.704, 0.523]}
+{"t": 9.2, "present": true, "yaw_deg": 33.16, "pitch_deg": 17.68, "dist_m": 1.365, "conf": 0.9, "target_base": [1.139, 0.711, 0.514]}
+{"t": 9.25, "present": true, "yaw_deg": 33.51, "pitch_deg": 17.41, "dist_m": 1.363, "conf": 0.9, "target_base": [1.135, 0.718, 0.508]}
+{"t": 9.3, "present": true, "yaw_deg": 33.85, "pitch_deg": 17.29, "dist_m": 1.363, "conf": 0.9, "target_base": [1.131, 0.725, 0.505]}
+{"t": 9.35, "present": true, "yaw_deg": 34.18, "pitch_deg": 17.36, "dist_m": 1.364, "conf": 0.9, "target_base": [1.127, 0.731, 0.507]}
+{"t": 9.4, "present": true, "yaw_deg": 34.51, "pitch_deg": 17.59, "dist_m": 1.366, "conf": 0.9, "target_base": [1.123, 0.738, 0.513]}
+{"t": 9.45, "present": true, "yaw_deg": 34.83, "pitch_deg": 17.91, "dist_m": 1.369, "conf": 0.9, "target_base": [1.119, 0.744, 0.521]}
+{"t": 9.5, "present": true, "yaw_deg": 35.14, "pitch_deg": 18.21, "dist_m": 1.372, "conf": 0.9, "target_base": [1.116, 0.75, 0.529]}
+{"t": 9.55, "present": true, "yaw_deg": 35.44, "pitch_deg": 18.4, "dist_m": 1.374, "conf": 0.9, "target_base": [1.112, 0.756, 0.534]}
+{"t": 9.6, "present": true, "yaw_deg": 35.74, "pitch_deg": 18.43, "dist_m": 1.375, "conf": 0.9, "target_base": [1.109, 0.762, 0.535]}
+{"t": 9.65, "present": true, "yaw_deg": 36.02, "pitch_deg": 18.26, "dist_m": 1.375, "conf": 0.9, "target_base": [1.106, 0.768, 0.531]}
+{"t": 9.7, "present": true, "yaw_deg": 36.3, "pitch_deg": 17.97, "dist_m": 1.374, "conf": 0.9, "target_base": [1.103, 0.773, 0.524]}
+{"t": 9.75, "present": true, "yaw_deg": 36.56, "pitch_deg": 17.62, "dist_m": 1.372, "conf": 0.9, "target_base": [1.1, 0.779, 0.515]}
+{"t": 9.8, "present": true, "yaw_deg": 36.82, "pitch_deg": 17.33, "dist_m": 1.371, "conf": 0.9, "target_base": [1.098, 0.784, 0.508]}
+{"t": 9.85, "present": true, "yaw_deg": 37.07, "pitch_deg": 17.19, "dist_m": 1.371, "conf": 0.9, "target_base": [1.095, 0.789, 0.505]}
+{"t": 9.9, "present": true, "yaw_deg": 37.31, "pitch_deg": 17.23, "dist_m": 1.372, "conf": 0.9, "target_base": [1.093, 0.795, 0.506]}
+{"t": 9.95, "present": true, "yaw_deg": 37.54, "pitch_deg": 17.43, "dist_m": 1.375, "conf": 0.9, "target_base": [1.09, 0.799, 0.512]}
+{"t": 10.0, "present": true, "yaw_deg": 37.76, "pitch_deg": 17.73, "dist_m": 1.379, "conf": 0.9, "target_base": [1.088, 0.804, 0.52]}
+{"t": 10.05, "present": true, "yaw_deg": 37.97, "pitch_deg": 18.03, "dist_m": 1.383, "conf": 0.9, "target_base": [1.086, 0.809, 0.528]}
+{"t": 10.1, "present": true, "yaw_deg": 38.17, "pitch_deg": 18.23, "dist_m": 1.386, "conf": 0.9, "target_base": [1.085, 0.813, 0.534]}
+{"t": 10.15, "present": true, "yaw_deg": 38.36, "pitch_deg": 18.27, "dist_m": 1.388, "conf": 0.9, "target_base": [1.083, 0.818, 0.535]}
+{"t": 10.2, "present": true, "yaw_deg": 38.55, "pitch_deg": 18.12, "dist_m": 1.388, "conf": 0.9, "target_base": [1.082, 0.822, 0.532]}
+{"t": 10.25, "present": true, "yaw_deg": 38.72, "pitch_deg": 17.82, "dist_m": 1.387, "conf": 0.9, "target_base": [1.08, 0.826, 0.525]}
+{"t": 10.3, "present": true, "yaw_deg": 38.88, "pitch_deg": 17.47, "dist_m": 1.386, "conf": 0.9, "target_base": [1.079, 0.83, 0.516]}
+{"t": 10.35, "present": true, "yaw_deg": 39.03, "pitch_deg": 17.17, "dist_m": 1.386, "conf": 0.9, "target_base": [1.078, 0.834, 0.509]}
+{"t": 10.4, "present": true, "yaw_deg": 39.17, "pitch_deg": 17.0, "dist_m": 1.386, "conf": 0.9, "target_base": [1.078, 0.837, 0.505]}
+{"t": 10.45, "present": true, "yaw_deg": 39.3, "pitch_deg": 17.01, "dist_m": 1.388, "conf": 0.9, "target_base": [1.077, 0.841, 0.506]}
+{"t": 10.5, "present": true, "yaw_deg": 39.42, "pitch_deg": 17.19, "dist_m": 1.391, "conf": 0.9, "target_base": [1.077, 0.844, 0.511]}
+{"t": 10.55, "present": true, "yaw_deg": 39.53, "pitch_deg": 17.47, "dist_m": 1.396, "conf": 0.9, "target_base": [1.077, 0.847, 0.519]}
+{"t": 10.6, "present": true, "yaw_deg": 39.63, "pitch_deg": 17.77, "dist_m": 1.4, "conf": 0.9, "target_base": [1.077, 0.85, 0.527]}
+{"t": 10.65, "present": true, "yaw_deg": 39.71, "pitch_deg": 17.98, "dist_m": 1.404, "conf": 0.9, "target_base": [1.077, 0.853, 0.533]}
+{"t": 10.7, "present": true, "yaw_deg": 39.79, "pitch_deg": 18.02, "dist_m": 1.406, "conf": 0.9, "target_base": [1.077, 0.856, 0.535]}
+{"t": 10.75, "present": true, "yaw_deg": 39.85, "pitch_deg": 17.88, "dist_m": 1.407, "conf": 0.9, "target_base": [1.078, 0.858, 0.532]}
+{"t": 10.8, "present": true, "yaw_deg": 39.91, "pitch_deg": 17.6, "dist_m": 1.407, "conf": 0.9, "target_base": [1.079, 0.86, 0.526]}
+{"t": 10.85, "present": true, "yaw_deg": 39.95, "pitch_deg": 17.25, "dist_m": 1.407, "conf": 0.9, "target_base": [1.08, 0.863, 0.517]}
+{"t": 10.9, "present": true, "yaw_deg": 39.98, "pitch_deg": 16.94, "dist_m": 1.407, "conf": 0.9, "target_base": [1.081, 0.864, 0.51]}
+{"t": 10.95, "present": true, "yaw_deg": 39.99, "pitch_deg": 16.74, "dist_m": 1.407, "conf": 0.9, "target_base": [1.083, 0.866, 0.505]}
+{"t": 11.0, "present": true, "yaw_deg": 40.0, "pitch_deg": 16.73, "dist_m": 1.41, "conf": 0.9, "target_base": [1.084, 0.868, 0.506]}
+{"t": 11.05, "present": true, "yaw_deg": 40.0, "pitch_deg": 16.88, "dist_m": 1.413, "conf": 0.9, "target_base": [1.086, 0.869, 0.51]}
+{"t": 11.1, "present": true, "yaw_deg": 40.0, "pitch_deg": 17.15, "dist_m": 1.418, "conf": 0.9, "target_base": [1.088, 0.871, 0.518]}
+{"t": 11.15, "present": true, "yaw_deg": 40.0, "pitch_deg": 17.44, "dist_m": 1.422, "conf": 0.9, "target_base": [1.089, 0.872, 0.526]}
+{"t": 11.2, "present": true, "yaw_deg": 40.0, "pitch_deg": 17.66, "dist_m": 1.427, "conf": 0.9, "target_base": [1.091, 0.874, 0.533]}
+{"t": 11.25, "present": true, "yaw_deg": 40.0, "pitch_deg": 17.72, "dist_m": 1.43, "conf": 0.9, "target_base": [1.093, 0.875, 0.535]}
+{"t": 11.3, "present": true, "yaw_deg": 40.0, "pitch_deg": 17.6, "dist_m": 1.431, "conf": 0.9, "target_base": [1.095, 0.877, 0.533]}
+{"t": 11.35, "present": true, "yaw_deg": 40.0, "pitch_deg": 17.33, "dist_m": 1.432, "conf": 0.9, "target_base": [1.097, 0.878, 0.526]}
+{"t": 11.4, "present": true, "yaw_deg": 40.0, "pitch_deg": 16.98, "dist_m": 1.432, "conf": 0.9, "target_base": [1.099, 0.88, 0.518]}
+{"t": 11.45, "present": true, "yaw_deg": 40.0, "pitch_deg": 16.66, "dist_m": 1.432, "conf": 0.9, "target_base": [1.101, 0.882, 0.51]}
+{"t": 11.5, "present": true, "yaw_deg": 40.0, "pitch_deg": 16.45, "dist_m": 1.433, "conf": 0.9, "target_base": [1.103, 0.883, 0.506]}
+{"t": 11.55, "present": true, "yaw_deg": 40.0, "pitch_deg": 16.41, "dist_m": 1.435, "conf": 0.9, "target_base": [1.105, 0.885, 0.505]}
+{"t": 11.6, "present": true, "yaw_deg": 40.0, "pitch_deg": 16.55, "dist_m": 1.439, "conf": 0.9, "target_base": [1.107, 0.887, 0.51]}
+{"t": 11.65, "present": true, "yaw_deg": 40.0, "pitch_deg": 16.8, "dist_m": 1.443, "conf": 0.9, "target_base": [1.109, 0.888, 0.517]}
+{"t": 11.7, "present": true, "yaw_deg": 40.0, "pitch_deg": 17.09, "dist_m": 1.448, "conf": 0.9, "target_base": [1.11, 0.89, 0.526]}
+{"t": 11.75, "present": true, "yaw_deg": 40.0, "pitch_deg": 17.31, "dist_m": 1.453, "conf": 0.9, "target_base": [1.112, 0.892, 0.532]}
+{"t": 11.8, "present": true, "yaw_deg": 40.0, "pitch_deg": 17.38, "dist_m": 1.456, "conf": 0.9, "target_base": [1.114, 0.893, 0.535]}
+{"t": 11.85, "present": true, "yaw_deg": 40.0, "pitch_deg": 17.28, "dist_m": 1.458, "conf": 0.9, "target_base": [1.116, 0.895, 0.533]}
+{"t": 11.9, "present": true, "yaw_deg": 40.0, "pitch_deg": 17.03, "dist_m": 1.459, "conf": 0.9, "target_base": [1.118, 0.897, 0.527]}
+{"t": 11.95, "present": true, "yaw_deg": 40.0, "pitch_deg": 16.69, "dist_m": 1.459, "conf": 0.9, "target_base": [1.12, 0.898, 0.519]}
+{"t": 12.0, "present": true, "yaw_deg": 40.0, "pitch_deg": 16.37, "dist_m": 1.459, "conf": 0.9, "target_base": [1.122, 0.9, 0.511]}

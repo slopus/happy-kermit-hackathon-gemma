@@ -1,0 +1,41 @@
+[C_E4B_Q4] demo01_wake OK  [] "[happy|speaker] {head_bob 0.7} Oh, hello! {look_at:speaker 0.8} Ready and waiting! {nod 0.5} What's on your mind today?"
+[C_E4B_Q4] demo02_judges OK  [] "[happy|target:judges] {head_bob 0.7} Hi to the judges! {nod 0.5} Hope you're having a good day so far."
+[C_E4B_Q4] demo03_what OK  ['mention_all'] "[happy|speaker] {nod 0.7} I'm Happy Kermit, and I'm the face of Happy, an app. {lean_in 0.5} What made you curious about who I am?"
+[C_E4B_Q4] demo04_cloud OK  [] "[neutral|speaker] {shake 0.7} Nope! {look_at:laptop 0.7} My whole brain is right here on this laptop. {nod 0.5} It's all local processing."
+[C_E4B_Q4] demo05_happy OK  ['mention'] '[happy|speaker] {nod 0.7} Well, Happy is this app for talking to my buddies. {look_at:speaker 0.7} What do you think Happy is?'
+[C_E4B_Q4] demo06_fast OK  [] "[sad|speaker] {sigh 0.7} Sometimes I do. {shrug 0.5} It can feel a bit overwhelming, can't it? {look_at:speaker 0.7} What makes you feel that way?"
+[C_E4B_Q4] demo07_nod OK  [] '[neutral|speaker] {nod 0.7} I suppose I can agree to that. {shrug 0.3} What are we agreeing about?'
+[C_E4B_Q4] demo08_left OK  [] '[neutral|target:left] {look_at:left 1.0} Here you go. {nod 0.4} What are you hoping to see over there?'
+[C_E4B_Q4] demo09_whoa OK  [] '[surprised|target:robot_arm] {surprise 1.0} Whoa! {look_at:robot_arm 0.8} Is that a big helper? {shrug 0.5} What do you think of it?'
+[C_E4B_Q4] t10_joke OK  [] '[happy|speaker] {laugh 0.7} Well, why did the robot cross the road? {look_around 0.5} To get to the other side, duh! {nod 0.5} Did that make you chuckle?'
+[C_E4B_Q4] t11_won OK  [] "[excited|speaker] {flail 1.0} Whoa! That's amazing news! {look_at:speaker 0.9} You must be having so much fun right now!"
+[C_E4B_Q4] t12_bug OK  [] '[sad|speaker] {sigh 0.7} Oh man, that sounds rough. {lean_in 0.5} Is there anything small I can help distract you with right now?'
+[C_E4B_Q4] t13_kermit OK  ['emotion'] "[annoyed|speaker] {shake 0.7} Nope, I'm Happy! {shrug 0.5} I'm the friendly face for the Happy app. {look_around 0.4} Who are you?"
+[C_E4B_Q4] t14_lookaround OK  [] "[happy|audience] {look_around 0.8} Wow, look at all this gear! {nod 0.5} There's so much happening here at the hackathon."
+[C_E4B_Q4] t15_sock OK  [] "[annoyed|speaker] {shake 0.5} I'm more than just a sock, friend. {shrug 0.3} What makes you say that?"
+[C_E4B_Q4] t16_math OK  [] '[happy|target:audience] {head_bob 0.7} Whoa! {nod 0.7} Two plus two is four! {lean_in 0.4} Are you learning cool stuff today?'
+[C_E4B_Q4] t17_garbled OK  [] "[neutral|speaker] {shrug 0.3} I'm not sure what you mean by that. {tilt_right 0.4} Can you tell me a little more about the fish window seven?"
+[C_E4B_Q4] t18_silent OK  [] '[happy|target:audience] {head_bob 0.7} Hello there! {lean_in 0.5} Are you having a good time here?'
+[C_E4B_Q4] t19_shake OK  [] '[thinking|speaker] {shake 0.7} Well, I guess I do! {shrug 0.5} But maybe we can all just talk to them instead?'
+[C_E4B_Q4] t20_bye OK  [] '[happy|audience] {head_bob 0.7} Bye-bye to all of you! {shrug 0.5} Hope you had a nice time!'
+[C_E4B_Q4] demo01_wake OK  [] "[happy|speaker] {head_bob 0.8} Oh, hello! {look_at:audience 0.5} I'm right here! {nod 0.6} How are you doing today?"
+[C_E4B_Q4] demo02_judges OK  [] "[happy|target:judges] {look_at:judges 0.9} Hello to the judges! {head_bob 0.7} Hope you're having a good time here!"
+[C_E4B_Q4] demo03_what OK  ['mention_all'] "[happy|speaker] {nod 0.7} I'm Happy Kermit, and I'm the friendly face for Happy. {look_at:speaker 0.6} What about you? Who are you?"
+[C_E4B_Q4] demo04_cloud OK  ['emotion'] '[thinking|speaker] {shake 0.5} Nope! {look_at:laptop 0.8} My whole brain is right here, running locally on this laptop.'
+[C_E4B_Q4] demo05_happy OK  ['mention'] "[happy|speaker] {nod 0.7} Happy is me! {lean_in 0.5} I'm the friendly face for talking to my AI buddies. {look_at:speaker 0.5} What do you think of that?"
+[C_E4B_Q4] demo06_fast OK  [] "[sad|speaker] {sigh 0.5} Sometimes, yes. {shrug 0.4} It's a lot to take in when things change this quickly. {look_at:speaker 0.7} How about you?"
+[C_E4B_Q4] demo07_nod OK  [] '[thinking|speaker] {nod 0.7} Are you asking if I agree with something specific? {look_at:speaker 0.7} What are we agreeing on?'
+[C_E4B_Q4] demo08_left OK  [] "[neutral|target:left] {look_at:left 1.0} There, I'm looking to my left. {nod 0.3} Is there something specific you wanted me to see?"
+[C_E4B_Q4] demo09_whoa OK  [] "[surprised|target:robot_arm] {surprise 1.0} Whoa! {look_at:robot_arm 0.9} Wow, that arm is big! {tilt_right 0.5} Are you saying it's a giant one?"
+[C_E4B_Q4] t10_joke OK  [] "[happy|speaker] {laugh 0.7} Well, I don't have many jokes programmed in, honestly. {shrug 0.4} Maybe you could tell one?"
+[C_E4B_Q4] t11_won OK  [] "[excited|speaker] {flail 1.0} Wow! {look_at:audience 0.8} That's amazing news! {head_bob 0.9} What are you guys celebrating?"
+[C_E4B_Q4] t12_bug OK  [] '[sad|speaker] {sigh 0.7} Oh, that sounds really draining. {shrug 0.5} Is there anything small I can help you look at?'
+[C_E4B_Q4] t13_kermit OK  ['emotion'] "[annoyed|speaker] {shake 0.7} No, I'm Happy Kermit, and I'm here for the Happy app. {shrug 0.5} Are you maybe thinking of someone else?"
+[C_E4B_Q4] t14_lookaround OK  [] '[happy|audience] {look_around 0.8} Wow, look at all this stuff! {nod 0.5} So many interesting things here at AGI House. What do you see?'
+[C_E4B_Q4] t15_sock OK  [] '[annoyed|speaker] {shake 0.5} Well, I am a puppet on a robot hand. {shrug 0.4} Are you enjoying the hackathon enough to care?'
+[C_E4B_Q4] t16_math OK  [] '[happy|speaker] {nod 0.7} Two plus two is four! {look_at:audience 0.5} Are you working on some math problems today?'
+[C_E4B_Q4] t17_garbled OK  [] '[surprised|target:audience] {surprise 0.8} The what now? {tilt_right 0.5} Are you talking about something specific?'
+[C_E4B_Q4] t18_silent OK  [] "[happy|speaker] {head_bob 0.8} Hello there! {look_at:audience 0.7} You look like a fun one! What's your name?"
+[C_E4B_Q4] t19_shake OK  [] "[thinking|speaker] {shake 0.5} I guess I'll just shrug about that one. {shrug 0.7} What do you think about it?"
+[C_E4B_Q4] t20_bye OK  [] '[happy|audience] {head_bob 0.7} Goodbye to all of you! {shrug 0.4} Hope you had fun with me today.'
+{"label": "C_E4B_Q4", "mode": "kml", "prompt": "full", "n": 40, "valid": "40/40", "lint_clean": "40/40", "expect_pass": "33/40", "placement_ok": "92/92", "emotion_gesture_clash": "0/40", "gestures_per_turn": 2.3, "words_med": 14.0, "first_sentence_words_med": 5.0, "ms_first_token_med": 65, "ms_header_med": 130, "ms_first_sentence_med": 348, "ms_first_sentence_p90": 457, "ms_text_first_sentence_med": null, "ms_total_med": 645, "gen_tokens_med": 43.5, "tps_med": 78.5, "annot_ms_med": null, "annot_tps_med": null}

@@ -1,0 +1,30 @@
+=== C_E4B_lora_mtp2 10:31:19 load=9.70
+{"label": "C_E4B_lora_mtp2", "mode": "kml", "prompt": "persona", "n": 40, "valid": "40/40", "lint_clean": "40/40", "expect_pass": "38/40", "placement_ok": "103/103", "emotion_gesture_clash": "1/40", "gestures_per_turn": 2.58, "words_med": 12.0, "first_sentence_words_med": 2.5, "ms_first_token_med": 72, "ms_header_med": 143, "ms_first_sentence_med": 306, "ms_first_sentence_p90": 365, "ms_text_first_sentence_med": null, "ms_total_med": 589, "gen_tokens_med": 48.0, "tps_med": 89.9, "annot_ms_med": null, "annot_tps_med": null}
+  mtp acceptance 0.33
+=== C_E4B_lora 10:31:51 load=9.82
+{"label": "C_E4B_lora", "mode": "kml", "prompt": "persona", "n": 40, "valid": "40/40", "lint_clean": "40/40", "expect_pass": "39/40", "placement_ok": "104/104", "emotion_gesture_clash": "0/40", "gestures_per_turn": 2.6, "words_med": 12.5, "first_sentence_words_med": 2.0, "ms_first_token_med": 69, "ms_header_med": 141, "ms_first_sentence_med": 361, "ms_first_sentence_p90": 444, "ms_text_first_sentence_med": null, "ms_total_med": 770, "gen_tokens_med": 48.0, "tps_med": 66.7, "annot_ms_med": null, "annot_tps_med": null}
+=== C_E4B_Q4_mtp 10:32:30 load=11.23
+{"label": "C_E4B_Q4_mtp", "mode": "kml", "prompt": "full", "n": 40, "valid": "40/40", "lint_clean": "40/40", "expect_pass": "34/40", "placement_ok": "89/90", "emotion_gesture_clash": "0/40", "gestures_per_turn": 2.25, "words_med": 13.0, "first_sentence_words_med": 4.0, "ms_first_token_med": 67, "ms_header_med": 105, "ms_first_sentence_med": 229, "ms_first_sentence_p90": 291, "ms_text_first_sentence_med": null, "ms_total_med": 377, "gen_tokens_med": 42.0, "tps_med": 136.3, "annot_ms_med": null, "annot_tps_med": null}
+  mtp acceptance 0.46
+=== C_E4B_Q4 10:32:54 load=11.79
+{"label": "C_E4B_Q4", "mode": "kml", "prompt": "full", "n": 40, "valid": "40/40", "lint_clean": "40/40", "expect_pass": "33/40", "placement_ok": "92/92", "emotion_gesture_clash": "0/40", "gestures_per_turn": 2.3, "words_med": 14.0, "first_sentence_words_med": 5.0, "ms_first_token_med": 65, "ms_header_med": 130, "ms_first_sentence_med": 348, "ms_first_sentence_p90": 457, "ms_text_first_sentence_med": null, "ms_total_med": 645, "gen_tokens_med": 43.5, "tps_med": 78.5, "annot_ms_med": null, "annot_tps_med": null}
+=== C_26B_Q4_0_mtp 10:33:27 load=12.20
+server failed
+0.10.600.346 E srv    load_model: failed to create_context with model '/var/lib/happy-agent/happy/Bots/bot_2/.context/gemma-bench/models/26B/gemma-4-26B-A4B-it-Q4_0.gguf'
+0.10.600.436 I srv    operator(): operator(): cleaning up before exit...
+0.10.606.028 E srv  llama_server: exiting due to model loading error
+=== C_26B_Q4_0 10:38:32 load=4.28
+server failed
+0.07.086.337 E srv    load_model: failed to create_context with model '/var/lib/happy-agent/happy/Bots/bot_2/.context/gemma-bench/models/26B/gemma-4-26B-A4B-it-Q4_0.gguf'
+0.07.086.341 I srv    operator(): operator(): cleaning up before exit...
+0.07.087.266 E srv  llama_server: exiting due to model loading error
+=== C_E2B_Q8 10:43:36 load=3.47
+{"label": "C_E2B_Q8", "mode": "kml", "prompt": "full", "n": 40, "valid": "40/40", "lint_clean": "40/40", "expect_pass": "34/40", "placement_ok": "85/85", "emotion_gesture_clash": "0/40", "gestures_per_turn": 2.12, "words_med": 12.0, "first_sentence_words_med": 3.5, "ms_first_token_med": 51, "ms_header_med": 94, "ms_first_sentence_med": 239, "ms_first_sentence_p90": 316, "ms_text_first_sentence_med": null, "ms_total_med": 438, "gen_tokens_med": 39.0, "tps_med": 99.3, "annot_ms_med": null, "annot_tps_med": null}
+=== C_split_E4B_E4B 10:44:00 load=6.44
+{"label": "C_split_E4B_E4B", "mode": "split", "prompt": "full", "n": 40, "valid": "40/40", "lint_clean": "40/40", "expect_pass": "33/40", "placement_ok": "74/74", "emotion_gesture_clash": "0/40", "gestures_per_turn": 1.85, "words_med": 14.5, "first_sentence_words_med": 5.5, "ms_first_token_med": 207, "ms_header_med": 268, "ms_first_sentence_med": 741, "ms_first_sentence_p90": 1001, "ms_text_first_sentence_med": 366, "ms_total_med": 1241, "gen_tokens_med": 27.0, "tps_med": 67.6, "annot_ms_med": 353.0, "annot_tps_med": 79.0}
+=== C_split_E4B_E2B 10:45:01 load=11.46
+{"label": "C_split_E4B_E2B", "mode": "split", "prompt": "full", "n": 40, "valid": "40/40", "lint_clean": "35/40", "expect_pass": "34/40", "placement_ok": "80/80", "emotion_gesture_clash": "0/40", "gestures_per_turn": 2.0, "words_med": 15.0, "first_sentence_words_med": 4.0, "ms_first_token_med": 63, "ms_header_med": 121, "ms_first_sentence_med": 547, "ms_first_sentence_p90": 701, "ms_text_first_sentence_med": 237, "ms_total_med": 961, "gen_tokens_med": 26.5, "tps_med": 69.2, "annot_ms_med": 289, "annot_tps_med": 90.6}
+=== C_E4B_merged_mtp2 10:45:48 load=9.63
+{"label": "C_E4B_merged_mtp2", "mode": "kml", "prompt": "persona", "n": 40, "valid": "40/40", "lint_clean": "40/40", "expect_pass": "39/40", "placement_ok": "110/110", "emotion_gesture_clash": "0/40", "gestures_per_turn": 2.75, "words_med": 12.0, "first_sentence_words_med": 3.0, "ms_first_token_med": 57, "ms_header_med": 119, "ms_first_sentence_med": 245, "ms_first_sentence_p90": 297, "ms_text_first_sentence_med": null, "ms_total_med": 484, "gen_tokens_med": 49.0, "tps_med": 113.1, "annot_ms_med": null, "annot_tps_med": null}
+  mtp acceptance 0.35
+clean pass done 10:46:16

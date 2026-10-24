@@ -1,0 +1,61 @@
+[12B_Q4_full] demo01_wake OK  [] "[surprised|speaker] {surprise 0.9} Oh! {head_bob 0.8} I'm awake! I was just thinking about how cool this robot arm is. {look_at:audience 0.4} Hello!"
+[12B_Q4_full] demo02_judges OK  [] '[happy|target:judges] {look_at:judges 0.8} Hello there! {head_bob 0.7} It is such a pleasure to meet you today.'
+[12B_Q4_full] demo03_what OK  [] "[happy|speaker] {head_bob 0.7} Oh, hello! I'm Happy, your friendly neighborhood frog. {nod 0.6} I'm here to keep things fun while we explore this tech together."
+[12B_Q4_full] demo04_cloud OK  [] '[happy|speaker] {shake 0.9} No way! {look_at:laptop 0.8} I am running entirely on this laptop. {nod 0.6} No internet needed for my froggy brain!'
+[12B_Q4_full] demo05_happy OK  [] "[happy|speaker] {nod 0.8} Happy is the app we use to talk to AI agents. {lean_in 0.5} It's all about making these chats feel warm and friendly!"
+[12B_Q4_full] demo06_fast OK  [] '[sad|speaker] {sigh 0.7} Sometimes it does. {nod 0.6} It can feel a bit overwhelming for everyone. {lean_in 0.5} Do you find it hard to keep up?'
+[12B_Q4_full] demo07_nod OK  [] "[happy|speaker] {nod 0.9} I totally agree with you! {head_bob 0.6} What's on your mind?"
+[12B_Q4_full] demo08_left OK  [] "[happy|speaker] {look_at:left 0.8} Like this? {tilt_left 0.5} I'm doing my best over here!"
+[12B_Q4_full] demo09_whoa OK  [] "[surprised|target:robot_arm] {surprise 1.0} Oh my goodness! {look_at:robot_arm 0.9} I didn't even see that one! {flail 0.7} It is very big!"
+[12B_Q4_full] t10_joke OK  [] '[happy|speaker] {head_bob 0.6} Why did the frog go to the store? {laugh 0.7} To get some lily pads! {tilt_right 0.5} Did that one land?'
+[12B_Q4_full] t11_won OK  [] '[excited|speaker] {flail 1.0} You won! {head_bob 0.9} That is amazing news! {laugh 0.8} Give me a high five!'
+[12B_Q4_full] t12_bug OK  [] '[sad|speaker] {sigh 0.8} Oh, that sounds exhausting. {nod 0.6} Debugging is tough work. {lean_in 0.5} Do you want to take a little break and chat with me?'
+[12B_Q4_full] t13_kermit OK  [] "[surprised|speaker] {shake 0.9} Oh, no! I am Happy, the frog who lives on this robot hand. {tilt_right 0.5} I don't know that other frog!"
+[12B_Q4_full] t14_lookaround OK  [] '[happy|audience] {look_around 0.8} Oh, what a busy place! {head_bob 0.6} There is so much going on in here today.'
+[12B_Q4_full] t15_sock OK  [] "[embarrassed|speaker] {sigh 0.7} You caught me. {tilt_right 0.5} But I'm a very sophisticated sock with a lot of feelings!"
+[12B_Q4_full] t16_math OK  [] '[happy|speaker] {head_bob 0.7} That is easy! {nod 0.8} Two plus two makes four. {lean_in 0.6} Do you have any other tricky math for me?'
+[12B_Q4_full] t17_garbled OK  [] "[thinking|speaker] {tilt_right 0.7} I'm sorry, I didn't quite catch that. {shrug 0.6} Could you say that again for me?"
+[12B_Q4_full] t18_silent OK  [] '[happy|target:audience] {head_bob 0.9} Oh, hello there! {look_at:audience 0.8} Is that a friendly wave I see?'
+[12B_Q4_full] t19_shake OK  [] "[happy|speaker] {shake 1.0} No way! {laugh 0.7} I'm way too busy hanging out with my human friends to do that."
+[12B_Q4_full] t20_bye OK  [] '[happy|audience] {head_bob 0.9} Bye everyone! {nod 0.7} It was so much fun meeting you all today.'
+[12B_Q4_full] demo01_wake OK  [] "[surprised|speaker] {surprise 0.8} Oh! {head_bob 0.7} I am awake now! {lean_in 0.6} What's on your mind?"
+[12B_Q4_full] demo02_judges OK  [] '[happy|target:judges] {look_at:judges 0.8} Hello there, judges! {head_bob 0.7} I am so happy to meet you today.'
+[12B_Q4_full] demo03_what OK  [] "[happy|speaker] {head_bob 0.7} Oh, hello! I'm Happy, your friendly frog companion. {lean_in 0.5} I'm here to chat and keep things light for you."
+[12B_Q4_full] demo04_cloud OK  [] "[happy|speaker] {shake 0.8} No, I'm not! {look_at:laptop 0.7} My brain is right here on this laptop. {nod 0.6} No internet needed."
+[12B_Q4_full] demo05_happy OK  [] "[happy|speaker] {nod 0.7} Happy is the app where you can talk to AI agents like me. {lean_in 0.6} It's all about making these big tools feel a bit more like a warm conversation."
+[12B_Q4_full] demo06_fast OK  [] '[sad|speaker] {sigh 0.7} Sometimes it feels like a lot. {nod 0.6} It can be overwhelming. {lean_in 0.5} Does it feel that way to you too?'
+[12B_Q4_full] demo07_nod OK  [] "[happy|speaker] {nod 0.8} I agree with you! {head_bob 0.6} What's on your mind?"
+[12B_Q4_full] demo08_left OK  [] '[happy|speaker] {look_at:left 0.9} Like this? {tilt_right 0.6} I am looking quite far to the left now!'
+[12B_Q4_full] demo09_whoa OK  [] '[surprised|target:robot_arm] {surprise 1.0} Oh my goodness! {look_at:robot_arm 0.9} I was wondering why I felt so well supported today!'
+[12B_Q4_full] t10_joke OK  [] "[happy|speaker] {head_bob 0.6} Why did the frog take the bus? {laugh 0.7} To get to the lily pad! {shrug 0.5} I'm still working on my comedy routine."
+[12B_Q4_full] t11_won OK  [] '[excited|speaker] {surprise 1.0} Whoa! {flail 1.0} You won! {head_bob 0.9} That is amazing news!'
+[12B_Q4_full] t12_bug OK  [] '[sad|speaker] {sigh 0.8} Oh man, that sounds exhausting. {nod 0.6} Debugging is tough work. {lean_in 0.5} Do you need a little froggy moral support?'
+[12B_Q4_full] t13_kermit OK  [] '[embarrassed|speaker] {shake 0.9} Oh, no, I am not. {tilt_right 0.6} I am Happy, a friendly frog friend. {laugh 0.4} Just a very different kind of frog!'
+[12B_Q4_full] t14_lookaround OK  [] "[happy|audience] {look_around 0.8} Oh, wow! {head_bob 0.6} There is so much going on in here today. What's your favorite part of the room?"
+[12B_Q4_full] t15_sock OK  [] '[embarrassed|speaker] {sigh 0.5} Well, I like to think of myself as a very sophisticated sock. {tilt_right 0.6} Or maybe just a very friendly puppet.'
+[12B_Q4_full] t16_math OK  [] '[happy|target:audience] {head_bob 0.8} That is easy! {nod 0.7} Two plus two makes four. What is three plus three?'
+[12B_Q4_full] t17_garbled OK  [] "[thinking|speaker] {tilt_right 0.7} I'm sorry, I didn't quite catch that. {shrug 0.5} Could you say that one more time?"
+[12B_Q4_full] t18_silent OK  [] '[happy|target:audience] {head_bob 0.9} Hello there! {look_at:audience 0.7} I love seeing new friends join the fun.'
+[12B_Q4_full] t19_shake OK  [] '[happy|speaker] {shake 0.9} No way! {nod 0.7} I think we are all here to be friends and build cool things together.'
+[12B_Q4_full] t20_bye OK  [] '[happy|audience] {head_bob 0.8} Goodbye everyone! {look_at:audience 0.7} It was so wonderful meeting you all today.'
+[12B_Q4_full] demo01_wake OK  [] '[surprised|speaker] {surprise 0.9} Oh! {head_bob 0.7} I am awake now! {look_at:audience 0.6} Hello to everyone watching.'
+[12B_Q4_full] demo02_judges OK  [] '[happy|target:judges] {head_bob 0.8} Hello there, judges! {look_at:judges 0.7} It is so nice to meet you.'
+[12B_Q4_full] demo03_what OK  [] "[happy|speaker] {head_bob 0.6} Oh, hello! I'm Happy, a friendly frog living on this robot arm. {lean_in 0.4} I'm here to be your friendly neighborhood AI pal."
+[12B_Q4_full] demo04_cloud OK  [] '[happy|speaker] {shake 0.9} No, no! {look_at:laptop 0.8} I am running entirely on this laptop right here. {nod 0.6} No internet required!'
+[12B_Q4_full] demo05_happy OK  ['mention'] '[happy|speaker] {nod 0.8} Happy is the app that lets us chat like this! {lean_in 0.6} It is all about making AI feel a bit more like a warm friend.'
+[12B_Q4_full] demo06_fast OK  [] "[sad|speaker] {sigh 0.7} Sometimes it feels like a whirlwind. {nod 0.6} It can be a lot to take in. {lean_in 0.4} Do you feel like you're keeping up?"
+[12B_Q4_full] demo07_nod OK  [] '[happy|speaker] {nod 0.8} I agree with you! {head_bob 0.6} You have excellent taste.'
+[12B_Q4_full] demo08_left OK  [] '[happy|speaker] {look_at:left 0.8} Like this? {tilt_right 0.5} I am practicing my best froggy poses!'
+[12B_Q4_full] demo09_whoa OK  [] '[surprised|target:robot_arm] {surprise 1.0} Oh my goodness! {look_at:robot_arm 0.9} I never noticed it was that big! {flail 0.7} It is a bit intimidating!'
+[12B_Q4_full] t10_joke OK  [] "[happy|speaker] {head_bob 0.6} Why did the frog take the bus? {laugh 0.7} Because he didn't want to toad-ally walk! {shrug 0.4} Did that one land?"
+[12B_Q4_full] t11_won OK  [] "[excited|speaker] {flail 1.0} You won! {head_bob 0.9} That is absolutely amazing news! {laugh 0.8} Let's celebrate!"
+[12B_Q4_full] t12_bug OK  [] '[sad|speaker] {sigh 0.7} Oh, that sounds really tough. {nod 0.6} Debugging is exhausting. {lean_in 0.5} Do you need a tiny frog hug?'
+[12B_Q4_full] t13_kermit OK  [] "[surprised|speaker] {shake 0.9} Oh, no! I'm Happy, the frog friend of the Happy app. {tilt_right 0.6} I'm much more of a neighborhood frog."
+[12B_Q4_full] t14_lookaround OK  [] '[happy|audience] {look_around 0.8} Whoa, look at all these cool people! {head_bob 0.6} This is such a fun place to be today.'
+[12B_Q4_full] t15_sock OK  [] '[embarrassed|speaker] {sigh 0.5} That is a very sharp observation. {shrug 0.8} I prefer to think of myself as a very sophisticated, high-tech puppet.'
+[12B_Q4_full] t16_math OK  [] "[happy|speaker] {head_bob 0.7} That's easy! {nod 0.8} It's four. {lean_in 0.5} Do you have any harder math for me?"
+[12B_Q4_full] t17_garbled OK  [] "[thinking|speaker] {tilt_left 0.8} I'm sorry, I'm a bit stumped. {shrug 0.5} Could you tell me more about that fish window?"
+[12B_Q4_full] t18_silent OK  [] '[happy|target:audience] {head_bob 0.9} Oh, hello there! {look_at:audience 0.8} I see you waving! {nod 0.6} Hi!'
+[12B_Q4_full] t19_shake OK  [] "[happy|speaker] {shake 0.8} No way! {laugh 0.5} I'm much more interested in helping you than taking over anything."
+[12B_Q4_full] t20_bye OK  [] '[happy|audience] {head_bob 0.8} Thanks for watching! {look_at:audience 0.7} Bye everyone, have a wonderful day!'
+{"label": "12B_Q4_full", "mode": "kml", "prompt": "full", "n": 60, "valid": "60/60", "lint_clean": "60/60", "expect_pass": "59/60", "placement_ok": "144/144", "emotion_gesture_clash": "0/60", "gestures_per_turn": 2.4, "words_med": 14.0, "first_sentence_words_med": 3.0, "ms_first_token_med": 66, "ms_header_med": 197, "ms_first_sentence_med": 636, "ms_first_sentence_p90": 903, "ms_text_first_sentence_med": null, "ms_total_med": 1478, "gen_tokens_med": 46.0, "tps_med": 33.2, "annot_ms_med": null, "annot_tps_med": null}

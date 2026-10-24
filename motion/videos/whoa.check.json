@@ -1,0 +1,215 @@
+{
+ "dt": 0.016666666666666666,
+ "frames": 248,
+ "arm": [
+  {
+   "joint": "joint1",
+   "min_deg": -4.1,
+   "max_deg": 4.4,
+   "range_margin_deg": 355.6,
+   "vel_peak_dps": 26.2,
+   "vel_ratio": 0.146,
+   "vel": "ok",
+   "acc_peak_dps2": 172.0,
+   "acc_ratio": 0.15,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint2",
+   "min_deg": -5.8,
+   "max_deg": 5.3,
+   "range_margin_deg": 110.7,
+   "vel_peak_dps": 35.5,
+   "vel_ratio": 0.197,
+   "vel": "ok",
+   "acc_peak_dps2": 295.0,
+   "acc_ratio": 0.258,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint3",
+   "min_deg": -27.8,
+   "max_deg": -12.6,
+   "range_margin_deg": 22.6,
+   "vel_peak_dps": 41.5,
+   "vel_ratio": 0.23,
+   "vel": "ok",
+   "acc_peak_dps2": 363.0,
+   "acc_ratio": 0.317,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint4",
+   "min_deg": 164.6,
+   "max_deg": 205.5,
+   "range_margin_deg": 154.5,
+   "vel_peak_dps": 122.8,
+   "vel_ratio": 0.682,
+   "vel": "ok",
+   "acc_peak_dps2": 812.0,
+   "acc_ratio": 0.709,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint5",
+   "min_deg": 86.0,
+   "max_deg": 117.3,
+   "range_margin_deg": 62.7,
+   "vel_peak_dps": 75.0,
+   "vel_ratio": 0.416,
+   "vel": "ok",
+   "acc_peak_dps2": 736.0,
+   "acc_ratio": 0.643,
+   "acc": "ok"
+  },
+  {
+   "joint": "joint6",
+   "min_deg": 77.3,
+   "max_deg": 93.9,
+   "range_margin_deg": 266.1,
+   "vel_peak_dps": 34.2,
+   "vel_ratio": 0.19,
+   "vel": "ok",
+   "acc_peak_dps2": 221.0,
+   "acc_ratio": 0.193,
+   "acc": "ok"
+  }
+ ],
+ "hand": [
+  {
+   "joint": "hand/rh_FFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_FFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_FFJ1",
+   "vel_peak": 4.258,
+   "vel_ratio": 0.938,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_MFJ1",
+   "vel_peak": 4.258,
+   "vel_ratio": 0.938,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_RFJ1",
+   "vel_peak": 4.258,
+   "vel_ratio": 0.938,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ3",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ2",
+   "vel_peak": 4.402,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_LFJ1",
+   "vel_peak": 4.258,
+   "vel_ratio": 0.938,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ5",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ4",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ3",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ2",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  },
+  {
+   "joint": "hand/rh_THJ1",
+   "vel_peak": 1.524,
+   "vel_ratio": 0.97,
+   "vel": "WARN",
+   "in_range": true
+  }
+ ],
+ "tcp": {
+  "vel_peak_mps": 0.334,
+  "vel_ratio": 0.334,
+  "vel": "ok",
+  "min_body_height_m": -0.189
+ },
+ "ok": true,
+ "warnings": [
+  "arm motion low-passed at 8.0 Hz to fit limits"
+ ],
+ "hand_vel_note": "Inspire RH56DFX-like: fingers 260 deg/s, thumb 90 deg/s (stand-in)",
+ "ik_err_max": 9.938626978323183e-07,
+ "governor_hz": 8.0,
+ "timeline": "samples/whoa.timeline.json",
+ "hand_profile": "shadow",
+ "video": "videos/whoa.mp4"
+}

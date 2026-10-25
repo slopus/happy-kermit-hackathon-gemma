@@ -1,0 +1,23 @@
+{
+ "text": "Parakeet hears you, Gemma thinks, that's my brain, Kokoro talks, and the arm moves on the exact word. All on this laptop.",
+ "emotion": "excited",
+ "gestures": [
+  {
+   "word": 0,
+   "type": "lean_in",
+   "intensity": 0.6
+  },
+  {
+   "word": 8,
+   "type": "look_at",
+   "intensity": 0.6,
+   "target": "laptop"
+  },
+  {
+   "word": 18,
+   "type": "flail",
+   "intensity": 0.7
+  }
+ ],
+ "gaze": "speaker"
+}

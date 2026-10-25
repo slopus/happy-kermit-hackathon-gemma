@@ -207,7 +207,7 @@ class Brain:
             user = prompts.user_msg(heard, ctx)
             if s.phase == "presentation" and self.beats == "scripted":
                 beat = self._next_beat(s, heard)
-                if beat is None and not addressed(heard):  # presenter monologue: stay quiet
+                if beat is None and not (getattr(presentation, "OFF_SCRIPT_LIVE", False) or addressed(heard)):  # presenter monologue: stay quiet
                     self.last_stats = {"source": "script:skip", "heard": heard}
                     yield SKIP
                     return
@@ -360,6 +360,9 @@ class Brain:
                 s.cursor, s.last_interject = idx + 1, now
                 yield from self._play(s, presentation.BEATS[idx]["kml"], user, presentation.BEATS[idx]["id"])
                 return
+        if s.phase == "presentation" and not getattr(presentation, "INTERJECT", True):
+            yield SKIP  # solo talk: the presenter faces the audience on purpose
+            return
         if now - s.last_interject < INTERJECT_COOLDOWN_S or s.role == "judge":
             yield SKIP  # don't heckle a judge, and only one cut-in per stretch
             return

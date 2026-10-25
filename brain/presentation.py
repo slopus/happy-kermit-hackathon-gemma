@@ -1,63 +1,48 @@
-"""The scripted stage show, v3 (Kirill, Oct 24, CONTRACT §6): speech part 1 (Kirill, AI) with the
-distracted beat, speech part 2 (Steve, engineering), hand-off, then live Q&A with the judges.
+"""The scripted stage show, v4 (Kirill + Steve, Oct 24): a 7-slide talk on what agents can build in a day and what
+still needs us. Kermit comments, agrees and adds references, then the session goes to live Q&A with the judges.
 
-BEATS are the Kermit lines brain.py plays live in the "presentation" phase (instant, no LLM). Each fires on:
-  "turn"         the next heard utterance whose `cue` (regex on the heard text) matches
-  "turned_away"  perception event turned_away with while_speaking=true (instant interjection)
-  "away"         the next heard utterance while the speaker still faces away
-`speaker`/`heard` are the human line that leads to the beat (full script: demo_script/make_script.py ->
-demo_script/v3/script.json). After the last beat brain.py switches the session to the "qa" phase.
+BEATS are the Kermit lines brain.py plays live in the "presentation" phase (instant, no LLM). Each fires on the
+next heard utterance whose `cue` (regex on the heard text) matches. With OFF_SCRIPT_LIVE, anything else Kirill
+says gets a live Gemma reply and the script position stays put. `heard` is the human line that leads to the beat
+(full script: demo_script/make_script.py -> demo_script/v3/script.json). After the last beat brain.py switches the
+session to the "qa" phase.
 """
 CTX = "Kirill on your left and Steve on your right. visible: audience, laptop"
+OFF_SCRIPT_LIVE = True  # unexpected lines get a live reply instead of silence
+INTERJECT = False  # Kirill faces the audience a lot in a solo talk: no turned-away heckles
 
 BEATS = [
-    # ---- speech part 1: Kirill + Kermit about AI (the four hero.mp4 lines) ----
-    dict(id="wake", phase="speech1", speaker="kirill", trigger="turn", cue=r"wake",
-         heard="Hey Kermit, wake up! There's a lot of people here.",
-         kml="[surprised|audience] {surprise 1.0} Whoa! {look_around 0.7} That is a lot of people. {head_bob 0.8} Hi, everybody! I'm Happy Kermit."),
-    dict(id="feeling", phase="speech1", speaker="kirill", trigger="turn", cue=r"feel",
-         heard="So Kermit, how are you feeling about AI these days?",
-         kml="[thinking|speaker] {sigh 0.6} Honestly? A little tired. {look_at:audience 0.5} Every week there's a new model, a new agent, a new robot. {nod 0.6} Some days it feels like a sci-fi movie, and not the fun kind."),
-    dict(id="why_here", phase="speech1", speaker="kirill", trigger="turn", cue=r"why (you're|you are|are you) here|is that why",
-         heard="Is that why you're here?",
-         kml="[happy|speaker] {nod 0.8} Yep! I'm the friendly face of Happy, an app for talking to your AI agents. {lean_in 0.6} Less dystopia, more frog."),
-    dict(id="cloud", phase="speech1", speaker="kirill", trigger="turn", cue=r"cloud|internet|on device|locally",
-         heard="And wait, are you running in the cloud?",
-         kml="[excited|audience] {shake 0.8} Nope! {look_at:laptop 0.7} My whole brain is Gemma, running right here on this laptop. {flail 0.8} No cloud, no internet, just me!"),
-    # distracted beat: Kirill turns toward the audience mid-sentence and keeps talking to them
-    dict(id="interject", phase="speech1", speaker="kirill", trigger="turned_away", cue=None,
-         heard="Honestly, I think everyone in this room feels it. New models every week, new agents every...",
-         kml="[surprised|speaker] {surprise 1.0} Oh, {look_at:speaker 0.8} like... {lean_in 0.6}"),
-    dict(id="back_turned", phase="speech1", speaker="kirill", trigger="away", cue=None,
-         heard="...and every single launch says it changes everything.",
-         kml="[annoyed|speaker] {shake 0.7} You, my friend, should learn how to speak to people {nod 0.6} face to face."),
-    dict(id="respect", phase="speech1", speaker="kirill", trigger="turn", cue=r"respect you|distracted|cheerful audience",
-         heard="Well, Kermit, I respect you. It's just hard not to get distracted by this cheerful audience.",
-         kml="[happy|audience] {look_around 0.7} Okay, fair enough. They are a very cheerful bunch. {head_bob 0.7} Respect accepted, my friend!"),
-    # ---- speech part 2: Steve + Kermit about the engineering (Kirill's intro line to Steve gets no reply) ----
-    dict(id="steve_brain", phase="speech2", speaker="steve", trigger="turn", cue=r"running your brain|runs your brain|your brain",
-         heard="Hi Kermit, I'm Steve. Do you know what's actually running your brain right now?",
-         kml="[excited|speaker] {head_bob 0.6} Hi, Steve! {look_at:laptop 0.6} Google's Gemma four, the E four B model, right here on this MacBook. {laugh 0.4} You gave it a LoRA, and now it thinks it's a frog."),
-    dict(id="steve_ears", phase="speech2", speaker="steve", trigger="turn", cue=r"hear|talk back|so fast",
-         heard="And how do you hear me and talk back so fast?",
-         kml="[happy|speaker] {lean_in 0.6} Parakeet turns your voice into words, Gemma does the thinking, and Kokoro gives me this lovely voice. {nod 0.6} I speak sentence by sentence, so I start in well under a second."),
-    dict(id="steve_gestures", phase="speech2", speaker="steve", trigger="turn", cue=r"decide|when to|surprised",
-         heard="How do you decide when to nod or look surprised?",
-         kml="[thinking|speaker] {tilt_right 0.5} I write little gesture tags right into my sentences. {nod 0.8} Like this nod. {surprise 0.9} Whoa, and that one! {look_at:speaker 0.5} The xArm performs them on the exact word."),
-    dict(id="steve_robotics", phase="speech2", speaker="steve", trigger="turn", cue=r"robotics|explode",
-         heard="Last one. Why do you think robotics is about to explode?",
-         kml="[excited|audience] {flail 0.8} Because brains like mine now fit on a laptop! {look_at:audience 0.6} Small smart models, good cameras, and arms that can move. {nod 0.7} Robots are about to get a lot friendlier."),
-    # ---- hand-off to Q&A (then brain switches to the qa phase: live Gemma) ----
-    dict(id="handoff", phase="handoff", speaker="kirill", trigger="turn", cue=r"questions|q and a|q&a",
-         heard="Well, Kermit, what do you say? Will you answer some questions?",
-         kml="[excited|audience] {nod 0.8} Absolutely! {look_around 0.7} Judges, hit me with your questions. {lean_in 0.6} I promise I only bite flies."),
+    dict(id="intro", phase="talk", speaker="kirill", trigger="turn",
+         cue=r"i'm kirill|i am kirill|my name|hi everyone|hello everyone|this is kermit",
+         heard="Hi everyone, I'm Kirill, this is Steve, and this is Kermit.",
+         kml="[happy|audience] {head_bob 0.8} Hi, everybody! {sigh 0.5} I've been hanging off this arm all day. {nod 0.6} I could really use a reset."),
+    dict(id="agents", phase="talk", speaker="kirill", trigger="turn",
+         cue=r"agents|looked at the code|pipeline|fine.?tun|hour of my",
+         heard="The latest agents finally work really well. This hackathon I barely looked at the code. They wrote the pipeline, fine-tuned the models, ran the simulations. About an hour of my time.",
+         kml="[happy|audience] {nod 0.7} It's true. {look_at:audience 0.6} Half of X this month is people saying, I didn't write a single line of code. {laugh 0.4} He's one of them."),
+    dict(id="how", phase="talk", speaker="steve", trigger="turn",
+         cue=r"walk (us|me) through|how you work|how do you work|how it works",
+         heard="Kermit, walk us through how you work.",
+         kml="[excited|speaker] {lean_in 0.6} Parakeet hears you, Gemma thinks, that's my brain, {look_at:laptop 0.6} Kokoro talks, and the arm moves on the exact word. {flail 0.7} All on this laptop."),
+    dict(id="real_world", phase="talk", speaker="kirill", trigger="turn",
+         cue=r"real world|stuck finger|wouldn.t turn on|electronics|in reality",
+         heard="Then came the real world. In simulation, everything looked great. In reality, one hand had a stuck finger and the other wouldn't turn on. We swapped the electronics to get it working.",
+         kml="[thinking|speaker] {sigh 0.6} Sim to real. {tilt_right 0.5} In the simulation, I had perfect posture."),
+    dict(id="impressed", phase="talk", speaker="kirill", trigger="turn",
+         cue=r"underwhelm|impressed|fans|simulator",
+         heard="Talking to him, I'm underwhelmed and impressed at the same time. My fans don't even turn on. The iOS simulator works this Mac harder than his brain.",
+         kml="[happy|audience] {head_bob 0.6} Five gigs of brain, zero fans. {laugh 0.4} I don't think very hard, but I think very fast."),
+    dict(id="value", phase="talk", speaker="kirill", trigger="turn",
+         cue=r"added value|dumb pipe|chores|laundry|my value",
+         heard="So where's the added value? Local models are great dumb pipes. But chores? Nobody wants half-folded laundry. And if agents write all the code, where's my value as an engineer?",
+         kml="[thinking|speaker] {nod 0.6} François Chollet said it last week. {look_at:audience 0.5} Agents write almost all the code, and engineers have never worked harder. {nod 0.5} The bottleneck just moves."),
+    dict(id="close", phase="handoff", speaker="kirill", trigger="turn",
+         cue=r"no offen[cs]e|your position|kermit's position|in your shoes",
+         heard="So, no offence, Kermit... but you don't want to be in Kermit's position.",
+         kml="[happy|speaker] {shake 0.6} None taken. {look_at:audience 0.6} Someone else's hand does all the work, and I take the credit. {surprise 0.9} Wait. {look_around 0.7} That's you guys with your agents."),
 ]
 
-# Lines with no Kermit reply (presenter-to-presenter); listed so the full script reads end to end.
-INTERLUDES = [
-    dict(after="respect", phase="speech2", speaker="kirill",
-         heard="Steve, you built most of his insides. Tell everyone how he works."),
-]
+INTERLUDES = []  # no presenter-to-presenter lines
 
 # Q&A: judges seated further back; Kermit answers LIVE with Gemma (prompt persona3). The fallback lines are
 # hand-written, fact-checked answers for renders or if the live stack hiccups.

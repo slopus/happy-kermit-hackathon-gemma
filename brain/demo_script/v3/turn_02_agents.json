@@ -1,0 +1,23 @@
+{
+ "text": "It's true. Half of X this month is people saying, I didn't write a single line of code. He's one of them.",
+ "emotion": "happy",
+ "gestures": [
+  {
+   "word": 0,
+   "type": "nod",
+   "intensity": 0.7
+  },
+  {
+   "word": 2,
+   "type": "look_at",
+   "intensity": 0.6,
+   "target": "audience"
+  },
+  {
+   "word": 18,
+   "type": "laugh",
+   "intensity": 0.4
+  }
+ ],
+ "gaze": "audience"
+}

@@ -1,0 +1,28 @@
+{
+ "text": "None taken. Someone else's hand does all the work, and I take the credit. Wait. That's you guys with your agents.",
+ "emotion": "happy",
+ "gestures": [
+  {
+   "word": 0,
+   "type": "shake",
+   "intensity": 0.6
+  },
+  {
+   "word": 2,
+   "type": "look_at",
+   "intensity": 0.6,
+   "target": "audience"
+  },
+  {
+   "word": 14,
+   "type": "surprise",
+   "intensity": 0.9
+  },
+  {
+   "word": 15,
+   "type": "look_around",
+   "intensity": 0.7
+  }
+ ],
+ "gaze": "speaker"
+}

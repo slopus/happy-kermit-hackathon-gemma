@@ -1,0 +1,17 @@
+{
+ "text": "Five gigs of brain, zero fans. I don't think very hard, but I think very fast.",
+ "emotion": "happy",
+ "gestures": [
+  {
+   "word": 0,
+   "type": "head_bob",
+   "intensity": 0.6
+  },
+  {
+   "word": 6,
+   "type": "laugh",
+   "intensity": 0.4
+  }
+ ],
+ "gaze": "audience"
+}

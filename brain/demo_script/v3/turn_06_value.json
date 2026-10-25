@@ -1,0 +1,23 @@
+{
+ "text": "Fran\u00e7ois Chollet said it last week. Agents write almost all the code, and engineers have never worked harder. The bottleneck just moves.",
+ "emotion": "thinking",
+ "gestures": [
+  {
+   "word": 0,
+   "type": "nod",
+   "intensity": 0.6
+  },
+  {
+   "word": 6,
+   "type": "look_at",
+   "intensity": 0.5,
+   "target": "audience"
+  },
+  {
+   "word": 18,
+   "type": "nod",
+   "intensity": 0.5
+  }
+ ],
+ "gaze": "speaker"
+}

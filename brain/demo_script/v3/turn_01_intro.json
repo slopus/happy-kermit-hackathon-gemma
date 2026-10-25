@@ -1,0 +1,22 @@
+{
+ "text": "Hi, everybody! I've been hanging off this arm all day. I could really use a reset.",
+ "emotion": "happy",
+ "gestures": [
+  {
+   "word": 0,
+   "type": "head_bob",
+   "intensity": 0.8
+  },
+  {
+   "word": 2,
+   "type": "sigh",
+   "intensity": 0.5
+  },
+  {
+   "word": 10,
+   "type": "nod",
+   "intensity": 0.6
+  }
+ ],
+ "gaze": "audience"
+}

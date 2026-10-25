@@ -1,5 +1,8 @@
 # Happy Kermit (Gemma Hardware Hackathon, AGI House, Oct 24 2026)
 
+<img width="1126" height="1506" alt="CleanShot 2026-10-24 at 19 05 53@2x" src="https://github.com/user-attachments/assets/a9c7a0f5-a92a-4b7b-b62d-d999699a892a" />
+
+
 A Kermit-style hand-rod puppet on a (simulated) xArm6 + hand. Everything runs on-device:
 Gemma 4 E4B + Kermit LoRA writes the reply and inline gesture tags in one pass (KML → CONTRACT JSON),
 Parakeet hears, Kokoro + frog DSP speaks, the mouth follows the audio envelope, perception tracks people

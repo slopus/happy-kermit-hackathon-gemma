@@ -1,4 +1,4 @@
-"""The scripted stage show, v4 (Kirill + Steve, Oct 24): a 7-slide talk on what agents can build in a day and what
+"""The scripted stage show, v4 (Kirill solo, Oct 24): a 7-slide talk on what agents can build in a day and what
 still needs us. Kermit comments, agrees and adds references, then the session goes to live Q&A with the judges.
 
 BEATS are the Kermit lines brain.py plays live in the "presentation" phase (instant, no LLM). Each fires on the
@@ -7,20 +7,20 @@ says gets a live Gemma reply and the script position stays put. `heard` is the h
 (full script: demo_script/make_script.py -> demo_script/v3/script.json). After the last beat brain.py switches the
 session to the "qa" phase.
 """
-CTX = "Kirill on your left and Steve on your right. visible: audience, laptop"
+CTX = "Kirill on your left, presenting. visible: audience, laptop"
 OFF_SCRIPT_LIVE = True  # unexpected lines get a live reply instead of silence
 INTERJECT = False  # Kirill faces the audience a lot in a solo talk: no turned-away heckles
 
 BEATS = [
     dict(id="intro", phase="talk", speaker="kirill", trigger="turn",
          cue=r"i'm kirill|i am kirill|my name|hi everyone|hello everyone|this is kermit",
-         heard="Hi everyone, I'm Kirill, this is Steve, and this is Kermit.",
+         heard="Hi everyone, I'm Kirill, and this is Kermit.",
          kml="[happy|audience] {head_bob 0.8} Hi, everybody! {sigh 0.5} I've been hanging off this arm all day. {nod 0.6} I could really use a reset."),
     dict(id="agents", phase="talk", speaker="kirill", trigger="turn",
          cue=r"agents|looked at the code|pipeline|fine.?tun|hour of my",
          heard="The latest agents finally work really well. This hackathon I barely looked at the code. They wrote the pipeline, fine-tuned the models, ran the simulations. About an hour of my time.",
          kml="[happy|audience] {nod 0.7} It's true. {look_at:audience 0.6} Half of X this month is people saying, I didn't write a single line of code. {laugh 0.4} He's one of them."),
-    dict(id="how", phase="talk", speaker="steve", trigger="turn",
+    dict(id="how", phase="talk", speaker="kirill", trigger="turn",
          cue=r"walk (us|me) through|how you work|how do you work|how it works",
          heard="Kermit, walk us through how you work.",
          kml="[excited|speaker] {lean_in 0.6} Parakeet hears you, Gemma thinks, that's my brain, {look_at:laptop 0.6} Kokoro talks, and the arm moves on the exact word. {flail 0.7} All on this laptop."),

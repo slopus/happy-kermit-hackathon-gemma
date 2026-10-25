@@ -1,15 +1,15 @@
-# Happy Kermit — talk v4 (Kirill + Steve; source: `brain/presentation.py`, handoff copy `.context/handoff/presentation_v4.py`)
+# Happy Kermit — talk v4 (Kirill solo; source: `brain/presentation.py`, handoff copy `.context/handoff/presentation_v4.py`)
 
 Kermit answers each line below with his scripted reply. Anything else Kirill says gets a live Gemma reply, and the script position stays where it was. After 7b the brain switches to live Q&A.
 Slides: 7 PNGs in `docs/deck/slides/`. Advance by saying "Kermit, next slide" as its own sentence.
 
 | # | Slide | Who | Line | Sec |
 |---|---|---|---|---|
-| 1a | 1 Title | Kirill | "Hi everyone, I'm Kirill, this is Steve, and this is Kermit." | 3 |
+| 1a | 1 Title | Kirill | "Hi everyone, I'm Kirill, and this is Kermit." | 3 |
 | 1b | | Kermit | "Hi, everybody! I've been hanging off this arm all day. I could really use a reset." | 7 |
 | 2a | 2 Agents built it | Kirill | "The latest agents finally work really well. This hackathon I barely looked at the code. They wrote the pipeline, fine-tuned the models, ran the simulations. About an hour of my time." | 12 |
 | 2b | | Kermit | "It's true. Half of X this month is people saying, I didn't write a single line of code. He's one of them." | 8 |
-| 3a | 3 How it works | Steve | "Kermit, walk us through how you work." | 3 |
+| 3a | 3 How it works | Kirill | "Kermit, walk us through how you work." | 3 |
 | 3b | | Kermit | "Parakeet hears you, Gemma thinks, that's my brain, Kokoro talks, and the arm moves on the exact word. All on this laptop." | 9 |
 | 4a | 4 Real world | Kirill | "Then came the real world. In simulation, everything looked great. In reality, one hand had a stuck finger and the other wouldn't turn on. We swapped the electronics to get it working." | 12 |
 | 4b | | Kermit | "Sim to real. In the simulation, I had perfect posture." | 5 |

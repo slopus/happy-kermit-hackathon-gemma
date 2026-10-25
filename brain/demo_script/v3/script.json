@@ -12,7 +12,7 @@
   "start": "python3 brain.py serve --prompt persona3 --phase presentation",
   "presentation": "scripted beats, instant; off-script lines not addressed to Kermit -> skip; after 'handoff' the session switches to qa",
   "qa": "live Gemma (persona3 + FACTS); send speaker_changed(role=judge) before each new judge",
-  "context_speech": "Kirill on your left and Steve on your right. visible: audience, laptop",
+  "context_speech": "Kirill on your left, presenting. visible: audience, laptop",
   "context_qa": "a judge in the audience, a few metres away. visible: audience, laptop"
  },
  "steps": [
@@ -20,7 +20,7 @@
    "step": 1,
    "phase": "talk",
    "speaker": "kirill",
-   "line": "Hi everyone, I'm Kirill, this is Steve, and this is Kermit.",
+   "line": "Hi everyone, I'm Kirill, and this is Kermit.",
    "staging": [],
    "kermit": {
     "beat": "intro",
@@ -92,7 +92,7 @@
   {
    "step": 3,
    "phase": "talk",
-   "speaker": "steve",
+   "speaker": "kirill",
    "line": "Kermit, walk us through how you work.",
    "staging": [],
    "kermit": {
